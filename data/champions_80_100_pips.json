@@ -1,0 +1,6114 @@
+[
+  {
+    "tpPips": 80,
+    "atrMult": 0.2,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.8,
+    "cooldownBars": 24,
+    "maxDailyLosses": 2,
+    "closed": 79,
+    "wins": 42,
+    "losses": 37,
+    "beCount": 0,
+    "winRate": 53.16455696202531,
+    "cumulativeR": 24.9,
+    "maxDrawdown": 4.8,
+    "calmarRatio": 5.18,
+    "avgTpPips": 80,
+    "sepR": 14.2,
+    "octR": 15.7,
+    "monthlyWins": {
+      "2026-09": 26,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 14.23567964436497,
+      "2026-10": 15.651772934916604
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.2,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.8,
+    "cooldownBars": 30,
+    "maxDailyLosses": 2,
+    "closed": 79,
+    "wins": 42,
+    "losses": 37,
+    "beCount": 0,
+    "winRate": 53.16455696202531,
+    "cumulativeR": 24.9,
+    "maxDrawdown": 4.8,
+    "calmarRatio": 5.18,
+    "avgTpPips": 80,
+    "sepR": 14.2,
+    "octR": 15.7,
+    "monthlyWins": {
+      "2026-09": 26,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 14.23567964436497,
+      "2026-10": 15.651772934916604
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.2,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.8,
+    "cooldownBars": 24,
+    "maxDailyLosses": 2,
+    "closed": 79,
+    "wins": 42,
+    "losses": 37,
+    "beCount": 0,
+    "winRate": 53.16455696202531,
+    "cumulativeR": 23.6,
+    "maxDrawdown": 4.8,
+    "calmarRatio": 4.91,
+    "avgTpPips": 80,
+    "sepR": 14.2,
+    "octR": 14.4,
+    "monthlyWins": {
+      "2026-09": 26,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 14.23567964436497,
+      "2026-10": 14.353567498342938
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.2,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.8,
+    "cooldownBars": 30,
+    "maxDailyLosses": 2,
+    "closed": 79,
+    "wins": 42,
+    "losses": 37,
+    "beCount": 0,
+    "winRate": 53.16455696202531,
+    "cumulativeR": 23.6,
+    "maxDrawdown": 4.8,
+    "calmarRatio": 4.91,
+    "avgTpPips": 80,
+    "sepR": 14.2,
+    "octR": 14.4,
+    "monthlyWins": {
+      "2026-09": 26,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 14.23567964436497,
+      "2026-10": 14.353567498342938
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.18,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.8,
+    "cooldownBars": 30,
+    "maxDailyLosses": 2,
+    "closed": 81,
+    "wins": 40,
+    "losses": 37,
+    "beCount": 4,
+    "winRate": 51.94805194805194,
+    "cumulativeR": 22.4,
+    "maxDrawdown": 4.8,
+    "calmarRatio": 4.66,
+    "avgTpPips": 80,
+    "sepR": 12.5,
+    "octR": 14.8,
+    "monthlyWins": {
+      "2026-09": 24,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 12.531834145376083,
+      "2026-10": 14.84976209940346
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.18,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.8,
+    "cooldownBars": 24,
+    "maxDailyLosses": 2,
+    "closed": 79,
+    "wins": 39,
+    "losses": 37,
+    "beCount": 3,
+    "winRate": 51.31578947368421,
+    "cumulativeR": 21.6,
+    "maxDrawdown": 4.8,
+    "calmarRatio": 4.5,
+    "avgTpPips": 80,
+    "sepR": 12.5,
+    "octR": 14,
+    "monthlyWins": {
+      "2026-09": 24,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 12.531834145376083,
+      "2026-10": 14.049762099403459
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.18,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.8,
+    "cooldownBars": 24,
+    "maxDailyLosses": 2,
+    "closed": 79,
+    "wins": 39,
+    "losses": 37,
+    "beCount": 3,
+    "winRate": 51.31578947368421,
+    "cumulativeR": 21.6,
+    "maxDrawdown": 4.8,
+    "calmarRatio": 4.5,
+    "avgTpPips": 80,
+    "sepR": 12.5,
+    "octR": 14,
+    "monthlyWins": {
+      "2026-09": 24,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 12.531834145376083,
+      "2026-10": 14.049762099403459
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.18,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.8,
+    "cooldownBars": 30,
+    "maxDailyLosses": 2,
+    "closed": 81,
+    "wins": 39,
+    "losses": 37,
+    "beCount": 5,
+    "winRate": 51.31578947368421,
+    "cumulativeR": 21.6,
+    "maxDrawdown": 4.8,
+    "calmarRatio": 4.5,
+    "avgTpPips": 80,
+    "sepR": 12.5,
+    "octR": 14,
+    "monthlyWins": {
+      "2026-09": 24,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 12.531834145376083,
+      "2026-10": 14.049762099403459
+    }
+  },
+  {
+    "tpPips": 85,
+    "atrMult": 0.2,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.8,
+    "cooldownBars": 24,
+    "maxDailyLosses": 2,
+    "closed": 79,
+    "wins": 42,
+    "losses": 37,
+    "beCount": 0,
+    "winRate": 53.16455696202531,
+    "cumulativeR": 21.2,
+    "maxDrawdown": 4.8,
+    "calmarRatio": 4.42,
+    "avgTpPips": 85,
+    "sepR": 14.3,
+    "octR": 11.9,
+    "monthlyWins": {
+      "2026-09": 26,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 14.340129558743847,
+      "2026-10": 11.899848277487045
+    }
+  },
+  {
+    "tpPips": 85,
+    "atrMult": 0.2,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.8,
+    "cooldownBars": 30,
+    "maxDailyLosses": 2,
+    "closed": 79,
+    "wins": 42,
+    "losses": 37,
+    "beCount": 0,
+    "winRate": 53.16455696202531,
+    "cumulativeR": 21.2,
+    "maxDrawdown": 4.8,
+    "calmarRatio": 4.42,
+    "avgTpPips": 85,
+    "sepR": 14.3,
+    "octR": 11.9,
+    "monthlyWins": {
+      "2026-09": 26,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 14.340129558743847,
+      "2026-10": 11.899848277487045
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.18,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.5,
+    "lockInValR": 0.8,
+    "cooldownBars": 30,
+    "maxDailyLosses": 2,
+    "closed": 81,
+    "wins": 40,
+    "losses": 37,
+    "beCount": 4,
+    "winRate": 51.94805194805194,
+    "cumulativeR": 21.1,
+    "maxDrawdown": 4.8,
+    "calmarRatio": 4.4,
+    "avgTpPips": 80,
+    "sepR": 12.5,
+    "octR": 13.6,
+    "monthlyWins": {
+      "2026-09": 24,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 12.531834145376083,
+      "2026-10": 13.607356831640896
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.2,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.5,
+    "lockInValR": 0.8,
+    "cooldownBars": 24,
+    "maxDailyLosses": 2,
+    "closed": 79,
+    "wins": 42,
+    "losses": 37,
+    "beCount": 0,
+    "winRate": 53.16455696202531,
+    "cumulativeR": 21,
+    "maxDrawdown": 4.8,
+    "calmarRatio": 4.37,
+    "avgTpPips": 80,
+    "sepR": 12.8,
+    "octR": 13.2,
+    "monthlyWins": {
+      "2026-09": 26,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 12.838430292974977,
+      "2026-10": 13.152706203195155
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.2,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.5,
+    "lockInValR": 0.8,
+    "cooldownBars": 30,
+    "maxDailyLosses": 2,
+    "closed": 79,
+    "wins": 42,
+    "losses": 37,
+    "beCount": 0,
+    "winRate": 53.16455696202531,
+    "cumulativeR": 21,
+    "maxDrawdown": 4.8,
+    "calmarRatio": 4.37,
+    "avgTpPips": 80,
+    "sepR": 12.8,
+    "octR": 13.2,
+    "monthlyWins": {
+      "2026-09": 26,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 12.838430292974977,
+      "2026-10": 13.152706203195155
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.18,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.5,
+    "lockInValR": 0.8,
+    "cooldownBars": 24,
+    "maxDailyLosses": 2,
+    "closed": 79,
+    "wins": 39,
+    "losses": 37,
+    "beCount": 3,
+    "winRate": 51.31578947368421,
+    "cumulativeR": 20.3,
+    "maxDrawdown": 4.8,
+    "calmarRatio": 4.24,
+    "avgTpPips": 80,
+    "sepR": 12.5,
+    "octR": 12.8,
+    "monthlyWins": {
+      "2026-09": 24,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 12.531834145376083,
+      "2026-10": 12.807356831640899
+    }
+  },
+  {
+    "tpPips": 85,
+    "atrMult": 0.2,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.8,
+    "cooldownBars": 24,
+    "maxDailyLosses": 2,
+    "closed": 79,
+    "wins": 42,
+    "losses": 37,
+    "beCount": 0,
+    "winRate": 53.16455696202531,
+    "cumulativeR": 19.8,
+    "maxDrawdown": 4.8,
+    "calmarRatio": 4.13,
+    "avgTpPips": 85,
+    "sepR": 14.3,
+    "octR": 10.5,
+    "monthlyWins": {
+      "2026-09": 26,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 14.340129558743847,
+      "2026-10": 10.470505001127524
+    }
+  },
+  {
+    "tpPips": 85,
+    "atrMult": 0.2,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.8,
+    "cooldownBars": 30,
+    "maxDailyLosses": 2,
+    "closed": 79,
+    "wins": 42,
+    "losses": 37,
+    "beCount": 0,
+    "winRate": 53.16455696202531,
+    "cumulativeR": 19.8,
+    "maxDrawdown": 4.8,
+    "calmarRatio": 4.13,
+    "avgTpPips": 85,
+    "sepR": 14.3,
+    "octR": 10.5,
+    "monthlyWins": {
+      "2026-09": 26,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 14.340129558743847,
+      "2026-10": 10.470505001127524
+    }
+  },
+  {
+    "tpPips": 85,
+    "atrMult": 0.18,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.8,
+    "cooldownBars": 30,
+    "maxDailyLosses": 2,
+    "closed": 81,
+    "wins": 40,
+    "losses": 37,
+    "beCount": 4,
+    "winRate": 51.94805194805194,
+    "cumulativeR": 17.5,
+    "maxDrawdown": 4.8,
+    "calmarRatio": 3.65,
+    "avgTpPips": 85,
+    "sepR": 11.7,
+    "octR": 10.8,
+    "monthlyWins": {
+      "2026-09": 24,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 11.710036317569724,
+      "2026-10": 10.812233386224602
+    }
+  },
+  {
+    "tpPips": 85,
+    "atrMult": 0.22,
+    "beTriggerR": 1.3,
+    "lockInTriggerR": 1.5,
+    "lockInValR": 0.8,
+    "cooldownBars": 30,
+    "maxDailyLosses": 2,
+    "closed": 84,
+    "wins": 42,
+    "losses": 37,
+    "beCount": 5,
+    "winRate": 53.16455696202531,
+    "cumulativeR": 17.5,
+    "maxDrawdown": 4.8,
+    "calmarRatio": 3.64,
+    "avgTpPips": 85,
+    "sepR": 12.3,
+    "octR": 10.1,
+    "monthlyWins": {
+      "2026-09": 26,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 12.330485071683214,
+      "2026-10": 10.143886127179401
+    }
+  },
+  {
+    "tpPips": 85,
+    "atrMult": 0.22,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.8,
+    "cooldownBars": 24,
+    "maxDailyLosses": 2,
+    "closed": 79,
+    "wins": 41,
+    "losses": 38,
+    "beCount": 0,
+    "winRate": 51.89873417721519,
+    "cumulativeR": 17.2,
+    "maxDrawdown": 4.8,
+    "calmarRatio": 3.58,
+    "avgTpPips": 85,
+    "sepR": 12,
+    "octR": 10.1,
+    "monthlyWins": {
+      "2026-09": 25,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 21,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 12.02343973590314,
+      "2026-10": 10.143886127179401
+    }
+  },
+  {
+    "tpPips": 85,
+    "atrMult": 0.22,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.8,
+    "cooldownBars": 30,
+    "maxDailyLosses": 2,
+    "closed": 79,
+    "wins": 41,
+    "losses": 38,
+    "beCount": 0,
+    "winRate": 51.89873417721519,
+    "cumulativeR": 17.2,
+    "maxDrawdown": 4.8,
+    "calmarRatio": 3.58,
+    "avgTpPips": 85,
+    "sepR": 12,
+    "octR": 10.1,
+    "monthlyWins": {
+      "2026-09": 25,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 21,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 12.02343973590314,
+      "2026-10": 10.143886127179401
+    }
+  },
+  {
+    "tpPips": 85,
+    "atrMult": 0.22,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.8,
+    "cooldownBars": 24,
+    "maxDailyLosses": 2,
+    "closed": 79,
+    "wins": 39,
+    "losses": 38,
+    "beCount": 2,
+    "winRate": 50.649350649350644,
+    "cumulativeR": 17,
+    "maxDrawdown": 4.8,
+    "calmarRatio": 3.53,
+    "avgTpPips": 85,
+    "sepR": 11.2,
+    "octR": 10.7,
+    "monthlyWins": {
+      "2026-09": 24,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 21,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 11.22343973590314,
+      "2026-10": 10.730066245817214
+    }
+  },
+  {
+    "tpPips": 85,
+    "atrMult": 0.22,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.8,
+    "cooldownBars": 30,
+    "maxDailyLosses": 2,
+    "closed": 79,
+    "wins": 39,
+    "losses": 38,
+    "beCount": 2,
+    "winRate": 50.649350649350644,
+    "cumulativeR": 17,
+    "maxDrawdown": 4.8,
+    "calmarRatio": 3.53,
+    "avgTpPips": 85,
+    "sepR": 11.2,
+    "octR": 10.7,
+    "monthlyWins": {
+      "2026-09": 24,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 21,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 11.22343973590314,
+      "2026-10": 10.730066245817214
+    }
+  },
+  {
+    "tpPips": 85,
+    "atrMult": 0.18,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.8,
+    "cooldownBars": 24,
+    "maxDailyLosses": 2,
+    "closed": 79,
+    "wins": 39,
+    "losses": 37,
+    "beCount": 3,
+    "winRate": 51.31578947368421,
+    "cumulativeR": 16.7,
+    "maxDrawdown": 4.8,
+    "calmarRatio": 3.48,
+    "avgTpPips": 85,
+    "sepR": 11.7,
+    "octR": 10,
+    "monthlyWins": {
+      "2026-09": 24,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 11.710036317569724,
+      "2026-10": 10.0122333862246
+    }
+  },
+  {
+    "tpPips": 85,
+    "atrMult": 0.18,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.8,
+    "cooldownBars": 24,
+    "maxDailyLosses": 2,
+    "closed": 79,
+    "wins": 39,
+    "losses": 37,
+    "beCount": 3,
+    "winRate": 51.31578947368421,
+    "cumulativeR": 16.7,
+    "maxDrawdown": 4.8,
+    "calmarRatio": 3.48,
+    "avgTpPips": 85,
+    "sepR": 11.7,
+    "octR": 10,
+    "monthlyWins": {
+      "2026-09": 24,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 11.710036317569724,
+      "2026-10": 10.0122333862246
+    }
+  },
+  {
+    "tpPips": 85,
+    "atrMult": 0.18,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.8,
+    "cooldownBars": 30,
+    "maxDailyLosses": 2,
+    "closed": 81,
+    "wins": 39,
+    "losses": 37,
+    "beCount": 5,
+    "winRate": 51.31578947368421,
+    "cumulativeR": 16.7,
+    "maxDrawdown": 4.8,
+    "calmarRatio": 3.48,
+    "avgTpPips": 85,
+    "sepR": 11.7,
+    "octR": 10,
+    "monthlyWins": {
+      "2026-09": 24,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 11.710036317569724,
+      "2026-10": 10.0122333862246
+    }
+  },
+  {
+    "tpPips": 85,
+    "atrMult": 0.22,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.5,
+    "lockInValR": 0.8,
+    "cooldownBars": 24,
+    "maxDailyLosses": 2,
+    "closed": 79,
+    "wins": 41,
+    "losses": 38,
+    "beCount": 0,
+    "winRate": 51.89873417721519,
+    "cumulativeR": 15.7,
+    "maxDrawdown": 4.8,
+    "calmarRatio": 3.27,
+    "avgTpPips": 85,
+    "sepR": 10.5,
+    "octR": 10.1,
+    "monthlyWins": {
+      "2026-09": 25,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 21,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.530485071683211,
+      "2026-10": 10.143886127179401
+    }
+  },
+  {
+    "tpPips": 85,
+    "atrMult": 0.22,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.5,
+    "lockInValR": 0.8,
+    "cooldownBars": 30,
+    "maxDailyLosses": 2,
+    "closed": 79,
+    "wins": 41,
+    "losses": 38,
+    "beCount": 0,
+    "winRate": 51.89873417721519,
+    "cumulativeR": 15.7,
+    "maxDrawdown": 4.8,
+    "calmarRatio": 3.27,
+    "avgTpPips": 85,
+    "sepR": 10.5,
+    "octR": 10.1,
+    "monthlyWins": {
+      "2026-09": 25,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 21,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.530485071683211,
+      "2026-10": 10.143886127179401
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.22,
+    "beTriggerR": 1.3,
+    "lockInTriggerR": 1.5,
+    "lockInValR": 0.8,
+    "cooldownBars": 30,
+    "maxDailyLosses": 2,
+    "closed": 84,
+    "wins": 42,
+    "losses": 37,
+    "beCount": 5,
+    "winRate": 53.16455696202531,
+    "cumulativeR": 23,
+    "maxDrawdown": 4.9,
+    "calmarRatio": 4.73,
+    "avgTpPips": 80,
+    "sepR": 14.1,
+    "octR": 13.9,
+    "monthlyWins": {
+      "2026-09": 26,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 14.096397458221922,
+      "2026-10": 13.880204478666123
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.22,
+    "beTriggerR": 1.3,
+    "lockInTriggerR": 1.5,
+    "lockInValR": 0.8,
+    "cooldownBars": 24,
+    "maxDailyLosses": 2,
+    "closed": 82,
+    "wins": 41,
+    "losses": 37,
+    "beCount": 4,
+    "winRate": 52.56410256410257,
+    "cumulativeR": 22.2,
+    "maxDrawdown": 4.9,
+    "calmarRatio": 4.56,
+    "avgTpPips": 80,
+    "sepR": 14.1,
+    "octR": 13.1,
+    "monthlyWins": {
+      "2026-09": 26,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 14.096397458221922,
+      "2026-10": 13.080204478666122
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.22,
+    "beTriggerR": 1.3,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.8,
+    "cooldownBars": 24,
+    "maxDailyLosses": 2,
+    "closed": 82,
+    "wins": 41,
+    "losses": 37,
+    "beCount": 4,
+    "winRate": 52.56410256410257,
+    "cumulativeR": 22.2,
+    "maxDrawdown": 4.9,
+    "calmarRatio": 4.56,
+    "avgTpPips": 80,
+    "sepR": 14.1,
+    "octR": 13.1,
+    "monthlyWins": {
+      "2026-09": 26,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 14.096397458221922,
+      "2026-10": 13.080204478666122
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.22,
+    "beTriggerR": 1.3,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.8,
+    "cooldownBars": 30,
+    "maxDailyLosses": 2,
+    "closed": 84,
+    "wins": 41,
+    "losses": 37,
+    "beCount": 6,
+    "winRate": 52.56410256410257,
+    "cumulativeR": 22.2,
+    "maxDrawdown": 4.9,
+    "calmarRatio": 4.56,
+    "avgTpPips": 80,
+    "sepR": 14.1,
+    "octR": 13.1,
+    "monthlyWins": {
+      "2026-09": 26,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 14.096397458221922,
+      "2026-10": 13.080204478666122
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.22,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.8,
+    "cooldownBars": 24,
+    "maxDailyLosses": 2,
+    "closed": 79,
+    "wins": 41,
+    "losses": 38,
+    "beCount": 0,
+    "winRate": 51.89873417721519,
+    "cumulativeR": 20.8,
+    "maxDrawdown": 5.1,
+    "calmarRatio": 4.1,
+    "avgTpPips": 80,
+    "sepR": 11.9,
+    "octR": 13.9,
+    "monthlyWins": {
+      "2026-09": 25,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 21,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 11.893027321688693,
+      "2026-10": 13.880204478666123
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.22,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.8,
+    "cooldownBars": 30,
+    "maxDailyLosses": 2,
+    "closed": 79,
+    "wins": 41,
+    "losses": 38,
+    "beCount": 0,
+    "winRate": 51.89873417721519,
+    "cumulativeR": 20.8,
+    "maxDrawdown": 5.1,
+    "calmarRatio": 4.1,
+    "avgTpPips": 80,
+    "sepR": 11.9,
+    "octR": 13.9,
+    "monthlyWins": {
+      "2026-09": 25,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 21,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 11.893027321688693,
+      "2026-10": 13.880204478666123
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.22,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.8,
+    "cooldownBars": 24,
+    "maxDailyLosses": 2,
+    "closed": 79,
+    "wins": 39,
+    "losses": 38,
+    "beCount": 2,
+    "winRate": 50.649350649350644,
+    "cumulativeR": 20.4,
+    "maxDrawdown": 5.1,
+    "calmarRatio": 4.03,
+    "avgTpPips": 80,
+    "sepR": 11.1,
+    "octR": 14.3,
+    "monthlyWins": {
+      "2026-09": 24,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 21,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 11.093027321688693,
+      "2026-10": 14.337785766795829
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.22,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.8,
+    "cooldownBars": 30,
+    "maxDailyLosses": 2,
+    "closed": 79,
+    "wins": 39,
+    "losses": 38,
+    "beCount": 2,
+    "winRate": 50.649350649350644,
+    "cumulativeR": 20.4,
+    "maxDrawdown": 5.1,
+    "calmarRatio": 4.03,
+    "avgTpPips": 80,
+    "sepR": 11.1,
+    "octR": 14.3,
+    "monthlyWins": {
+      "2026-09": 24,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 21,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 11.093027321688693,
+      "2026-10": 14.337785766795829
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.22,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.5,
+    "lockInValR": 0.8,
+    "cooldownBars": 24,
+    "maxDailyLosses": 2,
+    "closed": 79,
+    "wins": 41,
+    "losses": 38,
+    "beCount": 0,
+    "winRate": 51.89873417721519,
+    "cumulativeR": 19.4,
+    "maxDrawdown": 5.1,
+    "calmarRatio": 3.83,
+    "avgTpPips": 80,
+    "sepR": 10.5,
+    "octR": 13.9,
+    "monthlyWins": {
+      "2026-09": 25,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 21,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.534952343599347,
+      "2026-10": 13.880204478666123
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.22,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.5,
+    "lockInValR": 0.8,
+    "cooldownBars": 30,
+    "maxDailyLosses": 2,
+    "closed": 79,
+    "wins": 41,
+    "losses": 38,
+    "beCount": 0,
+    "winRate": 51.89873417721519,
+    "cumulativeR": 19.4,
+    "maxDrawdown": 5.1,
+    "calmarRatio": 3.83,
+    "avgTpPips": 80,
+    "sepR": 10.5,
+    "octR": 13.9,
+    "monthlyWins": {
+      "2026-09": 25,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 21,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.534952343599347,
+      "2026-10": 13.880204478666123
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.18,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.7,
+    "cooldownBars": 30,
+    "maxDailyLosses": 2,
+    "closed": 81,
+    "wins": 40,
+    "losses": 37,
+    "beCount": 4,
+    "winRate": 51.94805194805194,
+    "cumulativeR": 23.1,
+    "maxDrawdown": 5.2,
+    "calmarRatio": 4.45,
+    "avgTpPips": 80,
+    "sepR": 10.9,
+    "octR": 17.2,
+    "monthlyWins": {
+      "2026-09": 24,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.931834145376076,
+      "2026-10": 17.18717915556555
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.2,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.7,
+    "cooldownBars": 24,
+    "maxDailyLosses": 2,
+    "closed": 79,
+    "wins": 42,
+    "losses": 37,
+    "beCount": 0,
+    "winRate": 53.16455696202531,
+    "cumulativeR": 22.7,
+    "maxDrawdown": 5.2,
+    "calmarRatio": 4.36,
+    "avgTpPips": 80,
+    "sepR": 12.5,
+    "octR": 15.2,
+    "monthlyWins": {
+      "2026-09": 26,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 12.535679644364958,
+      "2026-10": 15.151772934916604
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.2,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.7,
+    "cooldownBars": 30,
+    "maxDailyLosses": 2,
+    "closed": 79,
+    "wins": 42,
+    "losses": 37,
+    "beCount": 0,
+    "winRate": 53.16455696202531,
+    "cumulativeR": 22.7,
+    "maxDrawdown": 5.2,
+    "calmarRatio": 4.36,
+    "avgTpPips": 80,
+    "sepR": 12.5,
+    "octR": 15.2,
+    "monthlyWins": {
+      "2026-09": 26,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 12.535679644364958,
+      "2026-10": 15.151772934916604
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.18,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.7,
+    "cooldownBars": 24,
+    "maxDailyLosses": 2,
+    "closed": 79,
+    "wins": 39,
+    "losses": 37,
+    "beCount": 3,
+    "winRate": 51.31578947368421,
+    "cumulativeR": 22.4,
+    "maxDrawdown": 5.2,
+    "calmarRatio": 4.31,
+    "avgTpPips": 80,
+    "sepR": 10.9,
+    "octR": 16.5,
+    "monthlyWins": {
+      "2026-09": 24,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.931834145376076,
+      "2026-10": 16.48717915556555
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.18,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.7,
+    "cooldownBars": 24,
+    "maxDailyLosses": 2,
+    "closed": 79,
+    "wins": 39,
+    "losses": 37,
+    "beCount": 3,
+    "winRate": 51.31578947368421,
+    "cumulativeR": 22.4,
+    "maxDrawdown": 5.2,
+    "calmarRatio": 4.31,
+    "avgTpPips": 80,
+    "sepR": 10.9,
+    "octR": 16.5,
+    "monthlyWins": {
+      "2026-09": 24,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.931834145376076,
+      "2026-10": 16.48717915556555
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.18,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.7,
+    "cooldownBars": 30,
+    "maxDailyLosses": 2,
+    "closed": 81,
+    "wins": 39,
+    "losses": 37,
+    "beCount": 5,
+    "winRate": 51.31578947368421,
+    "cumulativeR": 22.4,
+    "maxDrawdown": 5.2,
+    "calmarRatio": 4.31,
+    "avgTpPips": 80,
+    "sepR": 10.9,
+    "octR": 16.5,
+    "monthlyWins": {
+      "2026-09": 24,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.931834145376076,
+      "2026-10": 16.48717915556555
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.18,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.5,
+    "lockInValR": 0.7,
+    "cooldownBars": 30,
+    "maxDailyLosses": 2,
+    "closed": 81,
+    "wins": 40,
+    "losses": 37,
+    "beCount": 4,
+    "winRate": 51.94805194805194,
+    "cumulativeR": 21.8,
+    "maxDrawdown": 5.2,
+    "calmarRatio": 4.19,
+    "avgTpPips": 80,
+    "sepR": 10.9,
+    "octR": 15.8,
+    "monthlyWins": {
+      "2026-09": 24,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.931834145376076,
+      "2026-10": 15.844773887802987
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.2,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.7,
+    "cooldownBars": 24,
+    "maxDailyLosses": 2,
+    "closed": 79,
+    "wins": 42,
+    "losses": 37,
+    "beCount": 0,
+    "winRate": 53.16455696202531,
+    "cumulativeR": 21.3,
+    "maxDrawdown": 5.2,
+    "calmarRatio": 4.09,
+    "avgTpPips": 80,
+    "sepR": 12.5,
+    "octR": 13.8,
+    "monthlyWins": {
+      "2026-09": 26,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 12.535679644364958,
+      "2026-10": 13.753567498342937
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.2,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.7,
+    "cooldownBars": 30,
+    "maxDailyLosses": 2,
+    "closed": 79,
+    "wins": 42,
+    "losses": 37,
+    "beCount": 0,
+    "winRate": 53.16455696202531,
+    "cumulativeR": 21.3,
+    "maxDrawdown": 5.2,
+    "calmarRatio": 4.09,
+    "avgTpPips": 80,
+    "sepR": 12.5,
+    "octR": 13.8,
+    "monthlyWins": {
+      "2026-09": 26,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 12.535679644364958,
+      "2026-10": 13.753567498342937
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.18,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.5,
+    "lockInValR": 0.7,
+    "cooldownBars": 24,
+    "maxDailyLosses": 2,
+    "closed": 79,
+    "wins": 39,
+    "losses": 37,
+    "beCount": 3,
+    "winRate": 51.31578947368421,
+    "cumulativeR": 21.1,
+    "maxDrawdown": 5.2,
+    "calmarRatio": 4.05,
+    "avgTpPips": 80,
+    "sepR": 10.9,
+    "octR": 15.1,
+    "monthlyWins": {
+      "2026-09": 24,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.931834145376076,
+      "2026-10": 15.144773887802987
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.22,
+    "beTriggerR": 1.3,
+    "lockInTriggerR": 1.5,
+    "lockInValR": 0.7,
+    "cooldownBars": 30,
+    "maxDailyLosses": 2,
+    "closed": 84,
+    "wins": 42,
+    "losses": 37,
+    "beCount": 5,
+    "winRate": 53.16455696202531,
+    "cumulativeR": 20.7,
+    "maxDrawdown": 5.2,
+    "calmarRatio": 3.98,
+    "avgTpPips": 80,
+    "sepR": 12.4,
+    "octR": 13.3,
+    "monthlyWins": {
+      "2026-09": 26,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 12.396397458221907,
+      "2026-10": 13.280204478666121
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.22,
+    "beTriggerR": 1.3,
+    "lockInTriggerR": 1.5,
+    "lockInValR": 0.7,
+    "cooldownBars": 24,
+    "maxDailyLosses": 2,
+    "closed": 82,
+    "wins": 41,
+    "losses": 37,
+    "beCount": 4,
+    "winRate": 52.56410256410257,
+    "cumulativeR": 20,
+    "maxDrawdown": 5.2,
+    "calmarRatio": 3.84,
+    "avgTpPips": 80,
+    "sepR": 12.4,
+    "octR": 12.6,
+    "monthlyWins": {
+      "2026-09": 26,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 12.396397458221907,
+      "2026-10": 12.580204478666122
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.22,
+    "beTriggerR": 1.3,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.7,
+    "cooldownBars": 24,
+    "maxDailyLosses": 2,
+    "closed": 82,
+    "wins": 41,
+    "losses": 37,
+    "beCount": 4,
+    "winRate": 52.56410256410257,
+    "cumulativeR": 20,
+    "maxDrawdown": 5.2,
+    "calmarRatio": 3.84,
+    "avgTpPips": 80,
+    "sepR": 12.4,
+    "octR": 12.6,
+    "monthlyWins": {
+      "2026-09": 26,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 12.396397458221907,
+      "2026-10": 12.580204478666122
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.22,
+    "beTriggerR": 1.3,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.7,
+    "cooldownBars": 30,
+    "maxDailyLosses": 2,
+    "closed": 84,
+    "wins": 41,
+    "losses": 37,
+    "beCount": 6,
+    "winRate": 52.56410256410257,
+    "cumulativeR": 20,
+    "maxDrawdown": 5.2,
+    "calmarRatio": 3.84,
+    "avgTpPips": 80,
+    "sepR": 12.4,
+    "octR": 12.6,
+    "monthlyWins": {
+      "2026-09": 26,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 12.396397458221907,
+      "2026-10": 12.580204478666122
+    }
+  },
+  {
+    "tpPips": 85,
+    "atrMult": 0.2,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.7,
+    "cooldownBars": 24,
+    "maxDailyLosses": 2,
+    "closed": 79,
+    "wins": 42,
+    "losses": 37,
+    "beCount": 0,
+    "winRate": 53.16455696202531,
+    "cumulativeR": 18.6,
+    "maxDrawdown": 5.2,
+    "calmarRatio": 3.58,
+    "avgTpPips": 85,
+    "sepR": 12.5,
+    "octR": 11.1,
+    "monthlyWins": {
+      "2026-09": 26,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 12.540129558743836,
+      "2026-10": 11.099848277487041
+    }
+  },
+  {
+    "tpPips": 85,
+    "atrMult": 0.2,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.7,
+    "cooldownBars": 30,
+    "maxDailyLosses": 2,
+    "closed": 79,
+    "wins": 42,
+    "losses": 37,
+    "beCount": 0,
+    "winRate": 53.16455696202531,
+    "cumulativeR": 18.6,
+    "maxDrawdown": 5.2,
+    "calmarRatio": 3.58,
+    "avgTpPips": 85,
+    "sepR": 12.5,
+    "octR": 11.1,
+    "monthlyWins": {
+      "2026-09": 26,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 12.540129558743836,
+      "2026-10": 11.099848277487041
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.2,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.5,
+    "lockInValR": 0.7,
+    "cooldownBars": 24,
+    "maxDailyLosses": 2,
+    "closed": 79,
+    "wins": 42,
+    "losses": 37,
+    "beCount": 0,
+    "winRate": 53.16455696202531,
+    "cumulativeR": 18.5,
+    "maxDrawdown": 5.2,
+    "calmarRatio": 3.56,
+    "avgTpPips": 80,
+    "sepR": 11,
+    "octR": 12.5,
+    "monthlyWins": {
+      "2026-09": 26,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 11.038430292974965,
+      "2026-10": 12.452706203195154
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.2,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.5,
+    "lockInValR": 0.7,
+    "cooldownBars": 30,
+    "maxDailyLosses": 2,
+    "closed": 79,
+    "wins": 42,
+    "losses": 37,
+    "beCount": 0,
+    "winRate": 53.16455696202531,
+    "cumulativeR": 18.5,
+    "maxDrawdown": 5.2,
+    "calmarRatio": 3.56,
+    "avgTpPips": 80,
+    "sepR": 11,
+    "octR": 12.5,
+    "monthlyWins": {
+      "2026-09": 26,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 11.038430292974965,
+      "2026-10": 12.452706203195154
+    }
+  },
+  {
+    "tpPips": 85,
+    "atrMult": 0.18,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.7,
+    "cooldownBars": 30,
+    "maxDailyLosses": 2,
+    "closed": 81,
+    "wins": 40,
+    "losses": 37,
+    "beCount": 4,
+    "winRate": 51.94805194805194,
+    "cumulativeR": 18.1,
+    "maxDrawdown": 5.2,
+    "calmarRatio": 3.48,
+    "avgTpPips": 85,
+    "sepR": 10,
+    "octR": 13.1,
+    "monthlyWins": {
+      "2026-09": 24,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.010036317569721,
+      "2026-10": 13.076989008396822
+    }
+  },
+  {
+    "tpPips": 85,
+    "atrMult": 0.18,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.7,
+    "cooldownBars": 24,
+    "maxDailyLosses": 2,
+    "closed": 79,
+    "wins": 39,
+    "losses": 37,
+    "beCount": 3,
+    "winRate": 51.31578947368421,
+    "cumulativeR": 17.4,
+    "maxDrawdown": 5.2,
+    "calmarRatio": 3.34,
+    "avgTpPips": 85,
+    "sepR": 10,
+    "octR": 12.4,
+    "monthlyWins": {
+      "2026-09": 24,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.010036317569721,
+      "2026-10": 12.376989008396821
+    }
+  },
+  {
+    "tpPips": 85,
+    "atrMult": 0.18,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.7,
+    "cooldownBars": 24,
+    "maxDailyLosses": 2,
+    "closed": 79,
+    "wins": 39,
+    "losses": 37,
+    "beCount": 3,
+    "winRate": 51.31578947368421,
+    "cumulativeR": 17.4,
+    "maxDrawdown": 5.2,
+    "calmarRatio": 3.34,
+    "avgTpPips": 85,
+    "sepR": 10,
+    "octR": 12.4,
+    "monthlyWins": {
+      "2026-09": 24,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.010036317569721,
+      "2026-10": 12.376989008396821
+    }
+  },
+  {
+    "tpPips": 85,
+    "atrMult": 0.18,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.7,
+    "cooldownBars": 30,
+    "maxDailyLosses": 2,
+    "closed": 81,
+    "wins": 39,
+    "losses": 37,
+    "beCount": 5,
+    "winRate": 51.31578947368421,
+    "cumulativeR": 17.4,
+    "maxDrawdown": 5.2,
+    "calmarRatio": 3.34,
+    "avgTpPips": 85,
+    "sepR": 10,
+    "octR": 12.4,
+    "monthlyWins": {
+      "2026-09": 24,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.010036317569721,
+      "2026-10": 12.376989008396821
+    }
+  },
+  {
+    "tpPips": 85,
+    "atrMult": 0.18,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.5,
+    "lockInValR": 0.7,
+    "cooldownBars": 30,
+    "maxDailyLosses": 2,
+    "closed": 81,
+    "wins": 40,
+    "losses": 37,
+    "beCount": 4,
+    "winRate": 51.94805194805194,
+    "cumulativeR": 16.6,
+    "maxDrawdown": 5.2,
+    "calmarRatio": 3.2,
+    "avgTpPips": 85,
+    "sepR": 10,
+    "octR": 11.6,
+    "monthlyWins": {
+      "2026-09": 24,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.010036317569721,
+      "2026-10": 11.6069334113991
+    }
+  },
+  {
+    "tpPips": 85,
+    "atrMult": 0.18,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.5,
+    "lockInValR": 0.7,
+    "cooldownBars": 24,
+    "maxDailyLosses": 2,
+    "closed": 79,
+    "wins": 39,
+    "losses": 37,
+    "beCount": 3,
+    "winRate": 51.31578947368421,
+    "cumulativeR": 15.9,
+    "maxDrawdown": 5.2,
+    "calmarRatio": 3.06,
+    "avgTpPips": 85,
+    "sepR": 10,
+    "octR": 10.9,
+    "monthlyWins": {
+      "2026-09": 24,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.010036317569721,
+      "2026-10": 10.9069334113991
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.22,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.7,
+    "cooldownBars": 24,
+    "maxDailyLosses": 2,
+    "closed": 79,
+    "wins": 41,
+    "losses": 38,
+    "beCount": 0,
+    "winRate": 51.89873417721519,
+    "cumulativeR": 18.6,
+    "maxDrawdown": 5.3,
+    "calmarRatio": 3.53,
+    "avgTpPips": 80,
+    "sepR": 10.3,
+    "octR": 13.3,
+    "monthlyWins": {
+      "2026-09": 25,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 21,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.293027321688681,
+      "2026-10": 13.280204478666121
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.22,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.7,
+    "cooldownBars": 30,
+    "maxDailyLosses": 2,
+    "closed": 79,
+    "wins": 41,
+    "losses": 38,
+    "beCount": 0,
+    "winRate": 51.89873417721519,
+    "cumulativeR": 18.6,
+    "maxDrawdown": 5.3,
+    "calmarRatio": 3.53,
+    "avgTpPips": 80,
+    "sepR": 10.3,
+    "octR": 13.3,
+    "monthlyWins": {
+      "2026-09": 25,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 21,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.293027321688681,
+      "2026-10": 13.280204478666121
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.2,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.6,
+    "cooldownBars": 24,
+    "maxDailyLosses": 2,
+    "closed": 79,
+    "wins": 42,
+    "losses": 37,
+    "beCount": 0,
+    "winRate": 53.16455696202531,
+    "cumulativeR": 23.4,
+    "maxDrawdown": 5.6,
+    "calmarRatio": 4.18,
+    "avgTpPips": 80,
+    "sepR": 10.8,
+    "octR": 17.6,
+    "monthlyWins": {
+      "2026-09": 26,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.83567964436496,
+      "2026-10": 17.560779370351696
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.2,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.6,
+    "cooldownBars": 30,
+    "maxDailyLosses": 2,
+    "closed": 79,
+    "wins": 42,
+    "losses": 37,
+    "beCount": 0,
+    "winRate": 53.16455696202531,
+    "cumulativeR": 23.4,
+    "maxDrawdown": 5.6,
+    "calmarRatio": 4.18,
+    "avgTpPips": 80,
+    "sepR": 10.8,
+    "octR": 17.6,
+    "monthlyWins": {
+      "2026-09": 26,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.83567964436496,
+      "2026-10": 17.560779370351696
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.2,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.6,
+    "cooldownBars": 24,
+    "maxDailyLosses": 2,
+    "closed": 79,
+    "wins": 42,
+    "losses": 37,
+    "beCount": 0,
+    "winRate": 53.16455696202531,
+    "cumulativeR": 21.9,
+    "maxDrawdown": 5.6,
+    "calmarRatio": 3.91,
+    "avgTpPips": 80,
+    "sepR": 10.8,
+    "octR": 16.1,
+    "monthlyWins": {
+      "2026-09": 26,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.83567964436496,
+      "2026-10": 16.06257393377803
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.2,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.6,
+    "cooldownBars": 30,
+    "maxDailyLosses": 2,
+    "closed": 79,
+    "wins": 42,
+    "losses": 37,
+    "beCount": 0,
+    "winRate": 53.16455696202531,
+    "cumulativeR": 21.9,
+    "maxDrawdown": 5.6,
+    "calmarRatio": 3.91,
+    "avgTpPips": 80,
+    "sepR": 10.8,
+    "octR": 16.1,
+    "monthlyWins": {
+      "2026-09": 26,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.83567964436496,
+      "2026-10": 16.06257393377803
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.22,
+    "beTriggerR": 1.3,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.8,
+    "cooldownBars": 24,
+    "maxDailyLosses": 2,
+    "closed": 82,
+    "wins": 39,
+    "losses": 37,
+    "beCount": 6,
+    "winRate": 51.31578947368421,
+    "cumulativeR": 21.8,
+    "maxDrawdown": 5.6,
+    "calmarRatio": 3.9,
+    "avgTpPips": 80,
+    "sepR": 13.3,
+    "octR": 13.5,
+    "monthlyWins": {
+      "2026-09": 25,
+      "2026-10": 14
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 13.296397458221922,
+      "2026-10": 13.537785766795828
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.22,
+    "beTriggerR": 1.3,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.8,
+    "cooldownBars": 30,
+    "maxDailyLosses": 2,
+    "closed": 84,
+    "wins": 39,
+    "losses": 37,
+    "beCount": 8,
+    "winRate": 51.31578947368421,
+    "cumulativeR": 21.8,
+    "maxDrawdown": 5.6,
+    "calmarRatio": 3.9,
+    "avgTpPips": 80,
+    "sepR": 13.3,
+    "octR": 13.5,
+    "monthlyWins": {
+      "2026-09": 25,
+      "2026-10": 14
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 13.296397458221922,
+      "2026-10": 13.537785766795828
+    }
+  },
+  {
+    "tpPips": 85,
+    "atrMult": 0.2,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.6,
+    "cooldownBars": 24,
+    "maxDailyLosses": 2,
+    "closed": 79,
+    "wins": 42,
+    "losses": 37,
+    "beCount": 0,
+    "winRate": 53.16455696202531,
+    "cumulativeR": 21.4,
+    "maxDrawdown": 5.6,
+    "calmarRatio": 3.83,
+    "avgTpPips": 85,
+    "sepR": 10.7,
+    "octR": 15.7,
+    "monthlyWins": {
+      "2026-09": 26,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.740129558743837,
+      "2026-10": 15.681270314692046
+    }
+  },
+  {
+    "tpPips": 85,
+    "atrMult": 0.2,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.6,
+    "cooldownBars": 30,
+    "maxDailyLosses": 2,
+    "closed": 79,
+    "wins": 42,
+    "losses": 37,
+    "beCount": 0,
+    "winRate": 53.16455696202531,
+    "cumulativeR": 21.4,
+    "maxDrawdown": 5.6,
+    "calmarRatio": 3.83,
+    "avgTpPips": 85,
+    "sepR": 10.7,
+    "octR": 15.7,
+    "monthlyWins": {
+      "2026-09": 26,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.740129558743837,
+      "2026-10": 15.681270314692046
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.22,
+    "beTriggerR": 1.3,
+    "lockInTriggerR": 1.5,
+    "lockInValR": 0.6,
+    "cooldownBars": 30,
+    "maxDailyLosses": 2,
+    "closed": 84,
+    "wins": 42,
+    "losses": 37,
+    "beCount": 5,
+    "winRate": 53.16455696202531,
+    "cumulativeR": 21.2,
+    "maxDrawdown": 5.6,
+    "calmarRatio": 3.78,
+    "avgTpPips": 80,
+    "sepR": 10.7,
+    "octR": 15.5,
+    "monthlyWins": {
+      "2026-09": 26,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.696397458221911,
+      "2026-10": 15.469557617888395
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.22,
+    "beTriggerR": 1.3,
+    "lockInTriggerR": 1.5,
+    "lockInValR": 0.6,
+    "cooldownBars": 24,
+    "maxDailyLosses": 2,
+    "closed": 82,
+    "wins": 41,
+    "losses": 37,
+    "beCount": 4,
+    "winRate": 52.56410256410257,
+    "cumulativeR": 20.6,
+    "maxDrawdown": 5.6,
+    "calmarRatio": 3.67,
+    "avgTpPips": 80,
+    "sepR": 10.7,
+    "octR": 14.9,
+    "monthlyWins": {
+      "2026-09": 26,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.696397458221911,
+      "2026-10": 14.869557617888397
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.22,
+    "beTriggerR": 1.3,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.6,
+    "cooldownBars": 24,
+    "maxDailyLosses": 2,
+    "closed": 82,
+    "wins": 41,
+    "losses": 37,
+    "beCount": 4,
+    "winRate": 52.56410256410257,
+    "cumulativeR": 20.6,
+    "maxDrawdown": 5.6,
+    "calmarRatio": 3.67,
+    "avgTpPips": 80,
+    "sepR": 10.7,
+    "octR": 14.9,
+    "monthlyWins": {
+      "2026-09": 26,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.696397458221911,
+      "2026-10": 14.869557617888397
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.22,
+    "beTriggerR": 1.3,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.6,
+    "cooldownBars": 30,
+    "maxDailyLosses": 2,
+    "closed": 84,
+    "wins": 41,
+    "losses": 37,
+    "beCount": 6,
+    "winRate": 52.56410256410257,
+    "cumulativeR": 20.6,
+    "maxDrawdown": 5.6,
+    "calmarRatio": 3.67,
+    "avgTpPips": 80,
+    "sepR": 10.7,
+    "octR": 14.9,
+    "monthlyWins": {
+      "2026-09": 26,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.696397458221911,
+      "2026-10": 14.869557617888397
+    }
+  },
+  {
+    "tpPips": 85,
+    "atrMult": 0.2,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.6,
+    "cooldownBars": 24,
+    "maxDailyLosses": 2,
+    "closed": 79,
+    "wins": 42,
+    "losses": 37,
+    "beCount": 0,
+    "winRate": 53.16455696202531,
+    "cumulativeR": 19.8,
+    "maxDrawdown": 5.6,
+    "calmarRatio": 3.53,
+    "avgTpPips": 85,
+    "sepR": 10.7,
+    "octR": 14.1,
+    "monthlyWins": {
+      "2026-09": 26,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.740129558743837,
+      "2026-10": 14.051927038332524
+    }
+  },
+  {
+    "tpPips": 85,
+    "atrMult": 0.2,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.6,
+    "cooldownBars": 30,
+    "maxDailyLosses": 2,
+    "closed": 79,
+    "wins": 42,
+    "losses": 37,
+    "beCount": 0,
+    "winRate": 53.16455696202531,
+    "cumulativeR": 19.8,
+    "maxDrawdown": 5.6,
+    "calmarRatio": 3.53,
+    "avgTpPips": 85,
+    "sepR": 10.7,
+    "octR": 14.1,
+    "monthlyWins": {
+      "2026-09": 26,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.740129558743837,
+      "2026-10": 14.051927038332524
+    }
+  },
+  {
+    "tpPips": 85,
+    "atrMult": 0.2,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.8,
+    "cooldownBars": 36,
+    "maxDailyLosses": 2,
+    "closed": 78,
+    "wins": 41,
+    "losses": 37,
+    "beCount": 0,
+    "winRate": 52.56410256410257,
+    "cumulativeR": 19.3,
+    "maxDrawdown": 5.8,
+    "calmarRatio": 3.31,
+    "avgTpPips": 85,
+    "sepR": 12.4,
+    "octR": 11.9,
+    "monthlyWins": {
+      "2026-09": 25,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 12.394605818393703,
+      "2026-10": 11.899848277487045
+    }
+  },
+  {
+    "tpPips": 85,
+    "atrMult": 0.2,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.8,
+    "cooldownBars": 42,
+    "maxDailyLosses": 2,
+    "closed": 78,
+    "wins": 41,
+    "losses": 37,
+    "beCount": 0,
+    "winRate": 52.56410256410257,
+    "cumulativeR": 19.3,
+    "maxDrawdown": 5.8,
+    "calmarRatio": 3.31,
+    "avgTpPips": 85,
+    "sepR": 12.4,
+    "octR": 11.9,
+    "monthlyWins": {
+      "2026-09": 25,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 12.394605818393703,
+      "2026-10": 11.899848277487045
+    }
+  },
+  {
+    "tpPips": 85,
+    "atrMult": 0.2,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.8,
+    "cooldownBars": 48,
+    "maxDailyLosses": 2,
+    "closed": 78,
+    "wins": 41,
+    "losses": 37,
+    "beCount": 0,
+    "winRate": 52.56410256410257,
+    "cumulativeR": 19.3,
+    "maxDrawdown": 5.8,
+    "calmarRatio": 3.31,
+    "avgTpPips": 85,
+    "sepR": 12.4,
+    "octR": 11.9,
+    "monthlyWins": {
+      "2026-09": 25,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 12.394605818393703,
+      "2026-10": 11.899848277487045
+    }
+  },
+  {
+    "tpPips": 85,
+    "atrMult": 0.2,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.8,
+    "cooldownBars": 36,
+    "maxDailyLosses": 2,
+    "closed": 78,
+    "wins": 41,
+    "losses": 37,
+    "beCount": 0,
+    "winRate": 52.56410256410257,
+    "cumulativeR": 17.9,
+    "maxDrawdown": 5.8,
+    "calmarRatio": 3.07,
+    "avgTpPips": 85,
+    "sepR": 12.4,
+    "octR": 10.5,
+    "monthlyWins": {
+      "2026-09": 25,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 12.394605818393703,
+      "2026-10": 10.470505001127524
+    }
+  },
+  {
+    "tpPips": 85,
+    "atrMult": 0.2,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.8,
+    "cooldownBars": 42,
+    "maxDailyLosses": 2,
+    "closed": 78,
+    "wins": 41,
+    "losses": 37,
+    "beCount": 0,
+    "winRate": 52.56410256410257,
+    "cumulativeR": 17.9,
+    "maxDrawdown": 5.8,
+    "calmarRatio": 3.07,
+    "avgTpPips": 85,
+    "sepR": 12.4,
+    "octR": 10.5,
+    "monthlyWins": {
+      "2026-09": 25,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 12.394605818393703,
+      "2026-10": 10.470505001127524
+    }
+  },
+  {
+    "tpPips": 85,
+    "atrMult": 0.2,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.8,
+    "cooldownBars": 48,
+    "maxDailyLosses": 2,
+    "closed": 78,
+    "wins": 41,
+    "losses": 37,
+    "beCount": 0,
+    "winRate": 52.56410256410257,
+    "cumulativeR": 17.9,
+    "maxDrawdown": 5.8,
+    "calmarRatio": 3.07,
+    "avgTpPips": 85,
+    "sepR": 12.4,
+    "octR": 10.5,
+    "monthlyWins": {
+      "2026-09": 25,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 12.394605818393703,
+      "2026-10": 10.470505001127524
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.18,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.8,
+    "cooldownBars": 36,
+    "maxDailyLosses": 2,
+    "closed": 80,
+    "wins": 39,
+    "losses": 37,
+    "beCount": 4,
+    "winRate": 51.31578947368421,
+    "cumulativeR": 20.5,
+    "maxDrawdown": 5.9,
+    "calmarRatio": 3.47,
+    "avgTpPips": 80,
+    "sepR": 10.7,
+    "octR": 14.8,
+    "monthlyWins": {
+      "2026-09": 23,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.661627923288169,
+      "2026-10": 14.84976209940346
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.22,
+    "beTriggerR": 1.3,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.7,
+    "cooldownBars": 24,
+    "maxDailyLosses": 2,
+    "closed": 82,
+    "wins": 39,
+    "losses": 37,
+    "beCount": 6,
+    "winRate": 51.31578947368421,
+    "cumulativeR": 19.9,
+    "maxDrawdown": 5.9,
+    "calmarRatio": 3.38,
+    "avgTpPips": 80,
+    "sepR": 11.7,
+    "octR": 13.2,
+    "monthlyWins": {
+      "2026-09": 25,
+      "2026-10": 14
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 11.696397458221908,
+      "2026-10": 13.237785766795827
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.22,
+    "beTriggerR": 1.3,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.7,
+    "cooldownBars": 30,
+    "maxDailyLosses": 2,
+    "closed": 84,
+    "wins": 39,
+    "losses": 37,
+    "beCount": 8,
+    "winRate": 51.31578947368421,
+    "cumulativeR": 19.9,
+    "maxDrawdown": 5.9,
+    "calmarRatio": 3.38,
+    "avgTpPips": 80,
+    "sepR": 11.7,
+    "octR": 13.2,
+    "monthlyWins": {
+      "2026-09": 25,
+      "2026-10": 14
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 11.696397458221908,
+      "2026-10": 13.237785766795827
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.18,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.8,
+    "cooldownBars": 42,
+    "maxDailyLosses": 2,
+    "closed": 79,
+    "wins": 38,
+    "losses": 37,
+    "beCount": 4,
+    "winRate": 50.66666666666667,
+    "cumulativeR": 19.7,
+    "maxDrawdown": 5.9,
+    "calmarRatio": 3.34,
+    "avgTpPips": 80,
+    "sepR": 10.7,
+    "octR": 14,
+    "monthlyWins": {
+      "2026-09": 23,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.661627923288169,
+      "2026-10": 14.049762099403459
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.18,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.8,
+    "cooldownBars": 48,
+    "maxDailyLosses": 2,
+    "closed": 79,
+    "wins": 38,
+    "losses": 37,
+    "beCount": 4,
+    "winRate": 50.66666666666667,
+    "cumulativeR": 19.7,
+    "maxDrawdown": 5.9,
+    "calmarRatio": 3.34,
+    "avgTpPips": 80,
+    "sepR": 10.7,
+    "octR": 14,
+    "monthlyWins": {
+      "2026-09": 23,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.661627923288169,
+      "2026-10": 14.049762099403459
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.18,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.8,
+    "cooldownBars": 36,
+    "maxDailyLosses": 2,
+    "closed": 80,
+    "wins": 38,
+    "losses": 37,
+    "beCount": 5,
+    "winRate": 50.66666666666667,
+    "cumulativeR": 19.7,
+    "maxDrawdown": 5.9,
+    "calmarRatio": 3.34,
+    "avgTpPips": 80,
+    "sepR": 10.7,
+    "octR": 14,
+    "monthlyWins": {
+      "2026-09": 23,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.661627923288169,
+      "2026-10": 14.049762099403459
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.18,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.8,
+    "cooldownBars": 42,
+    "maxDailyLosses": 2,
+    "closed": 79,
+    "wins": 38,
+    "losses": 37,
+    "beCount": 4,
+    "winRate": 50.66666666666667,
+    "cumulativeR": 19.7,
+    "maxDrawdown": 5.9,
+    "calmarRatio": 3.34,
+    "avgTpPips": 80,
+    "sepR": 10.7,
+    "octR": 14,
+    "monthlyWins": {
+      "2026-09": 23,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.661627923288169,
+      "2026-10": 14.049762099403459
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.18,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.8,
+    "cooldownBars": 48,
+    "maxDailyLosses": 2,
+    "closed": 79,
+    "wins": 38,
+    "losses": 37,
+    "beCount": 4,
+    "winRate": 50.66666666666667,
+    "cumulativeR": 19.7,
+    "maxDrawdown": 5.9,
+    "calmarRatio": 3.34,
+    "avgTpPips": 80,
+    "sepR": 10.7,
+    "octR": 14,
+    "monthlyWins": {
+      "2026-09": 23,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.661627923288169,
+      "2026-10": 14.049762099403459
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.18,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.5,
+    "lockInValR": 0.8,
+    "cooldownBars": 36,
+    "maxDailyLosses": 2,
+    "closed": 80,
+    "wins": 39,
+    "losses": 37,
+    "beCount": 4,
+    "winRate": 51.31578947368421,
+    "cumulativeR": 19.3,
+    "maxDrawdown": 5.9,
+    "calmarRatio": 3.26,
+    "avgTpPips": 80,
+    "sepR": 10.7,
+    "octR": 13.6,
+    "monthlyWins": {
+      "2026-09": 23,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.661627923288169,
+      "2026-10": 13.607356831640896
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.18,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.5,
+    "lockInValR": 0.8,
+    "cooldownBars": 42,
+    "maxDailyLosses": 2,
+    "closed": 79,
+    "wins": 38,
+    "losses": 37,
+    "beCount": 4,
+    "winRate": 50.66666666666667,
+    "cumulativeR": 18.5,
+    "maxDrawdown": 5.9,
+    "calmarRatio": 3.13,
+    "avgTpPips": 80,
+    "sepR": 10.7,
+    "octR": 12.8,
+    "monthlyWins": {
+      "2026-09": 23,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.661627923288169,
+      "2026-10": 12.807356831640899
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.18,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.5,
+    "lockInValR": 0.8,
+    "cooldownBars": 48,
+    "maxDailyLosses": 2,
+    "closed": 79,
+    "wins": 38,
+    "losses": 37,
+    "beCount": 4,
+    "winRate": 50.66666666666667,
+    "cumulativeR": 18.5,
+    "maxDrawdown": 5.9,
+    "calmarRatio": 3.13,
+    "avgTpPips": 80,
+    "sepR": 10.7,
+    "octR": 12.8,
+    "monthlyWins": {
+      "2026-09": 23,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.661627923288169,
+      "2026-10": 12.807356831640899
+    }
+  },
+  {
+    "tpPips": 85,
+    "atrMult": 0.22,
+    "beTriggerR": 1.3,
+    "lockInTriggerR": 1.5,
+    "lockInValR": 0.8,
+    "cooldownBars": 36,
+    "maxDailyLosses": 2,
+    "closed": 83,
+    "wins": 41,
+    "losses": 37,
+    "beCount": 5,
+    "winRate": 52.56410256410257,
+    "cumulativeR": 15.6,
+    "maxDrawdown": 5.9,
+    "calmarRatio": 2.64,
+    "avgTpPips": 85,
+    "sepR": 10.4,
+    "octR": 10.1,
+    "monthlyWins": {
+      "2026-09": 25,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.42482802376439,
+      "2026-10": 10.143886127179401
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.2,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.8,
+    "cooldownBars": 36,
+    "maxDailyLosses": 2,
+    "closed": 78,
+    "wins": 41,
+    "losses": 37,
+    "beCount": 0,
+    "winRate": 52.56410256410257,
+    "cumulativeR": 23.1,
+    "maxDrawdown": 6,
+    "calmarRatio": 3.85,
+    "avgTpPips": 80,
+    "sepR": 12.4,
+    "octR": 15.7,
+    "monthlyWins": {
+      "2026-09": 25,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 12.4045984769766,
+      "2026-10": 15.651772934916604
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.2,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.8,
+    "cooldownBars": 42,
+    "maxDailyLosses": 2,
+    "closed": 78,
+    "wins": 41,
+    "losses": 37,
+    "beCount": 0,
+    "winRate": 52.56410256410257,
+    "cumulativeR": 23.1,
+    "maxDrawdown": 6,
+    "calmarRatio": 3.85,
+    "avgTpPips": 80,
+    "sepR": 12.4,
+    "octR": 15.7,
+    "monthlyWins": {
+      "2026-09": 25,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 12.4045984769766,
+      "2026-10": 15.651772934916604
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.2,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.8,
+    "cooldownBars": 48,
+    "maxDailyLosses": 2,
+    "closed": 78,
+    "wins": 41,
+    "losses": 37,
+    "beCount": 0,
+    "winRate": 52.56410256410257,
+    "cumulativeR": 23.1,
+    "maxDrawdown": 6,
+    "calmarRatio": 3.85,
+    "avgTpPips": 80,
+    "sepR": 12.4,
+    "octR": 15.7,
+    "monthlyWins": {
+      "2026-09": 25,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 12.4045984769766,
+      "2026-10": 15.651772934916604
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.2,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.8,
+    "cooldownBars": 36,
+    "maxDailyLosses": 2,
+    "closed": 78,
+    "wins": 41,
+    "losses": 37,
+    "beCount": 0,
+    "winRate": 52.56410256410257,
+    "cumulativeR": 21.8,
+    "maxDrawdown": 6,
+    "calmarRatio": 3.64,
+    "avgTpPips": 80,
+    "sepR": 12.4,
+    "octR": 14.4,
+    "monthlyWins": {
+      "2026-09": 25,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 12.4045984769766,
+      "2026-10": 14.353567498342938
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.2,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.8,
+    "cooldownBars": 42,
+    "maxDailyLosses": 2,
+    "closed": 78,
+    "wins": 41,
+    "losses": 37,
+    "beCount": 0,
+    "winRate": 52.56410256410257,
+    "cumulativeR": 21.8,
+    "maxDrawdown": 6,
+    "calmarRatio": 3.64,
+    "avgTpPips": 80,
+    "sepR": 12.4,
+    "octR": 14.4,
+    "monthlyWins": {
+      "2026-09": 25,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 12.4045984769766,
+      "2026-10": 14.353567498342938
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.2,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.8,
+    "cooldownBars": 48,
+    "maxDailyLosses": 2,
+    "closed": 78,
+    "wins": 41,
+    "losses": 37,
+    "beCount": 0,
+    "winRate": 52.56410256410257,
+    "cumulativeR": 21.8,
+    "maxDrawdown": 6,
+    "calmarRatio": 3.64,
+    "avgTpPips": 80,
+    "sepR": 12.4,
+    "octR": 14.4,
+    "monthlyWins": {
+      "2026-09": 25,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 12.4045984769766,
+      "2026-10": 14.353567498342938
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.2,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.5,
+    "lockInValR": 0.8,
+    "cooldownBars": 36,
+    "maxDailyLosses": 2,
+    "closed": 78,
+    "wins": 41,
+    "losses": 37,
+    "beCount": 0,
+    "winRate": 52.56410256410257,
+    "cumulativeR": 19.2,
+    "maxDrawdown": 6,
+    "calmarRatio": 3.2,
+    "avgTpPips": 80,
+    "sepR": 11,
+    "octR": 13.2,
+    "monthlyWins": {
+      "2026-09": 25,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 11.007349125586602,
+      "2026-10": 13.152706203195155
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.2,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.5,
+    "lockInValR": 0.8,
+    "cooldownBars": 42,
+    "maxDailyLosses": 2,
+    "closed": 78,
+    "wins": 41,
+    "losses": 37,
+    "beCount": 0,
+    "winRate": 52.56410256410257,
+    "cumulativeR": 19.2,
+    "maxDrawdown": 6,
+    "calmarRatio": 3.2,
+    "avgTpPips": 80,
+    "sepR": 11,
+    "octR": 13.2,
+    "monthlyWins": {
+      "2026-09": 25,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 11.007349125586602,
+      "2026-10": 13.152706203195155
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.2,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.5,
+    "lockInValR": 0.8,
+    "cooldownBars": 48,
+    "maxDailyLosses": 2,
+    "closed": 78,
+    "wins": 41,
+    "losses": 37,
+    "beCount": 0,
+    "winRate": 52.56410256410257,
+    "cumulativeR": 19.2,
+    "maxDrawdown": 6,
+    "calmarRatio": 3.2,
+    "avgTpPips": 80,
+    "sepR": 11,
+    "octR": 13.2,
+    "monthlyWins": {
+      "2026-09": 25,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 11.007349125586602,
+      "2026-10": 13.152706203195155
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.22,
+    "beTriggerR": 1.3,
+    "lockInTriggerR": 1.5,
+    "lockInValR": 0.8,
+    "cooldownBars": 36,
+    "maxDailyLosses": 2,
+    "closed": 83,
+    "wins": 41,
+    "losses": 37,
+    "beCount": 5,
+    "winRate": 52.56410256410257,
+    "cumulativeR": 21.2,
+    "maxDrawdown": 6.1,
+    "calmarRatio": 3.5,
+    "avgTpPips": 80,
+    "sepR": 12.3,
+    "octR": 13.9,
+    "monthlyWins": {
+      "2026-09": 25,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 12.302837883710092,
+      "2026-10": 13.880204478666123
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.22,
+    "beTriggerR": 1.3,
+    "lockInTriggerR": 1.5,
+    "lockInValR": 0.8,
+    "cooldownBars": 42,
+    "maxDailyLosses": 2,
+    "closed": 82,
+    "wins": 40,
+    "losses": 37,
+    "beCount": 5,
+    "winRate": 51.94805194805194,
+    "cumulativeR": 20.4,
+    "maxDrawdown": 6.1,
+    "calmarRatio": 3.36,
+    "avgTpPips": 80,
+    "sepR": 12.3,
+    "octR": 13.1,
+    "monthlyWins": {
+      "2026-09": 25,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 12.302837883710092,
+      "2026-10": 13.080204478666122
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.22,
+    "beTriggerR": 1.3,
+    "lockInTriggerR": 1.5,
+    "lockInValR": 0.8,
+    "cooldownBars": 48,
+    "maxDailyLosses": 2,
+    "closed": 82,
+    "wins": 40,
+    "losses": 37,
+    "beCount": 5,
+    "winRate": 51.94805194805194,
+    "cumulativeR": 20.4,
+    "maxDrawdown": 6.1,
+    "calmarRatio": 3.36,
+    "avgTpPips": 80,
+    "sepR": 12.3,
+    "octR": 13.1,
+    "monthlyWins": {
+      "2026-09": 25,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 12.302837883710092,
+      "2026-10": 13.080204478666122
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.22,
+    "beTriggerR": 1.3,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.8,
+    "cooldownBars": 36,
+    "maxDailyLosses": 2,
+    "closed": 83,
+    "wins": 40,
+    "losses": 37,
+    "beCount": 6,
+    "winRate": 51.94805194805194,
+    "cumulativeR": 20.4,
+    "maxDrawdown": 6.1,
+    "calmarRatio": 3.36,
+    "avgTpPips": 80,
+    "sepR": 12.3,
+    "octR": 13.1,
+    "monthlyWins": {
+      "2026-09": 25,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 12.302837883710092,
+      "2026-10": 13.080204478666122
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.22,
+    "beTriggerR": 1.3,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.8,
+    "cooldownBars": 42,
+    "maxDailyLosses": 2,
+    "closed": 82,
+    "wins": 40,
+    "losses": 37,
+    "beCount": 5,
+    "winRate": 51.94805194805194,
+    "cumulativeR": 20.4,
+    "maxDrawdown": 6.1,
+    "calmarRatio": 3.36,
+    "avgTpPips": 80,
+    "sepR": 12.3,
+    "octR": 13.1,
+    "monthlyWins": {
+      "2026-09": 25,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 12.302837883710092,
+      "2026-10": 13.080204478666122
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.22,
+    "beTriggerR": 1.3,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.8,
+    "cooldownBars": 48,
+    "maxDailyLosses": 2,
+    "closed": 82,
+    "wins": 40,
+    "losses": 37,
+    "beCount": 5,
+    "winRate": 51.94805194805194,
+    "cumulativeR": 20.4,
+    "maxDrawdown": 6.1,
+    "calmarRatio": 3.36,
+    "avgTpPips": 80,
+    "sepR": 12.3,
+    "octR": 13.1,
+    "monthlyWins": {
+      "2026-09": 25,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 12.302837883710092,
+      "2026-10": 13.080204478666122
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.22,
+    "beTriggerR": 1.3,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.8,
+    "cooldownBars": 36,
+    "maxDailyLosses": 2,
+    "closed": 83,
+    "wins": 38,
+    "losses": 37,
+    "beCount": 8,
+    "winRate": 50.66666666666667,
+    "cumulativeR": 20,
+    "maxDrawdown": 6.1,
+    "calmarRatio": 3.31,
+    "avgTpPips": 80,
+    "sepR": 11.5,
+    "octR": 13.5,
+    "monthlyWins": {
+      "2026-09": 24,
+      "2026-10": 14
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 11.502837883710091,
+      "2026-10": 13.537785766795828
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.22,
+    "beTriggerR": 1.3,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.8,
+    "cooldownBars": 42,
+    "maxDailyLosses": 2,
+    "closed": 82,
+    "wins": 38,
+    "losses": 37,
+    "beCount": 7,
+    "winRate": 50.66666666666667,
+    "cumulativeR": 20,
+    "maxDrawdown": 6.1,
+    "calmarRatio": 3.31,
+    "avgTpPips": 80,
+    "sepR": 11.5,
+    "octR": 13.5,
+    "monthlyWins": {
+      "2026-09": 24,
+      "2026-10": 14
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 11.502837883710091,
+      "2026-10": 13.537785766795828
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.22,
+    "beTriggerR": 1.3,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.8,
+    "cooldownBars": 48,
+    "maxDailyLosses": 2,
+    "closed": 82,
+    "wins": 38,
+    "losses": 37,
+    "beCount": 7,
+    "winRate": 50.66666666666667,
+    "cumulativeR": 20,
+    "maxDrawdown": 6.1,
+    "calmarRatio": 3.31,
+    "avgTpPips": 80,
+    "sepR": 11.5,
+    "octR": 13.5,
+    "monthlyWins": {
+      "2026-09": 24,
+      "2026-10": 14
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 11.502837883710091,
+      "2026-10": 13.537785766795828
+    }
+  },
+  {
+    "tpPips": 85,
+    "atrMult": 0.2,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.7,
+    "cooldownBars": 36,
+    "maxDailyLosses": 2,
+    "closed": 78,
+    "wins": 41,
+    "losses": 37,
+    "beCount": 0,
+    "winRate": 52.56410256410257,
+    "cumulativeR": 16.7,
+    "maxDrawdown": 6.1,
+    "calmarRatio": 2.73,
+    "avgTpPips": 85,
+    "sepR": 10.6,
+    "octR": 11.1,
+    "monthlyWins": {
+      "2026-09": 25,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.594605818393697,
+      "2026-10": 11.099848277487041
+    }
+  },
+  {
+    "tpPips": 85,
+    "atrMult": 0.2,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.7,
+    "cooldownBars": 42,
+    "maxDailyLosses": 2,
+    "closed": 78,
+    "wins": 41,
+    "losses": 37,
+    "beCount": 0,
+    "winRate": 52.56410256410257,
+    "cumulativeR": 16.7,
+    "maxDrawdown": 6.1,
+    "calmarRatio": 2.73,
+    "avgTpPips": 85,
+    "sepR": 10.6,
+    "octR": 11.1,
+    "monthlyWins": {
+      "2026-09": 25,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.594605818393697,
+      "2026-10": 11.099848277487041
+    }
+  },
+  {
+    "tpPips": 85,
+    "atrMult": 0.2,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.7,
+    "cooldownBars": 48,
+    "maxDailyLosses": 2,
+    "closed": 78,
+    "wins": 41,
+    "losses": 37,
+    "beCount": 0,
+    "winRate": 52.56410256410257,
+    "cumulativeR": 16.7,
+    "maxDrawdown": 6.1,
+    "calmarRatio": 2.73,
+    "avgTpPips": 85,
+    "sepR": 10.6,
+    "octR": 11.1,
+    "monthlyWins": {
+      "2026-09": 25,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.594605818393697,
+      "2026-10": 11.099848277487041
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.22,
+    "beTriggerR": 1.3,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.6,
+    "cooldownBars": 24,
+    "maxDailyLosses": 2,
+    "closed": 82,
+    "wins": 39,
+    "losses": 37,
+    "beCount": 6,
+    "winRate": 51.31578947368421,
+    "cumulativeR": 20.8,
+    "maxDrawdown": 6.2,
+    "calmarRatio": 3.36,
+    "avgTpPips": 80,
+    "sepR": 10.1,
+    "octR": 15.7,
+    "monthlyWins": {
+      "2026-09": 25,
+      "2026-10": 14
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.096397458221912,
+      "2026-10": 15.727138906018098
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.22,
+    "beTriggerR": 1.3,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.6,
+    "cooldownBars": 30,
+    "maxDailyLosses": 2,
+    "closed": 84,
+    "wins": 39,
+    "losses": 37,
+    "beCount": 8,
+    "winRate": 51.31578947368421,
+    "cumulativeR": 20.8,
+    "maxDrawdown": 6.2,
+    "calmarRatio": 3.36,
+    "avgTpPips": 80,
+    "sepR": 10.1,
+    "octR": 15.7,
+    "monthlyWins": {
+      "2026-09": 25,
+      "2026-10": 14
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.096397458221912,
+      "2026-10": 15.727138906018098
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.2,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.7,
+    "cooldownBars": 36,
+    "maxDailyLosses": 2,
+    "closed": 78,
+    "wins": 41,
+    "losses": 37,
+    "beCount": 0,
+    "winRate": 52.56410256410257,
+    "cumulativeR": 20.9,
+    "maxDrawdown": 6.3,
+    "calmarRatio": 3.32,
+    "avgTpPips": 80,
+    "sepR": 10.7,
+    "octR": 15.2,
+    "monthlyWins": {
+      "2026-09": 25,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.704598476976592,
+      "2026-10": 15.151772934916604
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.2,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.7,
+    "cooldownBars": 42,
+    "maxDailyLosses": 2,
+    "closed": 78,
+    "wins": 41,
+    "losses": 37,
+    "beCount": 0,
+    "winRate": 52.56410256410257,
+    "cumulativeR": 20.9,
+    "maxDrawdown": 6.3,
+    "calmarRatio": 3.32,
+    "avgTpPips": 80,
+    "sepR": 10.7,
+    "octR": 15.2,
+    "monthlyWins": {
+      "2026-09": 25,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.704598476976592,
+      "2026-10": 15.151772934916604
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.2,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.7,
+    "cooldownBars": 48,
+    "maxDailyLosses": 2,
+    "closed": 78,
+    "wins": 41,
+    "losses": 37,
+    "beCount": 0,
+    "winRate": 52.56410256410257,
+    "cumulativeR": 20.9,
+    "maxDrawdown": 6.3,
+    "calmarRatio": 3.32,
+    "avgTpPips": 80,
+    "sepR": 10.7,
+    "octR": 15.2,
+    "monthlyWins": {
+      "2026-09": 25,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.704598476976592,
+      "2026-10": 15.151772934916604
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.2,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.7,
+    "cooldownBars": 36,
+    "maxDailyLosses": 2,
+    "closed": 78,
+    "wins": 41,
+    "losses": 37,
+    "beCount": 0,
+    "winRate": 52.56410256410257,
+    "cumulativeR": 19.5,
+    "maxDrawdown": 6.3,
+    "calmarRatio": 3.1,
+    "avgTpPips": 80,
+    "sepR": 10.7,
+    "octR": 13.8,
+    "monthlyWins": {
+      "2026-09": 25,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.704598476976592,
+      "2026-10": 13.753567498342937
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.2,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.7,
+    "cooldownBars": 42,
+    "maxDailyLosses": 2,
+    "closed": 78,
+    "wins": 41,
+    "losses": 37,
+    "beCount": 0,
+    "winRate": 52.56410256410257,
+    "cumulativeR": 19.5,
+    "maxDrawdown": 6.3,
+    "calmarRatio": 3.1,
+    "avgTpPips": 80,
+    "sepR": 10.7,
+    "octR": 13.8,
+    "monthlyWins": {
+      "2026-09": 25,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.704598476976592,
+      "2026-10": 13.753567498342937
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.2,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.7,
+    "cooldownBars": 48,
+    "maxDailyLosses": 2,
+    "closed": 78,
+    "wins": 41,
+    "losses": 37,
+    "beCount": 0,
+    "winRate": 52.56410256410257,
+    "cumulativeR": 19.5,
+    "maxDrawdown": 6.3,
+    "calmarRatio": 3.1,
+    "avgTpPips": 80,
+    "sepR": 10.7,
+    "octR": 13.8,
+    "monthlyWins": {
+      "2026-09": 25,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.704598476976592,
+      "2026-10": 13.753567498342937
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.22,
+    "beTriggerR": 1.3,
+    "lockInTriggerR": 1.5,
+    "lockInValR": 0.7,
+    "cooldownBars": 36,
+    "maxDailyLosses": 2,
+    "closed": 83,
+    "wins": 41,
+    "losses": 37,
+    "beCount": 5,
+    "winRate": 52.56410256410257,
+    "cumulativeR": 18.9,
+    "maxDrawdown": 6.4,
+    "calmarRatio": 2.97,
+    "avgTpPips": 80,
+    "sepR": 10.6,
+    "octR": 13.3,
+    "monthlyWins": {
+      "2026-09": 25,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.602837883710082,
+      "2026-10": 13.280204478666121
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.22,
+    "beTriggerR": 1.3,
+    "lockInTriggerR": 1.5,
+    "lockInValR": 0.7,
+    "cooldownBars": 42,
+    "maxDailyLosses": 2,
+    "closed": 82,
+    "wins": 40,
+    "losses": 37,
+    "beCount": 5,
+    "winRate": 51.94805194805194,
+    "cumulativeR": 18.2,
+    "maxDrawdown": 6.4,
+    "calmarRatio": 2.86,
+    "avgTpPips": 80,
+    "sepR": 10.6,
+    "octR": 12.6,
+    "monthlyWins": {
+      "2026-09": 25,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.602837883710082,
+      "2026-10": 12.580204478666122
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.22,
+    "beTriggerR": 1.3,
+    "lockInTriggerR": 1.5,
+    "lockInValR": 0.7,
+    "cooldownBars": 48,
+    "maxDailyLosses": 2,
+    "closed": 82,
+    "wins": 40,
+    "losses": 37,
+    "beCount": 5,
+    "winRate": 51.94805194805194,
+    "cumulativeR": 18.2,
+    "maxDrawdown": 6.4,
+    "calmarRatio": 2.86,
+    "avgTpPips": 80,
+    "sepR": 10.6,
+    "octR": 12.6,
+    "monthlyWins": {
+      "2026-09": 25,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.602837883710082,
+      "2026-10": 12.580204478666122
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.22,
+    "beTriggerR": 1.3,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.7,
+    "cooldownBars": 36,
+    "maxDailyLosses": 2,
+    "closed": 83,
+    "wins": 40,
+    "losses": 37,
+    "beCount": 6,
+    "winRate": 51.94805194805194,
+    "cumulativeR": 18.2,
+    "maxDrawdown": 6.4,
+    "calmarRatio": 2.86,
+    "avgTpPips": 80,
+    "sepR": 10.6,
+    "octR": 12.6,
+    "monthlyWins": {
+      "2026-09": 25,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.602837883710082,
+      "2026-10": 12.580204478666122
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.22,
+    "beTriggerR": 1.3,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.7,
+    "cooldownBars": 42,
+    "maxDailyLosses": 2,
+    "closed": 82,
+    "wins": 40,
+    "losses": 37,
+    "beCount": 5,
+    "winRate": 51.94805194805194,
+    "cumulativeR": 18.2,
+    "maxDrawdown": 6.4,
+    "calmarRatio": 2.86,
+    "avgTpPips": 80,
+    "sepR": 10.6,
+    "octR": 12.6,
+    "monthlyWins": {
+      "2026-09": 25,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.602837883710082,
+      "2026-10": 12.580204478666122
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.22,
+    "beTriggerR": 1.3,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.7,
+    "cooldownBars": 48,
+    "maxDailyLosses": 2,
+    "closed": 82,
+    "wins": 40,
+    "losses": 37,
+    "beCount": 5,
+    "winRate": 51.94805194805194,
+    "cumulativeR": 18.2,
+    "maxDrawdown": 6.4,
+    "calmarRatio": 2.86,
+    "avgTpPips": 80,
+    "sepR": 10.6,
+    "octR": 12.6,
+    "monthlyWins": {
+      "2026-09": 25,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 20,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.602837883710082,
+      "2026-10": 12.580204478666122
+    }
+  },
+  {
+    "tpPips": 85,
+    "atrMult": 0.22,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.8,
+    "cooldownBars": 36,
+    "maxDailyLosses": 2,
+    "closed": 78,
+    "wins": 40,
+    "losses": 38,
+    "beCount": 0,
+    "winRate": 51.28205128205128,
+    "cumulativeR": 15.3,
+    "maxDrawdown": 6.7,
+    "calmarRatio": 2.28,
+    "avgTpPips": 85,
+    "sepR": 10.1,
+    "octR": 10.1,
+    "monthlyWins": {
+      "2026-09": 24,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 21,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.117782687984322,
+      "2026-10": 10.143886127179401
+    }
+  },
+  {
+    "tpPips": 85,
+    "atrMult": 0.22,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.8,
+    "cooldownBars": 42,
+    "maxDailyLosses": 2,
+    "closed": 78,
+    "wins": 40,
+    "losses": 38,
+    "beCount": 0,
+    "winRate": 51.28205128205128,
+    "cumulativeR": 15.3,
+    "maxDrawdown": 6.7,
+    "calmarRatio": 2.28,
+    "avgTpPips": 85,
+    "sepR": 10.1,
+    "octR": 10.1,
+    "monthlyWins": {
+      "2026-09": 24,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 21,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.117782687984322,
+      "2026-10": 10.143886127179401
+    }
+  },
+  {
+    "tpPips": 85,
+    "atrMult": 0.22,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.8,
+    "cooldownBars": 48,
+    "maxDailyLosses": 2,
+    "closed": 78,
+    "wins": 40,
+    "losses": 38,
+    "beCount": 0,
+    "winRate": 51.28205128205128,
+    "cumulativeR": 15.3,
+    "maxDrawdown": 6.7,
+    "calmarRatio": 2.28,
+    "avgTpPips": 85,
+    "sepR": 10.1,
+    "octR": 10.1,
+    "monthlyWins": {
+      "2026-09": 24,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 21,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.117782687984322,
+      "2026-10": 10.143886127179401
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.22,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.8,
+    "cooldownBars": 36,
+    "maxDailyLosses": 2,
+    "closed": 78,
+    "wins": 40,
+    "losses": 38,
+    "beCount": 0,
+    "winRate": 51.28205128205128,
+    "cumulativeR": 19,
+    "maxDrawdown": 6.9,
+    "calmarRatio": 2.77,
+    "avgTpPips": 80,
+    "sepR": 10.1,
+    "octR": 13.9,
+    "monthlyWins": {
+      "2026-09": 24,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 21,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.099467747176861,
+      "2026-10": 13.880204478666123
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.22,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.8,
+    "cooldownBars": 42,
+    "maxDailyLosses": 2,
+    "closed": 78,
+    "wins": 40,
+    "losses": 38,
+    "beCount": 0,
+    "winRate": 51.28205128205128,
+    "cumulativeR": 19,
+    "maxDrawdown": 6.9,
+    "calmarRatio": 2.77,
+    "avgTpPips": 80,
+    "sepR": 10.1,
+    "octR": 13.9,
+    "monthlyWins": {
+      "2026-09": 24,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 21,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.099467747176861,
+      "2026-10": 13.880204478666123
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.22,
+    "beTriggerR": 1.4,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.8,
+    "cooldownBars": 48,
+    "maxDailyLosses": 2,
+    "closed": 78,
+    "wins": 40,
+    "losses": 38,
+    "beCount": 0,
+    "winRate": 51.28205128205128,
+    "cumulativeR": 19,
+    "maxDrawdown": 6.9,
+    "calmarRatio": 2.77,
+    "avgTpPips": 80,
+    "sepR": 10.1,
+    "octR": 13.9,
+    "monthlyWins": {
+      "2026-09": 24,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 21,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.099467747176861,
+      "2026-10": 13.880204478666123
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.22,
+    "beTriggerR": 1.2,
+    "lockInTriggerR": 1.5,
+    "lockInValR": 0.8,
+    "cooldownBars": 30,
+    "maxDailyLosses": 2,
+    "closed": 83,
+    "wins": 39,
+    "losses": 36,
+    "beCount": 8,
+    "winRate": 52,
+    "cumulativeR": 19.6,
+    "maxDrawdown": 8.2,
+    "calmarRatio": 2.39,
+    "avgTpPips": 80,
+    "sepR": 12.8,
+    "octR": 14.8,
+    "monthlyWins": {
+      "2026-09": 24,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 18,
+      "2026-10": 10
+    },
+    "monthlyR": {
+      "2026-09": 12.757024370768951,
+      "2026-10": 14.817507516222065
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.18,
+    "beTriggerR": 1.3,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.8,
+    "cooldownBars": 30,
+    "maxDailyLosses": 2,
+    "closed": 80,
+    "wins": 37,
+    "losses": 37,
+    "beCount": 6,
+    "winRate": 50,
+    "cumulativeR": 19,
+    "maxDrawdown": 8.2,
+    "calmarRatio": 2.31,
+    "avgTpPips": 80,
+    "sepR": 10.2,
+    "octR": 15.7,
+    "monthlyWins": {
+      "2026-09": 21,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 18,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.236041050006873,
+      "2026-10": 15.733108849192046
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.22,
+    "beTriggerR": 1.2,
+    "lockInTriggerR": 1.5,
+    "lockInValR": 0.8,
+    "cooldownBars": 24,
+    "maxDailyLosses": 2,
+    "closed": 81,
+    "wins": 38,
+    "losses": 36,
+    "beCount": 7,
+    "winRate": 51.35135135135135,
+    "cumulativeR": 18.8,
+    "maxDrawdown": 8.2,
+    "calmarRatio": 2.29,
+    "avgTpPips": 80,
+    "sepR": 12.8,
+    "octR": 14,
+    "monthlyWins": {
+      "2026-09": 24,
+      "2026-10": 14
+    },
+    "monthlyLosses": {
+      "2026-09": 18,
+      "2026-10": 10
+    },
+    "monthlyR": {
+      "2026-09": 12.757024370768951,
+      "2026-10": 14.017507516222068
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.22,
+    "beTriggerR": 1.2,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.8,
+    "cooldownBars": 24,
+    "maxDailyLosses": 2,
+    "closed": 81,
+    "wins": 38,
+    "losses": 36,
+    "beCount": 7,
+    "winRate": 51.35135135135135,
+    "cumulativeR": 18.8,
+    "maxDrawdown": 8.2,
+    "calmarRatio": 2.29,
+    "avgTpPips": 80,
+    "sepR": 12.8,
+    "octR": 14,
+    "monthlyWins": {
+      "2026-09": 24,
+      "2026-10": 14
+    },
+    "monthlyLosses": {
+      "2026-09": 18,
+      "2026-10": 10
+    },
+    "monthlyR": {
+      "2026-09": 12.757024370768951,
+      "2026-10": 14.017507516222068
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.22,
+    "beTriggerR": 1.2,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.8,
+    "cooldownBars": 30,
+    "maxDailyLosses": 2,
+    "closed": 83,
+    "wins": 38,
+    "losses": 36,
+    "beCount": 9,
+    "winRate": 51.35135135135135,
+    "cumulativeR": 18.8,
+    "maxDrawdown": 8.2,
+    "calmarRatio": 2.29,
+    "avgTpPips": 80,
+    "sepR": 12.8,
+    "octR": 14,
+    "monthlyWins": {
+      "2026-09": 24,
+      "2026-10": 14
+    },
+    "monthlyLosses": {
+      "2026-09": 18,
+      "2026-10": 10
+    },
+    "monthlyR": {
+      "2026-09": 12.757024370768951,
+      "2026-10": 14.017507516222068
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.2,
+    "beTriggerR": 1.3,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.8,
+    "cooldownBars": 24,
+    "maxDailyLosses": 2,
+    "closed": 80,
+    "wins": 38,
+    "losses": 37,
+    "beCount": 5,
+    "winRate": 50.66666666666667,
+    "cumulativeR": 18.4,
+    "maxDrawdown": 8.2,
+    "calmarRatio": 2.25,
+    "avgTpPips": 80,
+    "sepR": 12.4,
+    "octR": 13,
+    "monthlyWins": {
+      "2026-09": 23,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 18,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 12.445949608294997,
+      "2026-10": 12.96649980592346
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.2,
+    "beTriggerR": 1.3,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.8,
+    "cooldownBars": 30,
+    "maxDailyLosses": 2,
+    "closed": 82,
+    "wins": 38,
+    "losses": 37,
+    "beCount": 7,
+    "winRate": 50.66666666666667,
+    "cumulativeR": 18.4,
+    "maxDrawdown": 8.2,
+    "calmarRatio": 2.25,
+    "avgTpPips": 80,
+    "sepR": 12.4,
+    "octR": 13,
+    "monthlyWins": {
+      "2026-09": 23,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 18,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 12.445949608294997,
+      "2026-10": 12.96649980592346
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.22,
+    "beTriggerR": 1.2,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.8,
+    "cooldownBars": 24,
+    "maxDailyLosses": 2,
+    "closed": 81,
+    "wins": 36,
+    "losses": 36,
+    "beCount": 9,
+    "winRate": 50,
+    "cumulativeR": 18.4,
+    "maxDrawdown": 8.2,
+    "calmarRatio": 2.25,
+    "avgTpPips": 80,
+    "sepR": 12,
+    "octR": 14.5,
+    "monthlyWins": {
+      "2026-09": 23,
+      "2026-10": 13
+    },
+    "monthlyLosses": {
+      "2026-09": 18,
+      "2026-10": 10
+    },
+    "monthlyR": {
+      "2026-09": 11.95702437076895,
+      "2026-10": 14.47508880435177
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.22,
+    "beTriggerR": 1.2,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.8,
+    "cooldownBars": 30,
+    "maxDailyLosses": 2,
+    "closed": 83,
+    "wins": 36,
+    "losses": 36,
+    "beCount": 11,
+    "winRate": 50,
+    "cumulativeR": 18.4,
+    "maxDrawdown": 8.2,
+    "calmarRatio": 2.25,
+    "avgTpPips": 80,
+    "sepR": 12,
+    "octR": 14.5,
+    "monthlyWins": {
+      "2026-09": 23,
+      "2026-10": 13
+    },
+    "monthlyLosses": {
+      "2026-09": 18,
+      "2026-10": 10
+    },
+    "monthlyR": {
+      "2026-09": 11.95702437076895,
+      "2026-10": 14.47508880435177
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.18,
+    "beTriggerR": 1.3,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.8,
+    "cooldownBars": 24,
+    "maxDailyLosses": 2,
+    "closed": 78,
+    "wins": 36,
+    "losses": 37,
+    "beCount": 5,
+    "winRate": 49.31506849315068,
+    "cumulativeR": 18.2,
+    "maxDrawdown": 8.2,
+    "calmarRatio": 2.22,
+    "avgTpPips": 80,
+    "sepR": 10.2,
+    "octR": 14.9,
+    "monthlyWins": {
+      "2026-09": 21,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 18,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.236041050006873,
+      "2026-10": 14.933108849192045
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.18,
+    "beTriggerR": 1.3,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.8,
+    "cooldownBars": 24,
+    "maxDailyLosses": 2,
+    "closed": 78,
+    "wins": 36,
+    "losses": 37,
+    "beCount": 5,
+    "winRate": 49.31506849315068,
+    "cumulativeR": 18.2,
+    "maxDrawdown": 8.2,
+    "calmarRatio": 2.22,
+    "avgTpPips": 80,
+    "sepR": 10.2,
+    "octR": 14.9,
+    "monthlyWins": {
+      "2026-09": 21,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 18,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.236041050006873,
+      "2026-10": 14.933108849192045
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.18,
+    "beTriggerR": 1.3,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.8,
+    "cooldownBars": 30,
+    "maxDailyLosses": 2,
+    "closed": 80,
+    "wins": 36,
+    "losses": 37,
+    "beCount": 7,
+    "winRate": 49.31506849315068,
+    "cumulativeR": 18.2,
+    "maxDrawdown": 8.2,
+    "calmarRatio": 2.22,
+    "avgTpPips": 80,
+    "sepR": 10.2,
+    "octR": 14.9,
+    "monthlyWins": {
+      "2026-09": 21,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 18,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.236041050006873,
+      "2026-10": 14.933108849192045
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.18,
+    "beTriggerR": 1.3,
+    "lockInTriggerR": 1.5,
+    "lockInValR": 0.8,
+    "cooldownBars": 30,
+    "maxDailyLosses": 2,
+    "closed": 80,
+    "wins": 37,
+    "losses": 37,
+    "beCount": 6,
+    "winRate": 50,
+    "cumulativeR": 17.7,
+    "maxDrawdown": 8.2,
+    "calmarRatio": 2.16,
+    "avgTpPips": 80,
+    "sepR": 10.2,
+    "octR": 14.5,
+    "monthlyWins": {
+      "2026-09": 21,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 18,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.236041050006873,
+      "2026-10": 14.490703581429486
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.2,
+    "beTriggerR": 1.3,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.8,
+    "cooldownBars": 24,
+    "maxDailyLosses": 2,
+    "closed": 80,
+    "wins": 38,
+    "losses": 37,
+    "beCount": 5,
+    "winRate": 50.66666666666667,
+    "cumulativeR": 17.1,
+    "maxDrawdown": 8.2,
+    "calmarRatio": 2.09,
+    "avgTpPips": 80,
+    "sepR": 12.4,
+    "octR": 11.7,
+    "monthlyWins": {
+      "2026-09": 23,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 18,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 12.445949608294997,
+      "2026-10": 11.668294369349793
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.2,
+    "beTriggerR": 1.3,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.8,
+    "cooldownBars": 30,
+    "maxDailyLosses": 2,
+    "closed": 82,
+    "wins": 38,
+    "losses": 37,
+    "beCount": 7,
+    "winRate": 50.66666666666667,
+    "cumulativeR": 17.1,
+    "maxDrawdown": 8.2,
+    "calmarRatio": 2.09,
+    "avgTpPips": 80,
+    "sepR": 12.4,
+    "octR": 11.7,
+    "monthlyWins": {
+      "2026-09": 23,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 18,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 12.445949608294997,
+      "2026-10": 11.668294369349793
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.18,
+    "beTriggerR": 1.3,
+    "lockInTriggerR": 1.5,
+    "lockInValR": 0.8,
+    "cooldownBars": 24,
+    "maxDailyLosses": 2,
+    "closed": 78,
+    "wins": 36,
+    "losses": 37,
+    "beCount": 5,
+    "winRate": 49.31506849315068,
+    "cumulativeR": 16.9,
+    "maxDrawdown": 8.2,
+    "calmarRatio": 2.06,
+    "avgTpPips": 80,
+    "sepR": 10.2,
+    "octR": 13.7,
+    "monthlyWins": {
+      "2026-09": 21,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 18,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.236041050006873,
+      "2026-10": 13.690703581429485
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.2,
+    "beTriggerR": 1.3,
+    "lockInTriggerR": 1.5,
+    "lockInValR": 0.8,
+    "cooldownBars": 30,
+    "maxDailyLosses": 2,
+    "closed": 82,
+    "wins": 39,
+    "losses": 37,
+    "beCount": 6,
+    "winRate": 51.31578947368421,
+    "cumulativeR": 16.7,
+    "maxDrawdown": 8.2,
+    "calmarRatio": 2.04,
+    "avgTpPips": 80,
+    "sepR": 12.4,
+    "octR": 11.3,
+    "monthlyWins": {
+      "2026-09": 23,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 18,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 12.445949608294997,
+      "2026-10": 11.26743307420201
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.2,
+    "beTriggerR": 1.3,
+    "lockInTriggerR": 1.5,
+    "lockInValR": 0.8,
+    "cooldownBars": 24,
+    "maxDailyLosses": 2,
+    "closed": 80,
+    "wins": 38,
+    "losses": 37,
+    "beCount": 5,
+    "winRate": 50.66666666666667,
+    "cumulativeR": 15.9,
+    "maxDrawdown": 8.2,
+    "calmarRatio": 1.94,
+    "avgTpPips": 80,
+    "sepR": 12.4,
+    "octR": 10.5,
+    "monthlyWins": {
+      "2026-09": 23,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 18,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 12.445949608294997,
+      "2026-10": 10.467433074202008
+    }
+  },
+  {
+    "tpPips": 85,
+    "atrMult": 0.22,
+    "beTriggerR": 1.2,
+    "lockInTriggerR": 1.5,
+    "lockInValR": 0.8,
+    "cooldownBars": 30,
+    "maxDailyLosses": 2,
+    "closed": 83,
+    "wins": 39,
+    "losses": 36,
+    "beCount": 8,
+    "winRate": 52,
+    "cumulativeR": 15.8,
+    "maxDrawdown": 8.2,
+    "calmarRatio": 1.93,
+    "avgTpPips": 85,
+    "sepR": 10.8,
+    "octR": 13,
+    "monthlyWins": {
+      "2026-09": 24,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 18,
+      "2026-10": 10
+    },
+    "monthlyR": {
+      "2026-09": 10.832401166264427,
+      "2026-10": 12.998339252810448
+    }
+  },
+  {
+    "tpPips": 85,
+    "atrMult": 0.22,
+    "beTriggerR": 1.2,
+    "lockInTriggerR": 1.5,
+    "lockInValR": 0.8,
+    "cooldownBars": 24,
+    "maxDailyLosses": 2,
+    "closed": 81,
+    "wins": 38,
+    "losses": 36,
+    "beCount": 7,
+    "winRate": 51.35135135135135,
+    "cumulativeR": 15,
+    "maxDrawdown": 8.2,
+    "calmarRatio": 1.83,
+    "avgTpPips": 85,
+    "sepR": 10.8,
+    "octR": 12.2,
+    "monthlyWins": {
+      "2026-09": 24,
+      "2026-10": 14
+    },
+    "monthlyLosses": {
+      "2026-09": 18,
+      "2026-10": 10
+    },
+    "monthlyR": {
+      "2026-09": 10.832401166264427,
+      "2026-10": 12.198339252810447
+    }
+  },
+  {
+    "tpPips": 85,
+    "atrMult": 0.22,
+    "beTriggerR": 1.2,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.8,
+    "cooldownBars": 24,
+    "maxDailyLosses": 2,
+    "closed": 81,
+    "wins": 38,
+    "losses": 36,
+    "beCount": 7,
+    "winRate": 51.35135135135135,
+    "cumulativeR": 15,
+    "maxDrawdown": 8.2,
+    "calmarRatio": 1.83,
+    "avgTpPips": 85,
+    "sepR": 10.8,
+    "octR": 12.2,
+    "monthlyWins": {
+      "2026-09": 24,
+      "2026-10": 14
+    },
+    "monthlyLosses": {
+      "2026-09": 18,
+      "2026-10": 10
+    },
+    "monthlyR": {
+      "2026-09": 10.832401166264427,
+      "2026-10": 12.198339252810447
+    }
+  },
+  {
+    "tpPips": 85,
+    "atrMult": 0.22,
+    "beTriggerR": 1.2,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.8,
+    "cooldownBars": 30,
+    "maxDailyLosses": 2,
+    "closed": 83,
+    "wins": 38,
+    "losses": 36,
+    "beCount": 9,
+    "winRate": 51.35135135135135,
+    "cumulativeR": 15,
+    "maxDrawdown": 8.2,
+    "calmarRatio": 1.83,
+    "avgTpPips": 85,
+    "sepR": 10.8,
+    "octR": 12.2,
+    "monthlyWins": {
+      "2026-09": 24,
+      "2026-10": 14
+    },
+    "monthlyLosses": {
+      "2026-09": 18,
+      "2026-10": 10
+    },
+    "monthlyR": {
+      "2026-09": 10.832401166264427,
+      "2026-10": 12.198339252810447
+    }
+  },
+  {
+    "tpPips": 85,
+    "atrMult": 0.22,
+    "beTriggerR": 1.2,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.8,
+    "cooldownBars": 24,
+    "maxDailyLosses": 2,
+    "closed": 81,
+    "wins": 36,
+    "losses": 36,
+    "beCount": 9,
+    "winRate": 50,
+    "cumulativeR": 14.8,
+    "maxDrawdown": 8.2,
+    "calmarRatio": 1.81,
+    "avgTpPips": 85,
+    "sepR": 10,
+    "octR": 12.8,
+    "monthlyWins": {
+      "2026-09": 23,
+      "2026-10": 13
+    },
+    "monthlyLosses": {
+      "2026-09": 18,
+      "2026-10": 10
+    },
+    "monthlyR": {
+      "2026-09": 10.032401166264426,
+      "2026-10": 12.784519371448258
+    }
+  },
+  {
+    "tpPips": 85,
+    "atrMult": 0.22,
+    "beTriggerR": 1.2,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.8,
+    "cooldownBars": 30,
+    "maxDailyLosses": 2,
+    "closed": 83,
+    "wins": 36,
+    "losses": 36,
+    "beCount": 11,
+    "winRate": 50,
+    "cumulativeR": 14.8,
+    "maxDrawdown": 8.2,
+    "calmarRatio": 1.81,
+    "avgTpPips": 85,
+    "sepR": 10,
+    "octR": 12.8,
+    "monthlyWins": {
+      "2026-09": 23,
+      "2026-10": 13
+    },
+    "monthlyLosses": {
+      "2026-09": 18,
+      "2026-10": 10
+    },
+    "monthlyR": {
+      "2026-09": 10.032401166264426,
+      "2026-10": 12.784519371448258
+    }
+  },
+  {
+    "tpPips": 85,
+    "atrMult": 0.2,
+    "beTriggerR": 1.3,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.8,
+    "cooldownBars": 24,
+    "maxDailyLosses": 2,
+    "closed": 80,
+    "wins": 38,
+    "losses": 37,
+    "beCount": 5,
+    "winRate": 50.66666666666667,
+    "cumulativeR": 14.5,
+    "maxDrawdown": 8.2,
+    "calmarRatio": 1.77,
+    "avgTpPips": 85,
+    "sepR": 10.4,
+    "octR": 11.1,
+    "monthlyWins": {
+      "2026-09": 23,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 18,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.426852953104111,
+      "2026-10": 11.099848277487045
+    }
+  },
+  {
+    "tpPips": 85,
+    "atrMult": 0.2,
+    "beTriggerR": 1.3,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.8,
+    "cooldownBars": 30,
+    "maxDailyLosses": 2,
+    "closed": 82,
+    "wins": 38,
+    "losses": 37,
+    "beCount": 7,
+    "winRate": 50.66666666666667,
+    "cumulativeR": 14.5,
+    "maxDrawdown": 8.2,
+    "calmarRatio": 1.77,
+    "avgTpPips": 85,
+    "sepR": 10.4,
+    "octR": 11.1,
+    "monthlyWins": {
+      "2026-09": 23,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 18,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.426852953104111,
+      "2026-10": 11.099848277487045
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.22,
+    "beTriggerR": 1.2,
+    "lockInTriggerR": 1.5,
+    "lockInValR": 0.7,
+    "cooldownBars": 30,
+    "maxDailyLosses": 2,
+    "closed": 83,
+    "wins": 39,
+    "losses": 36,
+    "beCount": 8,
+    "winRate": 52,
+    "cumulativeR": 17.4,
+    "maxDrawdown": 8.3,
+    "calmarRatio": 2.09,
+    "avgTpPips": 80,
+    "sepR": 11.2,
+    "octR": 14.2,
+    "monthlyWins": {
+      "2026-09": 24,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 18,
+      "2026-10": 10
+    },
+    "monthlyR": {
+      "2026-09": 11.157024370768937,
+      "2026-10": 14.217507516222067
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.22,
+    "beTriggerR": 1.2,
+    "lockInTriggerR": 1.5,
+    "lockInValR": 0.7,
+    "cooldownBars": 24,
+    "maxDailyLosses": 2,
+    "closed": 81,
+    "wins": 38,
+    "losses": 36,
+    "beCount": 7,
+    "winRate": 51.35135135135135,
+    "cumulativeR": 16.7,
+    "maxDrawdown": 8.3,
+    "calmarRatio": 2.01,
+    "avgTpPips": 80,
+    "sepR": 11.2,
+    "octR": 13.5,
+    "monthlyWins": {
+      "2026-09": 24,
+      "2026-10": 14
+    },
+    "monthlyLosses": {
+      "2026-09": 18,
+      "2026-10": 10
+    },
+    "monthlyR": {
+      "2026-09": 11.157024370768937,
+      "2026-10": 13.517507516222068
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.22,
+    "beTriggerR": 1.2,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.7,
+    "cooldownBars": 24,
+    "maxDailyLosses": 2,
+    "closed": 81,
+    "wins": 38,
+    "losses": 36,
+    "beCount": 7,
+    "winRate": 51.35135135135135,
+    "cumulativeR": 16.7,
+    "maxDrawdown": 8.3,
+    "calmarRatio": 2.01,
+    "avgTpPips": 80,
+    "sepR": 11.2,
+    "octR": 13.5,
+    "monthlyWins": {
+      "2026-09": 24,
+      "2026-10": 14
+    },
+    "monthlyLosses": {
+      "2026-09": 18,
+      "2026-10": 10
+    },
+    "monthlyR": {
+      "2026-09": 11.157024370768937,
+      "2026-10": 13.517507516222068
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.22,
+    "beTriggerR": 1.2,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.7,
+    "cooldownBars": 30,
+    "maxDailyLosses": 2,
+    "closed": 83,
+    "wins": 38,
+    "losses": 36,
+    "beCount": 9,
+    "winRate": 51.35135135135135,
+    "cumulativeR": 16.7,
+    "maxDrawdown": 8.3,
+    "calmarRatio": 2.01,
+    "avgTpPips": 80,
+    "sepR": 11.2,
+    "octR": 13.5,
+    "monthlyWins": {
+      "2026-09": 24,
+      "2026-10": 14
+    },
+    "monthlyLosses": {
+      "2026-09": 18,
+      "2026-10": 10
+    },
+    "monthlyR": {
+      "2026-09": 11.157024370768937,
+      "2026-10": 13.517507516222068
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.22,
+    "beTriggerR": 1.2,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.7,
+    "cooldownBars": 24,
+    "maxDailyLosses": 2,
+    "closed": 81,
+    "wins": 36,
+    "losses": 36,
+    "beCount": 9,
+    "winRate": 50,
+    "cumulativeR": 16.6,
+    "maxDrawdown": 8.3,
+    "calmarRatio": 2,
+    "avgTpPips": 80,
+    "sepR": 10.5,
+    "octR": 14.2,
+    "monthlyWins": {
+      "2026-09": 23,
+      "2026-10": 13
+    },
+    "monthlyLosses": {
+      "2026-09": 18,
+      "2026-10": 10
+    },
+    "monthlyR": {
+      "2026-09": 10.45702437076894,
+      "2026-10": 14.17508880435177
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.22,
+    "beTriggerR": 1.2,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.7,
+    "cooldownBars": 30,
+    "maxDailyLosses": 2,
+    "closed": 83,
+    "wins": 36,
+    "losses": 36,
+    "beCount": 11,
+    "winRate": 50,
+    "cumulativeR": 16.6,
+    "maxDrawdown": 8.3,
+    "calmarRatio": 2,
+    "avgTpPips": 80,
+    "sepR": 10.5,
+    "octR": 14.2,
+    "monthlyWins": {
+      "2026-09": 23,
+      "2026-10": 13
+    },
+    "monthlyLosses": {
+      "2026-09": 18,
+      "2026-10": 10
+    },
+    "monthlyR": {
+      "2026-09": 10.45702437076894,
+      "2026-10": 14.17508880435177
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.2,
+    "beTriggerR": 1.3,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.7,
+    "cooldownBars": 24,
+    "maxDailyLosses": 2,
+    "closed": 80,
+    "wins": 38,
+    "losses": 37,
+    "beCount": 5,
+    "winRate": 50.66666666666667,
+    "cumulativeR": 16.4,
+    "maxDrawdown": 8.3,
+    "calmarRatio": 1.98,
+    "avgTpPips": 80,
+    "sepR": 10.9,
+    "octR": 12.5,
+    "monthlyWins": {
+      "2026-09": 23,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 18,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.945949608294985,
+      "2026-10": 12.466499805923458
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.2,
+    "beTriggerR": 1.3,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.7,
+    "cooldownBars": 30,
+    "maxDailyLosses": 2,
+    "closed": 82,
+    "wins": 38,
+    "losses": 37,
+    "beCount": 7,
+    "winRate": 50.66666666666667,
+    "cumulativeR": 16.4,
+    "maxDrawdown": 8.3,
+    "calmarRatio": 1.98,
+    "avgTpPips": 80,
+    "sepR": 10.9,
+    "octR": 12.5,
+    "monthlyWins": {
+      "2026-09": 23,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 18,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.945949608294985,
+      "2026-10": 12.466499805923458
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.2,
+    "beTriggerR": 1.3,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.7,
+    "cooldownBars": 24,
+    "maxDailyLosses": 2,
+    "closed": 80,
+    "wins": 38,
+    "losses": 37,
+    "beCount": 5,
+    "winRate": 50.66666666666667,
+    "cumulativeR": 15,
+    "maxDrawdown": 8.3,
+    "calmarRatio": 1.81,
+    "avgTpPips": 80,
+    "sepR": 10.9,
+    "octR": 11.1,
+    "monthlyWins": {
+      "2026-09": 23,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 18,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.945949608294985,
+      "2026-10": 11.068294369349791
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.2,
+    "beTriggerR": 1.3,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.7,
+    "cooldownBars": 30,
+    "maxDailyLosses": 2,
+    "closed": 82,
+    "wins": 38,
+    "losses": 37,
+    "beCount": 7,
+    "winRate": 50.66666666666667,
+    "cumulativeR": 15,
+    "maxDrawdown": 8.3,
+    "calmarRatio": 1.81,
+    "avgTpPips": 80,
+    "sepR": 10.9,
+    "octR": 11.1,
+    "monthlyWins": {
+      "2026-09": 23,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 18,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.945949608294985,
+      "2026-10": 11.068294369349791
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.2,
+    "beTriggerR": 1.3,
+    "lockInTriggerR": 1.5,
+    "lockInValR": 0.7,
+    "cooldownBars": 30,
+    "maxDailyLosses": 2,
+    "closed": 82,
+    "wins": 39,
+    "losses": 37,
+    "beCount": 6,
+    "winRate": 51.31578947368421,
+    "cumulativeR": 14.4,
+    "maxDrawdown": 8.3,
+    "calmarRatio": 1.74,
+    "avgTpPips": 80,
+    "sepR": 10.9,
+    "octR": 10.5,
+    "monthlyWins": {
+      "2026-09": 23,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 18,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.945949608294985,
+      "2026-10": 10.467433074202011
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.22,
+    "beTriggerR": 1.2,
+    "lockInTriggerR": 1.5,
+    "lockInValR": 0.8,
+    "cooldownBars": 36,
+    "maxDailyLosses": 2,
+    "closed": 82,
+    "wins": 38,
+    "losses": 36,
+    "beCount": 8,
+    "winRate": 51.35135135135135,
+    "cumulativeR": 17.8,
+    "maxDrawdown": 9.4,
+    "calmarRatio": 1.89,
+    "avgTpPips": 80,
+    "sepR": 11,
+    "octR": 14.8,
+    "monthlyWins": {
+      "2026-09": 23,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 18,
+      "2026-10": 10
+    },
+    "monthlyR": {
+      "2026-09": 10.963464796257117,
+      "2026-10": 14.817507516222065
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.22,
+    "beTriggerR": 1.2,
+    "lockInTriggerR": 1.5,
+    "lockInValR": 0.8,
+    "cooldownBars": 42,
+    "maxDailyLosses": 2,
+    "closed": 81,
+    "wins": 37,
+    "losses": 36,
+    "beCount": 8,
+    "winRate": 50.68493150684932,
+    "cumulativeR": 17,
+    "maxDrawdown": 9.4,
+    "calmarRatio": 1.81,
+    "avgTpPips": 80,
+    "sepR": 11,
+    "octR": 14,
+    "monthlyWins": {
+      "2026-09": 23,
+      "2026-10": 14
+    },
+    "monthlyLosses": {
+      "2026-09": 18,
+      "2026-10": 10
+    },
+    "monthlyR": {
+      "2026-09": 10.963464796257117,
+      "2026-10": 14.017507516222068
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.22,
+    "beTriggerR": 1.2,
+    "lockInTriggerR": 1.5,
+    "lockInValR": 0.8,
+    "cooldownBars": 48,
+    "maxDailyLosses": 2,
+    "closed": 81,
+    "wins": 37,
+    "losses": 36,
+    "beCount": 8,
+    "winRate": 50.68493150684932,
+    "cumulativeR": 17,
+    "maxDrawdown": 9.4,
+    "calmarRatio": 1.81,
+    "avgTpPips": 80,
+    "sepR": 11,
+    "octR": 14,
+    "monthlyWins": {
+      "2026-09": 23,
+      "2026-10": 14
+    },
+    "monthlyLosses": {
+      "2026-09": 18,
+      "2026-10": 10
+    },
+    "monthlyR": {
+      "2026-09": 10.963464796257117,
+      "2026-10": 14.017507516222068
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.22,
+    "beTriggerR": 1.2,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.8,
+    "cooldownBars": 36,
+    "maxDailyLosses": 2,
+    "closed": 82,
+    "wins": 37,
+    "losses": 36,
+    "beCount": 9,
+    "winRate": 50.68493150684932,
+    "cumulativeR": 17,
+    "maxDrawdown": 9.4,
+    "calmarRatio": 1.81,
+    "avgTpPips": 80,
+    "sepR": 11,
+    "octR": 14,
+    "monthlyWins": {
+      "2026-09": 23,
+      "2026-10": 14
+    },
+    "monthlyLosses": {
+      "2026-09": 18,
+      "2026-10": 10
+    },
+    "monthlyR": {
+      "2026-09": 10.963464796257117,
+      "2026-10": 14.017507516222068
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.22,
+    "beTriggerR": 1.2,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.8,
+    "cooldownBars": 42,
+    "maxDailyLosses": 2,
+    "closed": 81,
+    "wins": 37,
+    "losses": 36,
+    "beCount": 8,
+    "winRate": 50.68493150684932,
+    "cumulativeR": 17,
+    "maxDrawdown": 9.4,
+    "calmarRatio": 1.81,
+    "avgTpPips": 80,
+    "sepR": 11,
+    "octR": 14,
+    "monthlyWins": {
+      "2026-09": 23,
+      "2026-10": 14
+    },
+    "monthlyLosses": {
+      "2026-09": 18,
+      "2026-10": 10
+    },
+    "monthlyR": {
+      "2026-09": 10.963464796257117,
+      "2026-10": 14.017507516222068
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.22,
+    "beTriggerR": 1.2,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.8,
+    "cooldownBars": 48,
+    "maxDailyLosses": 2,
+    "closed": 81,
+    "wins": 37,
+    "losses": 36,
+    "beCount": 8,
+    "winRate": 50.68493150684932,
+    "cumulativeR": 17,
+    "maxDrawdown": 9.4,
+    "calmarRatio": 1.81,
+    "avgTpPips": 80,
+    "sepR": 11,
+    "octR": 14,
+    "monthlyWins": {
+      "2026-09": 23,
+      "2026-10": 14
+    },
+    "monthlyLosses": {
+      "2026-09": 18,
+      "2026-10": 10
+    },
+    "monthlyR": {
+      "2026-09": 10.963464796257117,
+      "2026-10": 14.017507516222068
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.22,
+    "beTriggerR": 1.2,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.8,
+    "cooldownBars": 36,
+    "maxDailyLosses": 2,
+    "closed": 82,
+    "wins": 35,
+    "losses": 36,
+    "beCount": 11,
+    "winRate": 49.29577464788733,
+    "cumulativeR": 16.6,
+    "maxDrawdown": 9.4,
+    "calmarRatio": 1.77,
+    "avgTpPips": 80,
+    "sepR": 10.2,
+    "octR": 14.5,
+    "monthlyWins": {
+      "2026-09": 22,
+      "2026-10": 13
+    },
+    "monthlyLosses": {
+      "2026-09": 18,
+      "2026-10": 10
+    },
+    "monthlyR": {
+      "2026-09": 10.163464796257117,
+      "2026-10": 14.47508880435177
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.22,
+    "beTriggerR": 1.2,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.8,
+    "cooldownBars": 42,
+    "maxDailyLosses": 2,
+    "closed": 81,
+    "wins": 35,
+    "losses": 36,
+    "beCount": 10,
+    "winRate": 49.29577464788733,
+    "cumulativeR": 16.6,
+    "maxDrawdown": 9.4,
+    "calmarRatio": 1.77,
+    "avgTpPips": 80,
+    "sepR": 10.2,
+    "octR": 14.5,
+    "monthlyWins": {
+      "2026-09": 22,
+      "2026-10": 13
+    },
+    "monthlyLosses": {
+      "2026-09": 18,
+      "2026-10": 10
+    },
+    "monthlyR": {
+      "2026-09": 10.163464796257117,
+      "2026-10": 14.47508880435177
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.22,
+    "beTriggerR": 1.2,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.8,
+    "cooldownBars": 48,
+    "maxDailyLosses": 2,
+    "closed": 81,
+    "wins": 35,
+    "losses": 36,
+    "beCount": 10,
+    "winRate": 49.29577464788733,
+    "cumulativeR": 16.6,
+    "maxDrawdown": 9.4,
+    "calmarRatio": 1.77,
+    "avgTpPips": 80,
+    "sepR": 10.2,
+    "octR": 14.5,
+    "monthlyWins": {
+      "2026-09": 22,
+      "2026-10": 13
+    },
+    "monthlyLosses": {
+      "2026-09": 18,
+      "2026-10": 10
+    },
+    "monthlyR": {
+      "2026-09": 10.163464796257117,
+      "2026-10": 14.47508880435177
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.2,
+    "beTriggerR": 1.3,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.8,
+    "cooldownBars": 36,
+    "maxDailyLosses": 2,
+    "closed": 81,
+    "wins": 37,
+    "losses": 37,
+    "beCount": 7,
+    "winRate": 50,
+    "cumulativeR": 16.6,
+    "maxDrawdown": 9.4,
+    "calmarRatio": 1.76,
+    "avgTpPips": 80,
+    "sepR": 10.6,
+    "octR": 13,
+    "monthlyWins": {
+      "2026-09": 22,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 18,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.614868440906623,
+      "2026-10": 12.96649980592346
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.2,
+    "beTriggerR": 1.3,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.8,
+    "cooldownBars": 42,
+    "maxDailyLosses": 2,
+    "closed": 80,
+    "wins": 37,
+    "losses": 37,
+    "beCount": 6,
+    "winRate": 50,
+    "cumulativeR": 16.6,
+    "maxDrawdown": 9.4,
+    "calmarRatio": 1.76,
+    "avgTpPips": 80,
+    "sepR": 10.6,
+    "octR": 13,
+    "monthlyWins": {
+      "2026-09": 22,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 18,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.614868440906623,
+      "2026-10": 12.96649980592346
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.2,
+    "beTriggerR": 1.3,
+    "lockInTriggerR": 1.7,
+    "lockInValR": 0.8,
+    "cooldownBars": 48,
+    "maxDailyLosses": 2,
+    "closed": 80,
+    "wins": 37,
+    "losses": 37,
+    "beCount": 6,
+    "winRate": 50,
+    "cumulativeR": 16.6,
+    "maxDrawdown": 9.4,
+    "calmarRatio": 1.76,
+    "avgTpPips": 80,
+    "sepR": 10.6,
+    "octR": 13,
+    "monthlyWins": {
+      "2026-09": 22,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 18,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.614868440906623,
+      "2026-10": 12.96649980592346
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.2,
+    "beTriggerR": 1.3,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.8,
+    "cooldownBars": 36,
+    "maxDailyLosses": 2,
+    "closed": 81,
+    "wins": 37,
+    "losses": 37,
+    "beCount": 7,
+    "winRate": 50,
+    "cumulativeR": 15.3,
+    "maxDrawdown": 9.4,
+    "calmarRatio": 1.63,
+    "avgTpPips": 80,
+    "sepR": 10.6,
+    "octR": 11.7,
+    "monthlyWins": {
+      "2026-09": 22,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 18,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.614868440906623,
+      "2026-10": 11.668294369349793
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.2,
+    "beTriggerR": 1.3,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.8,
+    "cooldownBars": 42,
+    "maxDailyLosses": 2,
+    "closed": 80,
+    "wins": 37,
+    "losses": 37,
+    "beCount": 6,
+    "winRate": 50,
+    "cumulativeR": 15.3,
+    "maxDrawdown": 9.4,
+    "calmarRatio": 1.63,
+    "avgTpPips": 80,
+    "sepR": 10.6,
+    "octR": 11.7,
+    "monthlyWins": {
+      "2026-09": 22,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 18,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.614868440906623,
+      "2026-10": 11.668294369349793
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.2,
+    "beTriggerR": 1.3,
+    "lockInTriggerR": 1.6,
+    "lockInValR": 0.8,
+    "cooldownBars": 48,
+    "maxDailyLosses": 2,
+    "closed": 80,
+    "wins": 37,
+    "losses": 37,
+    "beCount": 6,
+    "winRate": 50,
+    "cumulativeR": 15.3,
+    "maxDrawdown": 9.4,
+    "calmarRatio": 1.63,
+    "avgTpPips": 80,
+    "sepR": 10.6,
+    "octR": 11.7,
+    "monthlyWins": {
+      "2026-09": 22,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 18,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.614868440906623,
+      "2026-10": 11.668294369349793
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.2,
+    "beTriggerR": 1.3,
+    "lockInTriggerR": 1.5,
+    "lockInValR": 0.8,
+    "cooldownBars": 36,
+    "maxDailyLosses": 2,
+    "closed": 81,
+    "wins": 38,
+    "losses": 37,
+    "beCount": 6,
+    "winRate": 50.66666666666667,
+    "cumulativeR": 14.9,
+    "maxDrawdown": 9.4,
+    "calmarRatio": 1.58,
+    "avgTpPips": 80,
+    "sepR": 10.6,
+    "octR": 11.3,
+    "monthlyWins": {
+      "2026-09": 22,
+      "2026-10": 16
+    },
+    "monthlyLosses": {
+      "2026-09": 18,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.614868440906623,
+      "2026-10": 11.26743307420201
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.2,
+    "beTriggerR": 1.3,
+    "lockInTriggerR": 1.5,
+    "lockInValR": 0.8,
+    "cooldownBars": 42,
+    "maxDailyLosses": 2,
+    "closed": 80,
+    "wins": 37,
+    "losses": 37,
+    "beCount": 6,
+    "winRate": 50,
+    "cumulativeR": 14.1,
+    "maxDrawdown": 9.4,
+    "calmarRatio": 1.5,
+    "avgTpPips": 80,
+    "sepR": 10.6,
+    "octR": 10.5,
+    "monthlyWins": {
+      "2026-09": 22,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 18,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.614868440906623,
+      "2026-10": 10.467433074202008
+    }
+  },
+  {
+    "tpPips": 80,
+    "atrMult": 0.2,
+    "beTriggerR": 1.3,
+    "lockInTriggerR": 1.5,
+    "lockInValR": 0.8,
+    "cooldownBars": 48,
+    "maxDailyLosses": 2,
+    "closed": 80,
+    "wins": 37,
+    "losses": 37,
+    "beCount": 6,
+    "winRate": 50,
+    "cumulativeR": 14.1,
+    "maxDrawdown": 9.4,
+    "calmarRatio": 1.5,
+    "avgTpPips": 80,
+    "sepR": 10.6,
+    "octR": 10.5,
+    "monthlyWins": {
+      "2026-09": 22,
+      "2026-10": 15
+    },
+    "monthlyLosses": {
+      "2026-09": 18,
+      "2026-10": 12
+    },
+    "monthlyR": {
+      "2026-09": 10.614868440906623,
+      "2026-10": 10.467433074202008
+    }
+  }
+]

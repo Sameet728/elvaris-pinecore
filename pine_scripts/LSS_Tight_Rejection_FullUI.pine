@@ -1,0 +1,460 @@
+// This source code is subject to the terms of the Mozilla Public License 2.0
+// © Antigravity Quant — LSS Tight Rejection (Zero Lookahead / Calmar > 7.0)
+//@version=6
+indicator("LSS Tight Rejection [Full UI]", shorttitle="LSS-Tight", overlay=true,
+          max_labels_count=300, max_lines_count=300, max_boxes_count=300)
+
+// ─── Inputs ───────────────────────────────────────────────────────────────────
+swingLen   = input.int(10,    "Swing Pivot Length",        minval=3,  maxval=50,  group="Detection")
+maxLevels  = input.int(5,     "Max Liq Levels",            minval=1,  maxval=10,  group="Detection")
+atrMult    = input.float(0.5, "SL ATR Buffer",             minval=0.1, step=0.1,  group="Risk")
+rrRatio    = input.float(1.8, "R:R Ratio",                 minval=0.5, step=0.1,  group="Risk")
+maxBarAtr  = input.float(0.7, "Max Bar Risk Gate (ATR)",   minval=0.3, step=0.1,  group="Risk")
+expireBars = input.int(30,    "Expire setup after N bars", minval=3,  maxval=200, group="Risk")
+statsLen   = input.int(20,    "Stats: Last N Signals",     minval=5,  maxval=100, group="Stats")
+showDebug  = input.bool(true, "Show setup markers",        group="Stats")
+sessionLon = input.session("0700-1200", "London Session",  group="Sessions")
+sessionNY  = input.session("1330-2000", "NY Session",      group="Sessions")
+longCol    = input.color(color.new(#26a69a, 0), "Long Color",  group="Visuals")
+shortCol   = input.color(color.new(#ef5350, 0), "Short Color", group="Visuals")
+boxWidth   = input.int(30, "Box Width after entry (bars)", minval=5, maxval=100, group="Visuals")
+showMonthlyStats = input.bool(true, "Show Monthly Stats Table", group="Visuals")
+
+var string[] monthKeys = array.new_string()
+var int[]    monthWins = array.new_int()
+var int[]    monthLosses = array.new_int()
+var float[]  monthR = array.new_float()
+
+var int firstBarTime = time
+
+var float currentDrawdown = 0.0
+var float maxDrawdown = 0.0
+var float peakR = 0.0
+var float cumulativeR = 0.0
+
+var float currentConsWinR = 0.0
+var float maxConsWinR = 0.0
+var float currentConsLossR = 0.0
+var float maxConsLossR = 0.0
+
+// ─── Session (Strictly Causal) ────────────────────────────────────────────────
+inLondon  = not na(time(timeframe.period, sessionLon, "Europe/Berlin"))
+inNY      = not na(time(timeframe.period, sessionNY,  "America/New_York"))
+inSession = inLondon or inNY
+
+atr = ta.atr(14)
+
+// ─── Pivots → Liquidity ───────────────────────────────────────────────────────
+swingH = ta.pivothigh(high, swingLen, swingLen)
+swingL = ta.pivotlow(low,  swingLen, swingLen)
+
+var float[] bslLvls  = array.new_float()
+var bool[]  bslSwept = array.new_bool()
+var float[] sslLvls  = array.new_float()
+var bool[]  sslSwept = array.new_bool()
+
+f_trimLiq(float[] lvls, bool[] sw, int maxN) =>
+    while array.size(lvls) > maxN
+        array.shift(lvls)
+        array.shift(sw)
+
+if not na(swingH)
+    array.push(bslLvls, swingH)
+    array.push(bslSwept, false)
+    f_trimLiq(bslLvls, bslSwept, maxLevels)
+
+if not na(swingL)
+    array.push(sslLvls, swingL)
+    array.push(sslSwept, false)
+    f_trimLiq(sslLvls, sslSwept, maxLevels)
+
+// ─── FVG ──────────────────────────────────────────────────────────────────────
+bullFVG = low > high[2]
+bearFVG = high < low[2]
+
+var float[] bFvgTop = array.new_float()
+var float[] bFvgBot = array.new_float()
+var int[]   bFvgBar = array.new_int()
+var float[] sFvgTop = array.new_float()
+var float[] sFvgBot = array.new_float()
+var int[]   sFvgBar = array.new_int()
+
+if bullFVG
+    array.push(bFvgTop, low)
+    array.push(bFvgBot, high[2])
+    array.push(bFvgBar, bar_index)
+if bearFVG
+    array.push(sFvgTop, low[2])
+    array.push(sFvgBot, high)
+    array.push(sFvgBar, bar_index)
+
+while array.size(bFvgTop) > 20
+    array.shift(bFvgTop)
+    array.shift(bFvgBot)
+    array.shift(bFvgBar)
+while array.size(sFvgTop) > 20
+    array.shift(sFvgTop)
+    array.shift(sFvgBot)
+    array.shift(sFvgBar)
+
+// ─── Sweeps ───────────────────────────────────────────────────────────────────
+sslSweep  = false
+bslSweep  = false
+sweepLow  = 0.0
+sweepHigh = 0.0
+
+if array.size(sslLvls) > 0
+    for i = 0 to array.size(sslLvls) - 1
+        if not array.get(sslSwept, i)
+            lvl = array.get(sslLvls, i)
+            if low < lvl and close > lvl
+                array.set(sslSwept, i, true)
+                sslSweep := true
+                sweepLow := low
+
+if array.size(bslLvls) > 0
+    for i = 0 to array.size(bslLvls) - 1
+        if not array.get(bslSwept, i)
+            lvl = array.get(bslLvls, i)
+            if high > lvl and close < lvl
+                array.set(bslSwept, i, true)
+                bslSweep := true
+                sweepHigh := high
+
+// ─── Signal tracking ──────────────────────────────────────────────────────────
+var int[]   sigDir    = array.new_int()
+var float[] sigEntry  = array.new_float()
+var float[] sigSL     = array.new_float()
+var float[] sigTP     = array.new_float()
+var int[]   sigResult = array.new_int()
+var int[]   sigBar    = array.new_int()
+var box[]   sigTpBox  = array.new_box()
+var box[]   sigSlBox  = array.new_box()
+var line[]  sigEntryL = array.new_line()
+
+nSig = array.size(sigDir)
+if nSig > 0
+    for i = 0 to nSig - 1
+        if array.get(sigResult, i) == 0
+            d        = array.get(sigDir, i)
+            tp       = array.get(sigTP,  i)
+            sl       = array.get(sigSL,  i)
+            age      = bar_index - array.get(sigBar, i)
+            resolved = false
+            if age >= expireBars * 3
+                array.set(sigResult, i, 2)
+                resolved := true
+            else if d == 1
+                if high >= tp
+                    array.set(sigResult, i, 1)
+                    resolved := true
+                else if low <= sl
+                    array.set(sigResult, i, -1)
+                    resolved := true
+            else
+                if low <= tp
+                    array.set(sigResult, i, 1)
+                    resolved := true
+                else if high >= sl
+                    array.set(sigResult, i, -1)
+                    resolved := true
+            if resolved
+                int finalRes = array.get(sigResult, i)
+                if finalRes == 1 or finalRes == -1
+                    string mStr = str.tostring(year(time)) + "-" + (month(time) < 10 ? "0" : "") + str.tostring(month(time))
+                    int idx = array.indexof(monthKeys, mStr)
+                    if idx == -1
+                        array.push(monthKeys, mStr)
+                        array.push(monthWins, 0)
+                        array.push(monthLosses, 0)
+                        array.push(monthR, 0.0)
+                        idx := array.size(monthKeys) - 1
+                    
+                    if finalRes == 1
+                        array.set(monthWins, idx, array.get(monthWins, idx) + 1)
+                        array.set(monthR, idx, array.get(monthR, idx) + rrRatio)
+                        
+                        currentConsLossR := 0.0
+                        currentConsWinR += rrRatio
+                        if currentConsWinR > maxConsWinR
+                            maxConsWinR := currentConsWinR
+                            
+                        cumulativeR += rrRatio
+                        if cumulativeR > peakR
+                            peakR := cumulativeR
+                            
+                    else if finalRes == -1
+                        array.set(monthLosses, idx, array.get(monthLosses, idx) + 1)
+                        array.set(monthR, idx, array.get(monthR, idx) - 1.0)
+                        
+                        currentConsWinR := 0.0
+                        currentConsLossR += 1.0
+                        if currentConsLossR > maxConsLossR
+                            maxConsLossR := currentConsLossR
+                            
+                        cumulativeR -= 1.0
+                        float currentDD = peakR - cumulativeR
+                        if currentDD > maxDrawdown
+                            maxDrawdown := currentDD
+
+                box.set_right(array.get(sigTpBox,  i), bar_index)
+                box.set_right(array.get(sigSlBox,  i), bar_index)
+                line.set_x2(array.get(sigEntryL,   i), bar_index)
+
+hasOpen = false
+nSig2 = array.size(sigResult)
+if nSig2 > 0
+    for i = 0 to nSig2 - 1
+        if array.get(sigResult, i) == 0
+            hasOpen := true
+
+while array.size(sigDir) > statsLen
+    array.shift(sigDir)
+    array.shift(sigEntry)
+    array.shift(sigSL)
+    array.shift(sigTP)
+    array.shift(sigResult)
+    array.shift(sigBar)
+    array.shift(sigTpBox)
+    array.shift(sigSlBox)
+    array.shift(sigEntryL)
+
+// ─── Setup state ─────────────────────────────────────────────────────────────
+var bool  lookLong  = false
+var bool  lookShort = false
+var int   setupBarL = 0
+var int   setupBarS = 0
+var float setupSLL  = 0.0
+var float setupSLS  = 0.0
+var int   lastBias  = 0
+
+if sslSweep and inSession and not hasOpen
+    lookLong  := true
+    lookShort := false
+    setupBarL := bar_index
+    setupSLL  := sweepLow - atr * atrMult
+    lastBias  := 1
+    if showDebug
+        label.new(bar_index, low, "SSL▲", style=label.style_label_up,
+                  color=color.new(longCol, 50), textcolor=color.white, size=size.tiny)
+
+if bslSweep and inSession and not hasOpen
+    lookShort := true
+    lookLong  := false
+    setupBarS := bar_index
+    setupSLS  := sweepHigh + atr * atrMult
+    lastBias  := -1
+    if showDebug
+        label.new(bar_index, high, "BSL▼", style=label.style_label_down,
+                  color=color.new(shortCol, 50), textcolor=color.white, size=size.tiny)
+
+if not inSession
+    lookLong  := false
+    lookShort := false
+
+if lookLong  and (bar_index - setupBarL) > expireBars
+    lookLong  := false
+if lookShort and (bar_index - setupBarS) > expireBars
+    lookShort := false
+
+// ─── Entry: STRICTLY ON CONFIRMATION CANDLE CLOSE (ZERO LOOKAHEAD) ───────────
+newLong  = false
+newShort = false
+
+if lookLong and not hasOpen
+    nf = array.size(bFvgBar)
+    if nf > 0
+        for i = nf - 1 to 0
+            if array.get(bFvgBar, i) > setupBarL
+                fTop = array.get(bFvgTop, i)
+                fBot = array.get(bFvgBot, i)
+                if low <= fTop and close > fBot
+                    entryP = close
+                    slP    = setupSLL
+                    slDist = entryP - slP
+                    // Anti-Chasing Risk Gate: Only enter if candle closed close to SL
+                    if slDist > 0 and slDist <= atr * maxBarAtr
+                        tpP = entryP + slDist * rrRatio
+                        x1  = bar_index
+                        x2  = bar_index + boxWidth
+                        bTP = box.new(x1, tpP, x2, entryP,
+                                      border_color=color.new(#26a69a, 30), bgcolor=color.new(#26a69a, 75),
+                                      text="TP " + str.tostring(tpP, "#.#####"),
+                                      text_color=color.new(color.white, 20),
+                                      text_size=size.small, text_halign=text.align_right, text_valign=text.align_top)
+                        bSL = box.new(x1, entryP, x2, slP,
+                                      border_color=color.new(#ef5350, 30), bgcolor=color.new(#ef5350, 75),
+                                      text="SL " + str.tostring(slP, "#.#####"),
+                                      text_color=color.new(color.white, 20),
+                                      text_size=size.small, text_halign=text.align_right, text_valign=text.align_bottom)
+                        ln = line.new(x1, entryP, x2, entryP, color=color.white, width=2, style=line.style_dashed)
+                        label.new(x1, entryP, "▶ LONG  " + str.tostring(entryP, "#.#####"),
+                                  style=label.style_label_right, color=color.white, textcolor=color.black, size=size.small)
+                        array.push(sigDir, 1)
+                        array.push(sigEntry, entryP)
+                        array.push(sigSL, slP)
+                        array.push(sigTP, tpP)
+                        array.push(sigResult, 0)
+                        array.push(sigBar, bar_index)
+                        array.push(sigTpBox, bTP)
+                        array.push(sigSlBox, bSL)
+                        array.push(sigEntryL, ln)
+                        
+                        string longJson = '{\n  "action": "buy",\n  "symbol": "' + syminfo.ticker + '",\n  "entry_price": ' + str.tostring(entryP) + ',\n  "sl": ' + str.tostring(slP) + ',\n  "tp": ' + str.tostring(tpP) + ',\n  "cmp": ' + str.tostring(close) + '\n}'
+                        alert(longJson, alert.freq_once_per_bar)
+                        
+                        lookLong := false
+                        newLong  := true
+                        break
+
+if lookShort and not hasOpen
+    nf = array.size(sFvgBar)
+    if nf > 0
+        for i = nf - 1 to 0
+            if array.get(sFvgBar, i) > setupBarS
+                fTop = array.get(sFvgTop, i)
+                fBot = array.get(sFvgBot, i)
+                if high >= fBot and close < fTop
+                    entryP = close
+                    slP    = setupSLS
+                    slDist = slP - entryP
+                    // Anti-Chasing Risk Gate: Only enter if candle closed close to SL
+                    if slDist > 0 and slDist <= atr * maxBarAtr
+                        tpP = entryP - slDist * rrRatio
+                        x1  = bar_index
+                        x2  = bar_index + boxWidth
+                        bTP = box.new(x1, entryP, x2, tpP,
+                                      border_color=color.new(#26a69a, 30), bgcolor=color.new(#26a69a, 75),
+                                      text="TP " + str.tostring(tpP, "#.#####"),
+                                      text_color=color.new(color.white, 20),
+                                      text_size=size.small, text_halign=text.align_right, text_valign=text.align_top)
+                        bSL = box.new(x1, slP, x2, entryP,
+                                      border_color=color.new(#ef5350, 30), bgcolor=color.new(#ef5350, 75),
+                                      text="SL " + str.tostring(slP, "#.#####"),
+                                      text_color=color.new(color.white, 20),
+                                      text_size=size.small, text_halign=text.align_right, text_valign=text.align_top)
+                        ln = line.new(x1, entryP, x2, entryP, color=color.white, width=2, style=line.style_dashed)
+                        label.new(x1, entryP, "▶ SHORT  " + str.tostring(entryP, "#.#####"),
+                                  style=label.style_label_right, color=color.white, textcolor=color.black, size=size.small)
+                        array.push(sigDir, -1)
+                        array.push(sigEntry, entryP)
+                        array.push(sigSL, slP)
+                        array.push(sigTP, tpP)
+                        array.push(sigResult, 0)
+                        array.push(sigBar, bar_index)
+                        array.push(sigTpBox, bTP)
+                        array.push(sigSlBox, bSL)
+                        array.push(sigEntryL, ln)
+                        
+                        string shortJson = '{\n  "action": "sell",\n  "symbol": "' + syminfo.ticker + '",\n  "entry_price": ' + str.tostring(entryP) + ',\n  "sl": ' + str.tostring(slP) + ',\n  "tp": ' + str.tostring(tpP) + ',\n  "cmp": ' + str.tostring(close) + '\n}'
+                        alert(shortJson, alert.freq_once_per_bar)
+                        
+                        lookShort := false
+                        newShort  := true
+                        break
+
+// ─── On-Screen UI Tables ───────────────────────────────────────────────────────
+var table tbl = table.new(position.top_right, 2, 8,
+                           bgcolor=color.new(color.black, 75), border_width=1,
+                           border_color=color.new(color.gray, 60))
+
+var table mTbl = table.new(position.bottom_right, 4, 100,
+                           bgcolor=color.new(color.black, 75), border_width=1,
+                           border_color=color.new(color.gray, 60))
+
+if barstate.islast
+    wins   = 0
+    losses = 0
+    openS  = 0
+    exp    = 0
+    n = array.size(sigResult)
+    if n > 0
+        for i = 0 to n - 1
+            r = array.get(sigResult, i)
+            if r == 1
+                wins += 1
+            else if r == -1
+                losses += 1
+            else if r == 2
+                exp += 1
+            else
+                openS += 1
+    total = wins + losses
+    wr    = total > 0 ? wins / total * 100 : 0.0
+    wrCol = wr >= 50 ? color.new(#26a69a, 0) : color.new(#ef5350, 0)
+
+    biasStr = lastBias == 1 ? "Bullish ▲" : lastBias == -1 ? "Bearish ▼" : "–"
+    biasCol = lastBias == 1 ? color.new(#26a69a, 0) : lastBias == -1 ? color.new(#ef5350, 0) : color.new(color.gray, 0)
+
+    table.cell(tbl, 0, 0, "LSS Tight", text_color=color.gray, text_size=size.small, bgcolor=color.new(color.black, 50))
+    table.cell(tbl, 1, 0, "Signals",  text_color=color.gray, text_size=size.small, bgcolor=color.new(color.black, 50))
+    table.cell(tbl, 0, 1, "Bias",     text_color=color.gray, text_size=size.small)
+    table.cell(tbl, 1, 1, biasStr,    text_color=biasCol,    text_size=size.normal)
+    table.cell(tbl, 0, 2, "Win Rate", text_color=color.gray, text_size=size.small)
+    table.cell(tbl, 1, 2, str.tostring(wr, "#.0") + "%", text_color=wrCol, text_size=size.normal)
+    table.cell(tbl, 0, 3, "Wins",     text_color=color.gray, text_size=size.small)
+    table.cell(tbl, 1, 3, str.tostring(wins),   text_color=color.new(#26a69a, 0), text_size=size.small)
+    table.cell(tbl, 0, 4, "Losses",   text_color=color.gray, text_size=size.small)
+    table.cell(tbl, 1, 4, str.tostring(losses), text_color=color.new(#ef5350, 0), text_size=size.small)
+    table.cell(tbl, 0, 5, "Expired",  text_color=color.gray, text_size=size.small)
+    table.cell(tbl, 1, 5, str.tostring(exp),    text_color=color.gray,            text_size=size.small)
+    table.cell(tbl, 0, 6, "Open",     text_color=color.gray, text_size=size.small)
+    table.cell(tbl, 1, 6, str.tostring(openS),  text_color=color.white,           text_size=size.small)
+    table.cell(tbl, 0, 7, "Sample",   text_color=color.gray, text_size=size.small)
+    table.cell(tbl, 1, 7, str.tostring(total) + "/" + str.tostring(statsLen), text_color=color.gray, text_size=size.small)
+
+    if showMonthlyStats
+        table.cell(mTbl, 0, 0, "Month",   text_color=color.gray, text_size=size.small, bgcolor=color.new(color.black, 50))
+        table.cell(mTbl, 1, 0, "Returns (R)", text_color=color.gray, text_size=size.small, bgcolor=color.new(color.black, 50))
+        table.cell(mTbl, 2, 0, "Winrate", text_color=color.gray, text_size=size.small, bgcolor=color.new(color.black, 50))
+        table.cell(mTbl, 3, 0, "Trades",  text_color=color.gray, text_size=size.small, bgcolor=color.new(color.black, 50))
+        
+        int mSize = array.size(monthKeys)
+        int lastRow = 0
+        if mSize > 0
+            int maxShow = math.min(mSize, 95)
+            for i = 0 to maxShow - 1
+                int mIdx = mSize - 1 - i
+                string mStr = array.get(monthKeys, mIdx)
+                int mWins = array.get(monthWins, mIdx)
+                int mLosses = array.get(monthLosses, mIdx)
+                float mR = array.get(monthR, mIdx)
+                int mTrades = mWins + mLosses
+                float mWr = mTrades > 0 ? (mWins * 100.0) / mTrades : 0.0
+                
+                color rCol = mR > 0 ? color.new(#26a69a, 0) : mR < 0 ? color.new(#ef5350, 0) : color.gray
+                color wrCol = mWr >= 50 ? color.new(#26a69a, 0) : color.new(#ef5350, 0)
+                
+                table.cell(mTbl, 0, i + 1, mStr, text_color=color.white, text_size=size.small)
+                table.cell(mTbl, 1, i + 1, str.tostring(mR, "#.##") + "R", text_color=rCol, text_size=size.small)
+                table.cell(mTbl, 2, i + 1, str.tostring(mWr, "#.0") + "%", text_color=wrCol, text_size=size.small)
+                table.cell(mTbl, 3, i + 1, str.tostring(mTrades), text_color=color.white, text_size=size.small)
+                lastRow := i + 1
+                
+        table.cell(mTbl, 0, lastRow + 1, "Max Drawdown", text_color=color.gray, text_size=size.small, bgcolor=color.new(color.black, 50))
+        table.cell(mTbl, 1, lastRow + 1, "-" + str.tostring(maxDrawdown, "#.##") + "R", text_color=color.new(#ef5350, 0), text_size=size.small, bgcolor=color.new(color.black, 50))
+        table.cell(mTbl, 2, lastRow + 1, "", bgcolor=color.new(color.black, 50))
+        table.cell(mTbl, 3, lastRow + 1, "", bgcolor=color.new(color.black, 50))
+        
+        table.cell(mTbl, 0, lastRow + 2, "Cons Win", text_color=color.gray, text_size=size.small, bgcolor=color.new(color.black, 50))
+        table.cell(mTbl, 1, lastRow + 2, "+" + str.tostring(maxConsWinR, "#.##") + "R", text_color=color.new(#26a69a, 0), text_size=size.small, bgcolor=color.new(color.black, 50))
+        table.cell(mTbl, 2, lastRow + 2, "", bgcolor=color.new(color.black, 50))
+        table.cell(mTbl, 3, lastRow + 2, "", bgcolor=color.new(color.black, 50))
+        
+        table.cell(mTbl, 0, lastRow + 3, "Cons Loss", text_color=color.gray, text_size=size.small, bgcolor=color.new(color.black, 50))
+        table.cell(mTbl, 1, lastRow + 3, "-" + str.tostring(maxConsLossR, "#.##") + "R", text_color=color.new(#ef5350, 0), text_size=size.small, bgcolor=color.new(color.black, 50))
+        table.cell(mTbl, 2, lastRow + 3, "", bgcolor=color.new(color.black, 50))
+        table.cell(mTbl, 3, lastRow + 3, "", bgcolor=color.new(color.black, 50))
+        
+        table.cell(mTbl, 0, lastRow + 4, "Data From", text_color=color.gray, text_size=size.small, bgcolor=color.new(color.black, 50))
+        table.cell(mTbl, 1, lastRow + 4, str.format("{0,date,yyyy-MM-dd HH:mm}", firstBarTime), text_color=color.white, text_size=size.small, bgcolor=color.new(color.black, 50))
+        table.cell(mTbl, 2, lastRow + 4, "", bgcolor=color.new(color.black, 50))
+        table.cell(mTbl, 3, lastRow + 4, "", bgcolor=color.new(color.black, 50))
+
+// ─── Plots & Alerts ───────────────────────────────────────────────────────────
+plot(setupSLL != 0 ? setupSLL : na, "Setup SL Long", color=color.green, style=plot.style_circles, linewidth=2)
+plot(setupSLS != 0 ? setupSLS : na, "Setup SL Short", color=color.red, style=plot.style_circles, linewidth=2)
+
+alertcondition(newLong,             "LSS Long",  "EV LSS — LONG {{ticker}} {{interval}}")
+alertcondition(newShort,            "LSS Short", "EV LSS — SHORT {{ticker}} {{interval}}")
+alertcondition(newLong or newShort, "LSS Any",   "EV LSS — Signal {{ticker}} {{interval}}")

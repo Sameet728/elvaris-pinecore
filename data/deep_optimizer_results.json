@@ -1,0 +1,600 @@
+[
+  {
+    "name": "M1_Sw6_RR2.5_ATR0.45_LON_NY",
+    "closed": 48,
+    "winRate": 45.8,
+    "cumR": 29,
+    "maxDD": 4.5,
+    "calmar": 6.44,
+    "avgTp": 29.3,
+    "sepR": 0,
+    "octR": 29,
+    "monthly": {
+      "2026-10": 29
+    },
+    "mc": {
+      "worstDrawdownR": 10,
+      "probDrawdownUnder4R": 27,
+      "probProfitable": 99.6
+    },
+    "tf": "1m",
+    "cfg": {
+      "swingLen": 6,
+      "rrRatio": 2.5,
+      "minTpPips": 20,
+      "maxTpPips": 36,
+      "atrMult": 0.45,
+      "expireBars": 45,
+      "session": "LON_NY"
+    }
+  },
+  {
+    "name": "M1_Sw6_RR2.5_ATR0.45_ALL",
+    "closed": 66,
+    "winRate": 39.4,
+    "cumR": 25,
+    "maxDD": 4,
+    "calmar": 6.25,
+    "avgTp": 28.9,
+    "sepR": 0,
+    "octR": 25,
+    "monthly": {
+      "2026-10": 25
+    },
+    "mc": {
+      "worstDrawdownR": 14.5,
+      "probDrawdownUnder4R": 5.1,
+      "probProfitable": 97
+    },
+    "tf": "1m",
+    "cfg": {
+      "swingLen": 6,
+      "rrRatio": 2.5,
+      "minTpPips": 20,
+      "maxTpPips": 36,
+      "atrMult": 0.45,
+      "expireBars": 45,
+      "session": "ALL"
+    }
+  },
+  {
+    "name": "M5_Sw6_RR2.8_ATR0.45_ALL",
+    "closed": 12,
+    "winRate": 66.7,
+    "cumR": 18.4,
+    "maxDD": 3,
+    "calmar": 6.13,
+    "avgTp": 32.8,
+    "sepR": 13.8,
+    "octR": 4.6,
+    "monthly": {
+      "2026-09": 13.8,
+      "2026-10": 4.6
+    },
+    "mc": {
+      "worstDrawdownR": 4,
+      "probDrawdownUnder4R": 97,
+      "probProfitable": 99.5
+    },
+    "tf": "5m",
+    "cfg": {
+      "swingLen": 6,
+      "rrRatio": 2.8,
+      "minTpPips": 24,
+      "maxTpPips": 40,
+      "atrMult": 0.45,
+      "expireBars": 35,
+      "session": "ALL"
+    }
+  },
+  {
+    "name": "M5_Sw7_RR2.8_ATR0.45_ALL",
+    "closed": 12,
+    "winRate": 66.7,
+    "cumR": 18.4,
+    "maxDD": 3,
+    "calmar": 6.13,
+    "avgTp": 31.7,
+    "sepR": 16.6,
+    "octR": 1.8,
+    "monthly": {
+      "2026-09": 16.6,
+      "2026-10": 1.8
+    },
+    "mc": {
+      "worstDrawdownR": 4,
+      "probDrawdownUnder4R": 97.3,
+      "probProfitable": 99.5
+    },
+    "tf": "5m",
+    "cfg": {
+      "swingLen": 7,
+      "rrRatio": 2.8,
+      "minTpPips": 24,
+      "maxTpPips": 40,
+      "atrMult": 0.45,
+      "expireBars": 35,
+      "session": "ALL"
+    }
+  },
+  {
+    "name": "M5_Sw6_RR2.8_ATR0.45_LON_NY",
+    "closed": 7,
+    "winRate": 71.4,
+    "cumR": 12,
+    "maxDD": 2,
+    "calmar": 6,
+    "avgTp": 32.6,
+    "sepR": 6.4,
+    "octR": 5.6,
+    "monthly": {
+      "2026-09": 6.4,
+      "2026-10": 5.6
+    },
+    "mc": {
+      "worstDrawdownR": 3,
+      "probDrawdownUnder4R": 99.4,
+      "probProfitable": 99.7
+    },
+    "tf": "5m",
+    "cfg": {
+      "swingLen": 6,
+      "rrRatio": 2.8,
+      "minTpPips": 24,
+      "maxTpPips": 40,
+      "atrMult": 0.45,
+      "expireBars": 35,
+      "session": "LON_NY"
+    }
+  },
+  {
+    "name": "M5_Sw7_RR2.8_ATR0.45_LON_NY",
+    "closed": 7,
+    "winRate": 71.4,
+    "cumR": 12,
+    "maxDD": 2,
+    "calmar": 6,
+    "avgTp": 30.7,
+    "sepR": 9.2,
+    "octR": 2.8,
+    "monthly": {
+      "2026-09": 9.2,
+      "2026-10": 2.8
+    },
+    "mc": {
+      "worstDrawdownR": 3,
+      "probDrawdownUnder4R": 99.6,
+      "probProfitable": 99.7
+    },
+    "tf": "5m",
+    "cfg": {
+      "swingLen": 7,
+      "rrRatio": 2.8,
+      "minTpPips": 24,
+      "maxTpPips": 40,
+      "atrMult": 0.45,
+      "expireBars": 35,
+      "session": "LON_NY"
+    }
+  },
+  {
+    "name": "M5_Sw5_RR2.5_ATR0.45_LON_NY",
+    "closed": 7,
+    "winRate": 71.4,
+    "cumR": 10.5,
+    "maxDD": 2,
+    "calmar": 5.25,
+    "avgTp": 31.3,
+    "sepR": 3,
+    "octR": 7.5,
+    "monthly": {
+      "2026-09": 3,
+      "2026-10": 7.5
+    },
+    "mc": {
+      "worstDrawdownR": 3,
+      "probDrawdownUnder4R": 99.5,
+      "probProfitable": 97.6
+    },
+    "tf": "5m",
+    "cfg": {
+      "swingLen": 5,
+      "rrRatio": 2.5,
+      "minTpPips": 24,
+      "maxTpPips": 40,
+      "atrMult": 0.45,
+      "expireBars": 35,
+      "session": "LON_NY"
+    }
+  },
+  {
+    "name": "M5_Sw6_RR2.5_ATR0.45_LON_NY",
+    "closed": 7,
+    "winRate": 71.4,
+    "cumR": 10.5,
+    "maxDD": 2,
+    "calmar": 5.25,
+    "avgTp": 30.3,
+    "sepR": 5.5,
+    "octR": 5,
+    "monthly": {
+      "2026-09": 5.5,
+      "2026-10": 5
+    },
+    "mc": {
+      "worstDrawdownR": 3,
+      "probDrawdownUnder4R": 99.6,
+      "probProfitable": 97.9
+    },
+    "tf": "5m",
+    "cfg": {
+      "swingLen": 6,
+      "rrRatio": 2.5,
+      "minTpPips": 24,
+      "maxTpPips": 40,
+      "atrMult": 0.45,
+      "expireBars": 35,
+      "session": "LON_NY"
+    }
+  },
+  {
+    "name": "M5_Sw6_RR2.5_ATR0.5_LON_NY",
+    "closed": 7,
+    "winRate": 71.4,
+    "cumR": 10.5,
+    "maxDD": 2,
+    "calmar": 5.25,
+    "avgTp": 31.5,
+    "sepR": 5.5,
+    "octR": 5,
+    "monthly": {
+      "2026-09": 5.5,
+      "2026-10": 5
+    },
+    "mc": {
+      "worstDrawdownR": 3,
+      "probDrawdownUnder4R": 99.7,
+      "probProfitable": 98
+    },
+    "tf": "5m",
+    "cfg": {
+      "swingLen": 6,
+      "rrRatio": 2.5,
+      "minTpPips": 24,
+      "maxTpPips": 40,
+      "atrMult": 0.5,
+      "expireBars": 35,
+      "session": "LON_NY"
+    }
+  },
+  {
+    "name": "M5_Sw8_RR2.8_ATR0.45_ALL",
+    "closed": 11,
+    "winRate": 63.6,
+    "cumR": 15.6,
+    "maxDD": 3,
+    "calmar": 5.2,
+    "avgTp": 33.8,
+    "sepR": 13.8,
+    "octR": 1.8,
+    "monthly": {
+      "2026-09": 13.8,
+      "2026-10": 1.8
+    },
+    "mc": {
+      "worstDrawdownR": 4,
+      "probDrawdownUnder4R": 96.8,
+      "probProfitable": 99.6
+    },
+    "tf": "5m",
+    "cfg": {
+      "swingLen": 8,
+      "rrRatio": 2.8,
+      "minTpPips": 24,
+      "maxTpPips": 40,
+      "atrMult": 0.45,
+      "expireBars": 35,
+      "session": "ALL"
+    }
+  },
+  {
+    "name": "M5_Sw6_RR2.8_ATR0.5_ALL",
+    "closed": 9,
+    "winRate": 55.6,
+    "cumR": 10,
+    "maxDD": 2,
+    "calmar": 5,
+    "avgTp": 33.2,
+    "sepR": 8.2,
+    "octR": 1.8,
+    "monthly": {
+      "2026-09": 8.2,
+      "2026-10": 1.8
+    },
+    "mc": {
+      "worstDrawdownR": 5,
+      "probDrawdownUnder4R": 94.5,
+      "probProfitable": 96
+    },
+    "tf": "5m",
+    "cfg": {
+      "swingLen": 6,
+      "rrRatio": 2.8,
+      "minTpPips": 24,
+      "maxTpPips": 40,
+      "atrMult": 0.5,
+      "expireBars": 35,
+      "session": "ALL"
+    }
+  },
+  {
+    "name": "M5_Sw5_RR2.8_ATR0.45_LON_NY",
+    "closed": 6,
+    "winRate": 66.7,
+    "cumR": 9.2,
+    "maxDD": 2,
+    "calmar": 4.6,
+    "avgTp": 32.4,
+    "sepR": 3.6,
+    "octR": 5.6,
+    "monthly": {
+      "2026-09": 3.6,
+      "2026-10": 5.6
+    },
+    "mc": {
+      "worstDrawdownR": 3,
+      "probDrawdownUnder4R": 99.4,
+      "probProfitable": 98.1
+    },
+    "tf": "5m",
+    "cfg": {
+      "swingLen": 5,
+      "rrRatio": 2.8,
+      "minTpPips": 24,
+      "maxTpPips": 40,
+      "atrMult": 0.45,
+      "expireBars": 35,
+      "session": "LON_NY"
+    }
+  },
+  {
+    "name": "M5_Sw6_RR2.8_ATR0.5_LON_NY",
+    "closed": 6,
+    "winRate": 66.7,
+    "cumR": 9.2,
+    "maxDD": 2,
+    "calmar": 4.6,
+    "avgTp": 34.3,
+    "sepR": 6.4,
+    "octR": 2.8,
+    "monthly": {
+      "2026-09": 6.4,
+      "2026-10": 2.8
+    },
+    "mc": {
+      "worstDrawdownR": 3,
+      "probDrawdownUnder4R": 99.4,
+      "probProfitable": 98.3
+    },
+    "tf": "5m",
+    "cfg": {
+      "swingLen": 6,
+      "rrRatio": 2.8,
+      "minTpPips": 24,
+      "maxTpPips": 40,
+      "atrMult": 0.5,
+      "expireBars": 35,
+      "session": "LON_NY"
+    }
+  },
+  {
+    "name": "M5_Sw8_RR2.8_ATR0.45_LON_NY",
+    "closed": 6,
+    "winRate": 66.7,
+    "cumR": 9.2,
+    "maxDD": 2,
+    "calmar": 4.6,
+    "avgTp": 31.8,
+    "sepR": 6.4,
+    "octR": 2.8,
+    "monthly": {
+      "2026-09": 6.4,
+      "2026-10": 2.8
+    },
+    "mc": {
+      "worstDrawdownR": 3,
+      "probDrawdownUnder4R": 99.4,
+      "probProfitable": 98.5
+    },
+    "tf": "5m",
+    "cfg": {
+      "swingLen": 8,
+      "rrRatio": 2.8,
+      "minTpPips": 24,
+      "maxTpPips": 40,
+      "atrMult": 0.45,
+      "expireBars": 35,
+      "session": "LON_NY"
+    }
+  },
+  {
+    "name": "M5_Sw5_RR2.2_ATR0.5_LON_NY",
+    "closed": 7,
+    "winRate": 71.4,
+    "cumR": 9,
+    "maxDD": 2,
+    "calmar": 4.5,
+    "avgTp": 31.4,
+    "sepR": 2.4,
+    "octR": 6.6,
+    "monthly": {
+      "2026-09": 2.4,
+      "2026-10": 6.6
+    },
+    "mc": {
+      "worstDrawdownR": 3,
+      "probDrawdownUnder4R": 99.7,
+      "probProfitable": 97.9
+    },
+    "tf": "5m",
+    "cfg": {
+      "swingLen": 5,
+      "rrRatio": 2.2,
+      "minTpPips": 24,
+      "maxTpPips": 40,
+      "atrMult": 0.5,
+      "expireBars": 35,
+      "session": "LON_NY"
+    }
+  },
+  {
+    "name": "M5_Sw5_RR2.5_ATR0.45_ALL",
+    "closed": 11,
+    "winRate": 63.6,
+    "cumR": 13.5,
+    "maxDD": 3,
+    "calmar": 4.5,
+    "avgTp": 31.4,
+    "sepR": 7,
+    "octR": 6.5,
+    "monthly": {
+      "2026-09": 7,
+      "2026-10": 6.5
+    },
+    "mc": {
+      "worstDrawdownR": 4,
+      "probDrawdownUnder4R": 96.5,
+      "probProfitable": 98.6
+    },
+    "tf": "5m",
+    "cfg": {
+      "swingLen": 5,
+      "rrRatio": 2.5,
+      "minTpPips": 24,
+      "maxTpPips": 40,
+      "atrMult": 0.45,
+      "expireBars": 35,
+      "session": "ALL"
+    }
+  },
+  {
+    "name": "M5_Sw6_RR2.2_ATR0.5_LON_NY",
+    "closed": 7,
+    "winRate": 71.4,
+    "cumR": 9,
+    "maxDD": 2,
+    "calmar": 4.5,
+    "avgTp": 30.5,
+    "sepR": 4.6,
+    "octR": 4.4,
+    "monthly": {
+      "2026-09": 4.6,
+      "2026-10": 4.4
+    },
+    "mc": {
+      "worstDrawdownR": 3,
+      "probDrawdownUnder4R": 99.7,
+      "probProfitable": 97.8
+    },
+    "tf": "5m",
+    "cfg": {
+      "swingLen": 6,
+      "rrRatio": 2.2,
+      "minTpPips": 24,
+      "maxTpPips": 40,
+      "atrMult": 0.5,
+      "expireBars": 35,
+      "session": "LON_NY"
+    }
+  },
+  {
+    "name": "M5_Sw6_RR2.5_ATR0.45_ALL",
+    "closed": 11,
+    "winRate": 63.6,
+    "cumR": 13.5,
+    "maxDD": 3,
+    "calmar": 4.5,
+    "avgTp": 30.8,
+    "sepR": 9.5,
+    "octR": 4,
+    "monthly": {
+      "2026-09": 9.5,
+      "2026-10": 4
+    },
+    "mc": {
+      "worstDrawdownR": 4,
+      "probDrawdownUnder4R": 97,
+      "probProfitable": 98.7
+    },
+    "tf": "5m",
+    "cfg": {
+      "swingLen": 6,
+      "rrRatio": 2.5,
+      "minTpPips": 24,
+      "maxTpPips": 40,
+      "atrMult": 0.45,
+      "expireBars": 35,
+      "session": "ALL"
+    }
+  },
+  {
+    "name": "M5_Sw8_RR2.5_ATR0.45_ALL",
+    "closed": 11,
+    "winRate": 63.6,
+    "cumR": 13.5,
+    "maxDD": 3,
+    "calmar": 4.5,
+    "avgTp": 30.9,
+    "sepR": 12,
+    "octR": 1.5,
+    "monthly": {
+      "2026-09": 12,
+      "2026-10": 1.5
+    },
+    "mc": {
+      "worstDrawdownR": 4,
+      "probDrawdownUnder4R": 96.7,
+      "probProfitable": 98.1
+    },
+    "tf": "5m",
+    "cfg": {
+      "swingLen": 8,
+      "rrRatio": 2.5,
+      "minTpPips": 24,
+      "maxTpPips": 40,
+      "atrMult": 0.45,
+      "expireBars": 35,
+      "session": "ALL"
+    }
+  },
+  {
+    "name": "M5_Sw5_RR2.8_ATR0.45_ALL",
+    "closed": 10,
+    "winRate": 60,
+    "cumR": 12.8,
+    "maxDD": 3,
+    "calmar": 4.27,
+    "avgTp": 33.6,
+    "sepR": 8.2,
+    "octR": 4.6,
+    "monthly": {
+      "2026-09": 8.2,
+      "2026-10": 4.6
+    },
+    "mc": {
+      "worstDrawdownR": 5,
+      "probDrawdownUnder4R": 94.5,
+      "probProfitable": 98.4
+    },
+    "tf": "5m",
+    "cfg": {
+      "swingLen": 5,
+      "rrRatio": 2.8,
+      "minTpPips": 24,
+      "maxTpPips": 40,
+      "atrMult": 0.45,
+      "expireBars": 35,
+      "session": "ALL"
+    }
+  }
+]

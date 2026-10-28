@@ -1,0 +1,652 @@
+{
+  "4H": {
+    "topWR": {
+      "config": {
+        "emaPeriod": 100,
+        "swMin": 2,
+        "swMaj": 3,
+        "tpPips": 200,
+        "atrMult": 0.18,
+        "beTriggerR": 0.3,
+        "lockInTriggerR": 0.8,
+        "lockInValR": 0.6,
+        "cooldownBars": 4,
+        "minHoldSec": 120,
+        "maxHoldBars": 90
+      },
+      "closed": 35,
+      "wins": 24,
+      "losses": 5,
+      "beCount": 6,
+      "winRate": 82.8,
+      "nonLossRate": 85.7,
+      "avgRR": 1.95,
+      "cumulativeR": 21.79,
+      "maxDrawdown": 1,
+      "calmarRatio": 21.79,
+      "sepR": 1.52,
+      "octR": 2.84,
+      "monthlyR": {
+        "2025-09": 1.8400000000000003,
+        "2025-10": 0.6100000000000001,
+        "2025-11": 3.7800000000000002,
+        "2025-12": 0.19999999999999996,
+        "2026-01": 2.87,
+        "2026-04": 0.19999999999999996,
+        "2026-05": -0.4,
+        "2026-06": 4.26,
+        "2026-07": 1.2,
+        "2026-08": 2.87,
+        "2026-09": 1.52,
+        "2026-10": 2.84
+      },
+      "maxConsecWin": 11,
+      "maxConsecLoss": 1,
+      "score": 786.3,
+      "mc": {
+        "worstDD95": 3,
+        "medianDD": 2,
+        "probDDUnder5": 99.8,
+        "probProfit": 100
+      },
+      "trades": [
+        {
+          "bar": 52,
+          "entryTime": 1757512800000,
+          "exitTime": 1757527200000,
+          "rOutcome": -1,
+          "rVal": 1.94,
+          "finalRes": -1
+        },
+        {
+          "bar": 62,
+          "entryTime": 1757656800000,
+          "exitTime": 1757671200000,
+          "rOutcome": 0,
+          "rVal": 1.64,
+          "finalRes": 3
+        },
+        {
+          "bar": 96,
+          "entryTime": 1758492000000,
+          "exitTime": 1758506400000,
+          "rOutcome": 0.6,
+          "rVal": 1.51,
+          "finalRes": 4
+        },
+        {
+          "bar": 125,
+          "entryTime": 1758909600000,
+          "exitTime": 1759096800000,
+          "rOutcome": 2.24,
+          "rVal": 2.24,
+          "finalRes": 1
+        },
+        {
+          "bar": 147,
+          "entryTime": 1759399200000,
+          "exitTime": 1759413600000,
+          "rOutcome": -1,
+          "rVal": 2.44,
+          "finalRes": -1
+        },
+        {
+          "bar": 164,
+          "entryTime": 1759816800000,
+          "exitTime": 1759831200000,
+          "rOutcome": 1.61,
+          "rVal": 1.61,
+          "finalRes": 1
+        },
+        {
+          "bar": 293,
+          "entryTime": 1762369200000,
+          "exitTime": 1762383600000,
+          "rOutcome": 0.6,
+          "rVal": 2.46,
+          "finalRes": 4
+        },
+        {
+          "bar": 316,
+          "entryTime": 1762873200000,
+          "exitTime": 1762887600000,
+          "rOutcome": 0.6,
+          "rVal": 1.57,
+          "finalRes": 4
+        },
+        {
+          "bar": 381,
+          "entryTime": 1764154800000,
+          "exitTime": 1764169200000,
+          "rOutcome": 2.58,
+          "rVal": 2.58,
+          "finalRes": 1
+        },
+        {
+          "bar": 427,
+          "entryTime": 1765162800000,
+          "exitTime": 1765177200000,
+          "rOutcome": -1,
+          "rVal": 1.78,
+          "finalRes": -1
+        },
+        {
+          "bar": 461,
+          "entryTime": 1765825200000,
+          "exitTime": 1765839600000,
+          "rOutcome": 0.6,
+          "rVal": 3.12,
+          "finalRes": 4
+        },
+        {
+          "bar": 521,
+          "entryTime": 1767135600000,
+          "exitTime": 1767150000000,
+          "rOutcome": 0.6,
+          "rVal": 1.78,
+          "finalRes": 4
+        },
+        {
+          "bar": 541,
+          "entryTime": 1767682800000,
+          "exitTime": 1767697200000,
+          "rOutcome": 2.27,
+          "rVal": 2.27,
+          "finalRes": 1
+        },
+        {
+          "bar": 581,
+          "entryTime": 1768431600000,
+          "exitTime": 1768446000000,
+          "rOutcome": 0.6,
+          "rVal": 1.98,
+          "finalRes": 4
+        },
+        {
+          "bar": 940,
+          "entryTime": 1775757600000,
+          "exitTime": 1775772000000,
+          "rOutcome": 0.6,
+          "rVal": 1.74,
+          "finalRes": 4
+        },
+        {
+          "bar": 995,
+          "entryTime": 1776895200000,
+          "exitTime": 1776909600000,
+          "rOutcome": -1,
+          "rVal": 2.18,
+          "finalRes": -1
+        },
+        {
+          "bar": 1012,
+          "entryTime": 1777312800000,
+          "exitTime": 1777327200000,
+          "rOutcome": 0.6,
+          "rVal": 1.51,
+          "finalRes": 4
+        },
+        {
+          "bar": 1061,
+          "entryTime": 1778191200000,
+          "exitTime": 1778205600000,
+          "rOutcome": 0.6,
+          "rVal": 1.7,
+          "finalRes": 4
+        },
+        {
+          "bar": 1081,
+          "entryTime": 1778652000000,
+          "exitTime": 1778666400000,
+          "rOutcome": 0,
+          "rVal": 1.58,
+          "finalRes": 3
+        },
+        {
+          "bar": 1113,
+          "entryTime": 1779285600000,
+          "exitTime": 1779300000000,
+          "rOutcome": -1,
+          "rVal": 2.04,
+          "finalRes": -1
+        },
+        {
+          "bar": 1178,
+          "entryTime": 1780567200000,
+          "exitTime": 1780581600000,
+          "rOutcome": 1.53,
+          "rVal": 1.53,
+          "finalRes": 1
+        },
+        {
+          "bar": 1249,
+          "entryTime": 1782122400000,
+          "exitTime": 1782136800000,
+          "rOutcome": 2.13,
+          "rVal": 2.13,
+          "finalRes": 1
+        },
+        {
+          "bar": 1284,
+          "entryTime": 1782799200000,
+          "exitTime": 1782813600000,
+          "rOutcome": 0.6,
+          "rVal": 1.79,
+          "finalRes": 4
+        },
+        {
+          "bar": 1331,
+          "entryTime": 1783663200000,
+          "exitTime": 1783677600000,
+          "rOutcome": 0.6,
+          "rVal": 2.58,
+          "finalRes": 4
+        },
+        {
+          "bar": 1347,
+          "entryTime": 1784066400000,
+          "exitTime": 1784080800000,
+          "rOutcome": 0.6,
+          "rVal": 1.77,
+          "finalRes": 4
+        },
+        {
+          "bar": 1409,
+          "entryTime": 1785304800000,
+          "exitTime": 1785319200000,
+          "rOutcome": 0,
+          "rVal": 3.02,
+          "finalRes": 3
+        },
+        {
+          "bar": 1426,
+          "entryTime": 1785722400000,
+          "exitTime": 1785736800000,
+          "rOutcome": 2.27,
+          "rVal": 2.27,
+          "finalRes": 1
+        },
+        {
+          "bar": 1546,
+          "entryTime": 1788141600000,
+          "exitTime": 1788156000000,
+          "rOutcome": 0.6,
+          "rVal": 1.91,
+          "finalRes": 4
+        },
+        {
+          "bar": 1587,
+          "entryTime": 1788904800000,
+          "exitTime": 1788919200000,
+          "rOutcome": 0,
+          "rVal": 1.51,
+          "finalRes": 3
+        },
+        {
+          "bar": 1600,
+          "entryTime": 1789092000000,
+          "exitTime": 1789106400000,
+          "rOutcome": 0,
+          "rVal": 1.66,
+          "finalRes": 3
+        },
+        {
+          "bar": 1643,
+          "entryTime": 1790056800000,
+          "exitTime": 1790071200000,
+          "rOutcome": 1.52,
+          "rVal": 1.52,
+          "finalRes": 1
+        },
+        {
+          "bar": 1677,
+          "entryTime": 1790719200000,
+          "exitTime": 1790733600000,
+          "rOutcome": 0,
+          "rVal": 1.61,
+          "finalRes": 3
+        },
+        {
+          "bar": 1695,
+          "entryTime": 1791151200000,
+          "exitTime": 1791165600000,
+          "rOutcome": 1.64,
+          "rVal": 1.64,
+          "finalRes": 1
+        },
+        {
+          "bar": 1715,
+          "entryTime": 1791439200000,
+          "exitTime": 1791453600000,
+          "rOutcome": 0.6,
+          "rVal": 1.88,
+          "finalRes": 4
+        },
+        {
+          "bar": 1736,
+          "entryTime": 1791914400000,
+          "exitTime": 1791928800000,
+          "rOutcome": 0.6,
+          "rVal": 1.64,
+          "finalRes": 4
+        }
+      ]
+    },
+    "topScore": {
+      "config": {
+        "emaPeriod": 50,
+        "swMin": 2,
+        "swMaj": 3,
+        "tpPips": 200,
+        "atrMult": 0.18,
+        "beTriggerR": 0.3,
+        "lockInTriggerR": 0.8,
+        "lockInValR": 0.6,
+        "cooldownBars": 4,
+        "minHoldSec": 120,
+        "maxHoldBars": 90
+      },
+      "closed": 33,
+      "wins": 22,
+      "losses": 5,
+      "beCount": 6,
+      "winRate": 81.5,
+      "nonLossRate": 84.8,
+      "avgRR": 1.97,
+      "cumulativeR": 23.05,
+      "maxDrawdown": 1,
+      "calmarRatio": 23.05,
+      "sepR": 2.92,
+      "octR": 2.24,
+      "monthlyR": {
+        "2025-09": 1.8400000000000003,
+        "2025-10": 0.6100000000000001,
+        "2025-11": 3.7800000000000002,
+        "2025-12": -0.4,
+        "2026-01": 4.859999999999999,
+        "2026-04": 0.19999999999999996,
+        "2026-05": -0.4,
+        "2026-06": 4.26,
+        "2026-07": 2.54,
+        "2026-08": 0.6,
+        "2026-09": 2.92,
+        "2026-10": 2.2399999999999998
+      },
+      "maxConsecWin": 9,
+      "maxConsecLoss": 1,
+      "score": 866,
+      "mc": {
+        "worstDD95": 3.4,
+        "medianDD": 2,
+        "probDDUnder5": 99.8,
+        "probProfit": 100
+      },
+      "trades": [
+        {
+          "bar": 52,
+          "entryTime": 1757512800000,
+          "exitTime": 1757527200000,
+          "rOutcome": -1,
+          "rVal": 1.94,
+          "finalRes": -1
+        },
+        {
+          "bar": 62,
+          "entryTime": 1757656800000,
+          "exitTime": 1757671200000,
+          "rOutcome": 0,
+          "rVal": 1.64,
+          "finalRes": 3
+        },
+        {
+          "bar": 96,
+          "entryTime": 1758492000000,
+          "exitTime": 1758506400000,
+          "rOutcome": 0.6,
+          "rVal": 1.51,
+          "finalRes": 4
+        },
+        {
+          "bar": 125,
+          "entryTime": 1758909600000,
+          "exitTime": 1759096800000,
+          "rOutcome": 2.24,
+          "rVal": 2.24,
+          "finalRes": 1
+        },
+        {
+          "bar": 147,
+          "entryTime": 1759399200000,
+          "exitTime": 1759413600000,
+          "rOutcome": -1,
+          "rVal": 2.44,
+          "finalRes": -1
+        },
+        {
+          "bar": 164,
+          "entryTime": 1759816800000,
+          "exitTime": 1759831200000,
+          "rOutcome": 1.61,
+          "rVal": 1.61,
+          "finalRes": 1
+        },
+        {
+          "bar": 293,
+          "entryTime": 1762369200000,
+          "exitTime": 1762383600000,
+          "rOutcome": 0.6,
+          "rVal": 2.46,
+          "finalRes": 4
+        },
+        {
+          "bar": 316,
+          "entryTime": 1762873200000,
+          "exitTime": 1762887600000,
+          "rOutcome": 0.6,
+          "rVal": 1.57,
+          "finalRes": 4
+        },
+        {
+          "bar": 381,
+          "entryTime": 1764154800000,
+          "exitTime": 1764169200000,
+          "rOutcome": 2.58,
+          "rVal": 2.58,
+          "finalRes": 1
+        },
+        {
+          "bar": 427,
+          "entryTime": 1765162800000,
+          "exitTime": 1765177200000,
+          "rOutcome": -1,
+          "rVal": 1.78,
+          "finalRes": -1
+        },
+        {
+          "bar": 461,
+          "entryTime": 1765825200000,
+          "exitTime": 1765839600000,
+          "rOutcome": 0.6,
+          "rVal": 3.12,
+          "finalRes": 4
+        },
+        {
+          "bar": 530,
+          "entryTime": 1767351600000,
+          "exitTime": 1767366000000,
+          "rOutcome": 1.99,
+          "rVal": 1.99,
+          "finalRes": 1
+        },
+        {
+          "bar": 541,
+          "entryTime": 1767682800000,
+          "exitTime": 1767697200000,
+          "rOutcome": 2.27,
+          "rVal": 2.27,
+          "finalRes": 1
+        },
+        {
+          "bar": 581,
+          "entryTime": 1768431600000,
+          "exitTime": 1768446000000,
+          "rOutcome": 0.6,
+          "rVal": 1.98,
+          "finalRes": 4
+        },
+        {
+          "bar": 934,
+          "entryTime": 1775671200000,
+          "exitTime": 1775685600000,
+          "rOutcome": 0.6,
+          "rVal": 1.66,
+          "finalRes": 4
+        },
+        {
+          "bar": 995,
+          "entryTime": 1776895200000,
+          "exitTime": 1776909600000,
+          "rOutcome": -1,
+          "rVal": 2.18,
+          "finalRes": -1
+        },
+        {
+          "bar": 1012,
+          "entryTime": 1777312800000,
+          "exitTime": 1777327200000,
+          "rOutcome": 0.6,
+          "rVal": 1.51,
+          "finalRes": 4
+        },
+        {
+          "bar": 1061,
+          "entryTime": 1778191200000,
+          "exitTime": 1778205600000,
+          "rOutcome": 0.6,
+          "rVal": 1.7,
+          "finalRes": 4
+        },
+        {
+          "bar": 1081,
+          "entryTime": 1778652000000,
+          "exitTime": 1778666400000,
+          "rOutcome": 0,
+          "rVal": 1.58,
+          "finalRes": 3
+        },
+        {
+          "bar": 1113,
+          "entryTime": 1779285600000,
+          "exitTime": 1779300000000,
+          "rOutcome": -1,
+          "rVal": 2.04,
+          "finalRes": -1
+        },
+        {
+          "bar": 1178,
+          "entryTime": 1780567200000,
+          "exitTime": 1780581600000,
+          "rOutcome": 1.53,
+          "rVal": 1.53,
+          "finalRes": 1
+        },
+        {
+          "bar": 1249,
+          "entryTime": 1782122400000,
+          "exitTime": 1782136800000,
+          "rOutcome": 2.13,
+          "rVal": 2.13,
+          "finalRes": 1
+        },
+        {
+          "bar": 1284,
+          "entryTime": 1782799200000,
+          "exitTime": 1782813600000,
+          "rOutcome": 0.6,
+          "rVal": 1.79,
+          "finalRes": 4
+        },
+        {
+          "bar": 1313,
+          "entryTime": 1783404000000,
+          "exitTime": 1783418400000,
+          "rOutcome": 1.94,
+          "rVal": 1.94,
+          "finalRes": 1
+        },
+        {
+          "bar": 1347,
+          "entryTime": 1784066400000,
+          "exitTime": 1784080800000,
+          "rOutcome": 0.6,
+          "rVal": 1.77,
+          "finalRes": 4
+        },
+        {
+          "bar": 1409,
+          "entryTime": 1785304800000,
+          "exitTime": 1785319200000,
+          "rOutcome": 0,
+          "rVal": 3.02,
+          "finalRes": 3
+        },
+        {
+          "bar": 1546,
+          "entryTime": 1788141600000,
+          "exitTime": 1788156000000,
+          "rOutcome": 0.6,
+          "rVal": 1.91,
+          "finalRes": 4
+        },
+        {
+          "bar": 1587,
+          "entryTime": 1788904800000,
+          "exitTime": 1788919200000,
+          "rOutcome": 0,
+          "rVal": 1.51,
+          "finalRes": 3
+        },
+        {
+          "bar": 1600,
+          "entryTime": 1789092000000,
+          "exitTime": 1789106400000,
+          "rOutcome": 0,
+          "rVal": 1.66,
+          "finalRes": 3
+        },
+        {
+          "bar": 1642,
+          "entryTime": 1790042400000,
+          "exitTime": 1790056800000,
+          "rOutcome": 2.92,
+          "rVal": 2.92,
+          "finalRes": 1
+        },
+        {
+          "bar": 1677,
+          "entryTime": 1790719200000,
+          "exitTime": 1790733600000,
+          "rOutcome": 0,
+          "rVal": 1.61,
+          "finalRes": 3
+        },
+        {
+          "bar": 1695,
+          "entryTime": 1791151200000,
+          "exitTime": 1791165600000,
+          "rOutcome": 1.64,
+          "rVal": 1.64,
+          "finalRes": 1
+        },
+        {
+          "bar": 1715,
+          "entryTime": 1791439200000,
+          "exitTime": 1791453600000,
+          "rOutcome": 0.6,
+          "rVal": 1.88,
+          "finalRes": 4
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,30 @@
+# CCXT provider configuration.
+#
+# Fields map to CCXT constructor keyword arguments, so adding a new
+# exchange-specific setting is usually as simple as declaring it here
+# with the same name CCXT uses — ``vars(config)`` is filtered for
+# truthy values and spread into the CCXT client constructor. Inherits
+# ``symbol_map`` from :class:`LiveProviderConfig` so ``ccxt.toml`` can
+# declare TradingView→native symbol translations for
+# :meth:`ProviderPlugin.resolve_symbol`.
+
+# Optional translation map. Keys are TradingView-style symbols as
+# written in Pine scripts (e.g. ``"FX:EURUSD"``); values are the native
+# identifier the plugin sends to the exchange API (e.g. ``"EURUSD"``).
+# Missing keys fall back to ``ProviderPlugin.normalize_symbol``.
+#symbol_map = {}
+
+# Default API key for all exchanges
+#apiKey = ""
+
+# Default API secret for all exchanges
+#secret = ""
+
+# Default API password (required by some exchanges like KuCoin)
+#password = ""
+
+# Enable the exchange's testnet / demo endpoint via ``set_sandbox_mode``.
+#sandbox = false
+
+# Default market type — ``"spot"`` / ``"swap"`` / ``"future"`` / ``"margin"``.
+#default_type = "swap"

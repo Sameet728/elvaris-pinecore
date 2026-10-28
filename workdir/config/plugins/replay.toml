@@ -1,0 +1,13 @@
+# Config for :class:`ReplayProvider`.
+#
+# :ivar fixture_path: Absolute path to the JSON fixture file (warmup +
+# live bars). Inherits ``symbol_map`` from
+# :class:`LiveProviderConfig`.
+
+# Optional translation map. Keys are TradingView-style symbols as
+# written in Pine scripts (e.g. ``"FX:EURUSD"``); values are the native
+# identifier the plugin sends to the exchange API (e.g. ``"EURUSD"``).
+# Missing keys fall back to ``ProviderPlugin.normalize_symbol``.
+#symbol_map = {}
+
+#fixture_path = ""

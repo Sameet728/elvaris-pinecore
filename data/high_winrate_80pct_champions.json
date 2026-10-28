@@ -1,0 +1,9572 @@
+[
+  {
+    "emaKey": "EMA50",
+    "swKey": "2_4",
+    "tpPips": 30,
+    "atrMult": 0.15,
+    "beTriggerR": 0.6,
+    "lockInTriggerR": 1,
+    "lockInValR": 1,
+    "cooldownBars": 8,
+    "useDeepFvg": false,
+    "useSessionFilter": false,
+    "closed": 121,
+    "wins": 79,
+    "losses": 23,
+    "beCount": 19,
+    "winRate": 77.5,
+    "avgRR": 2.4,
+    "cumulativeR": 107.59,
+    "maxDrawdown": 2,
+    "calmarRatio": 53.8,
+    "sepR": 78.35,
+    "octR": 30.24,
+    "trades": [
+      {
+        "rOutcome": 2.09,
+        "rVal": 2.09,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 2.16,
+        "rVal": 2.16,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.71,
+        "rVal": 1.71,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.68,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1.75,
+        "rVal": 1.75,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.91,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.16,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 3.14,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.51,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.54,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 3.16,
+        "rVal": 3.16,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.32,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.61,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1.81,
+        "rVal": 1.81,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.69,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 2.18,
+        "rVal": 2.18,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 3.95,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 3.01,
+        "rVal": 3.01,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 4.22,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.6,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.62,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.77,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 2.38,
+        "rVal": 2.38,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.69,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 3.55,
+        "rVal": 3.55,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 2.2,
+        "rVal": 2.2,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.72,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.94,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.15,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 4.16,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.54,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 3.37,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2.43,
+        "rVal": 2.43,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 3.39,
+        "rVal": 3.39,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.54,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.92,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2.7,
+        "rVal": 2.7,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.41,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.94,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.52,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 2.1,
+        "rVal": 2.1,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.63,
+        "rVal": 1.63,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.89,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2.24,
+        "rVal": 2.24,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.61,
+        "rVal": 1.61,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.9,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.37,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.23,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.62,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1.8,
+        "rVal": 1.8,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.87,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2.47,
+        "rVal": 2.47,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.55,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.77,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.98,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1.52,
+        "rVal": 1.52,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.37,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.51,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 4.47,
+        "rVal": 4.47,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.24,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1.91,
+        "rVal": 1.91,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.56,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.46,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 5.88,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.2,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 3.55,
+        "rVal": 3.55,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.96,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 4.19,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.68,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 5.32,
+        "rVal": 5.32,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.57,
+        "rVal": 1.57,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 3.42,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1.64,
+        "rVal": 1.64,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.3,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.54,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.21,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.5,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.15,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.09,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 3.31,
+        "rVal": 3.31,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.96,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 3.83,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1.98,
+        "rVal": 1.98,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.04,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.53,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 3.63,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.5,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.13,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.74,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1.72,
+        "rVal": 1.72,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 2.83,
+        "rVal": 2.83,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.82,
+        "rVal": 1.82,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 3.08,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.74,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.72,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.04,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1.65,
+        "rVal": 1.65,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.2,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.76,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.68,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.08,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.95,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.77,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 3.37,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.11,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 3.98,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 3.78,
+        "rVal": 3.78,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.81,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.92,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 3.32,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2.4,
+        "rVal": 2.4,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 4.04,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 5.13,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.63,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.6,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.81,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.54,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1.75,
+        "rVal": 1.75,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 4.18,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.86,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.55,
+        "finalRes": -1
+      }
+    ],
+    "mc": {
+      "worstDD95": 5,
+      "worstDD99": 6,
+      "medianDD": 3,
+      "medianR": 107.2,
+      "probDDUnder5R": 98.1,
+      "probProfitable": 100
+    }
+  },
+  {
+    "emaKey": "EMA50",
+    "swKey": "2_4",
+    "tpPips": 30,
+    "atrMult": 0.15,
+    "beTriggerR": 0.6,
+    "lockInTriggerR": 1,
+    "lockInValR": 1,
+    "cooldownBars": 12,
+    "useDeepFvg": false,
+    "useSessionFilter": false,
+    "closed": 121,
+    "wins": 79,
+    "losses": 23,
+    "beCount": 19,
+    "winRate": 77.5,
+    "avgRR": 2.4,
+    "cumulativeR": 107.59,
+    "maxDrawdown": 2,
+    "calmarRatio": 53.8,
+    "sepR": 78.35,
+    "octR": 30.24,
+    "trades": [
+      {
+        "rOutcome": 2.09,
+        "rVal": 2.09,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 2.16,
+        "rVal": 2.16,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.71,
+        "rVal": 1.71,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.68,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1.75,
+        "rVal": 1.75,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.91,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.16,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 3.14,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.51,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.54,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 3.16,
+        "rVal": 3.16,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.32,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.61,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1.81,
+        "rVal": 1.81,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.69,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 2.18,
+        "rVal": 2.18,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 3.95,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 3.01,
+        "rVal": 3.01,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 4.22,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.6,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.62,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.77,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 2.38,
+        "rVal": 2.38,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.69,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 3.55,
+        "rVal": 3.55,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 2.2,
+        "rVal": 2.2,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.72,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.94,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.15,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 4.16,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.54,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 3.37,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2.43,
+        "rVal": 2.43,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 3.39,
+        "rVal": 3.39,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.54,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.92,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2.7,
+        "rVal": 2.7,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.41,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.94,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.52,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 2.1,
+        "rVal": 2.1,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.63,
+        "rVal": 1.63,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.89,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2.24,
+        "rVal": 2.24,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.61,
+        "rVal": 1.61,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.9,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.37,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.23,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.62,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1.8,
+        "rVal": 1.8,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.87,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2.47,
+        "rVal": 2.47,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.55,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.77,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.98,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1.52,
+        "rVal": 1.52,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.37,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.51,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 4.47,
+        "rVal": 4.47,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.24,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1.91,
+        "rVal": 1.91,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.56,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.46,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 5.88,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.2,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 3.55,
+        "rVal": 3.55,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.96,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 4.19,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.68,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 5.32,
+        "rVal": 5.32,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.57,
+        "rVal": 1.57,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 3.42,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1.64,
+        "rVal": 1.64,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.3,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.54,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.21,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.5,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.15,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.09,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 3.31,
+        "rVal": 3.31,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.96,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 3.83,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1.98,
+        "rVal": 1.98,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.04,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.53,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 3.63,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.5,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.13,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.74,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1.72,
+        "rVal": 1.72,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 2.83,
+        "rVal": 2.83,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.82,
+        "rVal": 1.82,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 3.08,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.74,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.72,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.04,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1.65,
+        "rVal": 1.65,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.2,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.76,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.68,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.08,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.95,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.77,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 3.37,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.11,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 3.98,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 3.78,
+        "rVal": 3.78,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.81,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.92,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 3.32,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2.4,
+        "rVal": 2.4,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 4.04,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 5.13,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.63,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.6,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.81,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.54,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1.75,
+        "rVal": 1.75,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 4.18,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.86,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.55,
+        "finalRes": -1
+      }
+    ],
+    "mc": {
+      "worstDD95": 5,
+      "worstDD99": 6,
+      "medianDD": 3,
+      "medianR": 107.6,
+      "probDDUnder5R": 98.4,
+      "probProfitable": 100
+    }
+  },
+  {
+    "emaKey": "EMA50",
+    "swKey": "2_4",
+    "tpPips": 25,
+    "atrMult": 0.15,
+    "beTriggerR": 0.6,
+    "lockInTriggerR": 1,
+    "lockInValR": 1,
+    "cooldownBars": 8,
+    "useDeepFvg": false,
+    "useSessionFilter": false,
+    "closed": 121,
+    "wins": 79,
+    "losses": 23,
+    "beCount": 19,
+    "winRate": 77.5,
+    "avgRR": 2,
+    "cumulativeR": 106.48,
+    "maxDrawdown": 2,
+    "calmarRatio": 53.24,
+    "sepR": 75.31,
+    "octR": 32.17,
+    "trades": [
+      {
+        "rOutcome": 1.74,
+        "rVal": 1.74,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.8,
+        "rVal": 1.8,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.43,
+        "rVal": 1.43,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.4,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1.46,
+        "rVal": 1.46,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.59,
+        "rVal": 1.59,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.8,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.62,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.26,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.12,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 2.63,
+        "rVal": 2.63,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.94,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.34,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1.51,
+        "rVal": 1.51,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.41,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1.81,
+        "rVal": 1.81,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 3.3,
+        "rVal": 3.3,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 2.51,
+        "rVal": 2.51,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 3.51,
+        "rVal": 3.51,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.33,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.18,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.48,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1.99,
+        "rVal": 1.99,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.41,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2.96,
+        "rVal": 2.96,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.84,
+        "rVal": 1.84,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.43,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.61,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.79,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 3.47,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.29,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.81,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2.03,
+        "rVal": 2.03,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 2.83,
+        "rVal": 2.83,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.12,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.43,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2.25,
+        "rVal": 2.25,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.01,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.62,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.26,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1.75,
+        "rVal": 1.75,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.35,
+        "rVal": 1.35,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.58,
+        "rVal": 1.58,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.87,
+        "rVal": 1.87,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.34,
+        "rVal": 1.34,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.42,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1.98,
+        "rVal": 1.98,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.86,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.35,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1.5,
+        "rVal": 1.5,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.56,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2.05,
+        "rVal": 2.05,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.29,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.47,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.65,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1.27,
+        "rVal": 1.27,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.98,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.26,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 3.72,
+        "rVal": 3.72,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.87,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1.59,
+        "rVal": 1.59,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.3,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 2.05,
+        "rVal": 2.05,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 4.9,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.83,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 2.96,
+        "rVal": 2.96,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.64,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 3.49,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.4,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 4.43,
+        "rVal": 4.43,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.31,
+        "rVal": 1.31,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.85,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1.37,
+        "rVal": 1.37,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.92,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.28,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.85,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.08,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.79,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.74,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 2.76,
+        "rVal": 2.76,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.63,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 3.19,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1.65,
+        "rVal": 1.65,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.7,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.27,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 3.03,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1.25,
+        "rVal": 1.25,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.78,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1.45,
+        "rVal": 1.45,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.43,
+        "rVal": 1.43,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 2.36,
+        "rVal": 2.36,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.52,
+        "rVal": 1.52,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.57,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.28,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.43,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.7,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1.37,
+        "rVal": 1.37,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.83,
+        "rVal": 1.83,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.3,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1.4,
+        "rVal": 1.4,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.73,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.62,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.31,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.8,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.75,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 3.32,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 3.15,
+        "rVal": 3.15,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.51,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.6,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.76,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2,
+        "rVal": 2,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 3.36,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 4.28,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.36,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.33,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1.51,
+        "rVal": 1.51,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.28,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1.45,
+        "rVal": 1.45,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 3.49,
+        "rVal": 3.49,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.55,
+        "rVal": 1.55,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.29,
+        "finalRes": -1
+      }
+    ],
+    "mc": {
+      "worstDD95": 5,
+      "worstDD99": 6,
+      "medianDD": 3,
+      "medianR": 106.6,
+      "probDDUnder5R": 98.3,
+      "probProfitable": 100
+    }
+  },
+  {
+    "emaKey": "EMA50",
+    "swKey": "2_4",
+    "tpPips": 25,
+    "atrMult": 0.15,
+    "beTriggerR": 0.6,
+    "lockInTriggerR": 1,
+    "lockInValR": 1,
+    "cooldownBars": 12,
+    "useDeepFvg": false,
+    "useSessionFilter": false,
+    "closed": 121,
+    "wins": 79,
+    "losses": 23,
+    "beCount": 19,
+    "winRate": 77.5,
+    "avgRR": 2,
+    "cumulativeR": 106.48,
+    "maxDrawdown": 2,
+    "calmarRatio": 53.24,
+    "sepR": 75.31,
+    "octR": 32.17,
+    "trades": [
+      {
+        "rOutcome": 1.74,
+        "rVal": 1.74,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.8,
+        "rVal": 1.8,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.43,
+        "rVal": 1.43,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.4,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1.46,
+        "rVal": 1.46,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.59,
+        "rVal": 1.59,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.8,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.62,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.26,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.12,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 2.63,
+        "rVal": 2.63,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.94,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.34,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1.51,
+        "rVal": 1.51,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.41,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1.81,
+        "rVal": 1.81,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 3.3,
+        "rVal": 3.3,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 2.51,
+        "rVal": 2.51,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 3.51,
+        "rVal": 3.51,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.33,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.18,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.48,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1.99,
+        "rVal": 1.99,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.41,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2.96,
+        "rVal": 2.96,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.84,
+        "rVal": 1.84,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.43,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.61,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.79,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 3.47,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.29,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.81,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2.03,
+        "rVal": 2.03,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 2.83,
+        "rVal": 2.83,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.12,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.43,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2.25,
+        "rVal": 2.25,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.01,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.62,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.26,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1.75,
+        "rVal": 1.75,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.35,
+        "rVal": 1.35,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.58,
+        "rVal": 1.58,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.87,
+        "rVal": 1.87,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.34,
+        "rVal": 1.34,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.42,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1.98,
+        "rVal": 1.98,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.86,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.35,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1.5,
+        "rVal": 1.5,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.56,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2.05,
+        "rVal": 2.05,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.29,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.47,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.65,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1.27,
+        "rVal": 1.27,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.98,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.26,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 3.72,
+        "rVal": 3.72,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.87,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1.59,
+        "rVal": 1.59,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.3,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 2.05,
+        "rVal": 2.05,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 4.9,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.83,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 2.96,
+        "rVal": 2.96,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.64,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 3.49,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.4,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 4.43,
+        "rVal": 4.43,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.31,
+        "rVal": 1.31,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.85,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1.37,
+        "rVal": 1.37,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.92,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.28,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.85,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.08,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.79,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.74,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 2.76,
+        "rVal": 2.76,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.63,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 3.19,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1.65,
+        "rVal": 1.65,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.7,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.27,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 3.03,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1.25,
+        "rVal": 1.25,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.78,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1.45,
+        "rVal": 1.45,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.43,
+        "rVal": 1.43,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 2.36,
+        "rVal": 2.36,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.52,
+        "rVal": 1.52,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.57,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.28,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.43,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.7,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1.37,
+        "rVal": 1.37,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.83,
+        "rVal": 1.83,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.3,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1.4,
+        "rVal": 1.4,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.73,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.62,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.31,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.8,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.75,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 3.32,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 3.15,
+        "rVal": 3.15,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.51,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.6,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.76,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2,
+        "rVal": 2,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 3.36,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 4.28,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.36,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.33,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1.51,
+        "rVal": 1.51,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.28,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1.45,
+        "rVal": 1.45,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 3.49,
+        "rVal": 3.49,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.55,
+        "rVal": 1.55,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.29,
+        "finalRes": -1
+      }
+    ],
+    "mc": {
+      "worstDD95": 5,
+      "worstDD99": 6,
+      "medianDD": 3,
+      "medianR": 106.5,
+      "probDDUnder5R": 98.2,
+      "probProfitable": 100
+    }
+  },
+  {
+    "emaKey": "EMA50",
+    "swKey": "2_4",
+    "tpPips": 25,
+    "atrMult": 0.15,
+    "beTriggerR": 0.6,
+    "lockInTriggerR": 1,
+    "lockInValR": 0.8,
+    "cooldownBars": 8,
+    "useDeepFvg": false,
+    "useSessionFilter": false,
+    "closed": 121,
+    "wins": 79,
+    "losses": 23,
+    "beCount": 19,
+    "winRate": 77.5,
+    "avgRR": 2,
+    "cumulativeR": 100.48,
+    "maxDrawdown": 2,
+    "calmarRatio": 50.24,
+    "sepR": 71.71,
+    "octR": 29.77,
+    "trades": [
+      {
+        "rOutcome": 1.74,
+        "rVal": 1.74,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.8,
+        "rVal": 1.8,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.43,
+        "rVal": 1.43,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.4,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1.46,
+        "rVal": 1.46,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.59,
+        "rVal": 1.59,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.8,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.62,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 1.26,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.12,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 2.63,
+        "rVal": 2.63,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.94,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.34,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1.51,
+        "rVal": 1.51,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.41,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1.81,
+        "rVal": 1.81,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 3.3,
+        "rVal": 3.3,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 2.51,
+        "rVal": 2.51,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 3.51,
+        "rVal": 3.51,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.33,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.18,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.48,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1.99,
+        "rVal": 1.99,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 1.41,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2.96,
+        "rVal": 2.96,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.84,
+        "rVal": 1.84,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.43,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.61,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.79,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 3.47,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 1.29,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.81,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2.03,
+        "rVal": 2.03,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 2.83,
+        "rVal": 2.83,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.12,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.43,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2.25,
+        "rVal": 2.25,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.01,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 1.62,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.26,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1.75,
+        "rVal": 1.75,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.35,
+        "rVal": 1.35,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.58,
+        "rVal": 1.58,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.87,
+        "rVal": 1.87,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.34,
+        "rVal": 1.34,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.42,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1.98,
+        "rVal": 1.98,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.86,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.35,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1.5,
+        "rVal": 1.5,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 1.56,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2.05,
+        "rVal": 2.05,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 1.29,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.47,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.65,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1.27,
+        "rVal": 1.27,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.98,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.26,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 3.72,
+        "rVal": 3.72,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 1.87,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1.59,
+        "rVal": 1.59,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.3,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 2.05,
+        "rVal": 2.05,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 4.9,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.83,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 2.96,
+        "rVal": 2.96,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 1.64,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 3.49,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.4,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 4.43,
+        "rVal": 4.43,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.31,
+        "rVal": 1.31,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.85,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1.37,
+        "rVal": 1.37,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 1.92,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.28,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 1.85,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.08,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.79,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.74,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 2.76,
+        "rVal": 2.76,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.63,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 3.19,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1.65,
+        "rVal": 1.65,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 1.7,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.27,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 3.03,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1.25,
+        "rVal": 1.25,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.78,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1.45,
+        "rVal": 1.45,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.43,
+        "rVal": 1.43,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 2.36,
+        "rVal": 2.36,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.52,
+        "rVal": 1.52,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.57,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.28,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.43,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.7,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1.37,
+        "rVal": 1.37,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.83,
+        "rVal": 1.83,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.3,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1.4,
+        "rVal": 1.4,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.73,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 1.62,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.31,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.8,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.75,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 3.32,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 3.15,
+        "rVal": 3.15,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.51,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.6,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.76,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2,
+        "rVal": 2,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 3.36,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 4.28,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.36,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 1.33,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1.51,
+        "rVal": 1.51,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.28,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1.45,
+        "rVal": 1.45,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 3.49,
+        "rVal": 3.49,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.55,
+        "rVal": 1.55,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.29,
+        "finalRes": -1
+      }
+    ],
+    "mc": {
+      "worstDD95": 5,
+      "worstDD99": 6.2,
+      "medianDD": 3,
+      "medianR": 100.7,
+      "probDDUnder5R": 96.9,
+      "probProfitable": 100
+    }
+  },
+  {
+    "emaKey": "EMA50",
+    "swKey": "2_4",
+    "tpPips": 25,
+    "atrMult": 0.15,
+    "beTriggerR": 0.6,
+    "lockInTriggerR": 1,
+    "lockInValR": 0.8,
+    "cooldownBars": 12,
+    "useDeepFvg": false,
+    "useSessionFilter": false,
+    "closed": 121,
+    "wins": 79,
+    "losses": 23,
+    "beCount": 19,
+    "winRate": 77.5,
+    "avgRR": 2,
+    "cumulativeR": 100.48,
+    "maxDrawdown": 2,
+    "calmarRatio": 50.24,
+    "sepR": 71.71,
+    "octR": 29.77,
+    "trades": [
+      {
+        "rOutcome": 1.74,
+        "rVal": 1.74,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.8,
+        "rVal": 1.8,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.43,
+        "rVal": 1.43,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.4,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1.46,
+        "rVal": 1.46,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.59,
+        "rVal": 1.59,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.8,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.62,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 1.26,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.12,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 2.63,
+        "rVal": 2.63,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.94,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.34,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1.51,
+        "rVal": 1.51,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.41,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1.81,
+        "rVal": 1.81,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 3.3,
+        "rVal": 3.3,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 2.51,
+        "rVal": 2.51,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 3.51,
+        "rVal": 3.51,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.33,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.18,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.48,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1.99,
+        "rVal": 1.99,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 1.41,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2.96,
+        "rVal": 2.96,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.84,
+        "rVal": 1.84,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.43,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.61,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.79,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 3.47,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 1.29,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.81,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2.03,
+        "rVal": 2.03,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 2.83,
+        "rVal": 2.83,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.12,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.43,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2.25,
+        "rVal": 2.25,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.01,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 1.62,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.26,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1.75,
+        "rVal": 1.75,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.35,
+        "rVal": 1.35,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.58,
+        "rVal": 1.58,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.87,
+        "rVal": 1.87,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.34,
+        "rVal": 1.34,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.42,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1.98,
+        "rVal": 1.98,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.86,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.35,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1.5,
+        "rVal": 1.5,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 1.56,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2.05,
+        "rVal": 2.05,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 1.29,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.47,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.65,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1.27,
+        "rVal": 1.27,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.98,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.26,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 3.72,
+        "rVal": 3.72,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 1.87,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1.59,
+        "rVal": 1.59,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.3,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 2.05,
+        "rVal": 2.05,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 4.9,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.83,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 2.96,
+        "rVal": 2.96,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 1.64,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 3.49,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.4,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 4.43,
+        "rVal": 4.43,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.31,
+        "rVal": 1.31,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.85,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1.37,
+        "rVal": 1.37,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 1.92,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.28,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 1.85,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.08,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.79,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.74,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 2.76,
+        "rVal": 2.76,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.63,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 3.19,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1.65,
+        "rVal": 1.65,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 1.7,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.27,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 3.03,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1.25,
+        "rVal": 1.25,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.78,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1.45,
+        "rVal": 1.45,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.43,
+        "rVal": 1.43,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 2.36,
+        "rVal": 2.36,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.52,
+        "rVal": 1.52,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.57,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.28,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.43,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.7,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1.37,
+        "rVal": 1.37,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.83,
+        "rVal": 1.83,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.3,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1.4,
+        "rVal": 1.4,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.73,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 1.62,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.31,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.8,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.75,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 3.32,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 3.15,
+        "rVal": 3.15,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.51,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.6,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.76,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2,
+        "rVal": 2,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 3.36,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 4.28,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.36,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 1.33,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1.51,
+        "rVal": 1.51,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.28,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1.45,
+        "rVal": 1.45,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 3.49,
+        "rVal": 3.49,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.55,
+        "rVal": 1.55,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.29,
+        "finalRes": -1
+      }
+    ],
+    "mc": {
+      "worstDD95": 5,
+      "worstDD99": 6,
+      "medianDD": 3,
+      "medianR": 100.4,
+      "probDDUnder5R": 97.2,
+      "probProfitable": 100
+    }
+  },
+  {
+    "emaKey": "EMA50",
+    "swKey": "2_4",
+    "tpPips": 30,
+    "atrMult": 0.15,
+    "beTriggerR": 0.6,
+    "lockInTriggerR": 1,
+    "lockInValR": 0.8,
+    "cooldownBars": 8,
+    "useDeepFvg": false,
+    "useSessionFilter": false,
+    "closed": 121,
+    "wins": 79,
+    "losses": 23,
+    "beCount": 19,
+    "winRate": 77.5,
+    "avgRR": 2.4,
+    "cumulativeR": 98.99,
+    "maxDrawdown": 2.2,
+    "calmarRatio": 45,
+    "sepR": 73.55,
+    "octR": 26.44,
+    "trades": [
+      {
+        "rOutcome": 2.09,
+        "rVal": 2.09,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 2.16,
+        "rVal": 2.16,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.71,
+        "rVal": 1.71,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.68,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1.75,
+        "rVal": 1.75,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 1.91,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.16,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 3.14,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 1.51,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.54,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 3.16,
+        "rVal": 3.16,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.32,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.61,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1.81,
+        "rVal": 1.81,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.69,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 2.18,
+        "rVal": 2.18,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 3.95,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 3.01,
+        "rVal": 3.01,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 4.22,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.6,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.62,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.77,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 2.38,
+        "rVal": 2.38,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 1.69,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 3.55,
+        "rVal": 3.55,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 2.2,
+        "rVal": 2.2,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.72,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.94,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.15,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 4.16,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 1.54,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 3.37,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2.43,
+        "rVal": 2.43,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 3.39,
+        "rVal": 3.39,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.54,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.92,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2.7,
+        "rVal": 2.7,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.41,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 1.94,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.52,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 2.1,
+        "rVal": 2.1,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.63,
+        "rVal": 1.63,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 1.89,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2.24,
+        "rVal": 2.24,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.61,
+        "rVal": 1.61,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.9,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.37,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.23,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.62,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1.8,
+        "rVal": 1.8,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 1.87,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2.47,
+        "rVal": 2.47,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 1.55,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.77,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.98,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1.52,
+        "rVal": 1.52,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.37,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.51,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 4.47,
+        "rVal": 4.47,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.24,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1.91,
+        "rVal": 1.91,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.56,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.46,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 5.88,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.2,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 3.55,
+        "rVal": 3.55,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 1.96,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 4.19,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.68,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 5.32,
+        "rVal": 5.32,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.57,
+        "rVal": 1.57,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 3.42,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1.64,
+        "rVal": 1.64,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.3,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.54,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.21,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.5,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.15,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.09,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 3.31,
+        "rVal": 3.31,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.96,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 3.83,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1.98,
+        "rVal": 1.98,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.04,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.53,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 3.63,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 1.5,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.13,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 1.74,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1.72,
+        "rVal": 1.72,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 2.83,
+        "rVal": 2.83,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.82,
+        "rVal": 1.82,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 3.08,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.74,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.72,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.04,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1.65,
+        "rVal": 1.65,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.2,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.76,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 1.68,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.08,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 1.95,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.77,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 3.37,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.11,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 3.98,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 3.78,
+        "rVal": 3.78,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.81,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.92,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 3.32,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2.4,
+        "rVal": 2.4,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 4.04,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 5.13,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.63,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 1.6,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 1.81,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.54,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1.75,
+        "rVal": 1.75,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 4.18,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 1.86,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.55,
+        "finalRes": -1
+      }
+    ],
+    "mc": {
+      "worstDD95": 5,
+      "worstDD99": 6.2,
+      "medianDD": 3,
+      "medianR": 99.1,
+      "probDDUnder5R": 96,
+      "probProfitable": 100
+    }
+  },
+  {
+    "emaKey": "EMA50",
+    "swKey": "2_4",
+    "tpPips": 30,
+    "atrMult": 0.15,
+    "beTriggerR": 0.6,
+    "lockInTriggerR": 1,
+    "lockInValR": 0.8,
+    "cooldownBars": 12,
+    "useDeepFvg": false,
+    "useSessionFilter": false,
+    "closed": 121,
+    "wins": 79,
+    "losses": 23,
+    "beCount": 19,
+    "winRate": 77.5,
+    "avgRR": 2.4,
+    "cumulativeR": 98.99,
+    "maxDrawdown": 2.2,
+    "calmarRatio": 45,
+    "sepR": 73.55,
+    "octR": 26.44,
+    "trades": [
+      {
+        "rOutcome": 2.09,
+        "rVal": 2.09,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 2.16,
+        "rVal": 2.16,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.71,
+        "rVal": 1.71,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.68,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1.75,
+        "rVal": 1.75,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 1.91,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.16,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 3.14,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 1.51,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.54,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 3.16,
+        "rVal": 3.16,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.32,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.61,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1.81,
+        "rVal": 1.81,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.69,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 2.18,
+        "rVal": 2.18,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 3.95,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 3.01,
+        "rVal": 3.01,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 4.22,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.6,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.62,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.77,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 2.38,
+        "rVal": 2.38,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 1.69,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 3.55,
+        "rVal": 3.55,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 2.2,
+        "rVal": 2.2,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.72,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.94,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.15,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 4.16,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 1.54,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 3.37,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2.43,
+        "rVal": 2.43,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 3.39,
+        "rVal": 3.39,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.54,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.92,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2.7,
+        "rVal": 2.7,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.41,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 1.94,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.52,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 2.1,
+        "rVal": 2.1,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.63,
+        "rVal": 1.63,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 1.89,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2.24,
+        "rVal": 2.24,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.61,
+        "rVal": 1.61,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.9,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.37,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.23,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.62,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1.8,
+        "rVal": 1.8,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 1.87,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2.47,
+        "rVal": 2.47,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 1.55,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.77,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.98,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1.52,
+        "rVal": 1.52,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.37,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.51,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 4.47,
+        "rVal": 4.47,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.24,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1.91,
+        "rVal": 1.91,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.56,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.46,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 5.88,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.2,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 3.55,
+        "rVal": 3.55,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 1.96,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 4.19,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.68,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 5.32,
+        "rVal": 5.32,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.57,
+        "rVal": 1.57,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 3.42,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1.64,
+        "rVal": 1.64,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.3,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.54,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.21,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.5,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.15,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.09,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 3.31,
+        "rVal": 3.31,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.96,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 3.83,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1.98,
+        "rVal": 1.98,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.04,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.53,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 3.63,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 1.5,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.13,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 1.74,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1.72,
+        "rVal": 1.72,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 2.83,
+        "rVal": 2.83,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.82,
+        "rVal": 1.82,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 3.08,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.74,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.72,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.04,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1.65,
+        "rVal": 1.65,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.2,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.76,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 1.68,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.08,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 1.95,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.77,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 3.37,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.11,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 3.98,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 3.78,
+        "rVal": 3.78,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.81,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.92,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 3.32,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2.4,
+        "rVal": 2.4,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 4.04,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 5.13,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.63,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 1.6,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 1.81,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.54,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1.75,
+        "rVal": 1.75,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 4.18,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 1.86,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.55,
+        "finalRes": -1
+      }
+    ],
+    "mc": {
+      "worstDD95": 5,
+      "worstDD99": 6,
+      "medianDD": 3,
+      "medianR": 99.3,
+      "probDDUnder5R": 96.4,
+      "probProfitable": 100
+    }
+  },
+  {
+    "emaKey": "EMA50",
+    "swKey": "2_4",
+    "tpPips": 35,
+    "atrMult": 0.15,
+    "beTriggerR": 0.6,
+    "lockInTriggerR": 1,
+    "lockInValR": 1,
+    "cooldownBars": 8,
+    "useDeepFvg": false,
+    "useSessionFilter": false,
+    "closed": 121,
+    "wins": 79,
+    "losses": 23,
+    "beCount": 19,
+    "winRate": 77.5,
+    "avgRR": 2.79,
+    "cumulativeR": 94.7,
+    "maxDrawdown": 2,
+    "calmarRatio": 47.35,
+    "sepR": 70.41,
+    "octR": 25.29,
+    "trades": [
+      {
+        "rOutcome": 1,
+        "rVal": 2.43,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2.52,
+        "rVal": 2.52,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 2,
+        "rVal": 2,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.96,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 2.05,
+        "rVal": 2.05,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.23,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.51,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 3.67,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.76,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.96,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 3.68,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.71,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.88,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 2.11,
+        "rVal": 2.11,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.97,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.54,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 4.61,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 3.52,
+        "rVal": 3.52,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 4.92,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.86,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 3.06,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.07,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 2.78,
+        "rVal": 2.78,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.97,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 4.15,
+        "rVal": 4.15,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 2.57,
+        "rVal": 2.57,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.26,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.51,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 4.86,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.8,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 3.93,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.84,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 3.96,
+        "rVal": 3.96,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.96,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 3.41,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 3.15,
+        "rVal": 3.15,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.81,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.26,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.77,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 2.46,
+        "rVal": 2.46,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.9,
+        "rVal": 1.9,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.21,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2.61,
+        "rVal": 2.61,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.88,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 3.39,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.77,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.61,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.9,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.1,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.18,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2.88,
+        "rVal": 2.88,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.8,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.06,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.31,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1.78,
+        "rVal": 1.78,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.77,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.76,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 5.21,
+        "rVal": 5.21,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.61,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.22,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.82,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.87,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 6.86,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.56,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 4.14,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.29,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 4.89,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.96,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 6.2,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1.84,
+        "rVal": 1.84,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 3.99,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1.92,
+        "rVal": 1.92,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.69,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.79,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.58,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.92,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.5,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.43,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 3.86,
+        "rVal": 3.86,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.29,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 4.47,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.31,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.38,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.78,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 4.24,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.75,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.49,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.03,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2.01,
+        "rVal": 2.01,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 3.3,
+        "rVal": 3.3,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 2.12,
+        "rVal": 2.12,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 3.59,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 3.19,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.01,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.38,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.92,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.57,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 3.21,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.96,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.43,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.27,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 3.23,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 3.93,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.46,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 4.64,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 4.4,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.11,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.24,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 3.87,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.8,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 4.71,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 5.99,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.9,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.87,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.11,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.8,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.04,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 4.88,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.17,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.81,
+        "finalRes": -1
+      }
+    ],
+    "mc": {
+      "worstDD95": 5,
+      "worstDD99": 6,
+      "medianDD": 3,
+      "medianR": 94,
+      "probDDUnder5R": 97.9,
+      "probProfitable": 100
+    }
+  },
+  {
+    "emaKey": "EMA50",
+    "swKey": "2_4",
+    "tpPips": 35,
+    "atrMult": 0.15,
+    "beTriggerR": 0.6,
+    "lockInTriggerR": 1,
+    "lockInValR": 1,
+    "cooldownBars": 12,
+    "useDeepFvg": false,
+    "useSessionFilter": false,
+    "closed": 121,
+    "wins": 79,
+    "losses": 23,
+    "beCount": 19,
+    "winRate": 77.5,
+    "avgRR": 2.79,
+    "cumulativeR": 94.7,
+    "maxDrawdown": 2,
+    "calmarRatio": 47.35,
+    "sepR": 70.41,
+    "octR": 25.29,
+    "trades": [
+      {
+        "rOutcome": 1,
+        "rVal": 2.43,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2.52,
+        "rVal": 2.52,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 2,
+        "rVal": 2,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.96,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 2.05,
+        "rVal": 2.05,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.23,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.51,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 3.67,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.76,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.96,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 3.68,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.71,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.88,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 2.11,
+        "rVal": 2.11,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.97,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.54,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 4.61,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 3.52,
+        "rVal": 3.52,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 4.92,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.86,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 3.06,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.07,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 2.78,
+        "rVal": 2.78,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.97,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 4.15,
+        "rVal": 4.15,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 2.57,
+        "rVal": 2.57,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.26,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.51,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 4.86,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.8,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 3.93,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.84,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 3.96,
+        "rVal": 3.96,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.96,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 3.41,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 3.15,
+        "rVal": 3.15,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.81,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.26,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.77,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 2.46,
+        "rVal": 2.46,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.9,
+        "rVal": 1.9,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.21,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2.61,
+        "rVal": 2.61,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.88,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 3.39,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.77,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.61,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.9,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.1,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.18,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2.88,
+        "rVal": 2.88,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.8,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.06,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.31,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1.78,
+        "rVal": 1.78,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.77,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.76,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 5.21,
+        "rVal": 5.21,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.61,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.22,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.82,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.87,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 6.86,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.56,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 4.14,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.29,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 4.89,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.96,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 6.2,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1.84,
+        "rVal": 1.84,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 3.99,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1.92,
+        "rVal": 1.92,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.69,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.79,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.58,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.92,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.5,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.43,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 3.86,
+        "rVal": 3.86,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.29,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 4.47,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.31,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.38,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.78,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 4.24,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.75,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.49,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.03,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2.01,
+        "rVal": 2.01,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 3.3,
+        "rVal": 3.3,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 2.12,
+        "rVal": 2.12,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 3.59,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 3.19,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.01,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.38,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.92,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.57,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 3.21,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.96,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.43,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.27,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 3.23,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 3.93,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.46,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 4.64,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 4.4,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.11,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.24,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 3.87,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.8,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 4.71,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 5.99,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.9,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 1.87,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.11,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.8,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.04,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 4.88,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1,
+        "rVal": 2.17,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.81,
+        "finalRes": -1
+      }
+    ],
+    "mc": {
+      "worstDD95": 5,
+      "worstDD99": 6,
+      "medianDD": 3,
+      "medianR": 94.8,
+      "probDDUnder5R": 98.5,
+      "probProfitable": 100
+    }
+  },
+  {
+    "emaKey": "EMA50",
+    "swKey": "2_4",
+    "tpPips": 25,
+    "atrMult": 0.15,
+    "beTriggerR": 0.6,
+    "lockInTriggerR": 1,
+    "lockInValR": 0.6,
+    "cooldownBars": 8,
+    "useDeepFvg": false,
+    "useSessionFilter": false,
+    "closed": 121,
+    "wins": 79,
+    "losses": 23,
+    "beCount": 19,
+    "winRate": 77.5,
+    "avgRR": 2,
+    "cumulativeR": 94.48,
+    "maxDrawdown": 2,
+    "calmarRatio": 47.24,
+    "sepR": 68.11,
+    "octR": 27.37,
+    "trades": [
+      {
+        "rOutcome": 1.74,
+        "rVal": 1.74,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.8,
+        "rVal": 1.8,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.43,
+        "rVal": 1.43,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.4,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1.46,
+        "rVal": 1.46,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.59,
+        "rVal": 1.59,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.8,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 2.62,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 1.26,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.12,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 2.63,
+        "rVal": 2.63,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.94,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.34,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1.51,
+        "rVal": 1.51,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.41,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1.81,
+        "rVal": 1.81,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 3.3,
+        "rVal": 3.3,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 2.51,
+        "rVal": 2.51,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 3.51,
+        "rVal": 3.51,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.33,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 2.18,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.48,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1.99,
+        "rVal": 1.99,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 1.41,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2.96,
+        "rVal": 2.96,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.84,
+        "rVal": 1.84,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.43,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.61,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.79,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 3.47,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 1.29,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 2.81,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2.03,
+        "rVal": 2.03,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 2.83,
+        "rVal": 2.83,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 2.12,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 2.43,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2.25,
+        "rVal": 2.25,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 2.01,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 1.62,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.26,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1.75,
+        "rVal": 1.75,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.35,
+        "rVal": 1.35,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.58,
+        "rVal": 1.58,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.87,
+        "rVal": 1.87,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.34,
+        "rVal": 1.34,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 2.42,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1.98,
+        "rVal": 1.98,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.86,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.35,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1.5,
+        "rVal": 1.5,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 1.56,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2.05,
+        "rVal": 2.05,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 1.29,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.47,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.65,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1.27,
+        "rVal": 1.27,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.98,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.26,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 3.72,
+        "rVal": 3.72,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 1.87,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1.59,
+        "rVal": 1.59,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.3,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 2.05,
+        "rVal": 2.05,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 4.9,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.83,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 2.96,
+        "rVal": 2.96,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 1.64,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 3.49,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.4,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 4.43,
+        "rVal": 4.43,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.31,
+        "rVal": 1.31,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.85,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1.37,
+        "rVal": 1.37,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 1.92,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.28,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 1.85,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 2.08,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.79,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.74,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 2.76,
+        "rVal": 2.76,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.63,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 3.19,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1.65,
+        "rVal": 1.65,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 1.7,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.27,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 3.03,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1.25,
+        "rVal": 1.25,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.78,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1.45,
+        "rVal": 1.45,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.43,
+        "rVal": 1.43,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 2.36,
+        "rVal": 2.36,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.52,
+        "rVal": 1.52,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 2.57,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 2.28,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.43,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.7,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1.37,
+        "rVal": 1.37,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.83,
+        "rVal": 1.83,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 2.3,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1.4,
+        "rVal": 1.4,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.73,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 1.62,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.31,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 2.8,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.75,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 3.32,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 3.15,
+        "rVal": 3.15,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.51,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.6,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 2.76,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2,
+        "rVal": 2,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 3.36,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 4.28,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.36,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 1.33,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1.51,
+        "rVal": 1.51,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.28,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1.45,
+        "rVal": 1.45,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 3.49,
+        "rVal": 3.49,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.55,
+        "rVal": 1.55,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.29,
+        "finalRes": -1
+      }
+    ],
+    "mc": {
+      "worstDD95": 5,
+      "worstDD99": 6.37,
+      "medianDD": 3,
+      "medianR": 94.5,
+      "probDDUnder5R": 96.4,
+      "probProfitable": 100
+    }
+  },
+  {
+    "emaKey": "EMA50",
+    "swKey": "2_4",
+    "tpPips": 25,
+    "atrMult": 0.15,
+    "beTriggerR": 0.6,
+    "lockInTriggerR": 1,
+    "lockInValR": 0.6,
+    "cooldownBars": 12,
+    "useDeepFvg": false,
+    "useSessionFilter": false,
+    "closed": 121,
+    "wins": 79,
+    "losses": 23,
+    "beCount": 19,
+    "winRate": 77.5,
+    "avgRR": 2,
+    "cumulativeR": 94.48,
+    "maxDrawdown": 2,
+    "calmarRatio": 47.24,
+    "sepR": 68.11,
+    "octR": 27.37,
+    "trades": [
+      {
+        "rOutcome": 1.74,
+        "rVal": 1.74,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.8,
+        "rVal": 1.8,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.43,
+        "rVal": 1.43,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.4,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1.46,
+        "rVal": 1.46,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.59,
+        "rVal": 1.59,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.8,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 2.62,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 1.26,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.12,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 2.63,
+        "rVal": 2.63,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.94,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.34,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1.51,
+        "rVal": 1.51,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.41,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1.81,
+        "rVal": 1.81,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 3.3,
+        "rVal": 3.3,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 2.51,
+        "rVal": 2.51,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 3.51,
+        "rVal": 3.51,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.33,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 2.18,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.48,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1.99,
+        "rVal": 1.99,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 1.41,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2.96,
+        "rVal": 2.96,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.84,
+        "rVal": 1.84,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.43,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.61,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.79,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 3.47,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 1.29,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 2.81,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2.03,
+        "rVal": 2.03,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 2.83,
+        "rVal": 2.83,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 2.12,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 2.43,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2.25,
+        "rVal": 2.25,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 2.01,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 1.62,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.26,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1.75,
+        "rVal": 1.75,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.35,
+        "rVal": 1.35,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.58,
+        "rVal": 1.58,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.87,
+        "rVal": 1.87,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.34,
+        "rVal": 1.34,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 2.42,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1.98,
+        "rVal": 1.98,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.86,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.35,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1.5,
+        "rVal": 1.5,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 1.56,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2.05,
+        "rVal": 2.05,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 1.29,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.47,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.65,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1.27,
+        "rVal": 1.27,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.98,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.26,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 3.72,
+        "rVal": 3.72,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 1.87,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1.59,
+        "rVal": 1.59,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.3,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 2.05,
+        "rVal": 2.05,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 4.9,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.83,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 2.96,
+        "rVal": 2.96,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 1.64,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 3.49,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.4,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 4.43,
+        "rVal": 4.43,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.31,
+        "rVal": 1.31,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.85,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1.37,
+        "rVal": 1.37,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 1.92,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.28,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 1.85,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 2.08,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.79,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.74,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 2.76,
+        "rVal": 2.76,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.63,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 3.19,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1.65,
+        "rVal": 1.65,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 1.7,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.27,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 3.03,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1.25,
+        "rVal": 1.25,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.78,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1.45,
+        "rVal": 1.45,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.43,
+        "rVal": 1.43,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 2.36,
+        "rVal": 2.36,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.52,
+        "rVal": 1.52,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 2.57,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 2.28,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.43,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.7,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1.37,
+        "rVal": 1.37,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.83,
+        "rVal": 1.83,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 2.3,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1.4,
+        "rVal": 1.4,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.73,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 1.62,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.31,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 2.8,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.75,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 3.32,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 3.15,
+        "rVal": 3.15,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.51,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.6,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 2.76,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2,
+        "rVal": 2,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 3.36,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 4.28,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.36,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 1.33,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1.51,
+        "rVal": 1.51,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.28,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1.45,
+        "rVal": 1.45,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 3.49,
+        "rVal": 3.49,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.55,
+        "rVal": 1.55,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.29,
+        "finalRes": -1
+      }
+    ],
+    "mc": {
+      "worstDD95": 5,
+      "worstDD99": 6.2,
+      "medianDD": 3,
+      "medianR": 94.6,
+      "probDDUnder5R": 96.8,
+      "probProfitable": 100
+    }
+  },
+  {
+    "emaKey": "EMA50",
+    "swKey": "2_4",
+    "tpPips": 30,
+    "atrMult": 0.15,
+    "beTriggerR": 0.6,
+    "lockInTriggerR": 1,
+    "lockInValR": 0.6,
+    "cooldownBars": 8,
+    "useDeepFvg": false,
+    "useSessionFilter": false,
+    "closed": 121,
+    "wins": 79,
+    "losses": 23,
+    "beCount": 19,
+    "winRate": 77.5,
+    "avgRR": 2.4,
+    "cumulativeR": 90.39,
+    "maxDrawdown": 2.4,
+    "calmarRatio": 37.66,
+    "sepR": 68.75,
+    "octR": 22.64,
+    "trades": [
+      {
+        "rOutcome": 2.09,
+        "rVal": 2.09,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 2.16,
+        "rVal": 2.16,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.71,
+        "rVal": 1.71,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.68,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1.75,
+        "rVal": 1.75,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 1.91,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.16,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 3.14,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 1.51,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.54,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 3.16,
+        "rVal": 3.16,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.32,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.61,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1.81,
+        "rVal": 1.81,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.69,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 2.18,
+        "rVal": 2.18,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 3.95,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 3.01,
+        "rVal": 3.01,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 4.22,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.6,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 2.62,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.77,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 2.38,
+        "rVal": 2.38,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 1.69,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 3.55,
+        "rVal": 3.55,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 2.2,
+        "rVal": 2.2,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.72,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.94,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.15,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 4.16,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 1.54,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 3.37,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2.43,
+        "rVal": 2.43,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 3.39,
+        "rVal": 3.39,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 2.54,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 2.92,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2.7,
+        "rVal": 2.7,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 2.41,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 1.94,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.52,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 2.1,
+        "rVal": 2.1,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.63,
+        "rVal": 1.63,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 1.89,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2.24,
+        "rVal": 2.24,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.61,
+        "rVal": 1.61,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 2.9,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 2.37,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.23,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.62,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1.8,
+        "rVal": 1.8,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 1.87,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2.47,
+        "rVal": 2.47,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 1.55,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.77,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.98,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1.52,
+        "rVal": 1.52,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.37,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.51,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 4.47,
+        "rVal": 4.47,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 2.24,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1.91,
+        "rVal": 1.91,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.56,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 2.46,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 5.88,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.2,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 3.55,
+        "rVal": 3.55,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 1.96,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 4.19,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.68,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 5.32,
+        "rVal": 5.32,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.57,
+        "rVal": 1.57,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 3.42,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1.64,
+        "rVal": 1.64,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 2.3,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.54,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 2.21,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 2.5,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.15,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.09,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 3.31,
+        "rVal": 3.31,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.96,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 3.83,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1.98,
+        "rVal": 1.98,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 2.04,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.53,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 3.63,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 1.5,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.13,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 1.74,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1.72,
+        "rVal": 1.72,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 2.83,
+        "rVal": 2.83,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.82,
+        "rVal": 1.82,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 3.08,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 2.74,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.72,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.04,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1.65,
+        "rVal": 1.65,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 2.2,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 2.76,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 1.68,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.08,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 1.95,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.77,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 3.37,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.11,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 3.98,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 3.78,
+        "rVal": 3.78,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.81,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.92,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 3.32,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2.4,
+        "rVal": 2.4,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 4.04,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 5.13,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.63,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 1.6,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 1.81,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.54,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1.75,
+        "rVal": 1.75,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 4.18,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 1.86,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.55,
+        "finalRes": -1
+      }
+    ],
+    "mc": {
+      "worstDD95": 5,
+      "worstDD99": 6.4,
+      "medianDD": 3,
+      "medianR": 90.3,
+      "probDDUnder5R": 96,
+      "probProfitable": 100
+    }
+  },
+  {
+    "emaKey": "EMA50",
+    "swKey": "2_4",
+    "tpPips": 30,
+    "atrMult": 0.15,
+    "beTriggerR": 0.6,
+    "lockInTriggerR": 1,
+    "lockInValR": 0.6,
+    "cooldownBars": 12,
+    "useDeepFvg": false,
+    "useSessionFilter": false,
+    "closed": 121,
+    "wins": 79,
+    "losses": 23,
+    "beCount": 19,
+    "winRate": 77.5,
+    "avgRR": 2.4,
+    "cumulativeR": 90.39,
+    "maxDrawdown": 2.4,
+    "calmarRatio": 37.66,
+    "sepR": 68.75,
+    "octR": 22.64,
+    "trades": [
+      {
+        "rOutcome": 2.09,
+        "rVal": 2.09,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 2.16,
+        "rVal": 2.16,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.71,
+        "rVal": 1.71,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.68,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1.75,
+        "rVal": 1.75,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 1.91,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.16,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 3.14,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 1.51,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.54,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 3.16,
+        "rVal": 3.16,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.32,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.61,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1.81,
+        "rVal": 1.81,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.69,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 2.18,
+        "rVal": 2.18,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 3.95,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 3.01,
+        "rVal": 3.01,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 4.22,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.6,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 2.62,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.77,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 2.38,
+        "rVal": 2.38,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 1.69,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 3.55,
+        "rVal": 3.55,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 2.2,
+        "rVal": 2.2,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.72,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.94,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.15,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 4.16,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 1.54,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 3.37,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2.43,
+        "rVal": 2.43,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 3.39,
+        "rVal": 3.39,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 2.54,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 2.92,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2.7,
+        "rVal": 2.7,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 2.41,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 1.94,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.52,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 2.1,
+        "rVal": 2.1,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.63,
+        "rVal": 1.63,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 1.89,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2.24,
+        "rVal": 2.24,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.61,
+        "rVal": 1.61,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 2.9,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 2.37,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.23,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.62,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1.8,
+        "rVal": 1.8,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 1.87,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2.47,
+        "rVal": 2.47,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 1.55,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.77,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.98,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1.52,
+        "rVal": 1.52,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.37,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.51,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 4.47,
+        "rVal": 4.47,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 2.24,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1.91,
+        "rVal": 1.91,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.56,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 2.46,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 5.88,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.2,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 3.55,
+        "rVal": 3.55,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 1.96,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 4.19,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.68,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 5.32,
+        "rVal": 5.32,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.57,
+        "rVal": 1.57,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 3.42,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1.64,
+        "rVal": 1.64,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 2.3,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.54,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 2.21,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 2.5,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.15,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.09,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 3.31,
+        "rVal": 3.31,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.96,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 3.83,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1.98,
+        "rVal": 1.98,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 2.04,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.53,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 3.63,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 1.5,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.13,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 1.74,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1.72,
+        "rVal": 1.72,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 2.83,
+        "rVal": 2.83,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.82,
+        "rVal": 1.82,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 3.08,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 2.74,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.72,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.04,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1.65,
+        "rVal": 1.65,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 2.2,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 2.76,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 1.68,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.08,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 1.95,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.77,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 3.37,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.11,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 3.98,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 3.78,
+        "rVal": 3.78,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.81,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.92,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 3.32,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2.4,
+        "rVal": 2.4,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 4.04,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 5.13,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.63,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 1.6,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 1.81,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.54,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 1.75,
+        "rVal": 1.75,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 4.18,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.6,
+        "rVal": 1.86,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.55,
+        "finalRes": -1
+      }
+    ],
+    "mc": {
+      "worstDD95": 5,
+      "worstDD99": 6.22,
+      "medianDD": 3,
+      "medianR": 90.2,
+      "probDDUnder5R": 95.8,
+      "probProfitable": 100
+    }
+  },
+  {
+    "emaKey": "EMA50",
+    "swKey": "2_4",
+    "tpPips": 35,
+    "atrMult": 0.15,
+    "beTriggerR": 0.6,
+    "lockInTriggerR": 1,
+    "lockInValR": 0.8,
+    "cooldownBars": 8,
+    "useDeepFvg": false,
+    "useSessionFilter": false,
+    "closed": 121,
+    "wins": 79,
+    "losses": 23,
+    "beCount": 19,
+    "winRate": 77.5,
+    "avgRR": 2.79,
+    "cumulativeR": 83.3,
+    "maxDrawdown": 2.2,
+    "calmarRatio": 37.86,
+    "sepR": 63.81,
+    "octR": 20.49,
+    "trades": [
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.43,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2.52,
+        "rVal": 2.52,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 2,
+        "rVal": 2,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.96,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 2.05,
+        "rVal": 2.05,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.23,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.51,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 3.67,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 1.76,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.96,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 3.68,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.71,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.88,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 2.11,
+        "rVal": 2.11,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.97,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.54,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 4.61,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 3.52,
+        "rVal": 3.52,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 4.92,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.86,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 3.06,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.07,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 2.78,
+        "rVal": 2.78,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 1.97,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 4.15,
+        "rVal": 4.15,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 2.57,
+        "rVal": 2.57,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.26,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.51,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 4.86,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 1.8,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 3.93,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.84,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 3.96,
+        "rVal": 3.96,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.96,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 3.41,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 3.15,
+        "rVal": 3.15,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.81,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.26,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.77,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 2.46,
+        "rVal": 2.46,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 1.9,
+        "rVal": 1.9,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.21,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2.61,
+        "rVal": 2.61,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 1.88,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 3.39,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.77,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.61,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.9,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.1,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.18,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2.88,
+        "rVal": 2.88,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 1.8,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.06,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.31,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1.78,
+        "rVal": 1.78,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.77,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.76,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 5.21,
+        "rVal": 5.21,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.61,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.22,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.82,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.87,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 6.86,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.56,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 4.14,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.29,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 4.89,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.96,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 6.2,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 1.84,
+        "rVal": 1.84,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 3.99,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 1.92,
+        "rVal": 1.92,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.69,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.79,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.58,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.92,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.5,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.43,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 3.86,
+        "rVal": 3.86,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.29,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 4.47,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.31,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.38,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.78,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 4.24,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 1.75,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.49,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.03,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 2.01,
+        "rVal": 2.01,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 3.3,
+        "rVal": 3.3,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 2.12,
+        "rVal": 2.12,
+        "finalRes": 1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 3.59,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 3.19,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.01,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.38,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 1.92,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.57,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 3.21,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 1.96,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.43,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.27,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 3.23,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 3.93,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.46,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 4.64,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 4.4,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 2.11,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 2.24,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 3.87,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.8,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 4.71,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 5.99,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0,
+        "rVal": 1.9,
+        "finalRes": 3
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 1.87,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.11,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.8,
+        "finalRes": -1
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.04,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 4.88,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": 0.8,
+        "rVal": 2.17,
+        "finalRes": 4
+      },
+      {
+        "rOutcome": -1,
+        "rVal": 1.81,
+        "finalRes": -1
+      }
+    ],
+    "mc": {
+      "worstDD95": 5,
+      "worstDD99": 6.2,
+      "medianDD": 3,
+      "medianR": 83.3,
+      "probDDUnder5R": 95.6,
+      "probProfitable": 100
+    }
+  }
+]

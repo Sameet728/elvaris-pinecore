@@ -1,0 +1,125 @@
+{
+  "tf15M": {
+    "sfp": [
+      {
+        "arch": "SFP",
+        "lookback": 15,
+        "wickRatio": 0.25,
+        "trendFilter": true,
+        "atrMult": 1.5,
+        "rr": 1,
+        "trades": 66,
+        "wins": 40,
+        "losses": 26,
+        "wr": 60.6,
+        "cumR": 14,
+        "maxDD": 3,
+        "calmar": 4.67,
+        "monthlyR": {
+          "2026-09": 14,
+          "2026-10": 0
+        }
+      },
+      {
+        "arch": "SFP",
+        "lookback": 15,
+        "wickRatio": 0.15,
+        "trendFilter": true,
+        "atrMult": 1.5,
+        "rr": 1,
+        "trades": 69,
+        "wins": 42,
+        "losses": 27,
+        "wr": 60.9,
+        "cumR": 15,
+        "maxDD": 4,
+        "calmar": 3.75,
+        "monthlyR": {
+          "2026-09": 13,
+          "2026-10": 2
+        }
+      },
+      {
+        "arch": "SFP",
+        "lookback": 20,
+        "wickRatio": 0.25,
+        "trendFilter": true,
+        "atrMult": 1.5,
+        "rr": 1,
+        "trades": 46,
+        "wins": 29,
+        "losses": 17,
+        "wr": 63,
+        "cumR": 12,
+        "maxDD": 4,
+        "calmar": 3,
+        "monthlyR": {
+          "2026-09": 15,
+          "2026-10": -3
+        }
+      }
+    ],
+    "pull": [
+      {
+        "arch": "TrendPullback",
+        "pullType": "ema50",
+        "rsiFilter": 50,
+        "atrMult": 1.5,
+        "rr": 1.25,
+        "trades": 46,
+        "wins": 28,
+        "losses": 18,
+        "wr": 60.9,
+        "cumR": 17,
+        "maxDD": 4,
+        "calmar": 4.25,
+        "monthlyR": {
+          "2026-09": 5.25,
+          "2026-10": 11.75
+        }
+      },
+      {
+        "arch": "TrendPullback",
+        "pullType": "ema50",
+        "rsiFilter": 50,
+        "atrMult": 2,
+        "rr": 1.25,
+        "trades": 40,
+        "wins": 25,
+        "losses": 15,
+        "wr": 62.5,
+        "cumR": 16.3,
+        "maxDD": 4,
+        "calmar": 4.06,
+        "monthlyR": {
+          "2026-09": 5,
+          "2026-10": 11.25
+        }
+      },
+      {
+        "arch": "TrendPullback",
+        "pullType": "ema50",
+        "rsiFilter": 50,
+        "atrMult": 2,
+        "rr": 1,
+        "trades": 42,
+        "wins": 28,
+        "losses": 14,
+        "wr": 66.7,
+        "cumR": 14,
+        "maxDD": 4,
+        "calmar": 3.5,
+        "monthlyR": {
+          "2026-09": 4,
+          "2026-10": 10
+        }
+      }
+    ],
+    "sess": []
+  },
+  "tf1H": {
+    "sfp": [],
+    "pull": [],
+    "sess": []
+  }
+}

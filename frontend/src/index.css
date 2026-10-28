@@ -1,0 +1,243 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* ── Global Dark Trading Terminal Design ─────────────────── */
+:root {
+  --vela-core: #4f8ef7;
+  --vela-flare: #818cf8;
+  --vela-glow: #a5b4fc;
+  --vela-bloom: rgba(79, 142, 247, 0.3);
+  --terminal-bg: #0a0a0f;
+  --terminal-surface: #111118;
+  --terminal-panel: #161620;
+  --terminal-border: #1e1e2e;
+  --terminal-hover: #1a1a28;
+  --candle-bull: #26a65b;
+  --candle-bear: #e74c3c;
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+  background-color: var(--terminal-bg);
+  color: #e2e8f0;
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 13px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ── Scrollbars ──────────────────────────────────────────── */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--terminal-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2a2a3e;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3a3a52;
+}
+
+/* ── Vela Chart Container ────────────────────────────────── */
+.vela-chart-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: var(--terminal-bg);
+}
+
+.vela-chart-container canvas {
+  display: block;
+}
+
+/* ── Monaco Editor Overrides ─────────────────────────────── */
+.monaco-editor-wrapper {
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+}
+
+.monaco-editor .margin {
+  background-color: #0e0e18 !important;
+}
+
+.monaco-editor-background {
+  background-color: #0e0e18 !important;
+}
+
+/* ── Gradient Text ───────────────────────────────────────── */
+.gradient-text {
+  background: linear-gradient(135deg, var(--vela-core), var(--vela-flare) 50%, var(--vela-glow));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+/* ── Glow Effects ────────────────────────────────────────── */
+.glow-blue {
+  box-shadow: 0 0 20px rgba(79, 142, 247, 0.15);
+}
+
+.glow-green {
+  box-shadow: 0 0 20px rgba(38, 166, 91, 0.15);
+}
+
+.glow-red {
+  box-shadow: 0 0 20px rgba(231, 76, 60, 0.15);
+}
+
+/* ── Panel Transitions ───────────────────────────────────── */
+.panel-transition {
+  transition: width 0.25s ease, height 0.25s ease;
+}
+
+/* ── Status Indicator ────────────────────────────────────── */
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.6; transform: scale(0.85); }
+}
+
+.status-dot {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.status-dot.active {
+  background: #26a65b;
+  animation: pulse-dot 2s ease-in-out infinite;
+}
+
+.status-dot.idle {
+  background: #64748b;
+}
+
+.status-dot.error {
+  background: #e74c3c;
+}
+
+.status-dot.loading {
+  background: #f39c12;
+  animation: pulse-dot 1s ease-in-out infinite;
+}
+
+/* ── Price Display ───────────────────────────────────────── */
+.price-up {
+  color: var(--candle-bull);
+}
+
+.price-down {
+  color: var(--candle-bear);
+}
+
+/* ── Loading Spinner ─────────────────────────────────────── */
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.spinner {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border: 2px solid rgba(79, 142, 247, 0.3);
+  border-top-color: var(--vela-core);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+/* ── Progress Bar ────────────────────────────────────────── */
+.progress-bar {
+  height: 2px;
+  background: var(--terminal-border);
+  border-radius: 1px;
+  overflow: hidden;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--vela-core), var(--vela-flare));
+  border-radius: 1px;
+  transition: width 0.3s ease;
+}
+
+/* ── Resize Handle ───────────────────────────────────────── */
+.resize-handle {
+  width: 4px;
+  background: var(--terminal-border);
+  cursor: col-resize;
+  flex-shrink: 0;
+  transition: background 0.15s;
+}
+
+.resize-handle:hover,
+.resize-handle.active {
+  background: var(--vela-core);
+}
+
+/* ── Console Output ──────────────────────────────────────── */
+.console-output {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11.5px;
+  line-height: 1.6;
+  color: #94a3b8;
+}
+
+.console-output .error { color: #ef4444; }
+.console-output .warn  { color: #f59e0b; }
+.console-output .info  { color: #60a5fa; }
+.console-output .success { color: #34d399; }
+
+/* ── Empty State ─────────────────────────────────────────── */
+.empty-chart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  gap: 12px;
+  color: #334155;
+}
+
+/* ── Tooltip ─────────────────────────────────────────────── */
+.tooltip {
+  position: absolute;
+  background: #1e1e30;
+  border: 1px solid var(--terminal-border);
+  border-radius: 6px;
+  padding: 6px 10px;
+  font-size: 11.5px;
+  color: #cbd5e1;
+  pointer-events: none;
+  z-index: 100;
+  white-space: nowrap;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+}

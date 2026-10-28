@@ -1,0 +1,675 @@
+{
+  "champion": {
+    "params": {
+      "rebalanceIntervalDays": 15,
+      "stopLossPct": 8,
+      "topN": 3,
+      "momType": "13612W",
+      "defensiveAsset": "CASH"
+    },
+    "cagr": 20.87,
+    "totalReturn": 676.1,
+    "finalCapital": 7760647,
+    "maxDrawdown": 13.48,
+    "calmar": 1.55,
+    "stopOutsCount": 29,
+    "yearlyStats": {
+      "2016": {
+        "return": 18.1,
+        "maxDD": 7.5
+      },
+      "2017": {
+        "return": 12.4,
+        "maxDD": 8.5
+      },
+      "2018": {
+        "return": -0.9,
+        "maxDD": 12
+      },
+      "2019": {
+        "return": 7.1,
+        "maxDD": 11.4
+      },
+      "2020": {
+        "return": 19.1,
+        "maxDD": 10.3
+      },
+      "2021": {
+        "return": 15.9,
+        "maxDD": 13.5
+      },
+      "2022": {
+        "return": 14.2,
+        "maxDD": 8.3
+      },
+      "2023": {
+        "return": 30.1,
+        "maxDD": 5.6
+      },
+      "2024": {
+        "return": 50.7,
+        "maxDD": 8.7
+      },
+      "2025": {
+        "return": 55.5,
+        "maxDD": 4.8
+      },
+      "2026": {
+        "return": 10.9,
+        "maxDD": 6
+      }
+    }
+  },
+  "top10": [
+    {
+      "params": {
+        "rebalanceIntervalDays": 15,
+        "stopLossPct": 8,
+        "topN": 3,
+        "momType": "13612W",
+        "defensiveAsset": "CASH"
+      },
+      "cagr": 20.87,
+      "totalReturn": 676.1,
+      "finalCapital": 7760647,
+      "maxDrawdown": 13.48,
+      "calmar": 1.55,
+      "stopOutsCount": 29,
+      "yearlyStats": {
+        "2016": {
+          "return": 18.1,
+          "maxDD": 7.5
+        },
+        "2017": {
+          "return": 12.4,
+          "maxDD": 8.5
+        },
+        "2018": {
+          "return": -0.9,
+          "maxDD": 12
+        },
+        "2019": {
+          "return": 7.1,
+          "maxDD": 11.4
+        },
+        "2020": {
+          "return": 19.1,
+          "maxDD": 10.3
+        },
+        "2021": {
+          "return": 15.9,
+          "maxDD": 13.5
+        },
+        "2022": {
+          "return": 14.2,
+          "maxDD": 8.3
+        },
+        "2023": {
+          "return": 30.1,
+          "maxDD": 5.6
+        },
+        "2024": {
+          "return": 50.7,
+          "maxDD": 8.7
+        },
+        "2025": {
+          "return": 55.5,
+          "maxDD": 4.8
+        },
+        "2026": {
+          "return": 10.9,
+          "maxDD": 6
+        }
+      }
+    },
+    {
+      "params": {
+        "rebalanceIntervalDays": 15,
+        "stopLossPct": 10,
+        "topN": 3,
+        "momType": "13612W",
+        "defensiveAsset": "CASH"
+      },
+      "cagr": 22.08,
+      "totalReturn": 764,
+      "finalCapital": 8640140,
+      "maxDrawdown": 14.33,
+      "calmar": 1.54,
+      "stopOutsCount": 14,
+      "yearlyStats": {
+        "2016": {
+          "return": 17.4,
+          "maxDD": 7.5
+        },
+        "2017": {
+          "return": 11.7,
+          "maxDD": 9.2
+        },
+        "2018": {
+          "return": 1.7,
+          "maxDD": 11.1
+        },
+        "2019": {
+          "return": 6.7,
+          "maxDD": 11.5
+        },
+        "2020": {
+          "return": 15.9,
+          "maxDD": 12.7
+        },
+        "2021": {
+          "return": 24.9,
+          "maxDD": 14.3
+        },
+        "2022": {
+          "return": 14.2,
+          "maxDD": 8.3
+        },
+        "2023": {
+          "return": 32.5,
+          "maxDD": 5.6
+        },
+        "2024": {
+          "return": 56.7,
+          "maxDD": 8.7
+        },
+        "2025": {
+          "return": 54.2,
+          "maxDD": 5.1
+        },
+        "2026": {
+          "return": 10.9,
+          "maxDD": 6
+        }
+      }
+    },
+    {
+      "params": {
+        "rebalanceIntervalDays": 15,
+        "stopLossPct": 12,
+        "topN": 3,
+        "momType": "13612W",
+        "defensiveAsset": "CASH"
+      },
+      "cagr": 22.39,
+      "totalReturn": 787.9,
+      "finalCapital": 8878575,
+      "maxDrawdown": 15,
+      "calmar": 1.49,
+      "stopOutsCount": 7,
+      "yearlyStats": {
+        "2016": {
+          "return": 17.4,
+          "maxDD": 7.5
+        },
+        "2017": {
+          "return": 10.2,
+          "maxDD": 10.4
+        },
+        "2018": {
+          "return": 2,
+          "maxDD": 11.1
+        },
+        "2019": {
+          "return": 5.4,
+          "maxDD": 12.6
+        },
+        "2020": {
+          "return": 14.1,
+          "maxDD": 14
+        },
+        "2021": {
+          "return": 26.4,
+          "maxDD": 14
+        },
+        "2022": {
+          "return": 13.7,
+          "maxDD": 8.3
+        },
+        "2023": {
+          "return": 32.5,
+          "maxDD": 5.6
+        },
+        "2024": {
+          "return": 60.3,
+          "maxDD": 8.7
+        },
+        "2025": {
+          "return": 53,
+          "maxDD": 5.9
+        },
+        "2026": {
+          "return": 14.9,
+          "maxDD": 5.9
+        }
+      }
+    },
+    {
+      "params": {
+        "rebalanceIntervalDays": 15,
+        "stopLossPct": 10,
+        "topN": 2,
+        "momType": "13612W",
+        "defensiveAsset": "CASH"
+      },
+      "cagr": 23.78,
+      "totalReturn": 903.4,
+      "finalCapital": 10033903,
+      "maxDrawdown": 16.9,
+      "calmar": 1.41,
+      "stopOutsCount": 9,
+      "yearlyStats": {
+        "2016": {
+          "return": 15.3,
+          "maxDD": 8.3
+        },
+        "2017": {
+          "return": 9.2,
+          "maxDD": 8.4
+        },
+        "2018": {
+          "return": 4.9,
+          "maxDD": 11.2
+        },
+        "2019": {
+          "return": 0.6,
+          "maxDD": 15.3
+        },
+        "2020": {
+          "return": 20.4,
+          "maxDD": 12.5
+        },
+        "2021": {
+          "return": 25.5,
+          "maxDD": 16.9
+        },
+        "2022": {
+          "return": 25.3,
+          "maxDD": 9.9
+        },
+        "2023": {
+          "return": 28.3,
+          "maxDD": 7
+        },
+        "2024": {
+          "return": 52.1,
+          "maxDD": 13.1
+        },
+        "2025": {
+          "return": 71.4,
+          "maxDD": 8.8
+        },
+        "2026": {
+          "return": 14.8,
+          "maxDD": 10.1
+        }
+      }
+    },
+    {
+      "params": {
+        "rebalanceIntervalDays": 10,
+        "stopLossPct": null,
+        "topN": 3,
+        "momType": "13612W",
+        "defensiveAsset": "DYNAMIC_GOLD_CASH"
+      },
+      "cagr": 24.78,
+      "totalReturn": 994.2,
+      "finalCapital": 10942497,
+      "maxDrawdown": 18,
+      "calmar": 1.38,
+      "stopOutsCount": 0,
+      "yearlyStats": {
+        "2016": {
+          "return": 15.3,
+          "maxDD": 7.5
+        },
+        "2017": {
+          "return": 13.5,
+          "maxDD": 8.7
+        },
+        "2018": {
+          "return": -2.8,
+          "maxDD": 10.5
+        },
+        "2019": {
+          "return": 1.7,
+          "maxDD": 17.8
+        },
+        "2020": {
+          "return": 26.3,
+          "maxDD": 12.3
+        },
+        "2021": {
+          "return": 29.4,
+          "maxDD": 12.1
+        },
+        "2022": {
+          "return": 22.8,
+          "maxDD": 9.6
+        },
+        "2023": {
+          "return": 46.3,
+          "maxDD": 5.2
+        },
+        "2024": {
+          "return": 36,
+          "maxDD": 7.7
+        },
+        "2025": {
+          "return": 84,
+          "maxDD": 6.2
+        },
+        "2026": {
+          "return": 9.3,
+          "maxDD": 18
+        }
+      }
+    },
+    {
+      "params": {
+        "rebalanceIntervalDays": 15,
+        "stopLossPct": 8,
+        "topN": 2,
+        "momType": "13612W",
+        "defensiveAsset": "CASH"
+      },
+      "cagr": 21.5,
+      "totalReturn": 720.5,
+      "finalCapital": 8205094,
+      "maxDrawdown": 15.66,
+      "calmar": 1.37,
+      "stopOutsCount": 24,
+      "yearlyStats": {
+        "2016": {
+          "return": 15.6,
+          "maxDD": 8.3
+        },
+        "2017": {
+          "return": 10.2,
+          "maxDD": 8.6
+        },
+        "2018": {
+          "return": 0.8,
+          "maxDD": 12.4
+        },
+        "2019": {
+          "return": 0.6,
+          "maxDD": 15.4
+        },
+        "2020": {
+          "return": 22.3,
+          "maxDD": 11.1
+        },
+        "2021": {
+          "return": 12.1,
+          "maxDD": 15.7
+        },
+        "2022": {
+          "return": 25.3,
+          "maxDD": 9.9
+        },
+        "2023": {
+          "return": 24.9,
+          "maxDD": 6.9
+        },
+        "2024": {
+          "return": 43.1,
+          "maxDD": 14.2
+        },
+        "2025": {
+          "return": 73.5,
+          "maxDD": 7.7
+        },
+        "2026": {
+          "return": 14.8,
+          "maxDD": 10.1
+        }
+      }
+    },
+    {
+      "params": {
+        "rebalanceIntervalDays": 15,
+        "stopLossPct": 12,
+        "topN": 2,
+        "momType": "13612W",
+        "defensiveAsset": "CASH"
+      },
+      "cagr": 24.3,
+      "totalReturn": 950.3,
+      "finalCapital": 10502974,
+      "maxDrawdown": 17.79,
+      "calmar": 1.37,
+      "stopOutsCount": 4,
+      "yearlyStats": {
+        "2016": {
+          "return": 15.3,
+          "maxDD": 8.3
+        },
+        "2017": {
+          "return": 8.2,
+          "maxDD": 8.8
+        },
+        "2018": {
+          "return": 5.3,
+          "maxDD": 11.2
+        },
+        "2019": {
+          "return": 0.6,
+          "maxDD": 15.3
+        },
+        "2020": {
+          "return": 17.6,
+          "maxDD": 14.5
+        },
+        "2021": {
+          "return": 26.2,
+          "maxDD": 16.4
+        },
+        "2022": {
+          "return": 24.1,
+          "maxDD": 9.9
+        },
+        "2023": {
+          "return": 28.3,
+          "maxDD": 7
+        },
+        "2024": {
+          "return": 57.5,
+          "maxDD": 13.1
+        },
+        "2025": {
+          "return": 69.5,
+          "maxDD": 9.8
+        },
+        "2026": {
+          "return": 21.3,
+          "maxDD": 8.7
+        }
+      }
+    },
+    {
+      "params": {
+        "rebalanceIntervalDays": 10,
+        "stopLossPct": 12,
+        "topN": 3,
+        "momType": "HAA",
+        "defensiveAsset": "CASH"
+      },
+      "cagr": 20.67,
+      "totalReturn": 661.8,
+      "finalCapital": 7617939,
+      "maxDrawdown": 15.29,
+      "calmar": 1.35,
+      "stopOutsCount": 3,
+      "yearlyStats": {
+        "2016": {
+          "return": 18.2,
+          "maxDD": 7.5
+        },
+        "2017": {
+          "return": 17.4,
+          "maxDD": 8.1
+        },
+        "2018": {
+          "return": 0.7,
+          "maxDD": 11.2
+        },
+        "2019": {
+          "return": 2.6,
+          "maxDD": 14.7
+        },
+        "2020": {
+          "return": 20.3,
+          "maxDD": 9.2
+        },
+        "2021": {
+          "return": 6.5,
+          "maxDD": 15.3
+        },
+        "2022": {
+          "return": 7.7,
+          "maxDD": 11.3
+        },
+        "2023": {
+          "return": 39.9,
+          "maxDD": 8.6
+        },
+        "2024": {
+          "return": 52,
+          "maxDD": 12.4
+        },
+        "2025": {
+          "return": 50.1,
+          "maxDD": 5.8
+        },
+        "2026": {
+          "return": 16.4,
+          "maxDD": 10.4
+        }
+      }
+    },
+    {
+      "params": {
+        "rebalanceIntervalDays": 10,
+        "stopLossPct": 12,
+        "topN": 3,
+        "momType": "HAA",
+        "defensiveAsset": "DYNAMIC_GOLD_CASH"
+      },
+      "cagr": 23.08,
+      "totalReturn": 844,
+      "finalCapital": 9440479,
+      "maxDrawdown": 17.46,
+      "calmar": 1.32,
+      "stopOutsCount": 3,
+      "yearlyStats": {
+        "2016": {
+          "return": 21.4,
+          "maxDD": 7.5
+        },
+        "2017": {
+          "return": 17.4,
+          "maxDD": 8.1
+        },
+        "2018": {
+          "return": -2.7,
+          "maxDD": 14
+        },
+        "2019": {
+          "return": 3.6,
+          "maxDD": 13.8
+        },
+        "2020": {
+          "return": 29.4,
+          "maxDD": 12.5
+        },
+        "2021": {
+          "return": 6.5,
+          "maxDD": 15.3
+        },
+        "2022": {
+          "return": 6.9,
+          "maxDD": 12.7
+        },
+        "2023": {
+          "return": 47.5,
+          "maxDD": 8.9
+        },
+        "2024": {
+          "return": 53.1,
+          "maxDD": 12.4
+        },
+        "2025": {
+          "return": 74.4,
+          "maxDD": 5.8
+        },
+        "2026": {
+          "return": 8.9,
+          "maxDD": 15.6
+        }
+      }
+    },
+    {
+      "params": {
+        "rebalanceIntervalDays": 10,
+        "stopLossPct": 8,
+        "topN": 3,
+        "momType": "HAA",
+        "defensiveAsset": "CASH"
+      },
+      "cagr": 19.79,
+      "totalReturn": 604.4,
+      "finalCapital": 7043935,
+      "maxDrawdown": 15.51,
+      "calmar": 1.28,
+      "stopOutsCount": 21,
+      "yearlyStats": {
+        "2016": {
+          "return": 18.2,
+          "maxDD": 7.5
+        },
+        "2017": {
+          "return": 16.8,
+          "maxDD": 8.5
+        },
+        "2018": {
+          "return": -0.3,
+          "maxDD": 11.2
+        },
+        "2019": {
+          "return": 2.6,
+          "maxDD": 14.7
+        },
+        "2020": {
+          "return": 18.1,
+          "maxDD": 9.5
+        },
+        "2021": {
+          "return": 6.1,
+          "maxDD": 15.5
+        },
+        "2022": {
+          "return": 6.3,
+          "maxDD": 12.9
+        },
+        "2023": {
+          "return": 39.9,
+          "maxDD": 8.6
+        },
+        "2024": {
+          "return": 45.5,
+          "maxDD": 12.6
+        },
+        "2025": {
+          "return": 52.4,
+          "maxDD": 5.6
+        },
+        "2026": {
+          "return": 16.4,
+          "maxDD": 10.4
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "m1": {
+    "tradesCount": 15,
+    "winsCount": 12,
+    "lossesCount": 3,
+    "wr": 80,
+    "netUsd": 3150.01,
+    "netR": 9,
+    "netPct": 3.15,
+    "maxDDUsd": 634.5,
+    "maxDDR": 1.81,
+    "maxDDPct": 0.63,
+    "profitFactor": 4,
+    "calmar": 4.96,
+    "sharpe": 2.9,
+    "sortino": 2.32,
+    "avgWin": 350,
+    "avgLoss": 350,
+    "payoffRatio": 1,
+    "expectedValueR": 0.6,
+    "long": {
+      "trades": 8,
+      "wins": 6,
+      "losses": 2,
+      "wr": 75,
+      "netUsd": 1400.03,
+      "netR": 4
+    },
+    "short": {
+      "trades": 7,
+      "wins": 6,
+      "losses": 1,
+      "wr": 85.7,
+      "netUsd": 1749.98,
+      "netR": 5
+    },
+    "monthly": {
+      "2026-09": {
+        "trades": 11,
+        "wins": 9,
+        "losses": 2,
+        "net_usd": 2450.0000000000146,
+        "net_r": 7.000000000000041
+      },
+      "2026-10": {
+        "trades": 4,
+        "wins": 3,
+        "losses": 1,
+        "net_usd": 700.0099999999948,
+        "net_r": 2.0000285714285564
+      }
+    }
+  },
+  "m2": {
+    "tradesCount": 17,
+    "winsCount": 11,
+    "lossesCount": 6,
+    "wr": 64.71,
+    "netUsd": 4800.04,
+    "netR": 16,
+    "netPct": 4.8,
+    "maxDDUsd": 847.36,
+    "maxDDR": 2.82,
+    "maxDDPct": 0.85,
+    "profitFactor": 3.67,
+    "calmar": 5.66,
+    "sharpe": 2.71,
+    "sortino": 3.88,
+    "avgWin": 600,
+    "avgLoss": 300,
+    "payoffRatio": 2,
+    "expectedValueR": 0.941,
+    "long": {
+      "trades": 8,
+      "wins": 4,
+      "losses": 4,
+      "wr": 50,
+      "netUsd": 1200.02,
+      "netR": 4
+    },
+    "short": {
+      "trades": 9,
+      "wins": 7,
+      "losses": 2,
+      "wr": 77.8,
+      "netUsd": 3600.02,
+      "netR": 12
+    },
+    "monthly": {
+      "2026-09": {
+        "trades": 12,
+        "wins": 9,
+        "losses": 3,
+        "net_usd": 4500.009999999995,
+        "net_r": 15.000033333333317
+      },
+      "2026-10": {
+        "trades": 5,
+        "wins": 2,
+        "losses": 3,
+        "net_usd": 300.02999999999884,
+        "net_r": 1.0000999999999958
+      }
+    }
+  },
+  "m3": {
+    "tradesCount": 24,
+    "winsCount": 17,
+    "lossesCount": 7,
+    "wr": 70.83,
+    "netUsd": 18000,
+    "netR": 10,
+    "netPct": 18,
+    "maxDDUsd": 3275.01,
+    "maxDDR": 1.82,
+    "maxDDPct": 3.28,
+    "profitFactor": 2.43,
+    "calmar": 5.5,
+    "sharpe": 2.25,
+    "sortino": 2.04,
+    "avgWin": 1800,
+    "avgLoss": 1800,
+    "payoffRatio": 1,
+    "expectedValueR": 0.417,
+    "long": {
+      "trades": 9,
+      "wins": 7,
+      "losses": 2,
+      "wr": 77.8,
+      "netUsd": 8999.98,
+      "netR": 5
+    },
+    "short": {
+      "trades": 15,
+      "wins": 10,
+      "losses": 5,
+      "wr": 66.7,
+      "netUsd": 9000.02,
+      "netR": 5
+    },
+    "monthly": {
+      "2026-01": {
+        "trades": 3,
+        "wins": 2,
+        "losses": 1,
+        "net_usd": 1800,
+        "net_r": 1
+      },
+      "2026-02": {
+        "trades": 1,
+        "wins": 1,
+        "losses": 0,
+        "net_usd": 1799.9900000000052,
+        "net_r": 0.9999944444444474
+      },
+      "2026-03": {
+        "trades": 2,
+        "wins": 2,
+        "losses": 0,
+        "net_usd": 3600,
+        "net_r": 2
+      },
+      "2026-04": {
+        "trades": 3,
+        "wins": 2,
+        "losses": 1,
+        "net_usd": 1800,
+        "net_r": 1
+      },
+      "2026-05": {
+        "trades": 3,
+        "wins": 3,
+        "losses": 0,
+        "net_usd": 5400.009999999995,
+        "net_r": 3.0000055555555525
+      },
+      "2026-06": {
+        "trades": 2,
+        "wins": 1,
+        "losses": 1,
+        "net_usd": 0,
+        "net_r": 0
+      },
+      "2026-07": {
+        "trades": 2,
+        "wins": 1,
+        "losses": 1,
+        "net_usd": 0.010000000002037268,
+        "net_r": 0.000005555555556702174
+      },
+      "2026-08": {
+        "trades": 4,
+        "wins": 3,
+        "losses": 1,
+        "net_usd": 3599.9899999999907,
+        "net_r": 1.9999944444444393
+      },
+      "2026-09": {
+        "trades": 2,
+        "wins": 1,
+        "losses": 1,
+        "net_usd": -0.00999999999476131,
+        "net_r": -0.000005555555552594349
+      },
+      "2026-10": {
+        "trades": 2,
+        "wins": 1,
+        "losses": 1,
+        "net_usd": 0.00999999999476131,
+        "net_r": 0.000005555555552594349
+      }
+    }
+  }
+}

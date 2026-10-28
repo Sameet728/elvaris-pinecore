@@ -1,0 +1,210 @@
+//@version=5
+indicator("Quant Indian Sector ETF Screener & Rotation Engine [Antigravity]", overlay=false)
+
+// ==========================================
+// 1. INPUT PARAMETERS
+// ==========================================
+grp_params = "Screening Parameters"
+oneDayDipThreshold = input.float(-1.0, "1-Day Dip Threshold (%)", minval=-10.0, maxval=0.0, step=0.1, group=grp_params)
+trailing30dThreshold = input.float(-2.5, "30-Day Dip Threshold (%)", minval=-20.0, maxval=0.0, step=0.5, group=grp_params)
+targetProfitPct = input.float(7.0, "Target Profit (%)", minval=1.0, maxval=50.0, step=0.5, group=grp_params)
+
+grp_table = "Dashboard Appearance"
+tablePos = input.string("Top Right", "Table Position", options=["Top Right", "Bottom Right", "Top Left", "Bottom Left"], group=grp_table)
+textSize = input.string("Small", "Text Size", options=["Tiny", "Small", "Normal"], group=grp_table)
+
+// ==========================================
+// 2. MULTI-ASSET ETF DATA FETCHING
+// ==========================================
+f_get_changes(sym) =>
+    c0 = request.security(sym, "D", close)
+    c1 = request.security(sym, "D", close[1])
+    c30 = request.security(sym, "D", close[21])
+    vol = request.security(sym, "D", volume)
+    
+    chg1d = nz(c1) > 0 ? ((c0 - c1) / c1) * 100.0 : 0.0
+    chg30d = nz(c30) > 0 ? ((c0 - c30) / c30) * 100.0 : 0.0
+    turnoverCr = (vol * c0) / 10000000.0
+    [c0, chg1d, chg30d, turnoverCr]
+
+// Fetch data for 18 ETFs
+[p_nifty, d1_nifty, d30_nifty, t_nifty] = f_get_changes("NSE:NIFTYBEES")
+[p_jr, d1_jr, d30_jr, t_jr] = f_get_changes("NSE:JUNIORBEES")
+[p_mid, d1_mid, d30_mid, t_mid] = f_get_changes("NSE:MID150BEES")
+[p_bank, d1_bank, d30_bank, t_bank] = f_get_changes("NSE:BANKBEES")
+[p_psu, d1_psu, d30_psu, t_psu] = f_get_changes("NSE:PSUBNKBEES")
+[p_pvt, d1_pvt, d30_pvt, t_pvt] = f_get_changes("NSE:PVTBANIETF")
+[p_it, d1_it, d30_it, t_it] = f_get_changes("NSE:ITBEES")
+[p_pharma, d1_pharma, d30_pharma, t_pharma] = f_get_changes("NSE:PHARMABEES")
+[p_auto, d1_auto, d30_auto, t_auto] = f_get_changes("NSE:AUTOBEES")
+[p_metal, d1_metal, d30_metal, t_metal] = f_get_changes("NSE:METALIETF")
+[p_fmcg, d1_fmcg, d30_fmcg, t_fmcg] = f_get_changes("NSE:FMCGIETF")
+[p_cpse, d1_cpse, d30_cpse, t_cpse] = f_get_changes("NSE:CPSEETF")
+[p_b22, d1_b22, d30_b22, t_b22] = f_get_changes("NSE:ICICIB22")
+[p_gold, d1_gold, d30_gold, t_gold] = f_get_changes("NSE:GOLDBEES")
+[p_silver, d1_silver, d30_silver, t_silver] = f_get_changes("NSE:SILVERBEES")
+[p_mon100, d1_mon100, d30_mon100, t_mon100] = f_get_changes("NSE:MON100")
+[p_mafang, d1_mafang, d30_mafang, t_mafang] = f_get_changes("NSE:MAFANG")
+
+// Check Qualifications
+f_qual(d1, d30) =>
+    d1 <= oneDayDipThreshold and d30 <= trailing30dThreshold
+
+q_nifty = f_qual(d1_nifty, d30_nifty)
+q_jr = f_qual(d1_jr, d30_jr)
+q_mid = f_qual(d1_mid, d30_mid)
+q_bank = f_qual(d1_bank, d30_bank)
+q_psu = f_qual(d1_psu, d30_psu)
+q_pvt = f_qual(d1_pvt, d30_pvt)
+q_it = f_qual(d1_it, d30_it)
+q_pharma = f_qual(d1_pharma, d30_pharma)
+q_auto = f_qual(d1_auto, d30_auto)
+q_metal = f_qual(d1_metal, d30_metal)
+q_fmcg = f_qual(d1_fmcg, d30_fmcg)
+q_cpse = f_qual(d1_cpse, d30_cpse)
+q_b22 = f_qual(d1_b22, d30_b22)
+q_gold = f_qual(d1_gold, d30_gold)
+q_silver = f_qual(d1_silver, d30_silver)
+q_mon100 = f_qual(d1_mon100, d30_mon100)
+q_mafang = f_qual(d1_mafang, d30_mafang)
+
+// Find Deepest 30-Day Dip among qualified
+float min30 = 999.0
+string bestSym = "None"
+string bestSector = "-"
+
+if q_nifty and d30_nifty < min30
+    min30 := d30_nifty
+    bestSym := "NIFTYBEES"
+    bestSector := "Nifty 50"
+
+if q_jr and d30_jr < min30
+    min30 := d30_jr
+    bestSym := "JUNIORBEES"
+    bestSector := "Next 50"
+
+if q_mid and d30_mid < min30
+    min30 := d30_mid
+    bestSym := "MID150BEES"
+    bestSector := "Midcap 150"
+
+if q_bank and d30_bank < min30
+    min30 := d30_bank
+    bestSym := "BANKBEES"
+    bestSector := "Banking"
+
+if q_psu and d30_psu < min30
+    min30 := d30_psu
+    bestSym := "PSUBNKBEES"
+    bestSector := "PSU Bank"
+
+if q_pvt and d30_pvt < min30
+    min30 := d30_pvt
+    bestSym := "PVTBANIETF"
+    bestSector := "Private Bank"
+
+if q_it and d30_it < min30
+    min30 := d30_it
+    bestSym := "ITBEES"
+    bestSector := "Technology"
+
+if q_pharma and d30_pharma < min30
+    min30 := d30_pharma
+    bestSym := "PHARMABEES"
+    bestSector := "Healthcare"
+
+if q_auto and d30_auto < min30
+    min30 := d30_auto
+    bestSym := "AUTOBEES"
+    bestSector := "Automobile"
+
+if q_metal and d30_metal < min30
+    min30 := d30_metal
+    bestSym := "METALIETF"
+    bestSector := "Metals"
+
+if q_fmcg and d30_fmcg < min30
+    min30 := d30_fmcg
+    bestSym := "FMCGIETF"
+    bestSector := "FMCG"
+
+if q_cpse and d30_cpse < min30
+    min30 := d30_cpse
+    bestSym := "CPSEETF"
+    bestSector := "CPSE / Energy"
+
+if q_b22 and d30_b22 < min30
+    min30 := d30_b22
+    bestSym := "ICICIB22"
+    bestSector := "Bharat 22"
+
+if q_gold and d30_gold < min30
+    min30 := d30_gold
+    bestSym := "GOLDBEES"
+    bestSector := "Gold"
+
+if q_silver and d30_silver < min30
+    min30 := d30_silver
+    bestSym := "SILVERBEES"
+    bestSector := "Silver"
+
+if q_mon100 and d30_mon100 < min30
+    min30 := d30_mon100
+    bestSym := "MON100"
+    bestSector := "Nasdaq 100"
+
+if q_mafang and d30_mafang < min30
+    min30 := d30_mafang
+    bestSym := "MAFANG"
+    bestSector := "NYSE FANG+"
+
+// ==========================================
+// 3. TABLE RENDERING
+// ==========================================
+var pos_t = tablePos == "Top Right" ? position.top_right :
+             tablePos == "Bottom Right" ? position.bottom_right :
+             tablePos == "Top Left" ? position.top_left : position.bottom_left
+
+var t_size = textSize == "Tiny" ? size.tiny :
+             textSize == "Small" ? size.small : size.normal
+
+var table tbl = table.new(pos_t, 5, 20, bgcolor=color.new(color.black, 10), border_color=color.gray, border_width=1)
+
+f_set_row(tbl, row, sym, sec, d1, d30, isQual, isBest) =>
+    c_bg = isBest ? color.new(color.green, 30) : isQual ? color.new(color.blue, 60) : color.new(color.black, 20)
+    c_txt = isBest ? color.white : color.white
+    
+    table.cell(tbl, 0, row, sym, bgcolor=c_bg, text_color=c_txt, text_size=t_size)
+    table.cell(tbl, 1, row, sec, bgcolor=c_bg, text_color=c_txt, text_size=t_size)
+    table.cell(tbl, 2, row, str.tostring(d1, "#.##") + "%", bgcolor=c_bg, text_color=d1 <= 0 ? color.red : color.green, text_size=t_size)
+    table.cell(tbl, 3, row, str.tostring(d30, "#.##") + "%", bgcolor=c_bg, text_color=d30 <= 0 ? color.red : color.green, text_size=t_size)
+    table.cell(tbl, 4, row, isBest ? "⭐ BUY #1" : isQual ? "QUALIFIED" : "WAIT", bgcolor=c_bg, text_color=isBest ? color.yellow : color.silver, text_size=t_size)
+
+if barstate.islast
+    // Header
+    table.cell(tbl, 0, 0, "ETF", bgcolor=color.navy, text_color=color.white, text_size=t_size)
+    table.cell(tbl, 1, 0, "Sector", bgcolor=color.navy, text_color=color.white, text_size=t_size)
+    table.cell(tbl, 2, 0, "1D Dip", bgcolor=color.navy, text_color=color.white, text_size=t_size)
+    table.cell(tbl, 3, 0, "30D Ret", bgcolor=color.navy, text_color=color.white, text_size=t_size)
+    table.cell(tbl, 4, 0, "Signal", bgcolor=color.navy, text_color=color.white, text_size=t_size)
+
+    f_set_row(tbl, 1, "NIFTYBEES", "Nifty 50", d1_nifty, d30_nifty, q_nifty, bestSym == "NIFTYBEES")
+    f_set_row(tbl, 2, "JUNIORBEES", "Next 50", d1_jr, d30_jr, q_jr, bestSym == "JUNIORBEES")
+    f_set_row(tbl, 3, "MID150BEES", "Midcap 150", d1_mid, d30_mid, q_mid, bestSym == "MID150BEES")
+    f_set_row(tbl, 4, "BANKBEES", "Banking", d1_bank, d30_bank, q_bank, bestSym == "BANKBEES")
+    f_set_row(tbl, 5, "PSUBNKBEES", "PSU Bank", d1_psu, d30_psu, q_psu, bestSym == "PSUBNKBEES")
+    f_set_row(tbl, 6, "PVTBANIETF", "Pvt Bank", d1_pvt, d30_pvt, q_pvt, bestSym == "PVTBANIETF")
+    f_set_row(tbl, 7, "ITBEES", "Tech IT", d1_it, d30_it, q_it, bestSym == "ITBEES")
+    f_set_row(tbl, 8, "PHARMABEES", "Pharma", d1_pharma, d30_pharma, q_pharma, bestSym == "PHARMABEES")
+    f_set_row(tbl, 9, "AUTOBEES", "Auto", d1_auto, d30_auto, q_auto, bestSym == "AUTOBEES")
+    f_set_row(tbl, 10, "METALIETF", "Metals", d1_metal, d30_metal, q_metal, bestSym == "METALIETF")
+    f_set_row(tbl, 11, "FMCGIETF", "FMCG", d1_fmcg, d30_fmcg, q_fmcg, bestSym == "FMCGIETF")
+    f_set_row(tbl, 12, "CPSEETF", "CPSE PSU", d1_cpse, d30_cpse, q_cpse, bestSym == "CPSEETF")
+    f_set_row(tbl, 13, "ICICIB22", "Bharat 22", d1_b22, d30_b22, q_b22, bestSym == "ICICIB22")
+    f_set_row(tbl, 14, "GOLDBEES", "Gold", d1_gold, d30_gold, q_gold, bestSym == "GOLDBEES")
+    f_set_row(tbl, 15, "SILVERBEES", "Silver", d1_silver, d30_silver, q_silver, bestSym == "SILVERBEES")
+    f_set_row(tbl, 16, "MON100", "Nasdaq 100", d1_mon100, d30_mon100, q_mon100, bestSym == "MON100")
+    f_set_row(tbl, 17, "MAFANG", "FANG+ Tech", d1_mafang, d30_mafang, q_mafang, bestSym == "MAFANG")
+
+// Alerts
+alertcondition(bestSym != "None", "ETF Buy Signal Generated", "Quant ETF Screener: {{ticker}} Buy Trigger at 3:15 PM!")

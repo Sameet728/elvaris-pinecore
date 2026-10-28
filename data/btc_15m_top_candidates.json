@@ -1,0 +1,49 @@
+{
+  "topOverall": [
+    {
+      "session": "London_NY",
+      "bLen": 30,
+      "bMult": 2.35,
+      "rsiFilter": 55,
+      "wickRatio": 0,
+      "sl": 350,
+      "tp": 350,
+      "rr": 1,
+      "trades": 20,
+      "wins": 15,
+      "losses": 5,
+      "wr": 75,
+      "cumR": 10,
+      "maxDD": 2,
+      "calmar": 5,
+      "monthlyR": {
+        "2026-09": 7,
+        "2026-10": 3
+      }
+    }
+  ],
+  "strict1to2": [],
+  "highWR": [
+    {
+      "session": "London_NY",
+      "bLen": 30,
+      "bMult": 2.35,
+      "rsiFilter": 55,
+      "wickRatio": 0,
+      "sl": 350,
+      "tp": 350,
+      "rr": 1,
+      "trades": 20,
+      "wins": 15,
+      "losses": 5,
+      "wr": 75,
+      "cumR": 10,
+      "maxDD": 2,
+      "calmar": 5,
+      "monthlyR": {
+        "2026-09": 7,
+        "2026-10": 3
+      }
+    }
+  ]
+}

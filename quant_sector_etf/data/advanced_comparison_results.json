@@ -1,0 +1,57 @@
+[
+  {
+    "Strategy": "1. Pure Video Baseline (Cash idle = 0%)",
+    "CAGR": "3.85%",
+    "TotalReturn": "+50.46%",
+    "FinalCapital": "₹15,04,579",
+    "MaxDrawdown": "16.05%",
+    "Calmar": 0.24,
+    "WinRate": "100%",
+    "Trades": 413,
+    "AvgHoldDays": "146.8d"
+  },
+  {
+    "Strategy": "2. Video Baseline + LiquidBees Cash Yield (6.5% idle)",
+    "CAGR": "8.75%",
+    "TotalReturn": "+147.65%",
+    "FinalCapital": "₹24,76,513",
+    "MaxDrawdown": "14.76%",
+    "Calmar": 0.59,
+    "WinRate": "100%",
+    "Trades": 413,
+    "AvgHoldDays": "146.8d"
+  },
+  {
+    "Strategy": "3. Optimized Active Engine (+8% Target, 2.5% Alloc, LiquidBees)",
+    "CAGR": "11.69%",
+    "TotalReturn": "+230.37%",
+    "FinalCapital": "₹33,03,729",
+    "MaxDrawdown": "27.22%",
+    "Calmar": 0.43,
+    "WinRate": "100%",
+    "Trades": 463,
+    "AvgHoldDays": "186.2d"
+  },
+  {
+    "Strategy": "4. High-Velocity Velocity Engine (+6% Target, 3.0% Alloc, Max 2 exits/day)",
+    "CAGR": "12.4%",
+    "TotalReturn": "+253.66%",
+    "FinalCapital": "₹35,36,626",
+    "MaxDrawdown": "33.73%",
+    "Calmar": 0.37,
+    "WinRate": "100%",
+    "Trades": 570,
+    "AvgHoldDays": "131.5d"
+  },
+  {
+    "Strategy": "5. Institutional Ultra-Low-Drawdown (10% Stop Loss, Trend Filter)",
+    "CAGR": "7.62%",
+    "TotalReturn": "+121.14%",
+    "FinalCapital": "₹22,11,415",
+    "MaxDrawdown": "3.56%",
+    "Calmar": 2.14,
+    "WinRate": "74.24%",
+    "Trades": 396,
+    "AvgHoldDays": "61.9d"
+  }
+]

@@ -1,0 +1,406 @@
+{
+  "topByCalmar": [
+    {
+      "params": {
+        "rebalDays": 15,
+        "topN": 3,
+        "stopLossPct": 7,
+        "trailingStopPct": 10,
+        "volWeighting": true,
+        "momType": "13612W",
+        "defenseMode": "Dynamic_Gold_Cash",
+        "dualCanary": true
+      },
+      "cagr": 22.82,
+      "finalLakhs": 92.2,
+      "maxDD": 11.79,
+      "calmar": 1.93,
+      "sharpe": 1.15,
+      "covidMaxDD": 11.4,
+      "winRate": 43.3,
+      "trades": 164
+    },
+    {
+      "params": {
+        "rebalDays": 15,
+        "topN": 3,
+        "stopLossPct": 7,
+        "trailingStopPct": null,
+        "volWeighting": true,
+        "momType": "13612W",
+        "defenseMode": "Dynamic_Gold_Cash",
+        "dualCanary": true
+      },
+      "cagr": 22.61,
+      "finalLakhs": 90.57,
+      "maxDD": 12.12,
+      "calmar": 1.87,
+      "sharpe": 1.13,
+      "covidMaxDD": 11.4,
+      "winRate": 42.9,
+      "trades": 161
+    },
+    {
+      "params": {
+        "rebalDays": 8,
+        "topN": 3,
+        "stopLossPct": null,
+        "trailingStopPct": null,
+        "volWeighting": true,
+        "momType": "13612W",
+        "defenseMode": "Cash",
+        "dualCanary": true
+      },
+      "cagr": 20.58,
+      "finalLakhs": 75.6,
+      "maxDD": 11.22,
+      "calmar": 1.83,
+      "sharpe": 1.08,
+      "covidMaxDD": 8.6,
+      "winRate": 35.1,
+      "trades": 208
+    },
+    {
+      "params": {
+        "rebalDays": 8,
+        "topN": 3,
+        "stopLossPct": null,
+        "trailingStopPct": 12,
+        "volWeighting": true,
+        "momType": "13612W",
+        "defenseMode": "Cash",
+        "dualCanary": true
+      },
+      "cagr": 20.17,
+      "finalLakhs": 72.88,
+      "maxDD": 11.22,
+      "calmar": 1.8,
+      "sharpe": 1.05,
+      "covidMaxDD": 8.6,
+      "winRate": 34.6,
+      "trades": 211
+    },
+    {
+      "params": {
+        "rebalDays": 8,
+        "topN": 3,
+        "stopLossPct": 7,
+        "trailingStopPct": null,
+        "volWeighting": true,
+        "momType": "13612W",
+        "defenseMode": "Cash",
+        "dualCanary": true
+      },
+      "cagr": 20.2,
+      "finalLakhs": 73.06,
+      "maxDD": 11.3,
+      "calmar": 1.79,
+      "sharpe": 1.06,
+      "covidMaxDD": 8.6,
+      "winRate": 33.5,
+      "trades": 218
+    },
+    {
+      "params": {
+        "rebalDays": 8,
+        "topN": 3,
+        "stopLossPct": 8,
+        "trailingStopPct": null,
+        "volWeighting": true,
+        "momType": "13612W",
+        "defenseMode": "Cash",
+        "dualCanary": true
+      },
+      "cagr": 19.96,
+      "finalLakhs": 71.52,
+      "maxDD": 11.22,
+      "calmar": 1.78,
+      "sharpe": 1.04,
+      "covidMaxDD": 8.6,
+      "winRate": 33.8,
+      "trades": 216
+    },
+    {
+      "params": {
+        "rebalDays": 15,
+        "topN": 3,
+        "stopLossPct": 7,
+        "trailingStopPct": 10,
+        "volWeighting": false,
+        "momType": "13612W",
+        "defenseMode": "Dynamic_Gold_Cash",
+        "dualCanary": true
+      },
+      "cagr": 24.06,
+      "finalLakhs": 102.84,
+      "maxDD": 13.48,
+      "calmar": 1.78,
+      "sharpe": 1.16,
+      "covidMaxDD": 11.5,
+      "winRate": 43.3,
+      "trades": 164
+    },
+    {
+      "params": {
+        "rebalDays": 8,
+        "topN": 3,
+        "stopLossPct": 7,
+        "trailingStopPct": 10,
+        "volWeighting": true,
+        "momType": "13612W",
+        "defenseMode": "Cash",
+        "dualCanary": true
+      },
+      "cagr": 20.03,
+      "finalLakhs": 71.93,
+      "maxDD": 11.3,
+      "calmar": 1.77,
+      "sharpe": 1.05,
+      "covidMaxDD": 8.6,
+      "winRate": 33.3,
+      "trades": 219
+    },
+    {
+      "params": {
+        "rebalDays": 8,
+        "topN": 3,
+        "stopLossPct": 7,
+        "trailingStopPct": 12,
+        "volWeighting": true,
+        "momType": "13612W",
+        "defenseMode": "Cash",
+        "dualCanary": true
+      },
+      "cagr": 19.96,
+      "finalLakhs": 71.53,
+      "maxDD": 11.3,
+      "calmar": 1.77,
+      "sharpe": 1.05,
+      "covidMaxDD": 8.6,
+      "winRate": 33.3,
+      "trades": 219
+    },
+    {
+      "params": {
+        "rebalDays": 15,
+        "topN": 3,
+        "stopLossPct": 7,
+        "trailingStopPct": null,
+        "volWeighting": false,
+        "momType": "13612W",
+        "defenseMode": "Dynamic_Gold_Cash",
+        "dualCanary": true
+      },
+      "cagr": 23.86,
+      "finalLakhs": 101.03,
+      "maxDD": 13.48,
+      "calmar": 1.77,
+      "sharpe": 1.14,
+      "covidMaxDD": 11.5,
+      "winRate": 42.9,
+      "trades": 161
+    }
+  ],
+  "topByCAGR": [
+    {
+      "params": {
+        "rebalDays": 21,
+        "topN": 1,
+        "stopLossPct": null,
+        "trailingStopPct": null,
+        "volWeighting": false,
+        "momType": "6M_Mom",
+        "defenseMode": "Dynamic_Gold_Cash",
+        "dualCanary": true
+      },
+      "cagr": 30.8,
+      "finalLakhs": 182.14,
+      "maxDD": 37.52,
+      "calmar": 0.82,
+      "sharpe": 0.95,
+      "covidMaxDD": 12.9,
+      "winRate": 31,
+      "trades": 42
+    },
+    {
+      "params": {
+        "rebalDays": 21,
+        "topN": 1,
+        "stopLossPct": null,
+        "trailingStopPct": null,
+        "volWeighting": true,
+        "momType": "6M_Mom",
+        "defenseMode": "Dynamic_Gold_Cash",
+        "dualCanary": true
+      },
+      "cagr": 30.8,
+      "finalLakhs": 182.14,
+      "maxDD": 37.52,
+      "calmar": 0.82,
+      "sharpe": 0.95,
+      "covidMaxDD": 12.9,
+      "winRate": 31,
+      "trades": 42
+    },
+    {
+      "params": {
+        "rebalDays": 21,
+        "topN": 1,
+        "stopLossPct": null,
+        "trailingStopPct": null,
+        "volWeighting": false,
+        "momType": "6M_Mom",
+        "defenseMode": "Cash",
+        "dualCanary": true
+      },
+      "cagr": 30.05,
+      "finalLakhs": 171.22,
+      "maxDD": 37.52,
+      "calmar": 0.8,
+      "sharpe": 0.94,
+      "covidMaxDD": 12.6,
+      "winRate": 37.5,
+      "trades": 32
+    },
+    {
+      "params": {
+        "rebalDays": 21,
+        "topN": 1,
+        "stopLossPct": null,
+        "trailingStopPct": null,
+        "volWeighting": true,
+        "momType": "6M_Mom",
+        "defenseMode": "Cash",
+        "dualCanary": true
+      },
+      "cagr": 30.05,
+      "finalLakhs": 171.22,
+      "maxDD": 37.52,
+      "calmar": 0.8,
+      "sharpe": 0.94,
+      "covidMaxDD": 12.6,
+      "winRate": 37.5,
+      "trades": 32
+    },
+    {
+      "params": {
+        "rebalDays": 15,
+        "topN": 1,
+        "stopLossPct": null,
+        "trailingStopPct": 12,
+        "volWeighting": false,
+        "momType": "13612_Uniform",
+        "defenseMode": "Dynamic_Gold_Cash",
+        "dualCanary": true
+      },
+      "cagr": 29.04,
+      "finalLakhs": 157.32,
+      "maxDD": 34.84,
+      "calmar": 0.83,
+      "sharpe": 0.93,
+      "covidMaxDD": 15,
+      "winRate": 48.6,
+      "trades": 72
+    },
+    {
+      "params": {
+        "rebalDays": 15,
+        "topN": 1,
+        "stopLossPct": null,
+        "trailingStopPct": 12,
+        "volWeighting": true,
+        "momType": "13612_Uniform",
+        "defenseMode": "Dynamic_Gold_Cash",
+        "dualCanary": true
+      },
+      "cagr": 29.04,
+      "finalLakhs": 157.32,
+      "maxDD": 34.84,
+      "calmar": 0.83,
+      "sharpe": 0.93,
+      "covidMaxDD": 15,
+      "winRate": 48.6,
+      "trades": 72
+    },
+    {
+      "params": {
+        "rebalDays": 8,
+        "topN": 1,
+        "stopLossPct": null,
+        "trailingStopPct": null,
+        "volWeighting": false,
+        "momType": "13612W",
+        "defenseMode": "Dynamic_Gold_Cash",
+        "dualCanary": true
+      },
+      "cagr": 28.62,
+      "finalLakhs": 151.88,
+      "maxDD": 26.72,
+      "calmar": 1.07,
+      "sharpe": 0.95,
+      "covidMaxDD": 12.1,
+      "winRate": 41.9,
+      "trades": 136
+    },
+    {
+      "params": {
+        "rebalDays": 8,
+        "topN": 1,
+        "stopLossPct": null,
+        "trailingStopPct": null,
+        "volWeighting": true,
+        "momType": "13612W",
+        "defenseMode": "Dynamic_Gold_Cash",
+        "dualCanary": true
+      },
+      "cagr": 28.62,
+      "finalLakhs": 151.88,
+      "maxDD": 26.72,
+      "calmar": 1.07,
+      "sharpe": 0.95,
+      "covidMaxDD": 12.1,
+      "winRate": 41.9,
+      "trades": 136
+    },
+    {
+      "params": {
+        "rebalDays": 8,
+        "topN": 1,
+        "stopLossPct": null,
+        "trailingStopPct": null,
+        "volWeighting": false,
+        "momType": "13612W",
+        "defenseMode": "Cash",
+        "dualCanary": true
+      },
+      "cagr": 28.32,
+      "finalLakhs": 148.11,
+      "maxDD": 26.72,
+      "calmar": 1.06,
+      "sharpe": 0.96,
+      "covidMaxDD": 8.3,
+      "winRate": 42.1,
+      "trades": 107
+    },
+    {
+      "params": {
+        "rebalDays": 8,
+        "topN": 1,
+        "stopLossPct": null,
+        "trailingStopPct": null,
+        "volWeighting": true,
+        "momType": "13612W",
+        "defenseMode": "Cash",
+        "dualCanary": true
+      },
+      "cagr": 28.32,
+      "finalLakhs": 148.11,
+      "maxDD": 26.72,
+      "calmar": 1.06,
+      "sharpe": 0.96,
+      "covidMaxDD": 8.3,
+      "winRate": 42.1,
+      "trades": 107
+    }
+  ]
+}

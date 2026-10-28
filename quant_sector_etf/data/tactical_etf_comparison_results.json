@@ -1,0 +1,442 @@
+[
+  {
+    "name": "Benchmark: Nifty 50 Buy & Hold (NIFTYBEES)",
+    "cagr": 11.29,
+    "totalReturnPct": 217.77,
+    "finalCapital": 3177692,
+    "maxDrawdown": 36.4,
+    "calmar": 0.31,
+    "sharpe": 0.35,
+    "rebalancesCount": 130,
+    "yearlyTable": {
+      "2016": {
+        "return": 9.39,
+        "maxDD": 11.63
+      },
+      "2017": {
+        "return": 29.08,
+        "maxDD": 3.85
+      },
+      "2018": {
+        "return": 4.81,
+        "maxDD": 14.14
+      },
+      "2019": {
+        "return": 12.63,
+        "maxDD": 10.61
+      },
+      "2020": {
+        "return": 14.49,
+        "maxDD": 36.4
+      },
+      "2021": {
+        "return": 24.8,
+        "maxDD": 9.63
+      },
+      "2022": {
+        "return": 3.22,
+        "maxDD": 15.94
+      },
+      "2023": {
+        "return": 19.5,
+        "maxDD": 7.1
+      },
+      "2024": {
+        "return": 9.38,
+        "maxDD": 10.6
+      },
+      "2025": {
+        "return": 10.52,
+        "maxDD": 8.39
+      },
+      "2026": {
+        "return": -13.34,
+        "maxDD": 15.1
+      }
+    },
+    "recentRebalances": [
+      {
+        "date": "2026-06-30",
+        "portfolioValue": 3364779,
+        "regime": "BENCHMARK",
+        "allocations": "NSE:NIFTYBEES (100%)"
+      },
+      {
+        "date": "2026-07-31",
+        "portfolioValue": 3432380,
+        "regime": "BENCHMARK",
+        "allocations": "NSE:NIFTYBEES (100%)"
+      },
+      {
+        "date": "2026-08-31",
+        "portfolioValue": 3399132,
+        "regime": "BENCHMARK",
+        "allocations": "NSE:NIFTYBEES (100%)"
+      },
+      {
+        "date": "2026-09-30",
+        "portfolioValue": 3195103,
+        "regime": "BENCHMARK",
+        "allocations": "NSE:NIFTYBEES (100%)"
+      },
+      {
+        "date": "2026-10-23",
+        "portfolioValue": 3177692,
+        "regime": "BENCHMARK",
+        "allocations": "NSE:NIFTYBEES (100%)"
+      }
+    ]
+  },
+  {
+    "name": "Gary Antonacci Dual Momentum (GEM Indian Adaptation)",
+    "cagr": 9.18,
+    "totalReturnPct": 158.38,
+    "finalCapital": 2583773,
+    "maxDrawdown": 40.77,
+    "calmar": 0.23,
+    "sharpe": 0.22,
+    "rebalancesCount": 130,
+    "yearlyTable": {
+      "2016": {
+        "return": 22.5,
+        "maxDD": 6.13
+      },
+      "2017": {
+        "return": 6.02,
+        "maxDD": 24.99
+      },
+      "2018": {
+        "return": -10.01,
+        "maxDD": 36.62
+      },
+      "2019": {
+        "return": 8.41,
+        "maxDD": 13.4
+      },
+      "2020": {
+        "return": 6.75,
+        "maxDD": 26.61
+      },
+      "2021": {
+        "return": 27.73,
+        "maxDD": 10.64
+      },
+      "2022": {
+        "return": -15.14,
+        "maxDD": 25.49
+      },
+      "2023": {
+        "return": 20.12,
+        "maxDD": 8.1
+      },
+      "2024": {
+        "return": 54.61,
+        "maxDD": 11.4
+      },
+      "2025": {
+        "return": 6.19,
+        "maxDD": 26.13
+      },
+      "2026": {
+        "return": -11.98,
+        "maxDD": 15.38
+      }
+    },
+    "recentRebalances": [
+      {
+        "date": "2026-06-30",
+        "portfolioValue": 2590512,
+        "regime": "RISK_OFF_GOLD",
+        "allocations": "NSE:GOLDBEES (100%)"
+      },
+      {
+        "date": "2026-07-31",
+        "portfolioValue": 2614669,
+        "regime": "RISK_OFF_GOLD",
+        "allocations": "NSE:GOLDBEES (100%)"
+      },
+      {
+        "date": "2026-08-31",
+        "portfolioValue": 2841197,
+        "regime": "RISK_OFF_GOLD",
+        "allocations": "NSE:GOLDBEES (100%)"
+      },
+      {
+        "date": "2026-09-30",
+        "portfolioValue": 2711975,
+        "regime": "RISK_OFF_GOLD",
+        "allocations": "NSE:GOLDBEES (100%)"
+      },
+      {
+        "date": "2026-10-23",
+        "portfolioValue": 2583773,
+        "regime": "RISK_OFF_GOLD",
+        "allocations": "NSE:GOLDBEES (100%)"
+      }
+    ]
+  },
+  {
+    "name": "Keller's Hybrid Asset Allocation (HAA) - Top 2 Sectors",
+    "cagr": 24.26,
+    "totalReturnPct": 946.56,
+    "finalCapital": 10465614,
+    "maxDrawdown": 31.57,
+    "calmar": 0.77,
+    "sharpe": 0.85,
+    "rebalancesCount": 130,
+    "yearlyTable": {
+      "2016": {
+        "return": 15.11,
+        "maxDD": 10.07
+      },
+      "2017": {
+        "return": 18.47,
+        "maxDD": 14.34
+      },
+      "2018": {
+        "return": -3.13,
+        "maxDD": 16.21
+      },
+      "2019": {
+        "return": 9.98,
+        "maxDD": 14.48
+      },
+      "2020": {
+        "return": 35.33,
+        "maxDD": 15.5
+      },
+      "2021": {
+        "return": 6.19,
+        "maxDD": 20.14
+      },
+      "2022": {
+        "return": 20.76,
+        "maxDD": 15.96
+      },
+      "2023": {
+        "return": 48.69,
+        "maxDD": 11.21
+      },
+      "2024": {
+        "return": 46.74,
+        "maxDD": 13.31
+      },
+      "2025": {
+        "return": 98.33,
+        "maxDD": 11.86
+      },
+      "2026": {
+        "return": -7.45,
+        "maxDD": 31.57
+      }
+    },
+    "recentRebalances": [
+      {
+        "date": "2026-06-30",
+        "portfolioValue": 10492896,
+        "regime": "DEFENSIVE_GOLD",
+        "allocations": "NSE:GOLDBEES (100%)"
+      },
+      {
+        "date": "2026-07-31",
+        "portfolioValue": 10590744,
+        "regime": "DEFENSIVE_GOLD",
+        "allocations": "NSE:GOLDBEES (100%)"
+      },
+      {
+        "date": "2026-08-31",
+        "portfolioValue": 11508318,
+        "regime": "DEFENSIVE_GOLD",
+        "allocations": "NSE:GOLDBEES (100%)"
+      },
+      {
+        "date": "2026-09-30",
+        "portfolioValue": 10984900,
+        "regime": "DEFENSIVE_GOLD",
+        "allocations": "NSE:GOLDBEES (100%)"
+      },
+      {
+        "date": "2026-10-23",
+        "portfolioValue": 10465614,
+        "regime": "DEFENSIVE_CASH",
+        "allocations": "CASH (100%)"
+      }
+    ]
+  },
+  {
+    "name": "Keller's Bold Asset Allocation (BAA) - Fast 13612W Top 1",
+    "cagr": 28.21,
+    "totalReturnPct": 1367.39,
+    "finalCapital": 14673882,
+    "maxDrawdown": 45.39,
+    "calmar": 0.62,
+    "sharpe": 0.79,
+    "rebalancesCount": 130,
+    "yearlyTable": {
+      "2016": {
+        "return": 27.81,
+        "maxDD": 10.13
+      },
+      "2017": {
+        "return": 13.44,
+        "maxDD": 21.95
+      },
+      "2018": {
+        "return": 33.67,
+        "maxDD": 9.06
+      },
+      "2019": {
+        "return": -4.85,
+        "maxDD": 25.66
+      },
+      "2020": {
+        "return": 72.87,
+        "maxDD": 18.53
+      },
+      "2021": {
+        "return": 0.83,
+        "maxDD": 30.94
+      },
+      "2022": {
+        "return": 8.28,
+        "maxDD": 24.08
+      },
+      "2023": {
+        "return": 23.89,
+        "maxDD": 12.58
+      },
+      "2024": {
+        "return": 33.91,
+        "maxDD": 23.34
+      },
+      "2025": {
+        "return": 116.61,
+        "maxDD": 11.27
+      },
+      "2026": {
+        "return": 14.17,
+        "maxDD": 31.33
+      }
+    },
+    "recentRebalances": [
+      {
+        "date": "2026-06-30",
+        "portfolioValue": 16281036,
+        "regime": "RISK_ON_MAX_ALPHA",
+        "allocations": "NSE:MON100 (100%)"
+      },
+      {
+        "date": "2026-07-31",
+        "portfolioValue": 15246739,
+        "regime": "RISK_ON_MAX_ALPHA",
+        "allocations": "NSE:AUTOBEES (100%)"
+      },
+      {
+        "date": "2026-08-31",
+        "portfolioValue": 15323227,
+        "regime": "DEFENSIVE_GOLD",
+        "allocations": "NSE:GOLDBEES (100%)"
+      },
+      {
+        "date": "2026-09-30",
+        "portfolioValue": 14626293,
+        "regime": "DEFENSIVE_CASH",
+        "allocations": "CASH (100%)"
+      },
+      {
+        "date": "2026-10-23",
+        "portfolioValue": 14673882,
+        "regime": "DEFENSIVE_CASH",
+        "allocations": "CASH (100%)"
+      }
+    ]
+  },
+  {
+    "name": "⭐ APEX Quant Sector Rotation (Dual Canary + 200 SMA + Top 2 Sectors)",
+    "cagr": 20.91,
+    "totalReturnPct": 678.33,
+    "finalCapital": 7783251,
+    "maxDrawdown": 32.35,
+    "calmar": 0.65,
+    "sharpe": 0.71,
+    "rebalancesCount": 130,
+    "yearlyTable": {
+      "2016": {
+        "return": 14.42,
+        "maxDD": 10.24
+      },
+      "2017": {
+        "return": 16.88,
+        "maxDD": 11.32
+      },
+      "2018": {
+        "return": 2.06,
+        "maxDD": 10.73
+      },
+      "2019": {
+        "return": -6.85,
+        "maxDD": 19.67
+      },
+      "2020": {
+        "return": 40.34,
+        "maxDD": 12.96
+      },
+      "2021": {
+        "return": 15.54,
+        "maxDD": 18.64
+      },
+      "2022": {
+        "return": 13.96,
+        "maxDD": 17.82
+      },
+      "2023": {
+        "return": 25.14,
+        "maxDD": 9.7
+      },
+      "2024": {
+        "return": 54.02,
+        "maxDD": 16.3
+      },
+      "2025": {
+        "return": 67.29,
+        "maxDD": 11.95
+      },
+      "2026": {
+        "return": -1.7,
+        "maxDD": 32.35
+      }
+    },
+    "recentRebalances": [
+      {
+        "date": "2026-06-30",
+        "portfolioValue": 7579276,
+        "regime": "OFFENSIVE_2_ASSETS",
+        "allocations": "NSE:MON100 (50%), NSE:BANKBEES (50%)"
+      },
+      {
+        "date": "2026-07-31",
+        "portfolioValue": 7310545,
+        "regime": "FULL_DEFENSE_100_CASH",
+        "allocations": "CASH (100%)"
+      },
+      {
+        "date": "2026-08-31",
+        "portfolioValue": 7345336,
+        "regime": "OFFENSIVE_2_ASSETS",
+        "allocations": "NSE:MAFANG (50%), NSE:MON100 (50%)"
+      },
+      {
+        "date": "2026-09-30",
+        "portfolioValue": 7758009,
+        "regime": "FULL_DEFENSE_100_CASH",
+        "allocations": "CASH (100%)"
+      },
+      {
+        "date": "2026-10-23",
+        "portfolioValue": 7783251,
+        "regime": "FULL_DEFENSE_100_CASH",
+        "allocations": "CASH (100%)"
+      }
+    ]
+  }
+]

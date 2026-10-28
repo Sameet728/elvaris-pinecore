@@ -1,0 +1,795 @@
+[
+  {
+    "name": "🛡️ APEX Model 4: Inverse-Volatility Weighted (Top 3, Risk Parity)",
+    "cagr": 22.67,
+    "totalReturnPct": 810.3,
+    "finalCapital": 9103427,
+    "maxDrawdown": 15.51,
+    "calmar": 1.46,
+    "sharpe": 1.12,
+    "sortino": 1.06,
+    "annualizedVol": 13.6,
+    "covidMaxDD": 9.5,
+    "covidReturn": -3.3,
+    "totalTrades": 176,
+    "winRate": 42,
+    "yearlyStats": {
+      "2016": {
+        "return": 24.7,
+        "maxDD": 8.3
+      },
+      "2017": {
+        "return": 18.5,
+        "maxDD": 6.4
+      },
+      "2018": {
+        "return": -0.3,
+        "maxDD": 11.6
+      },
+      "2019": {
+        "return": 17.1,
+        "maxDD": 8.4
+      },
+      "2020": {
+        "return": 33.4,
+        "maxDD": 9.5
+      },
+      "2021": {
+        "return": 4.5,
+        "maxDD": 13.7
+      },
+      "2022": {
+        "return": 9.7,
+        "maxDD": 10.7
+      },
+      "2023": {
+        "return": 39.6,
+        "maxDD": 9
+      },
+      "2024": {
+        "return": 53.4,
+        "maxDD": 7.9
+      },
+      "2025": {
+        "return": 48.4,
+        "maxDD": 5.4
+      },
+      "2026": {
+        "return": 5,
+        "maxDD": 10.7
+      }
+    }
+  },
+  {
+    "name": "4. Meb Faber GTAA (Trend Following 5-Asset, 200 SMA Filter)",
+    "cagr": 15.08,
+    "totalReturnPct": 356.5,
+    "finalCapital": 4564937,
+    "maxDrawdown": 10.45,
+    "calmar": 1.44,
+    "sharpe": 0.91,
+    "sortino": 0.86,
+    "annualizedVol": 9.1,
+    "covidMaxDD": 8.9,
+    "covidReturn": -1.9,
+    "totalTrades": 45,
+    "winRate": 2.2,
+    "yearlyStats": {
+      "2016": {
+        "return": 13.6,
+        "maxDD": 4
+      },
+      "2017": {
+        "return": 17,
+        "maxDD": 4.4
+      },
+      "2018": {
+        "return": -1.7,
+        "maxDD": 10.4
+      },
+      "2019": {
+        "return": 8.8,
+        "maxDD": 6.3
+      },
+      "2020": {
+        "return": 26.8,
+        "maxDD": 8.9
+      },
+      "2021": {
+        "return": 22.8,
+        "maxDD": 6.2
+      },
+      "2022": {
+        "return": 5.6,
+        "maxDD": 5.6
+      },
+      "2023": {
+        "return": 27.6,
+        "maxDD": 4.5
+      },
+      "2024": {
+        "return": 25.1,
+        "maxDD": 6
+      },
+      "2025": {
+        "return": 15.6,
+        "maxDD": 4.3
+      },
+      "2026": {
+        "return": 3.3,
+        "maxDD": 9.6
+      }
+    }
+  },
+  {
+    "name": "👑 APEX Model 1: Calmar Apex Champion (Top 3, 6% Stop, 15d Rebal)",
+    "cagr": 24,
+    "totalReturnPct": 922.5,
+    "finalCapital": 10225265,
+    "maxDrawdown": 18.41,
+    "calmar": 1.3,
+    "sharpe": 1.11,
+    "sortino": 1.02,
+    "annualizedVol": 14.8,
+    "covidMaxDD": 10,
+    "covidReturn": -3.1,
+    "totalTrades": 176,
+    "winRate": 40.9,
+    "yearlyStats": {
+      "2016": {
+        "return": 20.7,
+        "maxDD": 9.1
+      },
+      "2017": {
+        "return": 15.3,
+        "maxDD": 7.1
+      },
+      "2018": {
+        "return": 1.6,
+        "maxDD": 11.1
+      },
+      "2019": {
+        "return": 16.1,
+        "maxDD": 9.7
+      },
+      "2020": {
+        "return": 35.6,
+        "maxDD": 10
+      },
+      "2021": {
+        "return": 4.3,
+        "maxDD": 14.1
+      },
+      "2022": {
+        "return": 11.5,
+        "maxDD": 12.3
+      },
+      "2023": {
+        "return": 35.5,
+        "maxDD": 11.6
+      },
+      "2024": {
+        "return": 50.6,
+        "maxDD": 8.2
+      },
+      "2025": {
+        "return": 66.7,
+        "maxDD": 5.9
+      },
+      "2026": {
+        "return": 11.9,
+        "maxDD": 14.9
+      }
+    }
+  },
+  {
+    "name": "⚖️ APEX Model 3: Balanced High-Growth (Top 2, 6% Stop, 15d Rebal)",
+    "cagr": 24.22,
+    "totalReturnPct": 942.6,
+    "finalCapital": 10426084,
+    "maxDrawdown": 22.33,
+    "calmar": 1.08,
+    "sharpe": 0.99,
+    "sortino": 0.92,
+    "annualizedVol": 17.2,
+    "covidMaxDD": 9.7,
+    "covidReturn": -2.3,
+    "totalTrades": 148,
+    "winRate": 42.6,
+    "yearlyStats": {
+      "2016": {
+        "return": 16.2,
+        "maxDD": 10.1
+      },
+      "2017": {
+        "return": 12,
+        "maxDD": 7
+      },
+      "2018": {
+        "return": 3.8,
+        "maxDD": 11.4
+      },
+      "2019": {
+        "return": 8.7,
+        "maxDD": 12.9
+      },
+      "2020": {
+        "return": 38.9,
+        "maxDD": 9.7
+      },
+      "2021": {
+        "return": -0.2,
+        "maxDD": 15.7
+      },
+      "2022": {
+        "return": 28.3,
+        "maxDD": 12.6
+      },
+      "2023": {
+        "return": 23.7,
+        "maxDD": 14.1
+      },
+      "2024": {
+        "return": 60.2,
+        "maxDD": 9.3
+      },
+      "2025": {
+        "return": 76.6,
+        "maxDD": 8.9
+      },
+      "2026": {
+        "return": 9.6,
+        "maxDD": 22.3
+      }
+    }
+  },
+  {
+    "name": "6. Keller VAA-G (Vigilant Asset Allocation - Geared Aggressive)",
+    "cagr": 29.59,
+    "totalReturnPct": 1547.6,
+    "finalCapital": 16475815,
+    "maxDrawdown": 31.34,
+    "calmar": 0.94,
+    "sharpe": 1.11,
+    "sortino": 0.93,
+    "annualizedVol": 19.7,
+    "covidMaxDD": 10.8,
+    "covidReturn": 11.8,
+    "totalTrades": 65,
+    "winRate": 61.5,
+    "yearlyStats": {
+      "2016": {
+        "return": 22.3,
+        "maxDD": 7.9
+      },
+      "2017": {
+        "return": 5.2,
+        "maxDD": 10.1
+      },
+      "2018": {
+        "return": 18.3,
+        "maxDD": 7.6
+      },
+      "2019": {
+        "return": 27.1,
+        "maxDD": 8.9
+      },
+      "2020": {
+        "return": 50.5,
+        "maxDD": 17.7
+      },
+      "2021": {
+        "return": -3.9,
+        "maxDD": 15.6
+      },
+      "2022": {
+        "return": 16.6,
+        "maxDD": 9.4
+      },
+      "2023": {
+        "return": 29.2,
+        "maxDD": 11.5
+      },
+      "2024": {
+        "return": 27,
+        "maxDD": 20.6
+      },
+      "2025": {
+        "return": 144,
+        "maxDD": 10.4
+      },
+      "2026": {
+        "return": 22.6,
+        "maxDD": 31.3
+      }
+    }
+  },
+  {
+    "name": "7. Keller DAA (Defensive Asset Allocation - Multi-Regime)",
+    "cagr": 24.06,
+    "totalReturnPct": 928.4,
+    "finalCapital": 10283612,
+    "maxDrawdown": 27.6,
+    "calmar": 0.87,
+    "sharpe": 0.9,
+    "sortino": 0.83,
+    "annualizedVol": 19.2,
+    "covidMaxDD": 11.6,
+    "covidReturn": 1.6,
+    "totalTrades": 143,
+    "winRate": 46.2,
+    "yearlyStats": {
+      "2016": {
+        "return": 24.6,
+        "maxDD": 9.5
+      },
+      "2017": {
+        "return": 11.5,
+        "maxDD": 11.3
+      },
+      "2018": {
+        "return": 2.9,
+        "maxDD": 12.3
+      },
+      "2019": {
+        "return": -4.4,
+        "maxDD": 19.2
+      },
+      "2020": {
+        "return": 47.2,
+        "maxDD": 13.6
+      },
+      "2021": {
+        "return": 15.5,
+        "maxDD": 18.6
+      },
+      "2022": {
+        "return": 11.6,
+        "maxDD": 14.7
+      },
+      "2023": {
+        "return": 30.3,
+        "maxDD": 10.5
+      },
+      "2024": {
+        "return": 43.5,
+        "maxDD": 16.4
+      },
+      "2025": {
+        "return": 88.8,
+        "maxDD": 9.9
+      },
+      "2026": {
+        "return": 6.4,
+        "maxDD": 27.6
+      }
+    }
+  },
+  {
+    "name": "🚀 APEX Model 2: Max Alpha Champion (Top 1 Concentrated, 12d Rebal)",
+    "cagr": 22.62,
+    "totalReturnPct": 806.4,
+    "finalCapital": 9064461,
+    "maxDrawdown": 29.06,
+    "calmar": 0.78,
+    "sharpe": 0.72,
+    "sortino": 0.66,
+    "annualizedVol": 23.8,
+    "covidMaxDD": 20.8,
+    "covidReturn": -11.4,
+    "totalTrades": 112,
+    "winRate": 42.9,
+    "yearlyStats": {
+      "2016": {
+        "return": 30.2,
+        "maxDD": 7.2
+      },
+      "2017": {
+        "return": 9.6,
+        "maxDD": 19
+      },
+      "2018": {
+        "return": 14.8,
+        "maxDD": 10.4
+      },
+      "2019": {
+        "return": 6.4,
+        "maxDD": 15.1
+      },
+      "2020": {
+        "return": 30.9,
+        "maxDD": 20.8
+      },
+      "2021": {
+        "return": -10.7,
+        "maxDD": 28.2
+      },
+      "2022": {
+        "return": 33.6,
+        "maxDD": 14.2
+      },
+      "2023": {
+        "return": 5.5,
+        "maxDD": 15.8
+      },
+      "2024": {
+        "return": 24.6,
+        "maxDD": 16.6
+      },
+      "2025": {
+        "return": 107.2,
+        "maxDD": 19.1
+      },
+      "2026": {
+        "return": 20.7,
+        "maxDD": 29.1
+      }
+    }
+  },
+  {
+    "name": "8. Keller HAA (Hybrid Asset Allocation - Top 2 Sectors)",
+    "cagr": 23.38,
+    "totalReturnPct": 868.5,
+    "finalCapital": 9684568,
+    "maxDrawdown": 31.58,
+    "calmar": 0.74,
+    "sharpe": 0.83,
+    "sortino": 0.78,
+    "annualizedVol": 20.4,
+    "covidMaxDD": 15.5,
+    "covidReturn": -4.2,
+    "totalTrades": 81,
+    "winRate": 39.5,
+    "yearlyStats": {
+      "2016": {
+        "return": 15.1,
+        "maxDD": 10.1
+      },
+      "2017": {
+        "return": 18.5,
+        "maxDD": 14.3
+      },
+      "2018": {
+        "return": -3.1,
+        "maxDD": 16.2
+      },
+      "2019": {
+        "return": 10,
+        "maxDD": 14.5
+      },
+      "2020": {
+        "return": 35.3,
+        "maxDD": 15.5
+      },
+      "2021": {
+        "return": 6.2,
+        "maxDD": 20.2
+      },
+      "2022": {
+        "return": 20.8,
+        "maxDD": 16
+      },
+      "2023": {
+        "return": 48.7,
+        "maxDD": 11.2
+      },
+      "2024": {
+        "return": 35.6,
+        "maxDD": 17.2
+      },
+      "2025": {
+        "return": 98.4,
+        "maxDD": 11.9
+      },
+      "2026": {
+        "return": -7.4,
+        "maxDD": 31.6
+      }
+    }
+  },
+  {
+    "name": "9. Keller BAA (Bold Asset Allocation - Top 1 Max Alpha)",
+    "cagr": 26.09,
+    "totalReturnPct": 1125.2,
+    "finalCapital": 12252260,
+    "maxDrawdown": 38.85,
+    "calmar": 0.67,
+    "sharpe": 0.84,
+    "sortino": 0.78,
+    "annualizedVol": 23.9,
+    "covidMaxDD": 10.8,
+    "covidReturn": 11.8,
+    "totalTrades": 82,
+    "winRate": 50,
+    "yearlyStats": {
+      "2016": {
+        "return": 27.8,
+        "maxDD": 10.1
+      },
+      "2017": {
+        "return": 13.4,
+        "maxDD": 22
+      },
+      "2018": {
+        "return": 33.7,
+        "maxDD": 9.1
+      },
+      "2019": {
+        "return": -9.1,
+        "maxDD": 29
+      },
+      "2020": {
+        "return": 58,
+        "maxDD": 17.7
+      },
+      "2021": {
+        "return": 1.2,
+        "maxDD": 28.7
+      },
+      "2022": {
+        "return": 19.8,
+        "maxDD": 16.5
+      },
+      "2023": {
+        "return": 13.2,
+        "maxDD": 13.3
+      },
+      "2024": {
+        "return": 25.1,
+        "maxDD": 22
+      },
+      "2025": {
+        "return": 116.7,
+        "maxDD": 11.3
+      },
+      "2026": {
+        "return": 14.2,
+        "maxDD": 31.3
+      }
+    }
+  },
+  {
+    "name": "3. Benchmark: All-Weather 4-Asset (Nifty, Junior, Gold, Cash 25% each)",
+    "cagr": 12.05,
+    "totalReturnPct": 241.9,
+    "finalCapital": 3418996,
+    "maxDrawdown": 18.39,
+    "calmar": 0.66,
+    "sharpe": 0.64,
+    "sortino": 0.59,
+    "annualizedVol": 8.4,
+    "covidMaxDD": 18.4,
+    "covidReturn": -11,
+    "totalTrades": 0,
+    "winRate": 0,
+    "yearlyStats": {
+      "2016": {
+        "return": 7.6,
+        "maxDD": 8.5
+      },
+      "2017": {
+        "return": 19.7,
+        "maxDD": 2.4
+      },
+      "2018": {
+        "return": 2.6,
+        "maxDD": 7.1
+      },
+      "2019": {
+        "return": 10.6,
+        "maxDD": 3.2
+      },
+      "2020": {
+        "return": 18,
+        "maxDD": 18.4
+      },
+      "2021": {
+        "return": 13.8,
+        "maxDD": 4.6
+      },
+      "2022": {
+        "return": 5.5,
+        "maxDD": 8.7
+      },
+      "2023": {
+        "return": 16.9,
+        "maxDD": 4.5
+      },
+      "2024": {
+        "return": 16.3,
+        "maxDD": 6.1
+      },
+      "2025": {
+        "return": 20.8,
+        "maxDD": 4.1
+      },
+      "2026": {
+        "return": -1.7,
+        "maxDD": 12
+      }
+    }
+  },
+  {
+    "name": "2. Benchmark: 60/40 Equity-Gold (60% NIFTYBEES / 40% GOLDBEES)",
+    "cagr": 13.84,
+    "totalReturnPct": 306.1,
+    "finalCapital": 4060631,
+    "maxDrawdown": 23.48,
+    "calmar": 0.59,
+    "sharpe": 0.67,
+    "sortino": 0.64,
+    "annualizedVol": 10.9,
+    "covidMaxDD": 23.5,
+    "covidReturn": -13.5,
+    "totalTrades": 0,
+    "winRate": 0,
+    "yearlyStats": {
+      "2016": {
+        "return": 7.2,
+        "maxDD": 11.6
+      },
+      "2017": {
+        "return": 19,
+        "maxDD": 2.7
+      },
+      "2018": {
+        "return": 5.7,
+        "maxDD": 6.6
+      },
+      "2019": {
+        "return": 16.8,
+        "maxDD": 4.1
+      },
+      "2020": {
+        "return": 20.1,
+        "maxDD": 23.5
+      },
+      "2021": {
+        "return": 12.6,
+        "maxDD": 5.9
+      },
+      "2022": {
+        "return": 7,
+        "maxDD": 8.9
+      },
+      "2023": {
+        "return": 17.7,
+        "maxDD": 3.9
+      },
+      "2024": {
+        "return": 13.9,
+        "maxDD": 7
+      },
+      "2025": {
+        "return": 34.3,
+        "maxDD": 4.3
+      },
+      "2026": {
+        "return": -4.1,
+        "maxDD": 17.6
+      }
+    }
+  },
+  {
+    "name": "5. Gary Antonacci GEM (Global Equity Momentum / Dual Momentum)",
+    "cagr": 14.41,
+    "totalReturnPct": 328.5,
+    "finalCapital": 4284931,
+    "maxDrawdown": 40.78,
+    "calmar": 0.35,
+    "sharpe": 0.45,
+    "sortino": 0.43,
+    "annualizedVol": 21,
+    "covidMaxDD": 26.6,
+    "covidReturn": -4.7,
+    "totalTrades": 26,
+    "winRate": 53.8,
+    "yearlyStats": {
+      "2016": {
+        "return": 17.7,
+        "maxDD": 13.4
+      },
+      "2017": {
+        "return": 6,
+        "maxDD": 25
+      },
+      "2018": {
+        "return": -10,
+        "maxDD": 36.6
+      },
+      "2019": {
+        "return": 8.4,
+        "maxDD": 13.4
+      },
+      "2020": {
+        "return": 49.3,
+        "maxDD": 26.6
+      },
+      "2021": {
+        "return": 27.7,
+        "maxDD": 10.6
+      },
+      "2022": {
+        "return": -15.2,
+        "maxDD": 25.5
+      },
+      "2023": {
+        "return": 20.1,
+        "maxDD": 8.1
+      },
+      "2024": {
+        "return": 54.6,
+        "maxDD": 11.4
+      },
+      "2025": {
+        "return": 8.4,
+        "maxDD": 26.1
+      },
+      "2026": {
+        "return": 6.4,
+        "maxDD": 16.4
+      }
+    }
+  },
+  {
+    "name": "1. Benchmark: Nifty 50 Buy & Hold (NIFTYBEES)",
+    "cagr": 11.29,
+    "totalReturnPct": 217.9,
+    "finalCapital": 3179019,
+    "maxDrawdown": 36.38,
+    "calmar": 0.31,
+    "sharpe": 0.82,
+    "sortino": 0.77,
+    "annualizedVol": 14.6,
+    "covidMaxDD": 36.4,
+    "covidReturn": -29,
+    "totalTrades": 0,
+    "winRate": 0,
+    "yearlyStats": {
+      "2016": {
+        "return": 3.7,
+        "maxDD": 12.1
+      },
+      "2017": {
+        "return": 29.8,
+        "maxDD": 3.9
+      },
+      "2018": {
+        "return": 5.4,
+        "maxDD": 14.1
+      },
+      "2019": {
+        "return": 13.3,
+        "maxDD": 10.5
+      },
+      "2020": {
+        "return": 15.1,
+        "maxDD": 36.4
+      },
+      "2021": {
+        "return": 25.5,
+        "maxDD": 9.5
+      },
+      "2022": {
+        "return": 3.8,
+        "maxDD": 15.8
+      },
+      "2023": {
+        "return": 20.2,
+        "maxDD": 7.1
+      },
+      "2024": {
+        "return": 10,
+        "maxDD": 10.5
+      },
+      "2025": {
+        "return": 11.1,
+        "maxDD": 8.3
+      },
+      "2026": {
+        "return": -13,
+        "maxDD": 14.9
+      }
+    }
+  }
+]

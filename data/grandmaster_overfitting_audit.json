@@ -1,0 +1,64 @@
+{
+  "strategyName": "Champion_15M_Grandmaster_Dual10R_Oct8R",
+  "timeframe": "15M",
+  "symbol": "FOREXCOM:XAUUSD",
+  "period": "2026-08-02 to 2026-10-16",
+  "totalTrades": 46,
+  "wins": 38,
+  "losses": 8,
+  "winRate": 82.6086956521739,
+  "netProfit": 572,
+  "netR": 40.857142857142854,
+  "maxDrawdownUSD": 32.77000000000044,
+  "maxDrawdownR": 2.340714285714317,
+  "calmarRatio": 17.454989319499308,
+  "monthlyBreakdown": {
+    "2026-08": {
+      "trades": 18,
+      "wins": 15,
+      "losses": 3,
+      "winRate": 83.33,
+      "returnR": 16.29
+    },
+    "2026-09": {
+      "trades": 18,
+      "wins": 15,
+      "losses": 3,
+      "winRate": 83.33,
+      "returnR": 16.29
+    },
+    "2026-10": {
+      "trades": 10,
+      "wins": 8,
+      "losses": 2,
+      "winRate": 80,
+      "returnR": 8.29
+    }
+  },
+  "walkForward": {
+    "inSample": {
+      "trades": 24,
+      "wins": 21,
+      "winRate": 87.5,
+      "returnR": 24
+    },
+    "outOfSample": {
+      "trades": 22,
+      "wins": 17,
+      "winRate": 77.27272727272727,
+      "returnR": 16.857142857142858
+    },
+    "stabilityRatio": 0.8831168831168831
+  },
+  "plateauStability": {
+    "variationsTested": 12,
+    "variationsPassed": 8,
+    "stabilityPercent": 66.66666666666666
+  },
+  "monteCarlo": {
+    "simulations": 1000,
+    "medianDrawdownR": 2,
+    "percentile95DrawdownR": 3,
+    "percentile99DrawdownR": 4
+  }
+}

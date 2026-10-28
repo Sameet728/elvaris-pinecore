@@ -1,0 +1,106 @@
+{
+  "gold4H": {
+    "topByWR": {
+      "entryH": 23,
+      "dFilter": "thu_only",
+      "rsiF": "rsi_above_50",
+      "tFilter": "none",
+      "exit": "time_only_sl999_tp999",
+      "totalTrades": 40,
+      "wins": 25,
+      "losses": 15,
+      "wr": 62.5,
+      "totalRet": 4.355806777835326,
+      "maxDD": 2.2529634260395177,
+      "calmar": 1.9333677269197374,
+      "pf": 1.9252339909033391,
+      "sharpe": 1.5648982299709953,
+      "finalEquity": 104.35580677783533
+    },
+    "topByCalmar": {
+      "entryH": 19,
+      "dFilter": "exclude_mon",
+      "rsiF": "rsi_above_45",
+      "tFilter": "none",
+      "exit": "bracket_sl1.5_tp2.5",
+      "totalTrades": 170,
+      "wins": 97,
+      "losses": 73,
+      "wr": 57.05882352941176,
+      "totalRet": 35.17960580694387,
+      "maxDD": 2.8201745099977042,
+      "calmar": 12.474265575491819,
+      "pf": 2.0291700135838835,
+      "sharpe": 3.170891552216408,
+      "finalEquity": 135.17960580694387
+    }
+  },
+  "btcDaily": {
+    "topByWR": {
+      "setup": "golden_months_all_days",
+      "tFilter": "none",
+      "rsiF": "none",
+      "atrSlMult": 0,
+      "totalTrades": 41,
+      "wins": 25,
+      "losses": 16,
+      "wr": 60.97560975609756,
+      "totalRet": 822.1413127495576,
+      "maxDD": 39.23843112730256,
+      "calmar": 20.95245118445885,
+      "pf": 2.5629054618509617,
+      "sharpe": 2.4415124330531364,
+      "finalEquity": 922.1413127495578
+    },
+    "topByCalmar": {
+      "setup": "weekend_engine",
+      "tFilter": "none",
+      "rsiF": "rsi_above_45",
+      "atrSlMult": 0,
+      "totalTrades": 295,
+      "wins": 163,
+      "losses": 132,
+      "wr": 55.254237288135585,
+      "totalRet": 1004.2387113759737,
+      "maxDD": 22.24603042585702,
+      "calmar": 45.142377860309246,
+      "pf": 1.752362992708588,
+      "sharpe": 3.3198442408827966,
+      "finalEquity": 1104.2387113759737
+    }
+  },
+  "goldDaily": {
+    "topByWR": {
+      "setup": "january_and_august_all_days",
+      "tFilter": "none",
+      "rsiF": "rsi_above_45",
+      "atrSlMult": 0,
+      "totalTrades": 30,
+      "wins": 24,
+      "losses": 6,
+      "wr": 80,
+      "totalRet": 162.18405714827077,
+      "maxDD": 3.961916461916467,
+      "calmar": 40.93575892052473,
+      "pf": 7.3720170956574425,
+      "sharpe": 4.365348613264819,
+      "finalEquity": 262.18405714827077
+    },
+    "topByCalmar": {
+      "setup": "january_and_august_all_days",
+      "tFilter": "none",
+      "rsiF": "none",
+      "atrSlMult": 0,
+      "totalTrades": 38,
+      "wins": 28,
+      "losses": 10,
+      "wr": 73.68421052631578,
+      "totalRet": 207.9907366517671,
+      "maxDD": 3.9619164619164744,
+      "calmar": 52.4975068634226,
+      "pf": 7.776695416431952,
+      "sharpe": 4.574119099159734,
+      "finalEquity": 307.99073665176707
+    }
+  }
+}

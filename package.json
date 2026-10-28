@@ -1,0 +1,20 @@
+{
+  "name": "pine-xauusd-platform",
+  "version": "1.0.0",
+  "description": "LuxAlgo/Vela-Style Pine Script Platform with real Dukascopy XAUUSD data",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "npm run dev --workspace=backend",
+    "dev:frontend": "npm run dev --workspace=frontend",
+    "build": "npm run build --workspace=frontend",
+    "test": "npm run test --workspace=backend"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}

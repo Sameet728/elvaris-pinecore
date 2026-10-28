@@ -1,0 +1,27 @@
+{
+  "test1_plateau": {
+    "total": 225,
+    "profitable": 225,
+    "pctProfitable": "100.0",
+    "dualMonthPassed": 225,
+    "pctDualPass": "100.0"
+  },
+  "test2_walkForward": {
+    "inSampleSepR": 55.17,
+    "outOfSampleOctR": 17.77,
+    "maxDD": 1.2,
+    "calmar": 60.78
+  },
+  "test3_friction": {
+    "frictionPerTradeR": 0.181,
+    "netReturnWithFriction": 51.96,
+    "calmarWithFriction": 11.96,
+    "maxDDWithFriction": 4.35
+  },
+  "test4_twoMinuteRule": {
+    "tradesAudited": 116,
+    "under120sCount": 0,
+    "fastestSec": 300,
+    "avgMinutes": 5.3
+  }
+}

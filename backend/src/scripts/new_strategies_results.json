@@ -1,0 +1,122 @@
+{
+  "Strategy 1: Asian Range Judas Sweep (AR-Judas)": {
+    "summary": {
+      "bias": "Bearish",
+      "winRate": 11.1,
+      "wins": 2,
+      "losses": 16,
+      "expired": 0,
+      "open": 2,
+      "sampleTotal": 18,
+      "cumulativeR": -12,
+      "profitFactor": 0.25,
+      "maxDrawdownR": -3,
+      "maxConsWinR": 12,
+      "maxConsLossR": -3,
+      "dataFrom": "2026-09-13 22:00",
+      "monthly": [
+        {
+          "month": "2026-10",
+          "returnsR": -12,
+          "winRate": 11.1,
+          "trades": 18
+        }
+      ]
+    },
+    "mc": {
+      "sampleTrades": 18,
+      "dd_median": 12.5,
+      "dd_95thWorst": 18,
+      "r_median": -11,
+      "r_5thWorst": -18,
+      "r_95thBest": -4,
+      "calmar_median": 0,
+      "calmar_5thWorst": 0,
+      "consLoss_95thWorst": 18
+    },
+    "tradesCount": 20,
+    "wins": 2,
+    "losses": 16,
+    "open": 2
+  },
+  "Strategy 2: Trend Flow FVG + Breakeven Engine (Trend-BE)": {
+    "summary": {
+      "bias": "Bearish",
+      "winRate": 13.2,
+      "wins": 18,
+      "losses": 118,
+      "expired": 0,
+      "open": 6,
+      "sampleTotal": 136,
+      "cumulativeR": -82,
+      "profitFactor": 0.31,
+      "maxDrawdownR": -3,
+      "maxConsWinR": 12,
+      "maxConsLossR": -3,
+      "dataFrom": "2026-09-13 22:00",
+      "monthly": [
+        {
+          "month": "2026-10",
+          "returnsR": -82,
+          "winRate": 13.2,
+          "trades": 136
+        }
+      ]
+    },
+    "mc": {
+      "sampleTrades": 136,
+      "dd_median": 75.5,
+      "dd_95thWorst": 96.5,
+      "r_median": -73,
+      "r_5thWorst": -94,
+      "r_95thBest": -48.5,
+      "calmar_median": 0,
+      "calmar_5thWorst": 0,
+      "consLoss_95thWorst": 39
+    },
+    "tradesCount": 142,
+    "wins": 18,
+    "losses": 118,
+    "open": 6
+  },
+  "Strategy 3: SMC Sweep + Dynamic Breakeven 1:3 RR (SMC-Turbo)": {
+    "summary": {
+      "bias": "Bearish",
+      "winRate": 13.6,
+      "wins": 9,
+      "losses": 57,
+      "expired": 0,
+      "open": 5,
+      "sampleTotal": 66,
+      "cumulativeR": -39,
+      "profitFactor": 0.32,
+      "maxDrawdownR": -3,
+      "maxConsWinR": 12,
+      "maxConsLossR": -3,
+      "dataFrom": "2026-09-13 22:00",
+      "monthly": [
+        {
+          "month": "2026-10",
+          "returnsR": -39,
+          "winRate": 13.6,
+          "trades": 66
+        }
+      ]
+    },
+    "mc": {
+      "sampleTrades": 66,
+      "dd_median": 34,
+      "dd_95thWorst": 49,
+      "r_median": -30,
+      "r_5thWorst": -46,
+      "r_95thBest": -10,
+      "calmar_median": 0,
+      "calmar_5thWorst": 0,
+      "consLoss_95thWorst": 32
+    },
+    "tradesCount": 71,
+    "wins": 9,
+    "losses": 57,
+    "open": 5
+  }
+}

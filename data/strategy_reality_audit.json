@@ -1,0 +1,362 @@
+[
+  {
+    "file": "Champion_15M_1to2RR_75WR_STRATEGY.pine",
+    "tf": "15",
+    "trades": 27,
+    "wins": 20,
+    "losses": 7,
+    "winRate": 74.07,
+    "netProfit": 330,
+    "maxDrawdown": 27.15,
+    "profitFactor": 0,
+    "status": "WORKING_EXCELLENT"
+  },
+  {
+    "file": "Champion_15M_80WR_Elite_STRATEGY.pine",
+    "tf": "15",
+    "trades": 31,
+    "wins": 25,
+    "losses": 6,
+    "winRate": 80.65,
+    "netProfit": 341,
+    "maxDrawdown": 23.48,
+    "profitFactor": 0,
+    "status": "WORKING_EXCELLENT"
+  },
+  {
+    "file": "Champion_15M_Apex_88WR_STRATEGY.pine",
+    "tf": "15",
+    "trades": 26,
+    "wins": 23,
+    "losses": 3,
+    "winRate": 88.46,
+    "netProfit": 349,
+    "maxDrawdown": 19.55,
+    "profitFactor": 0,
+    "status": "WORKING_EXCELLENT"
+  },
+  {
+    "file": "Champion_15M_Grandmaster_Dual10R_Oct8R_STRATEGY.pine",
+    "tf": "15",
+    "trades": 46,
+    "wins": 38,
+    "losses": 8,
+    "winRate": 82.61,
+    "netProfit": 572,
+    "maxDrawdown": 32.77,
+    "profitFactor": 0,
+    "status": "WORKING_EXCELLENT"
+  },
+  {
+    "file": "Champion_15M_Pure_Sovereign_STRATEGY.pine",
+    "tf": "15",
+    "trades": 49,
+    "wins": 33,
+    "losses": 16,
+    "winRate": 67.35,
+    "netProfit": 303,
+    "maxDrawdown": 35.77,
+    "profitFactor": 0,
+    "status": "WORKING_EXCELLENT"
+  },
+  {
+    "file": "Champion_1H_200Pip_GiantTarget_STRATEGY.pine",
+    "tf": "60",
+    "trades": 82,
+    "wins": 32,
+    "losses": 50,
+    "winRate": 39.02,
+    "netProfit": 84.75,
+    "maxDrawdown": 70.9,
+    "profitFactor": 0,
+    "status": "SUB_PAR"
+  },
+  {
+    "file": "Champion_1H_Pure_Sovereign_STRATEGY.pine",
+    "tf": "60",
+    "trades": 58,
+    "wins": 49,
+    "losses": 9,
+    "winRate": 84.48,
+    "netProfit": 854,
+    "maxDrawdown": 149.19,
+    "profitFactor": 0,
+    "status": "WORKING_EXCELLENT"
+  },
+  {
+    "file": "Champion_1H_V1_HighWinRate82_STRATEGY.pine",
+    "tf": "60",
+    "trades": 55,
+    "wins": 45,
+    "losses": 10,
+    "winRate": 81.82,
+    "netProfit": 293.04,
+    "maxDrawdown": 42.84,
+    "profitFactor": 0,
+    "status": "WORKING_EXCELLENT"
+  },
+  {
+    "file": "Champion_1H_V2_StrictRR_STRATEGY.pine",
+    "tf": "60",
+    "trades": 29,
+    "wins": 18,
+    "losses": 11,
+    "winRate": 62.07,
+    "netProfit": 142.73,
+    "maxDrawdown": 32.96,
+    "profitFactor": 0,
+    "status": "WORKING_EXCELLENT"
+  },
+  {
+    "file": "Champion_5M_200Pip_Sovereign_STRATEGY.pine",
+    "tf": "5",
+    "trades": 103,
+    "wins": 43,
+    "losses": 60,
+    "winRate": 41.75,
+    "netProfit": 8.8,
+    "maxDrawdown": 13.69,
+    "profitFactor": 0,
+    "status": "SUB_PAR"
+  },
+  {
+    "file": "Champion_5M_HighFrequency_Prop_STRATEGY.pine",
+    "tf": "5",
+    "trades": 80,
+    "wins": 46,
+    "losses": 34,
+    "winRate": 57.5,
+    "netProfit": 94,
+    "maxDrawdown": 17.36,
+    "profitFactor": 0,
+    "status": "WORKING_EXCELLENT"
+  },
+  {
+    "file": "Champion_5M_Pure_Sovereign_STRATEGY.pine",
+    "tf": "5",
+    "trades": 43,
+    "wins": 17,
+    "losses": 26,
+    "winRate": 39.53,
+    "netProfit": 29,
+    "maxDrawdown": 8,
+    "profitFactor": 0,
+    "status": "SUB_PAR"
+  },
+  {
+    "file": "Champion_80to100Pip_Dual10R_PropPassed.pine",
+    "tf": "15",
+    "status": "IS_INDICATOR_ONLY",
+    "note": "File is an indicator, not a strategy. Cannot run in Strategy Tester."
+  },
+  {
+    "file": "Champion_80to100Pip_Dual10R_STRATEGY_NativeOrders.pine",
+    "tf": "15",
+    "trades": 100,
+    "wins": 35,
+    "losses": 65,
+    "winRate": 35,
+    "netProfit": 2.96,
+    "maxDrawdown": 10.1,
+    "profitFactor": 0,
+    "status": "SUB_PAR"
+  },
+  {
+    "file": "Champion_83pct_WinRate_HighPrecision_PropPassed.pine",
+    "tf": "15",
+    "status": "IS_INDICATOR_ONLY",
+    "note": "File is an indicator, not a strategy. Cannot run in Strategy Tester."
+  },
+  {
+    "file": "Champion_83pct_WinRate_HighPrecision_STRATEGY.pine",
+    "tf": "15",
+    "trades": 21,
+    "wins": 10,
+    "losses": 11,
+    "winRate": 47.62,
+    "netProfit": 1.84,
+    "maxDrawdown": 1.25,
+    "profitFactor": 0,
+    "status": "SUB_PAR"
+  },
+  {
+    "file": "Champion_91pct_WinRate_Sovereign_STRATEGY.pine",
+    "tf": "15",
+    "trades": 115,
+    "wins": 38,
+    "losses": 77,
+    "winRate": 33.04,
+    "netProfit": 3.1,
+    "maxDrawdown": 6.63,
+    "profitFactor": 0,
+    "status": "SUB_PAR"
+  },
+  {
+    "file": "Champion_AllTime_Score6000_STRATEGY.pine",
+    "tf": "15",
+    "trades": 146,
+    "wins": 47,
+    "losses": 99,
+    "winRate": 32.19,
+    "netProfit": 5.17,
+    "maxDrawdown": 5.54,
+    "profitFactor": 0,
+    "status": "SUB_PAR"
+  },
+  {
+    "file": "Champion_H1_LSS.pine",
+    "tf": "60",
+    "status": "IS_INDICATOR_ONLY",
+    "note": "File is an indicator, not a strategy. Cannot run in Strategy Tester."
+  },
+  {
+    "file": "Champion_H4_LSS.pine",
+    "tf": "240",
+    "status": "IS_INDICATOR_ONLY",
+    "note": "File is an indicator, not a strategy. Cannot run in Strategy Tester."
+  },
+  {
+    "file": "Champion_M15_LSS.pine",
+    "tf": "15",
+    "status": "IS_INDICATOR_ONLY",
+    "note": "File is an indicator, not a strategy. Cannot run in Strategy Tester."
+  },
+  {
+    "file": "Champion_M1_Calmar6.4_PropFirm.pine",
+    "tf": "1",
+    "status": "IS_INDICATOR_ONLY",
+    "note": "File is an indicator, not a strategy. Cannot run in Strategy Tester."
+  },
+  {
+    "file": "Champion_M1_LSS.pine",
+    "tf": "1",
+    "status": "IS_INDICATOR_ONLY",
+    "note": "File is an indicator, not a strategy. Cannot run in Strategy Tester."
+  },
+  {
+    "file": "Champion_M30_LSS.pine",
+    "tf": "30",
+    "status": "IS_INDICATOR_ONLY",
+    "note": "File is an indicator, not a strategy. Cannot run in Strategy Tester."
+  },
+  {
+    "file": "Champion_M5_Calmar22.0_DualMonth_PropPassed.pine",
+    "tf": "5",
+    "status": "IS_INDICATOR_ONLY",
+    "note": "File is an indicator, not a strategy. Cannot run in Strategy Tester."
+  },
+  {
+    "file": "Champion_M5_Calmar6.1_PropFirm.pine",
+    "tf": "5",
+    "status": "IS_INDICATOR_ONLY",
+    "note": "File is an indicator, not a strategy. Cannot run in Strategy Tester."
+  },
+  {
+    "file": "Champion_M5_Calmar7.0_PropFirm.pine",
+    "tf": "5",
+    "status": "IS_INDICATOR_ONLY",
+    "note": "File is an indicator, not a strategy. Cannot run in Strategy Tester."
+  },
+  {
+    "file": "Champion_M5_Calmar7.5_DualMonth_PropPassed.pine",
+    "tf": "5",
+    "status": "IS_INDICATOR_ONLY",
+    "note": "File is an indicator, not a strategy. Cannot run in Strategy Tester."
+  },
+  {
+    "file": "Champion_M5_Calmar7.8_Sep8.2R_Oct7.4R_PropPassed.pine",
+    "tf": "5",
+    "status": "IS_INDICATOR_ONLY",
+    "note": "File is an indicator, not a strategy. Cannot run in Strategy Tester."
+  },
+  {
+    "file": "Champion_M5_Calmar9.0_DualMonth_PropPassed.pine",
+    "tf": "5",
+    "status": "IS_INDICATOR_ONLY",
+    "note": "File is an indicator, not a strategy. Cannot run in Strategy Tester."
+  },
+  {
+    "file": "Champion_M5_Dual10R_Calmar11.0_PropPassed.pine",
+    "tf": "5",
+    "status": "IS_INDICATOR_ONLY",
+    "note": "File is an indicator, not a strategy. Cannot run in Strategy Tester."
+  },
+  {
+    "file": "Champion_M5_Dual10R_STRATEGY_NativeOrders.pine",
+    "tf": "5",
+    "trades": 14,
+    "wins": 9,
+    "losses": 5,
+    "winRate": 64.29,
+    "netProfit": 5.61,
+    "maxDrawdown": 0.96,
+    "profitFactor": 0,
+    "status": "WORKING_EXCELLENT"
+  },
+  {
+    "file": "Champion_M5_Dual10R_Verified_PropPassed.pine",
+    "tf": "5",
+    "status": "IS_INDICATOR_ONLY",
+    "note": "File is an indicator, not a strategy. Cannot run in Strategy Tester."
+  },
+  {
+    "file": "Champion_M5_DualMonth_PropPassed.pine",
+    "tf": "5",
+    "status": "IS_INDICATOR_ONLY",
+    "note": "File is an indicator, not a strategy. Cannot run in Strategy Tester."
+  },
+  {
+    "file": "Champion_M5_DualPivot_Calmar9.2_Sep8.2R_Oct10.2R_PropPassed.pine",
+    "tf": "5",
+    "status": "IS_INDICATOR_ONLY",
+    "note": "File is an indicator, not a strategy. Cannot run in Strategy Tester."
+  },
+  {
+    "file": "Champion_M5_LSS.pine",
+    "tf": "5",
+    "status": "IS_INDICATOR_ONLY",
+    "note": "File is an indicator, not a strategy. Cannot run in Strategy Tester."
+  },
+  {
+    "file": "Champion_Macro_110to140Pip_HighRR_STRATEGY.pine",
+    "tf": "15",
+    "trades": 213,
+    "wins": 73,
+    "losses": 140,
+    "winRate": 34.27,
+    "netProfit": 8.86,
+    "maxDrawdown": 21.17,
+    "profitFactor": 0,
+    "status": "SUB_PAR"
+  },
+  {
+    "file": "Champion_MultiTF_LSS.pine",
+    "tf": "15",
+    "status": "IS_INDICATOR_ONLY",
+    "note": "File is an indicator, not a strategy. Cannot run in Strategy Tester."
+  },
+  {
+    "file": "Champion_MultiTF_Universal_STRATEGY.pine",
+    "tf": "15",
+    "trades": 168,
+    "wins": 53,
+    "losses": 115,
+    "winRate": 31.55,
+    "netProfit": 4.67,
+    "maxDrawdown": 6.11,
+    "profitFactor": 0,
+    "status": "SUB_PAR"
+  },
+  {
+    "file": "Champion_MultiTier_ZeroLossStreak_STRATEGY.pine",
+    "tf": "15",
+    "trades": 232,
+    "wins": 83,
+    "losses": 149,
+    "winRate": 35.78,
+    "netProfit": 11.69,
+    "maxDrawdown": 11.21,
+    "profitFactor": 0,
+    "status": "SUB_PAR"
+  }
+]

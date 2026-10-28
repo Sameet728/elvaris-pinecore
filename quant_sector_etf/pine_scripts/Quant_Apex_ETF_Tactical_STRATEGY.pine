@@ -1,0 +1,115 @@
+//@version=5
+strategy("Quant Apex Tactical ETF Strategy [Institutional]", overlay=true, initial_capital=1000000, default_qty_type=strategy.percent_of_equity, default_qty_value=100, commission_type=strategy.commission.percent, commission_value=0.05)
+
+// ==========================================
+// QUANTITATIVE PARAMETERS
+// ==========================================
+string G_MOM = "Momentum & Trend Engine"
+int fastLookback = input.int(21, "Fast Lookback (1M, Days)", group=G_MOM)
+int medLookback  = input.int(63, "Medium Lookback (3M, Days)", group=G_MOM)
+int slowLookback = input.int(126, "Slow Lookback (6M, Days)", group=G_MOM)
+int yearLookback = input.int(252, "Annual Lookback (12M, Days)", group=G_MOM)
+int smaFilterLen = input.int(200, "Structural Trend SMA Length", group=G_MOM)
+
+string G_RISK = "Circuit Breakers & Risk Management"
+float stopLossPct    = input.float(6.0, "Hard Circuit Breaker Stop (%)", step=0.5, group=G_RISK)
+float trailingDevPct = input.float(10.0, "Trailing Peak Drawdown Stop (%)", step=0.5, group=G_RISK)
+int rebalanceInterval = input.int(15, "Rebalance Cycle (Days)", group=G_RISK)
+
+// ==========================================
+// MOMENTUM & REGIME CALCULATIONS
+// ==========================================
+float r1 = (close - close[fastLookback]) / close[fastLookback]
+float r3 = (close - close[medLookback]) / close[medLookback]
+float r6 = (close - close[slowLookback]) / close[slowLookback]
+float r12 = (close - close[yearLookback]) / close[yearLookback]
+
+// Keller's 13612W Fast Momentum Formula
+float score13612W = 12.0 * r1 + 4.0 * r3 + 2.0 * r6 + 1.0 * r12
+
+float trendSma = ta.sma(close, smaFilterLen)
+bool isBullishTrend = close > trendSma
+bool isPositiveMomentum = score13612W > 0
+
+// Rebalance cycle tracking
+var int barsSinceRebal = 0
+barsSinceRebal += 1
+bool isRebalBar = barsSinceRebal >= rebalanceInterval
+
+// ==========================================
+// EXECUTION & CIRCUIT BREAKER ENGINE
+// ==========================================
+var float entryPrice = na
+var float peakPrice = na
+
+if strategy.position_size == 0
+    entryPrice := na
+    peakPrice := na
+
+if strategy.position_size > 0
+    peakPrice := math.max(nz(peakPrice, close), high)
+    
+    // Circuit Breakers
+    float lossFromEntry = (close - entryPrice) / entryPrice * 100.0
+    float dropFromPeak  = (close - peakPrice) / peakPrice * 100.0
+    
+    bool hitStop = lossFromEntry <= -stopLossPct
+    bool hitTrail = dropFromPeak <= -trailingDevPct
+    bool trendBroken = ta.crossunder(close, trendSma)
+    
+    if hitStop
+        strategy.close("LONG", comment="🛑 Circuit Breaker Hit (-" + str.tostring(stopLossPct) + "%)")
+        entryPrice := na
+        peakPrice := na
+        barsSinceRebal := 0
+    else if hitTrail
+        strategy.close("LONG", comment="🛡️ Trailing Stop Hit (-" + str.tostring(trailingDevPct) + "%)")
+        entryPrice := na
+        peakPrice := na
+        barsSinceRebal := 0
+    else if trendBroken and not isPositiveMomentum
+        strategy.close("LONG", comment="📉 Trend Failure Exit (<200 SMA)")
+        entryPrice := na
+        peakPrice := na
+        barsSinceRebal := 0
+
+// Rebalance entry / maintain
+if isRebalBar
+    barsSinceRebal := 0
+    if isBullishTrend and isPositiveMomentum
+        if strategy.position_size == 0
+            strategy.entry("LONG", strategy.long, comment="🚀 Alpha Momentum Entry")
+            entryPrice := close
+            peakPrice := close
+    else
+        if strategy.position_size > 0
+            strategy.close("LONG", comment="🔄 Rebalance Exit to Cash/Safety")
+            entryPrice := na
+            peakPrice := na
+
+// ==========================================
+// VISUAL DASHBOARD & OVERLAY
+// ==========================================
+plot(trendSma, "200 SMA Trend Baseline", color=isBullishTrend ? color.green : color.red, linewidth=2)
+
+var table dash = table.new(position.top_right, 2, 6, bgcolor=color.new(color.black, 20), border_color=color.gray, border_width=1)
+if barstate.islast
+    table.cell(dash, 0, 0, "Metric", bgcolor=color.blue, text_color=color.white, text_size=size.small)
+    table.cell(dash, 1, 0, "Value", bgcolor=color.blue, text_color=color.white, text_size=size.small)
+    
+    table.cell(dash, 0, 1, "13612W Score", text_color=color.white, text_size=size.small)
+    table.cell(dash, 1, 1, str.tostring(score13612W, "#.##"), text_color=score13612W > 0 ? color.green : color.red, text_size=size.small)
+    
+    table.cell(dash, 0, 2, "200 SMA Trend", text_color=color.white, text_size=size.small)
+    table.cell(dash, 1, 2, isBullishTrend ? "BULLISH" : "BEARISH", text_color=isBullishTrend ? color.green : color.red, text_size=size.small)
+    
+    table.cell(dash, 0, 3, "Regime Status", text_color=color.white, text_size=size.small)
+    table.cell(dash, 1, 3, (isBullishTrend and isPositiveMomentum) ? "RISK-ON (OFFENSIVE)" : "RISK-OFF (DEFENSIVE)", 
+               text_color=(isBullishTrend and isPositiveMomentum) ? color.green : color.orange, text_size=size.small)
+               
+    table.cell(dash, 0, 4, "Current Position", text_color=color.white, text_size=size.small)
+    table.cell(dash, 1, 4, strategy.position_size > 0 ? "INVESTED (100%)" : "CASH / LIQUIDBEES", 
+               text_color=strategy.position_size > 0 ? color.green : color.yellow, text_size=size.small)
+               
+    table.cell(dash, 0, 5, "Rebal Cycle", text_color=color.white, text_size=size.small)
+    table.cell(dash, 1, 5, str.tostring(barsSinceRebal) + " / " + str.tostring(rebalanceInterval) + " Days", text_color=color.white, text_size=size.small)

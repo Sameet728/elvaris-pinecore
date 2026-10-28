@@ -1,0 +1,1491 @@
+[
+  {
+    "cagr": 41.98,
+    "max_dd": -11.79,
+    "calmar": 3.56,
+    "sharpe": 0.92,
+    "final_capital": 427621.03,
+    "win_rate": 81.0,
+    "profit_factor": 8.56,
+    "total_trades": 43,
+    "closed_trades": 21,
+    "yearly_returns": {
+      "2023": 45.94,
+      "2024": 30.38,
+      "2025": 28.22,
+      "2026": 3.95
+    },
+    "name": "Base + Alloc S1:60/S2:40",
+    "config": {
+      "name": "Base + Alloc S1:60/S2:40",
+      "u1": [
+        "MOM50.NS",
+        "CPSEETF.NS",
+        "MID150BEES.NS",
+        "LIQUIDBEES.NS"
+      ],
+      "lookback": "standard",
+      "hold": 96,
+      "buff": 0.02,
+      "w1": 0.6,
+      "w2": 0.4,
+      "s2_m": 6,
+      "s2_gold": false,
+      "ts": null
+    }
+  },
+  {
+    "cagr": 43.88,
+    "max_dd": -12.41,
+    "calmar": 3.54,
+    "sharpe": 0.93,
+    "final_capital": 451758.45,
+    "win_rate": 81.0,
+    "profit_factor": 8.56,
+    "total_trades": 43,
+    "closed_trades": 21,
+    "yearly_returns": {
+      "2023": 50.57,
+      "2024": 32.21,
+      "2025": 21.65,
+      "2026": 4.46
+    },
+    "name": "Base + Alloc S1:70/S2:30",
+    "config": {
+      "name": "Base + Alloc S1:70/S2:30",
+      "u1": [
+        "MOM50.NS",
+        "CPSEETF.NS",
+        "MID150BEES.NS",
+        "LIQUIDBEES.NS"
+      ],
+      "lookback": "standard",
+      "hold": 96,
+      "buff": 0.02,
+      "w1": 0.7,
+      "w2": 0.3,
+      "s2_m": 6,
+      "s2_gold": false,
+      "ts": null
+    }
+  },
+  {
+    "cagr": 44.81,
+    "max_dd": -12.68,
+    "calmar": 3.53,
+    "sharpe": 0.92,
+    "final_capital": 463979.34,
+    "win_rate": 81.0,
+    "profit_factor": 8.56,
+    "total_trades": 43,
+    "closed_trades": 21,
+    "yearly_returns": {
+      "2023": 52.7,
+      "2024": 33.01,
+      "2025": 18.82,
+      "2026": 4.69
+    },
+    "name": "Base + Alloc S1:75/S2:25",
+    "config": {
+      "name": "Base + Alloc S1:75/S2:25",
+      "u1": [
+        "MOM50.NS",
+        "CPSEETF.NS",
+        "MID150BEES.NS",
+        "LIQUIDBEES.NS"
+      ],
+      "lookback": "standard",
+      "hold": 96,
+      "buff": 0.02,
+      "w1": 0.75,
+      "w2": 0.25,
+      "s2_m": 6,
+      "s2_gold": false,
+      "ts": null
+    }
+  },
+  {
+    "cagr": 40.0,
+    "max_dd": -12.09,
+    "calmar": 3.31,
+    "sharpe": 0.9,
+    "final_capital": 403399.02,
+    "win_rate": 81.0,
+    "profit_factor": 8.55,
+    "total_trades": 43,
+    "closed_trades": 21,
+    "yearly_returns": {
+      "2023": 40.73,
+      "2024": 28.18,
+      "2025": 36.39,
+      "2026": 3.38
+    },
+    "name": "Sameet Baseline (96 Hold, 50/50)",
+    "config": {
+      "name": "Sameet Baseline (96 Hold, 50/50)",
+      "u1": [
+        "MOM50.NS",
+        "CPSEETF.NS",
+        "MID150BEES.NS",
+        "LIQUIDBEES.NS"
+      ],
+      "lookback": "standard",
+      "hold": 96,
+      "buff": 0.02,
+      "w1": 0.5,
+      "w2": 0.5,
+      "s2_m": 6,
+      "s2_gold": false,
+      "ts": null
+    }
+  },
+  {
+    "cagr": 40.0,
+    "max_dd": -12.09,
+    "calmar": 3.31,
+    "sharpe": 0.9,
+    "final_capital": 403399.02,
+    "win_rate": 81.0,
+    "profit_factor": 8.55,
+    "total_trades": 43,
+    "closed_trades": 21,
+    "yearly_returns": {
+      "2023": 40.73,
+      "2024": 28.18,
+      "2025": 36.39,
+      "2026": 3.38
+    },
+    "name": "Base + Hold 96d",
+    "config": {
+      "name": "Base + Hold 96d",
+      "u1": [
+        "MOM50.NS",
+        "CPSEETF.NS",
+        "MID150BEES.NS",
+        "LIQUIDBEES.NS"
+      ],
+      "lookback": "standard",
+      "hold": 96,
+      "buff": 0.02,
+      "w1": 0.5,
+      "w2": 0.5,
+      "s2_m": 6,
+      "s2_gold": false,
+      "ts": null
+    }
+  },
+  {
+    "cagr": 35.28,
+    "max_dd": -13.29,
+    "calmar": 2.66,
+    "sharpe": 0.86,
+    "final_capital": 349917.43,
+    "win_rate": 72.7,
+    "profit_factor": 6.41,
+    "total_trades": 67,
+    "closed_trades": 33,
+    "yearly_returns": {
+      "2023": 39.81,
+      "2024": 30.28,
+      "2025": 35.51,
+      "2026": 2.65
+    },
+    "name": "Base + Hold 42d",
+    "config": {
+      "name": "Base + Hold 42d",
+      "u1": [
+        "MOM50.NS",
+        "CPSEETF.NS",
+        "MID150BEES.NS",
+        "LIQUIDBEES.NS"
+      ],
+      "lookback": "standard",
+      "hold": 42,
+      "buff": 0.02,
+      "w1": 0.5,
+      "w2": 0.5,
+      "s2_m": 6,
+      "s2_gold": false,
+      "ts": null
+    }
+  },
+  {
+    "cagr": 34.54,
+    "max_dd": -13.49,
+    "calmar": 2.56,
+    "sharpe": 0.84,
+    "final_capital": 342090.26,
+    "win_rate": 75.0,
+    "profit_factor": 5.13,
+    "total_trades": 57,
+    "closed_trades": 28,
+    "yearly_returns": {
+      "2023": 40.66,
+      "2024": 22.37,
+      "2025": 38.07,
+      "2026": 2.6
+    },
+    "name": "Base + Hold 63d",
+    "config": {
+      "name": "Base + Hold 63d",
+      "u1": [
+        "MOM50.NS",
+        "CPSEETF.NS",
+        "MID150BEES.NS",
+        "LIQUIDBEES.NS"
+      ],
+      "lookback": "standard",
+      "hold": 63,
+      "buff": 0.02,
+      "w1": 0.5,
+      "w2": 0.5,
+      "s2_m": 6,
+      "s2_gold": false,
+      "ts": null
+    }
+  },
+  {
+    "cagr": 45.66,
+    "max_dd": -18.49,
+    "calmar": 2.47,
+    "sharpe": 0.77,
+    "final_capital": 475400.65,
+    "win_rate": 66.7,
+    "profit_factor": 2.61,
+    "total_trades": 55,
+    "closed_trades": 27,
+    "yearly_returns": {
+      "2023": 43.38,
+      "2024": 29.52,
+      "2025": 46.03,
+      "2026": 2.75
+    },
+    "name": "Elite Universe + TrailingStop 8% + Hold 96d",
+    "config": {
+      "name": "Elite Universe + TrailingStop 8% + Hold 96d",
+      "u1": [
+        "MOM50.NS",
+        "CPSEETF.NS",
+        "MID150BEES.NS",
+        "AUTOBEES.NS",
+        "GOLDBEES.NS",
+        "LIQUIDBEES.NS"
+      ],
+      "lookback": "triple",
+      "hold": 96,
+      "buff": 0.02,
+      "w1": 0.65,
+      "w2": 0.35,
+      "s2_m": 6,
+      "s2_gold": true,
+      "ts": 0.08
+    }
+  },
+  {
+    "cagr": 43.03,
+    "max_dd": -18.44,
+    "calmar": 2.33,
+    "sharpe": 0.85,
+    "final_capital": 440809.93,
+    "win_rate": 70.0,
+    "profit_factor": 7.37,
+    "total_trades": 41,
+    "closed_trades": 20,
+    "yearly_returns": {
+      "2023": 41.77,
+      "2024": 36.38,
+      "2025": 47.54,
+      "2026": 2.31
+    },
+    "name": "Elite Universe + TrailingStop 12% + Hold 96d",
+    "config": {
+      "name": "Elite Universe + TrailingStop 12% + Hold 96d",
+      "u1": [
+        "MOM50.NS",
+        "CPSEETF.NS",
+        "MID150BEES.NS",
+        "AUTOBEES.NS",
+        "GOLDBEES.NS",
+        "LIQUIDBEES.NS"
+      ],
+      "lookback": "triple",
+      "hold": 96,
+      "buff": 0.02,
+      "w1": 0.65,
+      "w2": 0.35,
+      "s2_m": 6,
+      "s2_gold": true,
+      "ts": 0.12
+    }
+  },
+  {
+    "cagr": 37.99,
+    "max_dd": -17.76,
+    "calmar": 2.14,
+    "sharpe": 0.7,
+    "final_capital": 379865.29,
+    "win_rate": 63.6,
+    "profit_factor": 3.58,
+    "total_trades": 45,
+    "closed_trades": 22,
+    "yearly_returns": {
+      "2023": 28.44,
+      "2024": 28.33,
+      "2025": 50.51,
+      "2026": 2.16
+    },
+    "name": "Elite Universe + TrailingStop 10% + Hold 96d",
+    "config": {
+      "name": "Elite Universe + TrailingStop 10% + Hold 96d",
+      "u1": [
+        "MOM50.NS",
+        "CPSEETF.NS",
+        "MID150BEES.NS",
+        "AUTOBEES.NS",
+        "GOLDBEES.NS",
+        "LIQUIDBEES.NS"
+      ],
+      "lookback": "triple",
+      "hold": 96,
+      "buff": 0.02,
+      "w1": 0.65,
+      "w2": 0.35,
+      "s2_m": 6,
+      "s2_gold": true,
+      "ts": 0.1
+    }
+  },
+  {
+    "cagr": 45.05,
+    "max_dd": -22.7,
+    "calmar": 1.98,
+    "sharpe": 0.84,
+    "final_capital": 467188.24,
+    "win_rate": 73.1,
+    "profit_factor": 9.75,
+    "total_trades": 53,
+    "closed_trades": 26,
+    "yearly_returns": {
+      "2023": 33.05,
+      "2024": 29.88,
+      "2025": 58.6,
+      "2026": -2.76
+    },
+    "name": "Elite Universe + Hold 75d + S1:60",
+    "config": {
+      "name": "Elite Universe + Hold 75d + S1:60",
+      "u1": [
+        "MOM50.NS",
+        "CPSEETF.NS",
+        "MID150BEES.NS",
+        "AUTOBEES.NS",
+        "GOLDBEES.NS",
+        "LIQUIDBEES.NS"
+      ],
+      "lookback": "standard",
+      "hold": 75,
+      "buff": 0.02,
+      "w1": 0.6,
+      "w2": 0.4,
+      "s2_m": 6,
+      "s2_gold": true,
+      "ts": null
+    }
+  },
+  {
+    "cagr": 42.67,
+    "max_dd": -21.62,
+    "calmar": 1.97,
+    "sharpe": 0.85,
+    "final_capital": 436273.2,
+    "win_rate": 73.1,
+    "profit_factor": 9.74,
+    "total_trades": 53,
+    "closed_trades": 26,
+    "yearly_returns": {
+      "2023": 29.43,
+      "2024": 27.61,
+      "2025": 65.09,
+      "2026": -2.54
+    },
+    "name": "Elite Universe + Hold 75d + S1:50",
+    "config": {
+      "name": "Elite Universe + Hold 75d + S1:50",
+      "u1": [
+        "MOM50.NS",
+        "CPSEETF.NS",
+        "MID150BEES.NS",
+        "AUTOBEES.NS",
+        "GOLDBEES.NS",
+        "LIQUIDBEES.NS"
+      ],
+      "lookback": "standard",
+      "hold": 75,
+      "buff": 0.02,
+      "w1": 0.5,
+      "w2": 0.5,
+      "s2_m": 6,
+      "s2_gold": true,
+      "ts": null
+    }
+  },
+  {
+    "cagr": 47.31,
+    "max_dd": -24.3,
+    "calmar": 1.95,
+    "sharpe": 0.81,
+    "final_capital": 498163.9,
+    "win_rate": 73.1,
+    "profit_factor": 9.76,
+    "total_trades": 53,
+    "closed_trades": 26,
+    "yearly_returns": {
+      "2023": 36.23,
+      "2024": 31.79,
+      "2025": 53.33,
+      "2026": -2.95
+    },
+    "name": "Elite Universe + Hold 75d + S1:70",
+    "config": {
+      "name": "Elite Universe + Hold 75d + S1:70",
+      "u1": [
+        "MOM50.NS",
+        "CPSEETF.NS",
+        "MID150BEES.NS",
+        "AUTOBEES.NS",
+        "GOLDBEES.NS",
+        "LIQUIDBEES.NS"
+      ],
+      "lookback": "standard",
+      "hold": 75,
+      "buff": 0.02,
+      "w1": 0.7,
+      "w2": 0.3,
+      "s2_m": 6,
+      "s2_gold": true,
+      "ts": null
+    }
+  },
+  {
+    "cagr": 36.67,
+    "max_dd": -21.03,
+    "calmar": 1.74,
+    "sharpe": 0.84,
+    "final_capital": 365049.91,
+    "win_rate": 70.0,
+    "profit_factor": 6.48,
+    "total_trades": 41,
+    "closed_trades": 20,
+    "yearly_returns": {
+      "2023": 38.11,
+      "2024": 28.63,
+      "2025": 53.62,
+      "2026": -2.33
+    },
+    "name": "Elite Universe + Triple Lookback + Hold 96d + S1:60",
+    "config": {
+      "name": "Elite Universe + Triple Lookback + Hold 96d + S1:60",
+      "u1": [
+        "MOM50.NS",
+        "CPSEETF.NS",
+        "MID150BEES.NS",
+        "AUTOBEES.NS",
+        "GOLDBEES.NS",
+        "LIQUIDBEES.NS"
+      ],
+      "lookback": "triple",
+      "hold": 96,
+      "buff": 0.02,
+      "w1": 0.6,
+      "w2": 0.4,
+      "s2_m": 6,
+      "s2_gold": true,
+      "ts": null
+    }
+  },
+  {
+    "cagr": 37.89,
+    "max_dd": -22.54,
+    "calmar": 1.68,
+    "sharpe": 0.82,
+    "final_capital": 378726.22,
+    "win_rate": 70.0,
+    "profit_factor": 6.48,
+    "total_trades": 41,
+    "closed_trades": 20,
+    "yearly_returns": {
+      "2023": 42.94,
+      "2024": 30.89,
+      "2025": 46.62,
+      "2026": -2.54
+    },
+    "name": "Elite Universe + Triple Lookback + Hold 96d + S1:70",
+    "config": {
+      "name": "Elite Universe + Triple Lookback + Hold 96d + S1:70",
+      "u1": [
+        "MOM50.NS",
+        "CPSEETF.NS",
+        "MID150BEES.NS",
+        "AUTOBEES.NS",
+        "GOLDBEES.NS",
+        "LIQUIDBEES.NS"
+      ],
+      "lookback": "triple",
+      "hold": 96,
+      "buff": 0.02,
+      "w1": 0.7,
+      "w2": 0.3,
+      "s2_m": 6,
+      "s2_gold": true,
+      "ts": null
+    }
+  },
+  {
+    "cagr": 29.0,
+    "max_dd": -17.36,
+    "calmar": 1.67,
+    "sharpe": 0.59,
+    "final_capital": 287305.39,
+    "win_rate": 66.7,
+    "profit_factor": 2.66,
+    "total_trades": 55,
+    "closed_trades": 27,
+    "yearly_returns": {
+      "2023": 28.42,
+      "2024": 19.68,
+      "2025": 44.05,
+      "2026": -7.17
+    },
+    "name": "Base + Hold 75d",
+    "config": {
+      "name": "Base + Hold 75d",
+      "u1": [
+        "MOM50.NS",
+        "CPSEETF.NS",
+        "MID150BEES.NS",
+        "LIQUIDBEES.NS"
+      ],
+      "lookback": "standard",
+      "hold": 75,
+      "buff": 0.02,
+      "w1": 0.5,
+      "w2": 0.5,
+      "s2_m": 6,
+      "s2_gold": false,
+      "ts": null
+    }
+  },
+  {
+    "cagr": 36.41,
+    "max_dd": -22.14,
+    "calmar": 1.64,
+    "sharpe": 0.72,
+    "final_capital": 362235.2,
+    "win_rate": 77.3,
+    "profit_factor": 6.78,
+    "total_trades": 45,
+    "closed_trades": 22,
+    "yearly_returns": {
+      "2023": 36.49,
+      "2024": 15.1,
+      "2025": 60.97,
+      "2026": -3.34
+    },
+    "name": "Elite Universe + Triple Lookback + Hold 75d + S1:60",
+    "config": {
+      "name": "Elite Universe + Triple Lookback + Hold 75d + S1:60",
+      "u1": [
+        "MOM50.NS",
+        "CPSEETF.NS",
+        "MID150BEES.NS",
+        "AUTOBEES.NS",
+        "GOLDBEES.NS",
+        "LIQUIDBEES.NS"
+      ],
+      "lookback": "triple",
+      "hold": 75,
+      "buff": 0.02,
+      "w1": 0.6,
+      "w2": 0.4,
+      "s2_m": 6,
+      "s2_gold": true,
+      "ts": null
+    }
+  },
+  {
+    "cagr": 35.4,
+    "max_dd": -21.63,
+    "calmar": 1.64,
+    "sharpe": 0.85,
+    "final_capital": 351264.91,
+    "win_rate": 70.0,
+    "profit_factor": 6.48,
+    "total_trades": 41,
+    "closed_trades": 20,
+    "yearly_returns": {
+      "2023": 32.93,
+      "2024": 26.01,
+      "2025": 62.02,
+      "2026": -2.11
+    },
+    "name": "Elite Universe + Triple Lookback + Hold 96d + S1:50",
+    "config": {
+      "name": "Elite Universe + Triple Lookback + Hold 96d + S1:50",
+      "u1": [
+        "MOM50.NS",
+        "CPSEETF.NS",
+        "MID150BEES.NS",
+        "AUTOBEES.NS",
+        "GOLDBEES.NS",
+        "LIQUIDBEES.NS"
+      ],
+      "lookback": "triple",
+      "hold": 96,
+      "buff": 0.02,
+      "w1": 0.5,
+      "w2": 0.5,
+      "s2_m": 6,
+      "s2_gold": true,
+      "ts": null
+    }
+  },
+  {
+    "cagr": 37.38,
+    "max_dd": -23.03,
+    "calmar": 1.62,
+    "sharpe": 0.56,
+    "final_capital": 373049.3,
+    "win_rate": 77.3,
+    "profit_factor": 4.15,
+    "total_trades": 45,
+    "closed_trades": 22,
+    "yearly_returns": {
+      "2023": 38.01,
+      "2024": 19.32,
+      "2025": 32.96,
+      "2026": -4.95
+    },
+    "name": "Elite Universe + Hold 96d + S1:60",
+    "config": {
+      "name": "Elite Universe + Hold 96d + S1:60",
+      "u1": [
+        "MOM50.NS",
+        "CPSEETF.NS",
+        "MID150BEES.NS",
+        "AUTOBEES.NS",
+        "GOLDBEES.NS",
+        "LIQUIDBEES.NS"
+      ],
+      "lookback": "standard",
+      "hold": 96,
+      "buff": 0.02,
+      "w1": 0.6,
+      "w2": 0.4,
+      "s2_m": 6,
+      "s2_gold": true,
+      "ts": null
+    }
+  },
+  {
+    "cagr": 31.75,
+    "max_dd": -19.71,
+    "calmar": 1.61,
+    "sharpe": 0.64,
+    "final_capital": 313622.78,
+    "win_rate": 70.0,
+    "profit_factor": 9.11,
+    "total_trades": 41,
+    "closed_trades": 20,
+    "yearly_returns": {
+      "2023": 31.08,
+      "2024": 28.51,
+      "2025": 40.4,
+      "2026": -8.89
+    },
+    "name": "Base + Triple Lookback + Hold 75d",
+    "config": {
+      "name": "Base + Triple Lookback + Hold 75d",
+      "u1": [
+        "MOM50.NS",
+        "CPSEETF.NS",
+        "MID150BEES.NS",
+        "LIQUIDBEES.NS"
+      ],
+      "lookback": "triple",
+      "hold": 75,
+      "buff": 0.02,
+      "w1": 0.5,
+      "w2": 0.5,
+      "s2_m": 6,
+      "s2_gold": false,
+      "ts": null
+    }
+  },
+  {
+    "cagr": 29.44,
+    "max_dd": -18.58,
+    "calmar": 1.58,
+    "sharpe": 0.7,
+    "final_capital": 291389.41,
+    "win_rate": 70.8,
+    "profit_factor": 3.35,
+    "total_trades": 49,
+    "closed_trades": 24,
+    "yearly_returns": {
+      "2023": 31.17,
+      "2024": 24.35,
+      "2025": 45.83,
+      "2026": -5.24
+    },
+    "name": "Base + Triple Lookback + Hold 63d",
+    "config": {
+      "name": "Base + Triple Lookback + Hold 63d",
+      "u1": [
+        "MOM50.NS",
+        "CPSEETF.NS",
+        "MID150BEES.NS",
+        "LIQUIDBEES.NS"
+      ],
+      "lookback": "triple",
+      "hold": 63,
+      "buff": 0.02,
+      "w1": 0.5,
+      "w2": 0.5,
+      "s2_m": 6,
+      "s2_gold": false,
+      "ts": null
+    }
+  },
+  {
+    "cagr": 37.59,
+    "max_dd": -23.79,
+    "calmar": 1.58,
+    "sharpe": 0.69,
+    "final_capital": 375419.41,
+    "win_rate": 77.3,
+    "profit_factor": 6.78,
+    "total_trades": 45,
+    "closed_trades": 22,
+    "yearly_returns": {
+      "2023": 40.72,
+      "2024": 16.07,
+      "2025": 54.17,
+      "2026": -3.67
+    },
+    "name": "Elite Universe + Triple Lookback + Hold 75d + S1:70",
+    "config": {
+      "name": "Elite Universe + Triple Lookback + Hold 75d + S1:70",
+      "u1": [
+        "MOM50.NS",
+        "CPSEETF.NS",
+        "MID150BEES.NS",
+        "AUTOBEES.NS",
+        "GOLDBEES.NS",
+        "LIQUIDBEES.NS"
+      ],
+      "lookback": "triple",
+      "hold": 75,
+      "buff": 0.02,
+      "w1": 0.7,
+      "w2": 0.3,
+      "s2_m": 6,
+      "s2_gold": true,
+      "ts": null
+    }
+  },
+  {
+    "cagr": 35.18,
+    "max_dd": -22.6,
+    "calmar": 1.56,
+    "sharpe": 0.74,
+    "final_capital": 348870.82,
+    "win_rate": 77.3,
+    "profit_factor": 6.78,
+    "total_trades": 45,
+    "closed_trades": 22,
+    "yearly_returns": {
+      "2023": 31.85,
+      "2024": 13.96,
+      "2025": 69.05,
+      "2026": -2.99
+    },
+    "name": "Elite Universe + Triple Lookback + Hold 75d + S1:50",
+    "config": {
+      "name": "Elite Universe + Triple Lookback + Hold 75d + S1:50",
+      "u1": [
+        "MOM50.NS",
+        "CPSEETF.NS",
+        "MID150BEES.NS",
+        "AUTOBEES.NS",
+        "GOLDBEES.NS",
+        "LIQUIDBEES.NS"
+      ],
+      "lookback": "triple",
+      "hold": 75,
+      "buff": 0.02,
+      "w1": 0.5,
+      "w2": 0.5,
+      "s2_m": 6,
+      "s2_gold": true,
+      "ts": null
+    }
+  },
+  {
+    "cagr": 36.03,
+    "max_dd": -23.33,
+    "calmar": 1.54,
+    "sharpe": 0.6,
+    "final_capital": 357995.59,
+    "win_rate": 77.3,
+    "profit_factor": 4.15,
+    "total_trades": 45,
+    "closed_trades": 22,
+    "yearly_returns": {
+      "2023": 33.93,
+      "2024": 18.03,
+      "2025": 41.44,
+      "2026": -4.41
+    },
+    "name": "Elite Universe + Hold 96d + S1:50",
+    "config": {
+      "name": "Elite Universe + Hold 96d + S1:50",
+      "u1": [
+        "MOM50.NS",
+        "CPSEETF.NS",
+        "MID150BEES.NS",
+        "AUTOBEES.NS",
+        "GOLDBEES.NS",
+        "LIQUIDBEES.NS"
+      ],
+      "lookback": "standard",
+      "hold": 96,
+      "buff": 0.02,
+      "w1": 0.5,
+      "w2": 0.5,
+      "s2_m": 6,
+      "s2_gold": true,
+      "ts": null
+    }
+  },
+  {
+    "cagr": 38.7,
+    "max_dd": -25.09,
+    "calmar": 1.54,
+    "sharpe": 0.51,
+    "final_capital": 388121.74,
+    "win_rate": 77.3,
+    "profit_factor": 4.15,
+    "total_trades": 45,
+    "closed_trades": 22,
+    "yearly_returns": {
+      "2023": 41.58,
+      "2024": 20.38,
+      "2025": 26.06,
+      "2026": -5.45
+    },
+    "name": "Elite Universe + Hold 96d + S1:70",
+    "config": {
+      "name": "Elite Universe + Hold 96d + S1:70",
+      "u1": [
+        "MOM50.NS",
+        "CPSEETF.NS",
+        "MID150BEES.NS",
+        "AUTOBEES.NS",
+        "GOLDBEES.NS",
+        "LIQUIDBEES.NS"
+      ],
+      "lookback": "standard",
+      "hold": 96,
+      "buff": 0.02,
+      "w1": 0.7,
+      "w2": 0.3,
+      "s2_m": 6,
+      "s2_gold": true,
+      "ts": null
+    }
+  },
+  {
+    "cagr": 39.11,
+    "max_dd": -26.32,
+    "calmar": 1.49,
+    "sharpe": 0.8,
+    "final_capital": 392813.15,
+    "win_rate": 73.7,
+    "profit_factor": 7.38,
+    "total_trades": 39,
+    "closed_trades": 19,
+    "yearly_returns": {
+      "2023": 38.82,
+      "2024": 33.11,
+      "2025": 50.6,
+      "2026": -8.26
+    },
+    "name": "Elite Universe + Hold 110d + S1:50",
+    "config": {
+      "name": "Elite Universe + Hold 110d + S1:50",
+      "u1": [
+        "MOM50.NS",
+        "CPSEETF.NS",
+        "MID150BEES.NS",
+        "AUTOBEES.NS",
+        "GOLDBEES.NS",
+        "LIQUIDBEES.NS"
+      ],
+      "lookback": "standard",
+      "hold": 110,
+      "buff": 0.02,
+      "w1": 0.5,
+      "w2": 0.5,
+      "s2_m": 6,
+      "s2_gold": true,
+      "ts": null
+    }
+  },
+  {
+    "cagr": 40.96,
+    "max_dd": -27.58,
+    "calmar": 1.48,
+    "sharpe": 0.77,
+    "final_capital": 414911.43,
+    "win_rate": 73.7,
+    "profit_factor": 7.38,
+    "total_trades": 39,
+    "closed_trades": 19,
+    "yearly_returns": {
+      "2023": 43.97,
+      "2024": 35.89,
+      "2025": 43.38,
+      "2026": -9.21
+    },
+    "name": "Elite Universe + Hold 110d + S1:60",
+    "config": {
+      "name": "Elite Universe + Hold 110d + S1:60",
+      "u1": [
+        "MOM50.NS",
+        "CPSEETF.NS",
+        "MID150BEES.NS",
+        "AUTOBEES.NS",
+        "GOLDBEES.NS",
+        "LIQUIDBEES.NS"
+      ],
+      "lookback": "standard",
+      "hold": 110,
+      "buff": 0.02,
+      "w1": 0.6,
+      "w2": 0.4,
+      "s2_m": 6,
+      "s2_gold": true,
+      "ts": null
+    }
+  },
+  {
+    "cagr": 37.12,
+    "max_dd": -25.04,
+    "calmar": 1.48,
+    "sharpe": 0.67,
+    "final_capital": 370025.95,
+    "win_rate": 75.0,
+    "profit_factor": 7.74,
+    "total_trades": 33,
+    "closed_trades": 16,
+    "yearly_returns": {
+      "2023": 47.84,
+      "2024": 26.08,
+      "2025": 39.19,
+      "2026": -7.31
+    },
+    "name": "Elite Universe + Triple Lookback + Hold 110d + S1:60",
+    "config": {
+      "name": "Elite Universe + Triple Lookback + Hold 110d + S1:60",
+      "u1": [
+        "MOM50.NS",
+        "CPSEETF.NS",
+        "MID150BEES.NS",
+        "AUTOBEES.NS",
+        "GOLDBEES.NS",
+        "LIQUIDBEES.NS"
+      ],
+      "lookback": "triple",
+      "hold": 110,
+      "buff": 0.02,
+      "w1": 0.6,
+      "w2": 0.4,
+      "s2_m": 6,
+      "s2_gold": true,
+      "ts": null
+    }
+  },
+  {
+    "cagr": 42.72,
+    "max_dd": -29.65,
+    "calmar": 1.44,
+    "sharpe": 0.74,
+    "final_capital": 436922.32,
+    "win_rate": 73.7,
+    "profit_factor": 7.39,
+    "total_trades": 39,
+    "closed_trades": 19,
+    "yearly_returns": {
+      "2023": 48.56,
+      "2024": 38.19,
+      "2025": 37.58,
+      "2026": -10.05
+    },
+    "name": "Elite Universe + Hold 110d + S1:70",
+    "config": {
+      "name": "Elite Universe + Hold 110d + S1:70",
+      "u1": [
+        "MOM50.NS",
+        "CPSEETF.NS",
+        "MID150BEES.NS",
+        "AUTOBEES.NS",
+        "GOLDBEES.NS",
+        "LIQUIDBEES.NS"
+      ],
+      "lookback": "standard",
+      "hold": 110,
+      "buff": 0.02,
+      "w1": 0.7,
+      "w2": 0.3,
+      "s2_m": 6,
+      "s2_gold": true,
+      "ts": null
+    }
+  },
+  {
+    "cagr": 35.8,
+    "max_dd": -24.95,
+    "calmar": 1.43,
+    "sharpe": 0.7,
+    "final_capital": 355488.94,
+    "win_rate": 75.0,
+    "profit_factor": 7.74,
+    "total_trades": 33,
+    "closed_trades": 16,
+    "yearly_returns": {
+      "2023": 41.96,
+      "2024": 24.09,
+      "2025": 47.45,
+      "2026": -6.48
+    },
+    "name": "Elite Universe + Triple Lookback + Hold 110d + S1:50",
+    "config": {
+      "name": "Elite Universe + Triple Lookback + Hold 110d + S1:50",
+      "u1": [
+        "MOM50.NS",
+        "CPSEETF.NS",
+        "MID150BEES.NS",
+        "AUTOBEES.NS",
+        "GOLDBEES.NS",
+        "LIQUIDBEES.NS"
+      ],
+      "lookback": "triple",
+      "hold": 110,
+      "buff": 0.02,
+      "w1": 0.5,
+      "w2": 0.5,
+      "s2_m": 6,
+      "s2_gold": true,
+      "ts": null
+    }
+  },
+  {
+    "cagr": 29.52,
+    "max_dd": -20.73,
+    "calmar": 1.42,
+    "sharpe": 0.62,
+    "final_capital": 292199.24,
+    "win_rate": 70.0,
+    "profit_factor": 3.19,
+    "total_trades": 41,
+    "closed_trades": 20,
+    "yearly_returns": {
+      "2023": 24.83,
+      "2024": 28.87,
+      "2025": 42.22,
+      "2026": -9.3
+    },
+    "name": "Base + Triple Lookback + Hold 96d",
+    "config": {
+      "name": "Base + Triple Lookback + Hold 96d",
+      "u1": [
+        "MOM50.NS",
+        "CPSEETF.NS",
+        "MID150BEES.NS",
+        "LIQUIDBEES.NS"
+      ],
+      "lookback": "triple",
+      "hold": 96,
+      "buff": 0.02,
+      "w1": 0.5,
+      "w2": 0.5,
+      "s2_m": 6,
+      "s2_gold": false,
+      "ts": null
+    }
+  },
+  {
+    "cagr": 32.87,
+    "max_dd": -23.27,
+    "calmar": 1.41,
+    "sharpe": 0.69,
+    "final_capital": 324760.02,
+    "win_rate": 71.9,
+    "profit_factor": 3.17,
+    "total_trades": 65,
+    "closed_trades": 32,
+    "yearly_returns": {
+      "2023": 33.02,
+      "2024": 20.56,
+      "2025": 51.6,
+      "2026": -4.81
+    },
+    "name": "Elite Universe + Hold 63d + S1:60",
+    "config": {
+      "name": "Elite Universe + Hold 63d + S1:60",
+      "u1": [
+        "MOM50.NS",
+        "CPSEETF.NS",
+        "MID150BEES.NS",
+        "AUTOBEES.NS",
+        "GOLDBEES.NS",
+        "LIQUIDBEES.NS"
+      ],
+      "lookback": "standard",
+      "hold": 63,
+      "buff": 0.02,
+      "w1": 0.6,
+      "w2": 0.4,
+      "s2_m": 6,
+      "s2_gold": true,
+      "ts": null
+    }
+  },
+  {
+    "cagr": 38.39,
+    "max_dd": -27.24,
+    "calmar": 1.41,
+    "sharpe": 0.64,
+    "final_capital": 384533.89,
+    "win_rate": 75.0,
+    "profit_factor": 7.74,
+    "total_trades": 33,
+    "closed_trades": 16,
+    "yearly_returns": {
+      "2023": 53.17,
+      "2024": 27.75,
+      "2025": 32.44,
+      "2026": -8.08
+    },
+    "name": "Elite Universe + Triple Lookback + Hold 110d + S1:70",
+    "config": {
+      "name": "Elite Universe + Triple Lookback + Hold 110d + S1:70",
+      "u1": [
+        "MOM50.NS",
+        "CPSEETF.NS",
+        "MID150BEES.NS",
+        "AUTOBEES.NS",
+        "GOLDBEES.NS",
+        "LIQUIDBEES.NS"
+      ],
+      "lookback": "triple",
+      "hold": 110,
+      "buff": 0.02,
+      "w1": 0.7,
+      "w2": 0.3,
+      "s2_m": 6,
+      "s2_gold": true,
+      "ts": null
+    }
+  },
+  {
+    "cagr": 33.56,
+    "max_dd": -24.32,
+    "calmar": 1.38,
+    "sharpe": 0.66,
+    "final_capital": 331877.75,
+    "win_rate": 71.9,
+    "profit_factor": 3.17,
+    "total_trades": 65,
+    "closed_trades": 32,
+    "yearly_returns": {
+      "2023": 37.1,
+      "2024": 22.14,
+      "2025": 43.81,
+      "2026": -5.37
+    },
+    "name": "Elite Universe + Hold 63d + S1:70",
+    "config": {
+      "name": "Elite Universe + Hold 63d + S1:70",
+      "u1": [
+        "MOM50.NS",
+        "CPSEETF.NS",
+        "MID150BEES.NS",
+        "AUTOBEES.NS",
+        "GOLDBEES.NS",
+        "LIQUIDBEES.NS"
+      ],
+      "lookback": "standard",
+      "hold": 63,
+      "buff": 0.02,
+      "w1": 0.7,
+      "w2": 0.3,
+      "s2_m": 6,
+      "s2_gold": true,
+      "ts": null
+    }
+  },
+  {
+    "cagr": 32.16,
+    "max_dd": -23.58,
+    "calmar": 1.36,
+    "sharpe": 0.71,
+    "final_capital": 317649.37,
+    "win_rate": 71.9,
+    "profit_factor": 3.17,
+    "total_trades": 65,
+    "closed_trades": 32,
+    "yearly_returns": {
+      "2023": 28.63,
+      "2024": 18.75,
+      "2025": 60.8,
+      "2026": -4.22
+    },
+    "name": "Elite Universe + Hold 63d + S1:50",
+    "config": {
+      "name": "Elite Universe + Hold 63d + S1:50",
+      "u1": [
+        "MOM50.NS",
+        "CPSEETF.NS",
+        "MID150BEES.NS",
+        "AUTOBEES.NS",
+        "GOLDBEES.NS",
+        "LIQUIDBEES.NS"
+      ],
+      "lookback": "standard",
+      "hold": 63,
+      "buff": 0.02,
+      "w1": 0.5,
+      "w2": 0.5,
+      "s2_m": 6,
+      "s2_gold": true,
+      "ts": null
+    }
+  },
+  {
+    "cagr": 30.41,
+    "max_dd": -23.98,
+    "calmar": 1.27,
+    "sharpe": 0.66,
+    "final_capital": 300605.57,
+    "win_rate": 65.4,
+    "profit_factor": 2.64,
+    "total_trades": 53,
+    "closed_trades": 26,
+    "yearly_returns": {
+      "2023": 37.12,
+      "2024": 10.34,
+      "2025": 63.13,
+      "2026": -5.44
+    },
+    "name": "Elite Universe + Triple Lookback + Hold 63d + S1:60",
+    "config": {
+      "name": "Elite Universe + Triple Lookback + Hold 63d + S1:60",
+      "u1": [
+        "MOM50.NS",
+        "CPSEETF.NS",
+        "MID150BEES.NS",
+        "AUTOBEES.NS",
+        "GOLDBEES.NS",
+        "LIQUIDBEES.NS"
+      ],
+      "lookback": "triple",
+      "hold": 63,
+      "buff": 0.02,
+      "w1": 0.6,
+      "w2": 0.4,
+      "s2_m": 6,
+      "s2_gold": true,
+      "ts": null
+    }
+  },
+  {
+    "cagr": 31.39,
+    "max_dd": -25.09,
+    "calmar": 1.25,
+    "sharpe": 0.59,
+    "final_capital": 310064.52,
+    "win_rate": 75.0,
+    "profit_factor": 3.99,
+    "total_trades": 33,
+    "closed_trades": 16,
+    "yearly_returns": {
+      "2023": 38.32,
+      "2024": 30.86,
+      "2025": 32.11,
+      "2026": -15.18
+    },
+    "name": "Base + Triple Lookback + Hold 110d",
+    "config": {
+      "name": "Base + Triple Lookback + Hold 110d",
+      "u1": [
+        "MOM50.NS",
+        "CPSEETF.NS",
+        "MID150BEES.NS",
+        "LIQUIDBEES.NS"
+      ],
+      "lookback": "triple",
+      "hold": 110,
+      "buff": 0.02,
+      "w1": 0.5,
+      "w2": 0.5,
+      "s2_m": 6,
+      "s2_gold": false,
+      "ts": null
+    }
+  },
+  {
+    "cagr": 30.73,
+    "max_dd": -24.53,
+    "calmar": 1.25,
+    "sharpe": 0.63,
+    "final_capital": 303618.02,
+    "win_rate": 65.4,
+    "profit_factor": 2.64,
+    "total_trades": 53,
+    "closed_trades": 26,
+    "yearly_returns": {
+      "2023": 42.17,
+      "2024": 11.01,
+      "2025": 55.09,
+      "2026": -6.15
+    },
+    "name": "Elite Universe + Triple Lookback + Hold 63d + S1:70",
+    "config": {
+      "name": "Elite Universe + Triple Lookback + Hold 63d + S1:70",
+      "u1": [
+        "MOM50.NS",
+        "CPSEETF.NS",
+        "MID150BEES.NS",
+        "AUTOBEES.NS",
+        "GOLDBEES.NS",
+        "LIQUIDBEES.NS"
+      ],
+      "lookback": "triple",
+      "hold": 63,
+      "buff": 0.02,
+      "w1": 0.7,
+      "w2": 0.3,
+      "s2_m": 6,
+      "s2_gold": true,
+      "ts": null
+    }
+  },
+  {
+    "cagr": 30.1,
+    "max_dd": -24.19,
+    "calmar": 1.24,
+    "sharpe": 0.68,
+    "final_capital": 297605.55,
+    "win_rate": 65.4,
+    "profit_factor": 2.64,
+    "total_trades": 53,
+    "closed_trades": 26,
+    "yearly_returns": {
+      "2023": 31.8,
+      "2024": 9.59,
+      "2025": 72.4,
+      "2026": -4.71
+    },
+    "name": "Elite Universe + Triple Lookback + Hold 63d + S1:50",
+    "config": {
+      "name": "Elite Universe + Triple Lookback + Hold 63d + S1:50",
+      "u1": [
+        "MOM50.NS",
+        "CPSEETF.NS",
+        "MID150BEES.NS",
+        "AUTOBEES.NS",
+        "GOLDBEES.NS",
+        "LIQUIDBEES.NS"
+      ],
+      "lookback": "triple",
+      "hold": 63,
+      "buff": 0.02,
+      "w1": 0.5,
+      "w2": 0.5,
+      "s2_m": 6,
+      "s2_gold": true,
+      "ts": null
+    }
+  },
+  {
+    "cagr": 29.07,
+    "max_dd": -25.33,
+    "calmar": 1.15,
+    "sharpe": 0.55,
+    "final_capital": 287990.06,
+    "win_rate": 78.9,
+    "profit_factor": 2.97,
+    "total_trades": 39,
+    "closed_trades": 19,
+    "yearly_returns": {
+      "2023": 34.13,
+      "2024": 26.82,
+      "2025": 36.02,
+      "2026": -15.12
+    },
+    "name": "Base + Hold 110d",
+    "config": {
+      "name": "Base + Hold 110d",
+      "u1": [
+        "MOM50.NS",
+        "CPSEETF.NS",
+        "MID150BEES.NS",
+        "LIQUIDBEES.NS"
+      ],
+      "lookback": "standard",
+      "hold": 110,
+      "buff": 0.02,
+      "w1": 0.5,
+      "w2": 0.5,
+      "s2_m": 6,
+      "s2_gold": false,
+      "ts": null
+    }
+  },
+  {
+    "cagr": 28.8,
+    "max_dd": -26.32,
+    "calmar": 1.09,
+    "sharpe": 0.6,
+    "final_capital": 285472.59,
+    "win_rate": 88.2,
+    "profit_factor": 4.31,
+    "total_trades": 35,
+    "closed_trades": 17,
+    "yearly_returns": {
+      "2023": 26.76,
+      "2024": 33.44,
+      "2025": 40.95,
+      "2026": -16.3
+    },
+    "name": "Base + Hold 126d",
+    "config": {
+      "name": "Base + Hold 126d",
+      "u1": [
+        "MOM50.NS",
+        "CPSEETF.NS",
+        "MID150BEES.NS",
+        "LIQUIDBEES.NS"
+      ],
+      "lookback": "standard",
+      "hold": 126,
+      "buff": 0.02,
+      "w1": 0.5,
+      "w2": 0.5,
+      "s2_m": 6,
+      "s2_gold": false,
+      "ts": null
+    }
+  }
+]

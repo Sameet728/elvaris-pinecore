@@ -1,0 +1,173 @@
+//@version=5
+indicator("Quant Apex Sector Rotation [Institutional Allocator]", overlay=true)
+
+// ==========================================
+// INSTITUTIONAL CONFIGURATION
+// ==========================================
+string G_SYS = "Portfolio Allocation Architecture"
+int topN = input.int(3, "Top Assets to Hold (N)", minval=1, maxval=5, group=G_SYS)
+int rebalDays = input.int(15, "Rebalancing Cadence (Days)", minval=5, maxval=30, group=G_SYS)
+float stopLossPct = input.float(6.0, "Circuit Breaker Stop (%)", group=G_SYS)
+
+string G_CANARY = "Canary Assets (Early Warning Radar)"
+string symCanary1 = input.symbol("NSE:NIFTYBEES", "Canary 1: Core Equity Benchmark", group=G_CANARY)
+string symCanary2 = input.symbol("NSE:BANKBEES", "Canary 2: Financials & Credit", group=G_CANARY)
+string symDefensive = input.symbol("NSE:GOLDBEES", "Defensive Safe Haven", group=G_CANARY)
+
+string G_UNIVERSE = "Offensive Sector & Factor ETF Universe"
+string s01 = input.symbol("NSE:NIFTYBEES", "Asset 1", group=G_UNIVERSE)
+string s02 = input.symbol("NSE:JUNIORBEES", "Asset 2", group=G_UNIVERSE)
+string s03 = input.symbol("NSE:BANKBEES", "Asset 3", group=G_UNIVERSE)
+string s04 = input.symbol("NSE:PSUBNKBEES", "Asset 4", group=G_UNIVERSE)
+string s05 = input.symbol("NSE:ITBEES", "Asset 5", group=G_UNIVERSE)
+string s06 = input.symbol("NSE:CPSEETF", "Asset 6", group=G_UNIVERSE)
+string s07 = input.symbol("NSE:AUTOBEES", "Asset 7", group=G_UNIVERSE)
+string s08 = input.symbol("NSE:MON100", "Asset 8", group=G_UNIVERSE)
+string s09 = input.symbol("NSE:MAFANG", "Asset 9", group=G_UNIVERSE)
+string s10 = input.symbol("NSE:SILVERBEES", "Asset 10", group=G_UNIVERSE)
+
+// ==========================================
+// QUANT MOMENTUM CALCULATION FUNCTION
+// ==========================================
+calc13612W(closeSeries) =>
+    float r1 = (closeSeries - closeSeries[21]) / nz(closeSeries[21], 1.0)
+    float r3 = (closeSeries - closeSeries[63]) / nz(closeSeries[63], 1.0)
+    float r6 = (closeSeries - closeSeries[126]) / nz(closeSeries[126], 1.0)
+    float r12 = (closeSeries - closeSeries[252]) / nz(closeSeries[252], 1.0)
+    12.0 * r1 + 4.0 * r3 + 2.0 * r6 + 1.0 * r12
+
+// Helper function to fetch data and evaluate asset
+f_evalAsset(sym) =>
+    float c = request.security(sym, "D", close)
+    float sma200 = request.security(sym, "D", ta.sma(close, 200))
+    float score = request.security(sym, "D", calc13612W(close))
+    bool trend = c > sma200
+    [c, score, trend]
+
+// Fetch Canaries
+[c_c1, score_c1, trend_c1] = f_evalAsset(symCanary1)
+[c_c2, score_c2, trend_c2] = f_evalAsset(symCanary2)
+[c_gold, score_gold, trend_gold] = f_evalAsset(symDefensive)
+
+// Fetch Universe
+[c1, sc1, tr1] = f_evalAsset(s01)
+[c2, sc2, tr2] = f_evalAsset(s02)
+[c3, sc3, tr3] = f_evalAsset(s03)
+[c4, sc4, tr4] = f_evalAsset(s04)
+[c5, sc5, tr5] = f_evalAsset(s05)
+[c6, sc6, tr6] = f_evalAsset(s06)
+[c7, sc7, tr7] = f_evalAsset(s07)
+[c8, sc8, tr8] = f_evalAsset(s08)
+[c9, sc9, tr9] = f_evalAsset(s09)
+[c10, sc10, tr10] = f_evalAsset(s10)
+
+// Market Regime Filter
+bool isCanaryHealthy = (trend_c1 and score_c1 > 0) or (trend_c2 and score_c2 > 0)
+string currentRegime = isCanaryHealthy ? "RISK-ON (OFFENSIVE)" : "RISK-OFF (DEFENSIVE)"
+
+// Array Structuring for Ranking
+var string[] symNames = array.new_string(10)
+var float[] scores = array.new_float(10)
+var bool[] trends = array.new_bool(10)
+
+if barstate.islast
+    array.set(symNames, 0, "NIFTYBEES")
+    array.set(scores, 0, sc1)
+    array.set(trends, 0, tr1)
+
+    array.set(symNames, 1, "JUNIORBEES")
+    array.set(scores, 1, sc2)
+    array.set(trends, 1, tr2)
+
+    array.set(symNames, 2, "BANKBEES")
+    array.set(scores, 2, sc3)
+    array.set(trends, 2, tr3)
+
+    array.set(symNames, 3, "PSUBNKBEES")
+    array.set(scores, 3, sc4)
+    array.set(trends, 3, tr4)
+
+    array.set(symNames, 4, "ITBEES")
+    array.set(scores, 4, sc5)
+    array.set(trends, 4, tr5)
+
+    array.set(symNames, 5, "CPSEETF")
+    array.set(scores, 5, sc6)
+    array.set(trends, 5, tr6)
+
+    array.set(symNames, 6, "AUTOBEES")
+    array.set(scores, 6, sc7)
+    array.set(trends, 6, tr7)
+
+    array.set(symNames, 7, "MON100")
+    array.set(scores, 7, sc8)
+    array.set(trends, 7, tr8)
+
+    array.set(symNames, 8, "MAFANG")
+    array.set(scores, 8, sc9)
+    array.set(trends, 8, tr9)
+
+    array.set(symNames, 9, "SILVERBEES")
+    array.set(scores, 9, sc10)
+    array.set(trends, 9, tr10)
+
+// Sort Indices by Score
+var int[] idxs = array.new_int(10)
+if barstate.islast
+    for i = 0 to 9
+        array.set(idxs, i, i)
+        
+    // Bubble Sort for top ranking
+    for i = 0 to 8
+        for j = 0 to 8 - i
+            int idxA = array.get(idxs, j)
+            int idxB = array.get(idxs, j + 1)
+            if array.get(scores, idxA) < array.get(scores, idxB)
+                array.set(idxs, j, idxB)
+                array.set(idxs, j + 1, idxA)
+
+// ==========================================
+// INSTITUTIONAL DASHBOARD DISPLAY
+// ==========================================
+var table t = table.new(position.top_right, 5, 13, bgcolor=color.new(color.black, 15), border_color=color.gray, border_width=1)
+
+if barstate.islast
+    // Header
+    table.cell(t, 0, 0, "👑 QUANT APEX SECTOR ALLOCATOR", bgcolor=color.navy, text_color=color.white, text_size=size.normal)
+    table.merge_cells(t, 0, 0, 4, 0)
+    
+    // Regime Banner
+    color regimeCol = isCanaryHealthy ? color.green : color.red
+    table.cell(t, 0, 1, "REGIME: " + currentRegime + " | CANARY 1: " + (trend_c1 ? "✅ BULL" : "❌ BEAR") + " | CANARY 2: " + (trend_c2 ? "✅ BULL" : "❌ BEAR"), 
+               bgcolor=regimeCol, text_color=color.white, text_size=size.small)
+    table.merge_cells(t, 0, 1, 4, 1)
+
+    // Table Columns
+    table.cell(t, 0, 2, "Rank", bgcolor=color.gray, text_color=color.white, text_size=size.small)
+    table.cell(t, 1, 2, "Sector ETF", bgcolor=color.gray, text_color=color.white, text_size=size.small)
+    table.cell(t, 2, 2, "13612W Score", bgcolor=color.gray, text_color=color.white, text_size=size.small)
+    table.cell(t, 3, 2, "200 SMA", bgcolor=color.gray, text_color=color.white, text_size=size.small)
+    table.cell(t, 4, 2, "Alloc Weight", bgcolor=color.gray, text_color=color.white, text_size=size.small)
+
+    float targetWeight = isCanaryHealthy ? (100.0 / topN) : 0.0
+
+    for rank = 1 to 10
+        int assetIdx = array.get(idxs, rank - 1)
+        string name = array.get(symNames, assetIdx)
+        float s = array.get(scores, assetIdx)
+        bool tr = array.get(trends, assetIdx)
+        
+        bool isTopPick = (rank <= topN) and isCanaryHealthy and (s > 0) and tr
+        color rowBg = isTopPick ? color.new(color.green, 65) : color.new(color.black, 30)
+
+        table.cell(t, 0, rank + 2, "#" + str.tostring(rank), bgcolor=rowBg, text_color=color.white, text_size=size.small)
+        table.cell(t, 1, rank + 2, name, bgcolor=rowBg, text_color=color.white, text_size=size.small)
+        table.cell(t, 2, rank + 2, str.tostring(s, "#.##"), bgcolor=rowBg, text_color=s > 0 ? color.green : color.red, text_size=size.small)
+        table.cell(t, 3, rank + 2, tr ? "ABOVE" : "BELOW", bgcolor=rowBg, text_color=tr ? color.green : color.orange, text_size=size.small)
+        table.cell(t, 4, rank + 2, isTopPick ? str.tostring(targetWeight, "#.#") + "%" : "0.0%", 
+                   bgcolor=rowBg, text_color=isTopPick ? color.yellow : color.gray, text_size=size.small)
+
+// Rebalancing Alert Conditions
+bool alertRebal = ta.change(time("D")) != 0 and (dayofmonth % rebalDays == 0)
+alertcondition(alertRebal, title="🔔 Rebalance Cycle Alert", message="APEX Quantitative Rebalance Day: Review leaderboard and rotate portfolio!")
+alertcondition(not isCanaryHealthy, title="⚠️ Canary Warning Alert", message="Canary assets triggered RISK-OFF regime! Rotate to Gold/LiquidBees Cash!")

@@ -1,0 +1,62 @@
+{
+  "bestGold4H": {
+    "name": "Gold 4H Overnight (ema50, atr_sl_tp, SL:1.5 ATR, TP:2.5 ATR)",
+    "emaFilter": "ema50",
+    "holdMode": "atr_sl_tp",
+    "atrSlMult": 1.5,
+    "atrTpMult": 2.5,
+    "totalTrades": 173,
+    "wins": 96,
+    "losses": 77,
+    "wr": 55.49132947976878,
+    "totalRet": 29.493207086984995,
+    "maxDD": 3.2148018180595943,
+    "calmar": 9.174191367350492,
+    "pf": 1.8567688487762997,
+    "sharpe": 3.3555629759752206
+  },
+  "bestBTC4H": {
+    "name": "BTC 4H Session (20 UTC, ema_both, SL:2.5 ATR, 1:2)",
+    "entryHour": 20,
+    "emaFilter": "ema_both",
+    "atrSlMult": 2.5,
+    "rr": 2,
+    "totalTrades": 401,
+    "wins": 206,
+    "losses": 195,
+    "wr": 51.3715710723192,
+    "totalRet": 56.25558882989904,
+    "maxDD": 22.63176674893883,
+    "calmar": 2.4856914377900603,
+    "pf": 1.184316217147548,
+    "sharpe": 1.1875402687576513
+  },
+  "bestBTCDaily": {
+    "name": "BTC Daily (mon_wed_fri, Filter: ema200)",
+    "setup": "mon_wed_fri",
+    "filterType": "ema200",
+    "totalTrades": 744,
+    "wins": 405,
+    "losses": 339,
+    "wr": 54.43548387096774,
+    "totalRet": 9383.133541243176,
+    "maxDD": 24.92643046404837,
+    "calmar": 376.43310199495113,
+    "pf": 1.7545845979070116,
+    "sharpe": 1.4197789630645905
+  },
+  "bestGoldDaily": {
+    "name": "Gold Daily (thursday_only, Filter: ema200)",
+    "setup": "thursday_only",
+    "filterType": "ema200",
+    "totalTrades": 980,
+    "wins": 565,
+    "losses": 404,
+    "wr": 57.6530612244898,
+    "totalRet": 460.22960124503754,
+    "maxDD": 8.997637705236562,
+    "calmar": 51.150048081752296,
+    "pf": 1.5814120011447783,
+    "sharpe": 1.1519804243360028
+  }
+}

@@ -1,0 +1,627 @@
+{
+  "summary": {
+    "totalTradingDays": 2676,
+    "startDate": "2016-01-01",
+    "endDate": "2026-10-23",
+    "initialCapital": 1000000,
+    "baselineFinal": 1627285,
+    "liquidBeesFinal": 2615897,
+    "optimizedFinal": 3272838
+  },
+  "yearlyBaseline": [
+    {
+      "year": "2016",
+      "startCapital": 1000000,
+      "endCapital": 1015534,
+      "strategyReturnPct": 1.55,
+      "benchmarkNiftyReturnPct": 3.71,
+      "maxDrawdownPct": 1.35,
+      "tradesClosed": 16,
+      "winRate": 100
+    },
+    {
+      "year": "2017",
+      "startCapital": 1015595,
+      "endCapital": 1035583,
+      "strategyReturnPct": 1.97,
+      "benchmarkNiftyReturnPct": 29.86,
+      "maxDrawdownPct": 0.59,
+      "tradesClosed": 15,
+      "winRate": 100
+    },
+    {
+      "year": "2018",
+      "startCapital": 1035876,
+      "endCapital": 1057454,
+      "strategyReturnPct": 2.08,
+      "benchmarkNiftyReturnPct": 5.44,
+      "maxDrawdownPct": 2.35,
+      "tradesClosed": 27,
+      "winRate": 100
+    },
+    {
+      "year": "2019",
+      "startCapital": 1058302,
+      "endCapital": 1103005,
+      "strategyReturnPct": 4.22,
+      "benchmarkNiftyReturnPct": 13.31,
+      "maxDrawdownPct": 4.38,
+      "tradesClosed": 42,
+      "winRate": 100
+    },
+    {
+      "year": "2020",
+      "startCapital": 1103642,
+      "endCapital": 1100663,
+      "strategyReturnPct": -0.27,
+      "benchmarkNiftyReturnPct": 15.18,
+      "maxDrawdownPct": 18.98,
+      "tradesClosed": 28,
+      "winRate": 100
+    },
+    {
+      "year": "2021",
+      "startCapital": 1103028,
+      "endCapital": 1228234,
+      "strategyReturnPct": 11.35,
+      "benchmarkNiftyReturnPct": 25.55,
+      "maxDrawdownPct": 2.78,
+      "tradesClosed": 57,
+      "winRate": 100
+    },
+    {
+      "year": "2022",
+      "startCapital": 1234227,
+      "endCapital": 1300127,
+      "strategyReturnPct": 5.34,
+      "benchmarkNiftyReturnPct": 3.84,
+      "maxDrawdownPct": 5.12,
+      "tradesClosed": 74,
+      "winRate": 100
+    },
+    {
+      "year": "2023",
+      "startCapital": 1304804,
+      "endCapital": 1472731,
+      "strategyReturnPct": 12.87,
+      "benchmarkNiftyReturnPct": 20.22,
+      "maxDrawdownPct": 1.48,
+      "tradesClosed": 70,
+      "winRate": 100
+    },
+    {
+      "year": "2024",
+      "startCapital": 1473187,
+      "endCapital": 1525824,
+      "strategyReturnPct": 3.57,
+      "benchmarkNiftyReturnPct": 10.04,
+      "maxDrawdownPct": 1.95,
+      "tradesClosed": 41,
+      "winRate": 100
+    },
+    {
+      "year": "2025",
+      "startCapital": 1529331,
+      "endCapital": 1640962,
+      "strategyReturnPct": 7.3,
+      "benchmarkNiftyReturnPct": 11.19,
+      "maxDrawdownPct": 5.83,
+      "tradesClosed": 52,
+      "winRate": 100
+    },
+    {
+      "year": "2026",
+      "startCapital": 1637111,
+      "endCapital": 1627285,
+      "strategyReturnPct": -0.6,
+      "benchmarkNiftyReturnPct": -12.9,
+      "maxDrawdownPct": 5.34,
+      "tradesClosed": 50,
+      "winRate": 100
+    }
+  ],
+  "yearlyLiquidBees": [
+    {
+      "year": "2016",
+      "startCapital": 1000250,
+      "endCapital": 1075457,
+      "strategyReturnPct": 7.52,
+      "benchmarkNiftyReturnPct": 3.71,
+      "maxDrawdownPct": 0.9,
+      "tradesClosed": 16,
+      "winRate": 100
+    },
+    {
+      "year": "2017",
+      "startCapital": 1075742,
+      "endCapital": 1159613,
+      "strategyReturnPct": 7.8,
+      "benchmarkNiftyReturnPct": 29.86,
+      "maxDrawdownPct": 0.23,
+      "tradesClosed": 15,
+      "winRate": 100
+    },
+    {
+      "year": "2018",
+      "startCapital": 1160185,
+      "endCapital": 1241995,
+      "strategyReturnPct": 7.05,
+      "benchmarkNiftyReturnPct": 5.44,
+      "maxDrawdownPct": 1.85,
+      "tradesClosed": 27,
+      "winRate": 100
+    },
+    {
+      "year": "2019",
+      "startCapital": 1243173,
+      "endCapital": 1354159,
+      "strategyReturnPct": 8.93,
+      "benchmarkNiftyReturnPct": 13.31,
+      "maxDrawdownPct": 3.63,
+      "tradesClosed": 42,
+      "winRate": 100
+    },
+    {
+      "year": "2020",
+      "startCapital": 1355163,
+      "endCapital": 1398760,
+      "strategyReturnPct": 3.22,
+      "benchmarkNiftyReturnPct": 15.18,
+      "maxDrawdownPct": 17.92,
+      "tradesClosed": 28,
+      "winRate": 100
+    },
+    {
+      "year": "2021",
+      "startCapital": 1401838,
+      "endCapital": 1621470,
+      "strategyReturnPct": 15.67,
+      "benchmarkNiftyReturnPct": 25.55,
+      "maxDrawdownPct": 2.47,
+      "tradesClosed": 57,
+      "winRate": 100
+    },
+    {
+      "year": "2022",
+      "startCapital": 1629542,
+      "endCapital": 1784575,
+      "strategyReturnPct": 9.51,
+      "benchmarkNiftyReturnPct": 3.84,
+      "maxDrawdownPct": 4.21,
+      "tradesClosed": 74,
+      "winRate": 100
+    },
+    {
+      "year": "2023",
+      "startCapital": 1791136,
+      "endCapital": 2116040,
+      "strategyReturnPct": 18.14,
+      "benchmarkNiftyReturnPct": 20.22,
+      "maxDrawdownPct": 1.32,
+      "tradesClosed": 70,
+      "winRate": 100
+    },
+    {
+      "year": "2024",
+      "startCapital": 2117176,
+      "endCapital": 2305330,
+      "strategyReturnPct": 8.89,
+      "benchmarkNiftyReturnPct": 10.04,
+      "maxDrawdownPct": 1.79,
+      "tradesClosed": 41,
+      "winRate": 100
+    },
+    {
+      "year": "2025",
+      "startCapital": 2310925,
+      "endCapital": 2565176,
+      "strategyReturnPct": 11,
+      "benchmarkNiftyReturnPct": 11.19,
+      "maxDrawdownPct": 5.34,
+      "tradesClosed": 52,
+      "winRate": 100
+    },
+    {
+      "year": "2026",
+      "startCapital": 2559864,
+      "endCapital": 2615897,
+      "strategyReturnPct": 2.19,
+      "benchmarkNiftyReturnPct": -12.9,
+      "maxDrawdownPct": 4.59,
+      "tradesClosed": 50,
+      "winRate": 100
+    }
+  ],
+  "etfBreakdown": [
+    {
+      "symbol": "NSE:MAFANG",
+      "name": "Mirae NYSE FANG+ ETF",
+      "sector": "Global_Tech",
+      "trades": 57,
+      "winRate": 100,
+      "totalProfit": 139399,
+      "avgProfitPerTrade": 2446,
+      "avgHoldDays": 103,
+      "maxHoldDays": 551
+    },
+    {
+      "symbol": "NSE:CPSEETF",
+      "name": "CPSE ETF",
+      "sector": "Energy_PSU",
+      "trades": 70,
+      "winRate": 100,
+      "totalProfit": 124709,
+      "avgProfitPerTrade": 1782,
+      "avgHoldDays": 264,
+      "maxHoldDays": 1337
+    },
+    {
+      "symbol": "NSE:SILVERBEES",
+      "name": "Nippon Silver ETF",
+      "sector": "Precious_Metals",
+      "trades": 43,
+      "winRate": 100,
+      "totalProfit": 124525,
+      "avgProfitPerTrade": 2896,
+      "avgHoldDays": 66,
+      "maxHoldDays": 332
+    },
+    {
+      "symbol": "NSE:PSUBNKBEES",
+      "name": "Nifty PSU Bank ETF",
+      "sector": "Banking_PSU",
+      "trades": 52,
+      "winRate": 100,
+      "totalProfit": 121232,
+      "avgProfitPerTrade": 2331,
+      "avgHoldDays": 112,
+      "maxHoldDays": 1714
+    },
+    {
+      "symbol": "NSE:ITBEES",
+      "name": "Nifty IT ETF",
+      "sector": "Technology",
+      "trades": 31,
+      "winRate": 100,
+      "totalProfit": 89051,
+      "avgProfitPerTrade": 2873,
+      "avgHoldDays": 61,
+      "maxHoldDays": 156
+    },
+    {
+      "symbol": "NSE:MON100",
+      "name": "Motilal Nasdaq 100 ETF",
+      "sector": "Global_Tech",
+      "trades": 37,
+      "winRate": 100,
+      "totalProfit": 83431,
+      "avgProfitPerTrade": 2255,
+      "avgHoldDays": 105,
+      "maxHoldDays": 555
+    },
+    {
+      "symbol": "NSE:BANKBEES",
+      "name": "Nifty Bank ETF",
+      "sector": "Banking",
+      "trades": 48,
+      "winRate": 100,
+      "totalProfit": 80368,
+      "avgProfitPerTrade": 1674,
+      "avgHoldDays": 116,
+      "maxHoldDays": 380
+    },
+    {
+      "symbol": "NSE:JUNIORBEES",
+      "name": "Nifty Next 50 ETF",
+      "sector": "Index_Next50",
+      "trades": 37,
+      "winRate": 100,
+      "totalProfit": 63764,
+      "avgProfitPerTrade": 1723,
+      "avgHoldDays": 185,
+      "maxHoldDays": 1034
+    },
+    {
+      "symbol": "NSE:GOLDBEES",
+      "name": "Nippon Gold ETF",
+      "sector": "Precious_Metals",
+      "trades": 28,
+      "winRate": 100,
+      "totalProfit": 43423,
+      "avgProfitPerTrade": 1551,
+      "avgHoldDays": 297,
+      "maxHoldDays": 902
+    },
+    {
+      "symbol": "NSE:AUTOBEES",
+      "name": "Nifty Auto ETF",
+      "sector": "Automobile",
+      "trades": 11,
+      "winRate": 100,
+      "totalProfit": 30185,
+      "avgProfitPerTrade": 2744,
+      "avgHoldDays": 229,
+      "maxHoldDays": 326
+    },
+    {
+      "symbol": "NSE:ICICIB22",
+      "name": "Bharat 22 ETF",
+      "sector": "CPSE_Govt",
+      "trades": 16,
+      "winRate": 100,
+      "totalProfit": 24973,
+      "avgProfitPerTrade": 1561,
+      "avgHoldDays": 142,
+      "maxHoldDays": 701
+    },
+    {
+      "symbol": "NSE:MID150BEES",
+      "name": "Nifty Midcap 150 ETF",
+      "sector": "Index_Midcap",
+      "trades": 7,
+      "winRate": 100,
+      "totalProfit": 18730,
+      "avgProfitPerTrade": 2676,
+      "avgHoldDays": 78,
+      "maxHoldDays": 127
+    },
+    {
+      "symbol": "NSE:NIFTYBEES",
+      "name": "Nifty 50 ETF",
+      "sector": "Index_Largecap",
+      "trades": 14,
+      "winRate": 100,
+      "totalProfit": 18493,
+      "avgProfitPerTrade": 1321,
+      "avgHoldDays": 105,
+      "maxHoldDays": 277
+    },
+    {
+      "symbol": "NSE:PVTBANIETF",
+      "name": "Nifty Private Bank ETF",
+      "sector": "Banking_Private",
+      "trades": 7,
+      "winRate": 100,
+      "totalProfit": 18365,
+      "avgProfitPerTrade": 2624,
+      "avgHoldDays": 116,
+      "maxHoldDays": 197
+    },
+    {
+      "symbol": "NSE:PHARMABEES",
+      "name": "Nifty Pharma ETF",
+      "sector": "Healthcare",
+      "trades": 7,
+      "winRate": 100,
+      "totalProfit": 17684,
+      "avgProfitPerTrade": 2526,
+      "avgHoldDays": 204,
+      "maxHoldDays": 561
+    },
+    {
+      "symbol": "NSE:METALIETF",
+      "name": "Nifty Metal ETF",
+      "sector": "Metals",
+      "trades": 6,
+      "winRate": 100,
+      "totalProfit": 16212,
+      "avgProfitPerTrade": 2702,
+      "avgHoldDays": 52,
+      "maxHoldDays": 161
+    },
+    {
+      "symbol": "NSE:FMCGIETF",
+      "name": "Nifty FMCG ETF",
+      "sector": "FMCG",
+      "trades": 1,
+      "winRate": 100,
+      "totalProfit": 2682,
+      "avgProfitPerTrade": 2682,
+      "avgHoldDays": 10,
+      "maxHoldDays": 10
+    }
+  ],
+  "topDrawdowns": [
+    {
+      "peakDate": "2020-01-15",
+      "troughDate": "2020-03-24",
+      "recoveryDate": "2020-12-03",
+      "drawdownPct": 17.92,
+      "totalDurationDays": 323
+    },
+    {
+      "peakDate": "2024-12-06",
+      "troughDate": "2025-02-28",
+      "recoveryDate": "2025-04-21",
+      "drawdownPct": 5.46,
+      "totalDurationDays": 136
+    },
+    {
+      "peakDate": "2026-01-07",
+      "troughDate": "2026-03-23",
+      "recoveryDate": "2026-04-17",
+      "drawdownPct": 4.59,
+      "totalDurationDays": 100
+    },
+    {
+      "peakDate": "2022-04-05",
+      "troughDate": "2022-06-20",
+      "recoveryDate": "2022-07-22",
+      "drawdownPct": 4.21,
+      "totalDurationDays": 108
+    },
+    {
+      "peakDate": "2019-07-04",
+      "troughDate": "2019-08-22",
+      "recoveryDate": "2019-09-23",
+      "drawdownPct": 3.63,
+      "totalDurationDays": 81
+    }
+  ],
+  "monthlyMatrix": {
+    "2016": {
+      "10": 0.39,
+      "11": 0.43,
+      "12": 0.31,
+      "01": 0.42,
+      "02": -0.6,
+      "03": 2,
+      "04": 0.88,
+      "05": 0.73,
+      "06": 0.63,
+      "07": 0.49,
+      "08": 0.53,
+      "09": 0.49
+    },
+    "2017": {
+      "10": 0.68,
+      "11": 0.49,
+      "12": 0.5,
+      "01": 1.19,
+      "02": 0.62,
+      "03": 0.43,
+      "04": 0.47,
+      "05": 0.59,
+      "06": -0.06,
+      "07": 0.61,
+      "08": 0.84,
+      "09": 0.56
+    },
+    "2018": {
+      "10": 0.18,
+      "11": 0.17,
+      "12": 1.15,
+      "01": 0.69,
+      "02": 0.41,
+      "03": -0.01,
+      "04": 0.89,
+      "05": 0.84,
+      "06": -0.44,
+      "07": 1.97,
+      "08": 1.01,
+      "09": -0.64
+    },
+    "2019": {
+      "10": 2.14,
+      "11": -0.25,
+      "12": 0.58,
+      "01": -0.31,
+      "02": 1.33,
+      "03": 2.42,
+      "04": 0.36,
+      "05": 1.12,
+      "06": 0.34,
+      "07": -1.23,
+      "08": -0.53,
+      "09": 3.63
+    },
+    "2020": {
+      "10": 0.7,
+      "11": 6.43,
+      "12": 3.27,
+      "01": -1.72,
+      "02": -2.17,
+      "03": -8.83,
+      "04": 5.24,
+      "05": 0.93,
+      "06": 1.94,
+      "07": -0.17,
+      "08": 4.38,
+      "09": -4.12
+    },
+    "2021": {
+      "10": 1.78,
+      "11": 0.17,
+      "12": 0.23,
+      "01": -0.34,
+      "02": 3.82,
+      "03": -1.17,
+      "04": 0.71,
+      "05": 4.2,
+      "06": 0.4,
+      "07": 0.63,
+      "08": 0.13,
+      "09": 1.8
+    },
+    "2022": {
+      "10": 0.32,
+      "11": 1.36,
+      "12": -0.71,
+      "01": 0.73,
+      "02": -0.26,
+      "03": 2.88,
+      "04": -1.01,
+      "05": 0.09,
+      "06": -1.36,
+      "07": 5,
+      "08": 0.92,
+      "09": -0.19
+    },
+    "2023": {
+      "10": 0.58,
+      "11": 2.32,
+      "12": 0.28,
+      "01": 2.45,
+      "02": 1.08,
+      "03": 2.05,
+      "04": 1.3,
+      "05": 2.24,
+      "06": 0.76,
+      "07": 1.47,
+      "08": 0.66,
+      "09": 0.17
+    },
+    "2024": {
+      "10": 0.22,
+      "11": 0.37,
+      "12": -0.34,
+      "01": 0.28,
+      "02": 0.28,
+      "03": 0.91,
+      "04": 1,
+      "05": 0.62,
+      "06": 1.08,
+      "07": 0.75,
+      "08": 0.86,
+      "09": 1.1
+    },
+    "2025": {
+      "10": 1.67,
+      "11": 0.87,
+      "12": 0.51,
+      "01": 0.28,
+      "02": -4.86,
+      "03": 4.04,
+      "04": 2.75,
+      "05": 2.53,
+      "06": 1.05,
+      "07": 0.11,
+      "08": 0.99,
+      "09": 0.17
+    },
+    "2026": {
+      "10": 1.08,
+      "01": 0,
+      "02": -0.66,
+      "03": -2.56,
+      "04": 4.39,
+      "05": 0.13,
+      "06": -0.62,
+      "07": 2.81,
+      "08": 0,
+      "09": -2.65
+    }
+  },
+  "slotStats": {
+    "avgSlotsUsed": "20.3",
+    "maxSlotsUsed": 40,
+    "minSlotsUsed": 0,
+    "slotDistribution": {
+      "0-5 slots": "13.3% (356 days)",
+      "6-15 slots": "26.1% (699 days)",
+      "16-25 slots": "25.9% (692 days)",
+      "26-35 slots": "19.8% (529 days)",
+      "36-40 slots": "14.9% (400 days)"
+    }
+  }
+}

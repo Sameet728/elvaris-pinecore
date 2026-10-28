@@ -1,0 +1,182 @@
+[
+  {
+    "symbol": "NSE:NIFTYBEES",
+    "name": "Nifty 50 ETF",
+    "sector": "Index_Largecap",
+    "file": "niftybees_daily.json",
+    "bars": 6116,
+    "startDate": "2002-01-08",
+    "endDate": "2026-10-23",
+    "latestPrice": 257.22
+  },
+  {
+    "symbol": "NSE:JUNIORBEES",
+    "name": "Nifty Next 50 ETF",
+    "sector": "Index_Next50",
+    "file": "juniorbees_daily.json",
+    "bars": 5633,
+    "startDate": "2003-03-06",
+    "endDate": "2026-10-23",
+    "latestPrice": 708.96
+  },
+  {
+    "symbol": "NSE:MID150BEES",
+    "name": "Nifty Midcap 150 ETF",
+    "sector": "Index_Midcap",
+    "file": "mid150bees_daily.json",
+    "bars": 1107,
+    "startDate": "2022-05-10",
+    "endDate": "2026-10-23",
+    "latestPrice": 213.46
+  },
+  {
+    "symbol": "NSE:BANKBEES",
+    "name": "Nifty Bank ETF",
+    "sector": "Banking",
+    "file": "bankbees_daily.json",
+    "bars": 5174,
+    "startDate": "2004-06-04",
+    "endDate": "2026-10-23",
+    "latestPrice": 560.74
+  },
+  {
+    "symbol": "NSE:PSUBNKBEES",
+    "name": "Nifty PSU Bank ETF",
+    "sector": "Banking_PSU",
+    "file": "psubnkbees_daily.json",
+    "bars": 4647,
+    "startDate": "2007-11-01",
+    "endDate": "2026-10-23",
+    "latestPrice": 90.23
+  },
+  {
+    "symbol": "NSE:PVTBANIETF",
+    "name": "Nifty Private Bank ETF",
+    "sector": "Banking_Private",
+    "file": "pvtbanietf_daily.json",
+    "bars": 705,
+    "startDate": "2023-12-20",
+    "endDate": "2026-10-23",
+    "latestPrice": 26.92
+  },
+  {
+    "symbol": "NSE:ITBEES",
+    "name": "Nifty IT ETF",
+    "sector": "Technology",
+    "file": "itbees_daily.json",
+    "bars": 1107,
+    "startDate": "2022-05-10",
+    "endDate": "2026-10-23",
+    "latestPrice": 35.62
+  },
+  {
+    "symbol": "NSE:PHARMABEES",
+    "name": "Nifty Pharma ETF",
+    "sector": "Healthcare",
+    "file": "pharmabees_daily.json",
+    "bars": 1107,
+    "startDate": "2022-05-10",
+    "endDate": "2026-10-23",
+    "latestPrice": 25.89
+  },
+  {
+    "symbol": "NSE:AUTOBEES",
+    "name": "Nifty Auto ETF",
+    "sector": "Automobile",
+    "file": "autobees_daily.json",
+    "bars": 1107,
+    "startDate": "2022-05-10",
+    "endDate": "2026-10-23",
+    "latestPrice": 256.4
+  },
+  {
+    "symbol": "NSE:METALIETF",
+    "name": "Nifty Metal ETF",
+    "sector": "Metals",
+    "file": "metalietf_daily.json",
+    "bars": 541,
+    "startDate": "2024-08-20",
+    "endDate": "2026-10-23",
+    "latestPrice": 11.56
+  },
+  {
+    "symbol": "NSE:FMCGIETF",
+    "name": "Nifty FMCG ETF",
+    "sector": "FMCG",
+    "file": "fmcgietf_daily.json",
+    "bars": 709,
+    "startDate": "2023-12-14",
+    "endDate": "2026-10-23",
+    "latestPrice": 45.65
+  },
+  {
+    "symbol": "NSE:CPSEETF",
+    "name": "CPSE ETF",
+    "sector": "Energy_PSU",
+    "file": "cpseetf_daily.json",
+    "bars": 3102,
+    "startDate": "2014-04-04",
+    "endDate": "2026-10-23",
+    "latestPrice": 85.21
+  },
+  {
+    "symbol": "NSE:ICICIB22",
+    "name": "Bharat 22 ETF",
+    "sector": "CPSE_Govt",
+    "file": "icicib22_daily.json",
+    "bars": 2109,
+    "startDate": "2018-04-19",
+    "endDate": "2026-10-23",
+    "latestPrice": 105.4
+  },
+  {
+    "symbol": "NSE:GOLDBEES",
+    "name": "Nippon Gold ETF",
+    "sector": "Precious_Metals",
+    "file": "goldbees_daily.json",
+    "bars": 4844,
+    "startDate": "2007-03-19",
+    "endDate": "2026-10-23",
+    "latestPrice": 115.9
+  },
+  {
+    "symbol": "NSE:HDFCGOLD",
+    "name": "HDFC Gold ETF",
+    "sector": "Precious_Metals",
+    "file": "hdfcgold_daily.json",
+    "bars": 832,
+    "startDate": "2023-06-16",
+    "endDate": "2026-10-23",
+    "latestPrice": 119.76
+  },
+  {
+    "symbol": "NSE:SILVERBEES",
+    "name": "Nippon Silver ETF",
+    "sector": "Precious_Metals",
+    "file": "silverbees_daily.json",
+    "bars": 1107,
+    "startDate": "2022-05-10",
+    "endDate": "2026-10-23",
+    "latestPrice": 183.67
+  },
+  {
+    "symbol": "NSE:MON100",
+    "name": "Motilal Nasdaq 100 ETF",
+    "sector": "Global_Tech",
+    "file": "mon100_daily.json",
+    "bars": 3847,
+    "startDate": "2011-03-31",
+    "endDate": "2026-10-23",
+    "latestPrice": 288.26
+  },
+  {
+    "symbol": "NSE:MAFANG",
+    "name": "Mirae NYSE FANG+ ETF",
+    "sector": "Global_Tech",
+    "file": "mafang_daily.json",
+    "bars": 1352,
+    "startDate": "2021-05-14",
+    "endDate": "2026-10-23",
+    "latestPrice": 243.4
+  }
+]

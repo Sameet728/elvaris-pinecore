@@ -1,0 +1,270 @@
+{
+  "1m": {
+    "success": true,
+    "timeframe": "1m",
+    "candlesCount": 6899,
+    "closed": 47,
+    "wins": 16,
+    "losses": 31,
+    "winRate": 34,
+    "avgTpPips": 27.6,
+    "cumulativeR": 1,
+    "maxDrawdown": 6,
+    "calmarRatio": 0.17,
+    "sepR": 0,
+    "octR": 1,
+    "monthly": {
+      "2026-10": {
+        "wins": 16,
+        "losses": 31,
+        "returnsR": 1
+      }
+    },
+    "monteCarlo": {
+      "worstDrawdownR": 19,
+      "probDrawdownUnder4R": 3.4,
+      "probProfitable": 56.6
+    },
+    "config": {
+      "name": "Champion_M1_LSS",
+      "swingLen": 8,
+      "rrRatio": 2,
+      "minTpPips": 20,
+      "maxTpPips": 35,
+      "atrMult": 0.4,
+      "expireBars": 40,
+      "sessionFilter": true,
+      "filePath": "C:\\Users\\samee\\Desktop\\Pine\\pine_scripts\\Champion_M1_LSS.pine"
+    }
+  },
+  "5m": {
+    "success": true,
+    "timeframe": "5m",
+    "candlesCount": 5520,
+    "closed": 5,
+    "wins": 2,
+    "losses": 3,
+    "winRate": 40,
+    "avgTpPips": 31.4,
+    "cumulativeR": 2,
+    "maxDrawdown": 3,
+    "calmarRatio": 0.67,
+    "sepR": 2,
+    "octR": 0,
+    "monthly": {
+      "2026-09": {
+        "wins": 2,
+        "losses": 3,
+        "returnsR": 2
+      }
+    },
+    "monteCarlo": {
+      "worstDrawdownR": 5,
+      "probDrawdownUnder4R": 91.8,
+      "probProfitable": 66.2
+    },
+    "config": {
+      "name": "Champion_M5_LSS",
+      "swingLen": 7,
+      "rrRatio": 2.5,
+      "minTpPips": 25,
+      "maxTpPips": 40,
+      "atrMult": 0.45,
+      "expireBars": 35,
+      "sessionFilter": true,
+      "filePath": "C:\\Users\\samee\\Desktop\\Pine\\pine_scripts\\Champion_M5_LSS.pine"
+    }
+  },
+  "15m": {
+    "success": true,
+    "timeframe": "15m",
+    "candlesCount": 5970,
+    "closed": 2,
+    "wins": 1,
+    "losses": 1,
+    "winRate": 50,
+    "avgTpPips": 46.8,
+    "cumulativeR": 1,
+    "maxDrawdown": 1,
+    "calmarRatio": 1,
+    "sepR": 0,
+    "octR": 0,
+    "monthly": {
+      "2026-08": {
+        "wins": 1,
+        "losses": 1,
+        "returnsR": 1
+      }
+    },
+    "monteCarlo": {
+      "worstDrawdownR": 9.9,
+      "probDrawdownUnder4R": 0,
+      "probProfitable": 0
+    },
+    "config": {
+      "name": "Champion_M15_LSS",
+      "swingLen": 5,
+      "rrRatio": 2,
+      "minTpPips": 30,
+      "maxTpPips": 60,
+      "atrMult": 0.5,
+      "expireBars": 25,
+      "sessionFilter": true,
+      "filePath": "C:\\Users\\samee\\Desktop\\Pine\\pine_scripts\\Champion_M15_LSS.pine"
+    }
+  },
+  "30m": {
+    "success": true,
+    "timeframe": "30m",
+    "candlesCount": 3935,
+    "closed": 8,
+    "wins": 5,
+    "losses": 3,
+    "winRate": 62.5,
+    "avgTpPips": 73,
+    "cumulativeR": 7,
+    "maxDrawdown": 2,
+    "calmarRatio": 3.5,
+    "sepR": 6,
+    "octR": 2,
+    "monthly": {
+      "2026-06": {
+        "wins": 0,
+        "losses": 1,
+        "returnsR": -1
+      },
+      "2026-07": {
+        "wins": 1,
+        "losses": 1,
+        "returnsR": 1
+      },
+      "2026-08": {
+        "wins": 0,
+        "losses": 1,
+        "returnsR": -1
+      },
+      "2026-09": {
+        "wins": 3,
+        "losses": 0,
+        "returnsR": 6
+      },
+      "2026-10": {
+        "wins": 1,
+        "losses": 0,
+        "returnsR": 2
+      }
+    },
+    "monteCarlo": {
+      "worstDrawdownR": 4,
+      "probDrawdownUnder4R": 98.1,
+      "probProfitable": 96.7
+    },
+    "config": {
+      "name": "Champion_M30_LSS",
+      "swingLen": 4,
+      "rrRatio": 2,
+      "minTpPips": 40,
+      "maxTpPips": 100,
+      "atrMult": 0.5,
+      "expireBars": 20,
+      "sessionFilter": false,
+      "filePath": "C:\\Users\\samee\\Desktop\\Pine\\pine_scripts\\Champion_M30_LSS.pine"
+    }
+  },
+  "1h": {
+    "success": true,
+    "timeframe": "1h",
+    "candlesCount": 3277,
+    "closed": 5,
+    "wins": 2,
+    "losses": 3,
+    "winRate": 40,
+    "avgTpPips": 115.3,
+    "cumulativeR": 1,
+    "maxDrawdown": 3,
+    "calmarRatio": 0.33,
+    "sepR": 0,
+    "octR": 2,
+    "monthly": {
+      "2026-04": {
+        "wins": 1,
+        "losses": 1,
+        "returnsR": 1
+      },
+      "2026-05": {
+        "wins": 0,
+        "losses": 1,
+        "returnsR": -1
+      },
+      "2026-06": {
+        "wins": 0,
+        "losses": 1,
+        "returnsR": -1
+      },
+      "2026-10": {
+        "wins": 1,
+        "losses": 0,
+        "returnsR": 2
+      }
+    },
+    "monteCarlo": {
+      "worstDrawdownR": 5,
+      "probDrawdownUnder4R": 92.2,
+      "probProfitable": 65.4
+    },
+    "config": {
+      "name": "Champion_H1_LSS",
+      "swingLen": 4,
+      "rrRatio": 2,
+      "minTpPips": 60,
+      "maxTpPips": 180,
+      "atrMult": 0.5,
+      "expireBars": 18,
+      "sessionFilter": false,
+      "filePath": "C:\\Users\\samee\\Desktop\\Pine\\pine_scripts\\Champion_H1_LSS.pine"
+    }
+  },
+  "4h": {
+    "success": true,
+    "timeframe": "4h",
+    "candlesCount": 1695,
+    "closed": 2,
+    "wins": 2,
+    "losses": 0,
+    "winRate": 100,
+    "avgTpPips": 251.8,
+    "cumulativeR": 4,
+    "maxDrawdown": 0,
+    "calmarRatio": 4,
+    "sepR": 0,
+    "octR": 0,
+    "monthly": {
+      "2025-10": {
+        "wins": 1,
+        "losses": 0,
+        "returnsR": 2
+      },
+      "2026-07": {
+        "wins": 1,
+        "losses": 0,
+        "returnsR": 2
+      }
+    },
+    "monteCarlo": {
+      "worstDrawdownR": 9.9,
+      "probDrawdownUnder4R": 0,
+      "probProfitable": 0
+    },
+    "config": {
+      "name": "Champion_H4_LSS",
+      "swingLen": 3,
+      "rrRatio": 2,
+      "minTpPips": 120,
+      "maxTpPips": 350,
+      "atrMult": 0.5,
+      "expireBars": 12,
+      "sessionFilter": false,
+      "filePath": "C:\\Users\\samee\\Desktop\\Pine\\pine_scripts\\Champion_H4_LSS.pine"
+    }
+  }
+}

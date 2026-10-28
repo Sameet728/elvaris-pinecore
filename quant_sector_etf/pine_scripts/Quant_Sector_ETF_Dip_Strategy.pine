@@ -1,0 +1,72 @@
+//@version=5
+strategy("Quant Sector ETF Rotation & Dip-Buyer Strategy [Antigravity]", 
+         overlay=true, 
+         initial_capital=100000, 
+         default_qty_type=strategy.percent_of_equity, 
+         default_qty_value=2.5, 
+         commission_type=strategy.commission.percent, 
+         commission_value=0.03, 
+         pyramiding=10)
+
+// ==========================================
+// 1. INPUT PARAMETERS
+// ==========================================
+grp_dip = "Dip Screening Parameters"
+oneDayDipThreshold = input.float(-1.0, "1-Day Dip Threshold (%)", minval=-10.0, maxval=0.0, step=0.1, group=grp_dip)
+trailing30dThreshold = input.float(-2.5, "30-Day Dip Threshold (%)", minval=-20.0, maxval=0.0, step=0.5, group=grp_dip)
+lookback30d = input.int(21, "30-Day Lookback (Trading Days)", minval=5, maxval=60, group=grp_dip)
+
+grp_trend = "Trend & Regime Filters"
+useTrendFilter = input.bool(false, "Enable 200 EMA Trend Filter (Only Buy Uptrend Dips)", group=grp_trend)
+emaPeriod = input.int(200, "Trend EMA Period", group=grp_trend)
+
+grp_exit = "Exit Rules"
+targetGainPct = input.float(7.0, "Profit Target Exit (%)", minval=1.0, maxval=50.0, step=0.5, group=grp_exit)
+useStopLoss = input.bool(false, "Enable Safety Stop Loss", group=grp_exit)
+stopLossPct = input.float(10.0, "Stop Loss (%)", minval=1.0, maxval=30.0, step=0.5, group=grp_exit)
+
+// ==========================================
+// 2. INDICATOR CALCULATIONS
+// ==========================================
+prevClose = nz(close[1], close)
+oneDayChange = ((close - prevClose) / prevClose) * 100.0
+
+close30dAgo = nz(close[lookback30d], close)
+trailing30dChange = ((close - close30dAgo) / close30dAgo) * 100.0
+
+ema200 = ta.ema(close, emaPeriod)
+
+// ==========================================
+// 3. CONDITIONS
+// ==========================================
+cond1_oneDayDip = oneDayChange <= oneDayDipThreshold
+cond2_30dDip = trailing30dChange <= trailing30dThreshold
+cond3_trend = not useTrendFilter or (close > ema200)
+
+buySignal = cond1_oneDayDip and cond2_30dDip and cond3_trend
+
+// ==========================================
+// 4. STRATEGY EXECUTION
+// ==========================================
+if buySignal
+    strategy.entry("DipBuy", strategy.long, comment="BUY DIP (1D: " + str.tostring(oneDayChange, "#.#") + "%, 30D: " + str.tostring(trailing30dChange, "#.#") + "%)")
+
+// Target Profit and Optional Stop Loss
+if strategy.position_size > 0
+    float avgPrice = strategy.position_avg_price
+    float targetPrice = avgPrice * (1.0 + targetGainPct / 100.0)
+    float stopPrice = avgPrice * (1.0 - stopLossPct / 100.0)
+
+    if useStopLoss
+        strategy.exit("Exit", "DipBuy", limit=targetPrice, stop=stopPrice, comment_profit_target="TARGET +" + str.tostring(targetGainPct) + "%", comment_loss="STOP -" + str.tostring(stopLossPct) + "%")
+    else
+        strategy.exit("Exit", "DipBuy", limit=targetPrice, comment_profit_target="TARGET +" + str.tostring(targetGainPct) + "%")
+
+// ==========================================
+// 5. VISUAL PLOTS
+// ==========================================
+plot(ema200, "EMA 200", color=color.new(color.orange, 0), linewidth=2)
+plotshape(buySignal, "Buy Signal", shape.triangleup, location.belowbar, color.lime, size=size.small, text="BUY DIP")
+
+// Background highlight for oversold dip zone
+bgcolor(buySignal ? color.new(color.green, 85) : na)

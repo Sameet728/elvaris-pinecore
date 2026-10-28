@@ -1,0 +1,570 @@
+{
+  "config": {
+    "startDate": "2016-01-01",
+    "endDate": "2026-10-23",
+    "targetGainPct": 7,
+    "stopLossPct": null,
+    "dailyAllocPct": 1.5,
+    "oneDayDipThreshold": -1,
+    "trailing30dThreshold": -2.5,
+    "respectVolumeFilter": true,
+    "enforceSectorCooldown": true
+  },
+  "years": "10.81",
+  "initialCapital": 1000000,
+  "finalEquity": 1826194,
+  "totalReturnPct": 82.62,
+  "cagr": 5.73,
+  "maxDrawdownPct": 16.5,
+  "calmarRatio": 0.35,
+  "totalClosedTrades": 464,
+  "wins": 464,
+  "losses": 0,
+  "winRate": 100,
+  "profitFactor": 999,
+  "avgHoldDays": 137.6,
+  "avgGainPct": 10.23,
+  "currentlyOpenPositions": 40,
+  "equityCurveSample": [
+    {
+      "date": "2016-01-01",
+      "cash": 1000000,
+      "posValue": 0,
+      "totalEquity": 1000000,
+      "openSlots": 0
+    },
+    {
+      "date": "2016-03-15",
+      "cash": 898754.8705499999,
+      "posValue": 105840.38159399999,
+      "totalEquity": 1004595.2521439999,
+      "openSlots": 7
+    },
+    {
+      "date": "2016-05-31",
+      "cash": 998386.2511029998,
+      "posValue": 15212.200575,
+      "totalEquity": 1013598.4516779998,
+      "openSlots": 1
+    },
+    {
+      "date": "2016-08-10",
+      "cash": 1014698.4255279998,
+      "posValue": 0,
+      "totalEquity": 1014698.4255279998,
+      "openSlots": 0
+    },
+    {
+      "date": "2016-10-26",
+      "cash": 984269.0100749998,
+      "posValue": 30221.458348,
+      "totalEquity": 1014490.4684229997,
+      "openSlots": 2
+    },
+    {
+      "date": "2017-01-06",
+      "cash": 863300.1363649998,
+      "posValue": 150185.74441999997,
+      "totalEquity": 1013485.8807849998,
+      "openSlots": 10
+    },
+    {
+      "date": "2017-03-22",
+      "cash": 945500.5755869997,
+      "posValue": 76471.814,
+      "totalEquity": 1021972.3895869997,
+      "openSlots": 5
+    },
+    {
+      "date": "2017-06-05",
+      "cash": 932404.8708529997,
+      "posValue": 91373.34150000001,
+      "totalEquity": 1023778.2123529997,
+      "openSlots": 6
+    },
+    {
+      "date": "2017-08-16",
+      "cash": 871250.5394639997,
+      "posValue": 149394.36580700002,
+      "totalEquity": 1020644.9052709998,
+      "openSlots": 10
+    },
+    {
+      "date": "2017-10-30",
+      "cash": 969916.3234639997,
+      "posValue": 60257.744707000005,
+      "totalEquity": 1030174.0681709996,
+      "openSlots": 4
+    },
+    {
+      "date": "2018-01-09",
+      "cash": 954537.9184639996,
+      "posValue": 76949.101707,
+      "totalEquity": 1031487.0201709997,
+      "openSlots": 5
+    },
+    {
+      "date": "2018-03-23",
+      "cash": 817692.8838429996,
+      "posValue": 208166.584296,
+      "totalEquity": 1025859.4681389995,
+      "openSlots": 14
+    },
+    {
+      "date": "2018-06-06",
+      "cash": 835276.3722129996,
+      "posValue": 198616.264,
+      "totalEquity": 1033892.6362129996,
+      "openSlots": 13
+    },
+    {
+      "date": "2018-08-16",
+      "cash": 875587.8481609996,
+      "posValue": 163521.695159,
+      "totalEquity": 1039109.5433199996,
+      "openSlots": 11
+    },
+    {
+      "date": "2018-11-01",
+      "cash": 756160.1298899996,
+      "posValue": 280540.298706,
+      "totalEquity": 1036700.4285959996,
+      "openSlots": 19
+    },
+    {
+      "date": "2019-01-15",
+      "cash": 746825.5090069994,
+      "posValue": 300943.39898299996,
+      "totalEquity": 1047768.9079899994,
+      "openSlots": 20
+    },
+    {
+      "date": "2019-03-28",
+      "cash": 925089.4605419997,
+      "posValue": 151961.05910900002,
+      "totalEquity": 1077050.5196509997,
+      "openSlots": 10
+    },
+    {
+      "date": "2019-06-13",
+      "cash": 929429.0925799996,
+      "posValue": 153599.517804,
+      "totalEquity": 1083028.6103839995,
+      "openSlots": 10
+    },
+    {
+      "date": "2019-08-26",
+      "cash": 771198.1630479997,
+      "posValue": 283057.1144180001,
+      "totalEquity": 1054255.2774659998,
+      "openSlots": 20
+    },
+    {
+      "date": "2019-11-13",
+      "cash": 847580.7101559998,
+      "posValue": 235565.835586,
+      "totalEquity": 1083146.5457419998,
+      "openSlots": 16
+    },
+    {
+      "date": "2020-01-23",
+      "cash": 837094.1678579997,
+      "posValue": 233353.44941,
+      "totalEquity": 1070447.6172679998,
+      "openSlots": 17
+    },
+    {
+      "date": "2020-04-07",
+      "cash": 512993.21475999965,
+      "posValue": 451367.76551099995,
+      "totalEquity": 964360.9802709996,
+      "openSlots": 39
+    },
+    {
+      "date": "2020-06-22",
+      "cash": 598258.5897579996,
+      "posValue": 424176.1245809999,
+      "totalEquity": 1022434.7143389995,
+      "openSlots": 34
+    },
+    {
+      "date": "2020-08-31",
+      "cash": 666521.0019469995,
+      "posValue": 377910.4416439999,
+      "totalEquity": 1044431.4435909993,
+      "openSlots": 30
+    },
+    {
+      "date": "2020-11-10",
+      "cash": 597709.4130609996,
+      "posValue": 451409.86590999993,
+      "totalEquity": 1049119.2789709996,
+      "openSlots": 35
+    },
+    {
+      "date": "2021-01-21",
+      "cash": 765623.5633509994,
+      "posValue": 349709.182653,
+      "totalEquity": 1115332.7460039994,
+      "openSlots": 25
+    },
+    {
+      "date": "2021-04-07",
+      "cash": 653761.2556229994,
+      "posValue": 483275.6181959999,
+      "totalEquity": 1137036.8738189992,
+      "openSlots": 32
+    },
+    {
+      "date": "2021-06-21",
+      "cash": 841646.8746499995,
+      "posValue": 341515.32305600005,
+      "totalEquity": 1183162.1977059995,
+      "openSlots": 22
+    },
+    {
+      "date": "2021-09-01",
+      "cash": 789861.5631719995,
+      "posValue": 395189.07152,
+      "totalEquity": 1185050.6346919995,
+      "openSlots": 25
+    },
+    {
+      "date": "2021-11-15",
+      "cash": 1065643.0328019997,
+      "posValue": 162743.436554,
+      "totalEquity": 1228386.4693559997,
+      "openSlots": 10
+    },
+    {
+      "date": "2022-01-25",
+      "cash": 893214.8042149999,
+      "posValue": 339371.501125,
+      "totalEquity": 1232586.30534,
+      "openSlots": 20
+    },
+    {
+      "date": "2022-04-08",
+      "cash": 1004765.0517149994,
+      "posValue": 266515.465248,
+      "totalEquity": 1271280.5169629995,
+      "openSlots": 15
+    },
+    {
+      "date": "2022-06-22",
+      "cash": 730779.4945639995,
+      "posValue": 495364.50223199994,
+      "totalEquity": 1226143.9967959994,
+      "openSlots": 30
+    },
+    {
+      "date": "2022-09-05",
+      "cash": 911934.6866559994,
+      "posValue": 378824.07198500005,
+      "totalEquity": 1290758.7586409994,
+      "openSlots": 22
+    },
+    {
+      "date": "2022-11-17",
+      "cash": 828923.3462749993,
+      "posValue": 482847.03837900003,
+      "totalEquity": 1311770.3846539995,
+      "openSlots": 27
+    },
+    {
+      "date": "2023-01-27",
+      "cash": 854855.7950789992,
+      "posValue": 481779.7096290001,
+      "totalEquity": 1336635.5047079993,
+      "openSlots": 26
+    },
+    {
+      "date": "2023-04-13",
+      "cash": 979558.0618999995,
+      "posValue": 396864.23154199996,
+      "totalEquity": 1376422.2934419995,
+      "openSlots": 21
+    },
+    {
+      "date": "2023-06-26",
+      "cash": 1111277.2864239996,
+      "posValue": 300989.766493,
+      "totalEquity": 1412267.0529169994,
+      "openSlots": 15
+    },
+    {
+      "date": "2023-09-06",
+      "cash": 1284275.6673949992,
+      "posValue": 152972.8206,
+      "totalEquity": 1437248.4879949992,
+      "openSlots": 7
+    },
+    {
+      "date": "2023-11-20",
+      "cash": 1210924.5645139995,
+      "posValue": 243196.97164200002,
+      "totalEquity": 1454121.5361559996,
+      "openSlots": 11
+    },
+    {
+      "date": "2024-02-01",
+      "cash": 1285034.3618269996,
+      "posValue": 170734.058381,
+      "totalEquity": 1455768.4202079996,
+      "openSlots": 8
+    },
+    {
+      "date": "2024-04-16",
+      "cash": 1303796.7352169997,
+      "posValue": 173277.35768400002,
+      "totalEquity": 1477074.0929009996,
+      "openSlots": 8
+    },
+    {
+      "date": "2024-06-28",
+      "cash": 1506076.6555193996,
+      "posValue": 192509.01653000002,
+      "totalEquity": 1698585.6720493995,
+      "openSlots": 8
+    },
+    {
+      "date": "2024-09-10",
+      "cash": 1375297.7448673993,
+      "posValue": 328153.1500000001,
+      "totalEquity": 1703450.8948673995,
+      "openSlots": 13
+    },
+    {
+      "date": "2024-11-22",
+      "cash": 1035970.0048673991,
+      "posValue": 674766.25,
+      "totalEquity": 1710736.254867399,
+      "openSlots": 27
+    },
+    {
+      "date": "2025-02-01",
+      "cash": 720562.9148673994,
+      "posValue": 999705.4300000002,
+      "totalEquity": 1720268.3448673994,
+      "openSlots": 40
+    },
+    {
+      "date": "2025-04-21",
+      "cash": 761903.5048673996,
+      "posValue": 965480.3700000001,
+      "totalEquity": 1727383.8748673997,
+      "openSlots": 39
+    },
+    {
+      "date": "2025-07-01",
+      "cash": 1128726.4648673998,
+      "posValue": 658598.46,
+      "totalEquity": 1787324.9248673997,
+      "openSlots": 26
+    },
+    {
+      "date": "2025-09-11",
+      "cash": 1084589.4848674,
+      "posValue": 727770.5300000001,
+      "totalEquity": 1812360.0148674003,
+      "openSlots": 28
+    },
+    {
+      "date": "2025-11-25",
+      "cash": 1206203.6048674,
+      "posValue": 622205.5900000001,
+      "totalEquity": 1828409.1948674,
+      "openSlots": 24
+    },
+    {
+      "date": "2026-02-05",
+      "cash": 1003217.2748673998,
+      "posValue": 821819.14,
+      "totalEquity": 1825036.4148673997,
+      "openSlots": 32
+    },
+    {
+      "date": "2026-04-23",
+      "cash": 1035451.8348673998,
+      "posValue": 804231.38,
+      "totalEquity": 1839683.2148673998,
+      "openSlots": 32
+    },
+    {
+      "date": "2026-07-07",
+      "cash": 956439.7448673999,
+      "posValue": 893328.0800000002,
+      "totalEquity": 1849767.8248674,
+      "openSlots": 36
+    },
+    {
+      "date": "2026-09-16",
+      "cash": 948498.0248673998,
+      "posValue": 894036.4799999999,
+      "totalEquity": 1842534.5048673996,
+      "openSlots": 37
+    }
+  ],
+  "recentTrades": [
+    {
+      "id": 378,
+      "symbol": "NSE:JUNIORBEES",
+      "sector": "Index_Next50",
+      "buyDate": "2024-11-08",
+      "exitDate": "2026-08-03",
+      "buyPrice": 744.97,
+      "exitPrice": 801.59,
+      "shares": 34,
+      "cost": 25328.98,
+      "proceeds": 27254.06,
+      "profitAmt": 1925.0800000000017,
+      "gainPct": 7.600306052592722,
+      "holdDays": 633,
+      "reason": "PROFIT_TARGET"
+    },
+    {
+      "id": 487,
+      "symbol": "NSE:SILVERBEES",
+      "sector": "Precious_Metals",
+      "buyDate": "2026-07-10",
+      "exitDate": "2026-08-12",
+      "buyPrice": 208.83,
+      "exitPrice": 225.76,
+      "shares": 132,
+      "cost": 27565.56,
+      "proceeds": 29800.32,
+      "profitAmt": 2234.7599999999984,
+      "gainPct": 8.107072738591189,
+      "holdDays": 33,
+      "reason": "PROFIT_TARGET"
+    },
+    {
+      "id": 492,
+      "symbol": "NSE:MON100",
+      "sector": "Global_Tech",
+      "buyDate": "2026-07-30",
+      "exitDate": "2026-08-17",
+      "buyPrice": 312.19,
+      "exitPrice": 336.81,
+      "shares": 89,
+      "cost": 27784.91,
+      "proceeds": 29976.09,
+      "profitAmt": 2191.1800000000003,
+      "gainPct": 7.886223133348283,
+      "holdDays": 18,
+      "reason": "PROFIT_TARGET"
+    },
+    {
+      "id": 480,
+      "symbol": "NSE:SILVERBEES",
+      "sector": "Precious_Metals",
+      "buyDate": "2026-06-23",
+      "exitDate": "2026-08-21",
+      "buyPrice": 215.06,
+      "exitPrice": 232.92,
+      "shares": 127,
+      "cost": 27312.62,
+      "proceeds": 29580.84,
+      "profitAmt": 2268.220000000001,
+      "gainPct": 8.30465916488421,
+      "holdDays": 59,
+      "reason": "PROFIT_TARGET"
+    },
+    {
+      "id": 485,
+      "symbol": "NSE:SILVERBEES",
+      "sector": "Precious_Metals",
+      "buyDate": "2026-07-07",
+      "exitDate": "2026-08-24",
+      "buyPrice": 216.29,
+      "exitPrice": 231.8,
+      "shares": 128,
+      "cost": 27685.12,
+      "proceeds": 29670.4,
+      "profitAmt": 1985.2800000000025,
+      "gainPct": 7.17092792084702,
+      "holdDays": 48,
+      "reason": "PROFIT_TARGET"
+    },
+    {
+      "id": 489,
+      "symbol": "NSE:METALIETF",
+      "sector": "Metals",
+      "buyDate": "2026-07-15",
+      "exitDate": "2026-08-26",
+      "buyPrice": 12.64,
+      "exitPrice": 13.68,
+      "shares": 2183,
+      "cost": 27593.120000000003,
+      "proceeds": 29863.44,
+      "profitAmt": 2270.319999999996,
+      "gainPct": 8.227848101265815,
+      "holdDays": 42,
+      "reason": "PROFIT_TARGET"
+    },
+    {
+      "id": 500,
+      "symbol": "NSE:ITBEES",
+      "sector": "Technology",
+      "buyDate": "2026-09-22",
+      "exitDate": "2026-10-15",
+      "buyPrice": 31.77,
+      "exitPrice": 34.12,
+      "shares": 867,
+      "cost": 27544.59,
+      "proceeds": 29582.039999999997,
+      "profitAmt": 2037.449999999997,
+      "gainPct": 7.396915328926654,
+      "holdDays": 23,
+      "reason": "PROFIT_TARGET"
+    },
+    {
+      "id": 499,
+      "symbol": "NSE:ITBEES",
+      "sector": "Technology",
+      "buyDate": "2026-09-18",
+      "exitDate": "2026-10-16",
+      "buyPrice": 31.94,
+      "exitPrice": 35.51,
+      "shares": 865,
+      "cost": 27628.100000000002,
+      "proceeds": 30716.149999999998,
+      "profitAmt": 3088.0499999999956,
+      "gainPct": 11.177207263619275,
+      "holdDays": 28,
+      "reason": "PROFIT_TARGET"
+    },
+    {
+      "id": 495,
+      "symbol": "NSE:ITBEES",
+      "sector": "Technology",
+      "buyDate": "2026-09-09",
+      "exitDate": "2026-10-19",
+      "buyPrice": 32.15,
+      "exitPrice": 34.93,
+      "shares": 860,
+      "cost": 27649,
+      "proceeds": 30039.8,
+      "profitAmt": 2390.7999999999993,
+      "gainPct": 8.646967340590983,
+      "holdDays": 40,
+      "reason": "PROFIT_TARGET"
+    },
+    {
+      "id": 497,
+      "symbol": "NSE:ITBEES",
+      "sector": "Technology",
+      "buyDate": "2026-09-16",
+      "exitDate": "2026-10-21",
+      "buyPrice": 32.3,
+      "exitPrice": 35.95,
+      "shares": 855,
+      "cost": 27616.499999999996,
+      "proceeds": 30737.250000000004,
+      "profitAmt": 3120.7500000000073,
+      "gainPct": 11.300309597523238,
+      "holdDays": 35,
+      "reason": "PROFIT_TARGET"
+    }
+  ]
+}

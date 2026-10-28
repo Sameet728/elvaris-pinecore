@@ -1,0 +1,182 @@
+[
+  {
+    "name": "3. LSS Tight Rejection (Max Risk 0.7 ATR, 1:1.8 RR)",
+    "rr": 1.8,
+    "trades": 11,
+    "wins": 10,
+    "losses": 1,
+    "winRate": 90.9,
+    "netR": 17,
+    "mc": {
+      "sampleTrades": 11,
+      "dd_median": 1,
+      "dd_95thWorst": 2,
+      "r_median": 17,
+      "r_5thWorst": 11.4,
+      "r_95thBest": 19.8,
+      "calmar_median": 17,
+      "calmar_5thWorst": 7.1,
+      "consLoss_95thWorst": 2
+    }
+  },
+  {
+    "name": "4. LSS Tight Rejection (Max Risk 0.6 ATR, 1:2.0 RR)",
+    "rr": 2,
+    "trades": 10,
+    "wins": 8,
+    "losses": 2,
+    "winRate": 80,
+    "netR": 14,
+    "mc": {
+      "sampleTrades": 10,
+      "dd_median": 1,
+      "dd_95thWorst": 2,
+      "r_median": 14,
+      "r_5thWorst": 8,
+      "r_95thBest": 20,
+      "calmar_median": 14,
+      "calmar_5thWorst": 2.67,
+      "consLoss_95thWorst": 2
+    }
+  },
+  {
+    "name": "1. LSS Tight Rejection (Max Risk 0.8 ATR, 1:2.0 RR)",
+    "rr": 2,
+    "trades": 14,
+    "wins": 8,
+    "losses": 6,
+    "winRate": 57.1,
+    "netR": 10,
+    "mc": {
+      "sampleTrades": 14,
+      "dd_median": 2,
+      "dd_95thWorst": 5,
+      "r_median": 10,
+      "r_5thWorst": 1,
+      "r_95thBest": 19,
+      "calmar_median": 4.33,
+      "calmar_5thWorst": 0.2,
+      "consLoss_95thWorst": 5
+    }
+  },
+  {
+    "name": "2. LSS Tight Rejection (Max Risk 1.0 ATR, 1:2.0 RR)",
+    "rr": 2,
+    "trades": 15,
+    "wins": 8,
+    "losses": 7,
+    "winRate": 53.3,
+    "netR": 9,
+    "mc": {
+      "sampleTrades": 15,
+      "dd_median": 3,
+      "dd_95thWorst": 6,
+      "r_median": 9,
+      "r_5thWorst": 0,
+      "r_95thBest": 18,
+      "calmar_median": 3,
+      "calmar_5thWorst": 0,
+      "consLoss_95thWorst": 6
+    }
+  },
+  {
+    "name": "7. London ORB Range Breakout (1:2.0 RR)",
+    "rr": 2,
+    "trades": 19,
+    "wins": 9,
+    "losses": 9,
+    "winRate": 50,
+    "netR": 9,
+    "mc": {
+      "sampleTrades": 18,
+      "dd_median": 3,
+      "dd_95thWorst": 7,
+      "r_median": 9,
+      "r_5thWorst": -3,
+      "r_95thBest": 21,
+      "calmar_median": 3,
+      "calmar_5thWorst": 0,
+      "consLoss_95thWorst": 7
+    }
+  },
+  {
+    "name": "8. London ORB Range Breakout (1:2.5 RR)",
+    "rr": 2.5,
+    "trades": 19,
+    "wins": 7,
+    "losses": 11,
+    "winRate": 38.9,
+    "netR": 6.5,
+    "mc": {
+      "sampleTrades": 18,
+      "dd_median": 5,
+      "dd_95thWorst": 9.5,
+      "r_median": 6.5,
+      "r_5thWorst": -4,
+      "r_95thBest": 17,
+      "calmar_median": 1.3,
+      "calmar_5thWorst": 0,
+      "consLoss_95thWorst": 9
+    }
+  },
+  {
+    "name": "5. Pin Bar Liquidity Reversal (1:2.0 RR)",
+    "rr": 2,
+    "trades": 35,
+    "wins": 13,
+    "losses": 22,
+    "winRate": 37.1,
+    "netR": 4,
+    "mc": {
+      "sampleTrades": 35,
+      "dd_median": 7,
+      "dd_95thWorst": 14,
+      "r_median": 4,
+      "r_5thWorst": -11,
+      "r_95thBest": 19,
+      "calmar_median": 0.57,
+      "calmar_5thWorst": 0,
+      "consLoss_95thWorst": 11
+    }
+  },
+  {
+    "name": "6. Pin Bar Liquidity Reversal (1:1.8 RR)",
+    "rr": 1.8,
+    "trades": 35,
+    "wins": 13,
+    "losses": 22,
+    "winRate": 37.1,
+    "netR": 1.4,
+    "mc": {
+      "sampleTrades": 35,
+      "dd_median": 7.4,
+      "dd_95thWorst": 15.2,
+      "r_median": 1.4,
+      "r_5thWorst": -12.6,
+      "r_95thBest": 15.4,
+      "calmar_median": 0.19,
+      "calmar_5thWorst": 0,
+      "consLoss_95thWorst": 11
+    }
+  },
+  {
+    "name": "9. Keltner Squeeze Volatility Breakout (1:2.0 RR)",
+    "rr": 2,
+    "trades": 9,
+    "wins": 3,
+    "losses": 6,
+    "winRate": 33.3,
+    "netR": 0,
+    "mc": {
+      "sampleTrades": 9,
+      "dd_median": 4,
+      "dd_95thWorst": 8,
+      "r_median": 0,
+      "r_5thWorst": -6,
+      "r_95thBest": 6,
+      "calmar_median": 0,
+      "calmar_5thWorst": 0,
+      "consLoss_95thWorst": 8
+    }
+  }
+]

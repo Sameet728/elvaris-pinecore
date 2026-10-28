@@ -1,0 +1,68 @@
+{
+  "top15": [
+    {
+      "type": "TrendPullback",
+      "pullEMA": "ema50",
+      "rsiThreshold": 50,
+      "wickRatio": 0.1,
+      "volFilter": false,
+      "slMode": "fixed",
+      "val": 400,
+      "rr": 1.25,
+      "trades": 39,
+      "wins": 24,
+      "losses": 15,
+      "wr": 61.5,
+      "cumR": 15,
+      "maxDD": 4,
+      "calmar": 3.75,
+      "monthlyR": {
+        "2026-09": 6,
+        "2026-10": 9
+      }
+    },
+    {
+      "type": "TrendPullback",
+      "pullEMA": "ema50",
+      "rsiThreshold": 50,
+      "wickRatio": 0.2,
+      "volFilter": false,
+      "slMode": "fixed",
+      "val": 400,
+      "rr": 1.25,
+      "trades": 38,
+      "wins": 23,
+      "losses": 15,
+      "wr": 60.5,
+      "cumR": 13.8,
+      "maxDD": 4,
+      "calmar": 3.44,
+      "monthlyR": {
+        "2026-09": 6,
+        "2026-10": 7.75
+      }
+    },
+    {
+      "type": "TrendPullback",
+      "pullEMA": "ema50",
+      "rsiThreshold": 50,
+      "wickRatio": 0.3,
+      "volFilter": false,
+      "slMode": "fixed",
+      "val": 400,
+      "rr": 1.25,
+      "trades": 35,
+      "wins": 21,
+      "losses": 14,
+      "wr": 60,
+      "cumR": 12.3,
+      "maxDD": 4,
+      "calmar": 3.06,
+      "monthlyR": {
+        "2026-09": 4.75,
+        "2026-10": 7.5
+      }
+    }
+  ],
+  "top1H": []
+}
