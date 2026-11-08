@@ -1,0 +1,294 @@
+//@version=6
+indicator("Session Sweep & MSS", overlay = true, max_boxes_count = 500, max_labels_count = 500, max_lines_count = 500)
+
+// --- Inputs ---
+asiaSession   = input.session("2000-0000", "Asia Session")
+londonSession = input.session("0200-0500", "London Session")
+nySession     = input.session("0700-1000", "New York Session")
+
+asiaColor   = input.color(color.new(#4285F4, 50), "Asia Color", group = "Style")
+londonColor = input.color(color.new(#34A853, 50), "London Color", group = "Style")
+nyColor     = input.color(color.new(#EA4335, 50), "New York Color", group = "Style")
+
+pivotLen = input.int(0, "Pivot Length for MSS", group = "Structure")
+maxBarsToShift = input.int(5, "Max Bars to Shift After Sweep", minval=1, group = "Structure")
+rrRatio = input.float(1.5, "Take Profit (Risk : Reward)", minval=0.1, step=0.1, group = "Structure", tooltip = "Take profit distance as a multiple of the risk (entry-to-stop). 1.5 = target is 1.5× the stop distance.")
+
+// --- Functions ---
+drawSession(string sessionStr, color sessionColor, string sessionName) =>
+    inSession = not na(time(timeframe.period, sessionStr, "America/New_York"))
+    isNewSession = inSession and not inSession[1]
+    isEndSession = not inSession and inSession[1]
+    
+    var float sessionHigh = na
+    var float sessionLow = na
+    var int sessionStart = na
+    
+    var box sessionBox = na
+    var label topLabel = na
+    var label btmLabel = na
+    var line topLine = na
+    var line btmLine = na
+    
+    if isNewSession
+        sessionHigh := high
+        sessionLow := low
+        sessionStart := time
+        sessionBox := box.new(left=sessionStart, top=sessionHigh, right=time, bottom=sessionLow, xloc=xloc.bar_time, border_color=na, bgcolor=sessionColor)
+        
+        topLabel := label.new(x=sessionStart, y=sessionHigh, text=sessionName + "\n\n$", xloc=xloc.bar_time, color=color.new(color.white, 100), textcolor=color.new(sessionColor, 0), style=label.style_label_down, size=size.normal)
+        btmLabel := label.new(x=sessionStart, y=sessionLow, text="$\n\n" + sessionName, xloc=xloc.bar_time, color=color.new(color.white, 100), textcolor=color.new(sessionColor, 0), style=label.style_label_up, size=size.normal)
+        
+        topLine := line.new(x1=sessionStart, y1=sessionHigh, x2=time, y2=sessionHigh, xloc=xloc.bar_time, color=color.new(sessionColor, 0))
+        btmLine := line.new(x1=sessionStart, y1=sessionLow, x2=time, y2=sessionLow, xloc=xloc.bar_time, color=color.new(sessionColor, 0))
+        
+    else if inSession
+        sessionHigh := math.max(sessionHigh, high)
+        sessionLow := math.min(sessionLow, low)
+        
+        box.set_top(sessionBox, sessionHigh)
+        box.set_bottom(sessionBox, sessionLow)
+        box.set_right(sessionBox, time)
+        
+        label.set_x(topLabel, int(math.avg(sessionStart, time)))
+        label.set_y(topLabel, sessionHigh)
+        
+        label.set_x(btmLabel, int(math.avg(sessionStart, time)))
+        label.set_y(btmLabel, sessionLow)
+        
+        line.set_x1(topLine, time)
+        line.set_y1(topLine, sessionHigh)
+        line.set_y2(topLine, sessionHigh)
+        line.set_x2(topLine, time + (time - time[1]) * 10) 
+        
+        line.set_x1(btmLine, time)
+        line.set_y1(btmLine, sessionLow)
+        line.set_y2(btmLine, sessionLow)
+        line.set_x2(btmLine, time + (time - time[1]) * 10) 
+    
+    [sessionHigh, sessionLow, inSession, isNewSession, isEndSession]
+
+[aHigh, aLow, aIn, aNew, aEnd] = drawSession(asiaSession, asiaColor, "ASIA")
+[lHigh, lLow, lIn, lNew, lEnd] = drawSession(londonSession, londonColor, "LONDON")
+[nHigh, nLow, nIn, nNew, nEnd] = drawSession(nySession, nyColor, "NEW YORK")
+
+// Track final active levels after sessions end
+var float activeAsiaHigh = na
+var float activeAsiaLow = na
+var float activeLonHigh = na
+var float activeLonLow = na
+var float activeNYHigh = na
+var float activeNYLow = na
+
+if aEnd
+    activeAsiaHigh := aHigh
+    activeAsiaLow := aLow
+if lEnd
+    activeLonHigh := lHigh
+    activeLonLow := lLow
+if nEnd
+    activeNYHigh := nHigh
+    activeNYLow := nLow
+
+// Clear levels when a new session of the same type starts
+if aNew
+    activeAsiaHigh := na
+    activeAsiaLow := na
+if lNew
+    activeLonHigh := na
+    activeLonLow := na
+if nNew
+    activeNYHigh := na
+    activeNYLow := na
+
+// --- Structure and Sweep Logic ---
+var float lastSwingHigh = na
+var float lastSwingLow = na
+var int lastSwingHighIdx = na
+var int lastSwingLowIdx = na
+
+ph = ta.pivothigh(high, pivotLen, pivotLen)
+pl = ta.pivotlow(low, pivotLen, pivotLen)
+
+if not na(ph)
+    lastSwingHigh := ph
+    lastSwingHighIdx := bar_index[pivotLen]
+if not na(pl)
+    lastSwingLow := pl
+    lastSwingLowIdx := bar_index[pivotLen]
+
+// Track Active Sweeps
+var bool sweptHigh = false
+var bool sweptLow = false
+var float sweepExtremeHigh = na
+var float sweepExtremeLow = na
+var int sweepExtremeHighIdx = na
+var int sweepExtremeLowIdx = na
+var float shiftLevelBear = na
+var float shiftLevelBull = na
+var int shiftLevelBearIdx = na
+var int shiftLevelBullIdx = na
+
+var float targetLevelBear = na
+var float targetLevelBull = na
+
+isOutsideAnySession = not aIn and not lIn and not nIn
+
+bullMSS = false
+bearMSS = false
+
+type ActiveTrade
+    box slBox
+    box tpBox
+    float slPrice
+    float tpPrice
+    int direction // 1 for long, -1 for short
+    bool isActive
+
+var activeTrades = array.new<ActiveTrade>()
+
+if isOutsideAnySession
+    // Check Sweeping State
+    bool isSweepingHigh = false
+    float t_targetBear = na
+    if (not na(activeAsiaHigh) and high > activeAsiaHigh)
+        isSweepingHigh := true
+        t_targetBear := aLow
+        activeAsiaHigh := na // Consume level so it isn't repeatedly swept
+    if (not na(activeLonHigh) and high > activeLonHigh)
+        isSweepingHigh := true
+        t_targetBear := lLow
+        activeLonHigh := na
+    if (not na(activeNYHigh) and high > activeNYHigh)
+        isSweepingHigh := true
+        t_targetBear := nLow
+        activeNYHigh := na
+        
+    if isSweepingHigh
+        if not sweptHigh
+            sweptHigh := true
+            sweepExtremeHigh := high
+            sweepExtremeHighIdx := bar_index
+            shiftLevelBear := lastSwingLow
+            shiftLevelBearIdx := lastSwingLowIdx
+            targetLevelBear := t_targetBear
+            sweptLow := false 
+        else
+            if high > sweepExtremeHigh
+                sweepExtremeHigh := high
+                sweepExtremeHighIdx := bar_index
+                shiftLevelBear := lastSwingLow
+                shiftLevelBearIdx := lastSwingLowIdx
+
+    bool isSweepingLow = false
+    float t_targetBull = na
+    if (not na(activeAsiaLow) and low < activeAsiaLow)
+        isSweepingLow := true
+        t_targetBull := aHigh
+        activeAsiaLow := na
+    if (not na(activeLonLow) and low < activeLonLow)
+        isSweepingLow := true
+        t_targetBull := lHigh
+        activeLonLow := na
+    if (not na(activeNYLow) and low < activeNYLow)
+        isSweepingLow := true
+        t_targetBull := nHigh
+        activeNYLow := na
+        
+    if isSweepingLow
+        if not sweptLow
+            sweptLow := true
+            sweepExtremeLow := low
+            sweepExtremeLowIdx := bar_index
+            shiftLevelBull := lastSwingHigh
+            shiftLevelBullIdx := lastSwingHighIdx
+            targetLevelBull := t_targetBull
+            sweptHigh := false
+        else
+            if low < sweepExtremeLow
+                sweepExtremeLow := low
+                sweepExtremeLowIdx := bar_index
+                shiftLevelBull := lastSwingHigh
+                shiftLevelBullIdx := lastSwingHighIdx
+
+    // Invalidate sweeps if they take too long
+    if sweptHigh and (bar_index - sweepExtremeHighIdx > maxBarsToShift)
+        sweptHigh := false
+        
+    if sweptLow and (bar_index - sweepExtremeLowIdx > maxBarsToShift)
+        sweptLow := false
+            
+    // Check MSS (Bearish)
+    if sweptHigh and close < shiftLevelBear and bar_index > sweepExtremeHighIdx
+        bearMSS := true
+        sweptHigh := false // Reset after triggering
+        
+        line.new(shiftLevelBearIdx, shiftLevelBear, bar_index, shiftLevelBear, color=color.red, style=line.style_dashed)
+        label.new(int(math.avg(shiftLevelBearIdx, bar_index)), shiftLevelBear, text="Shift", style=label.style_label_down, color=#00000000, textcolor=color.red, size=size.small)
+        
+        entry = close
+        sl = sweepExtremeHigh
+        tp = entry - (sl - entry) * rrRatio
+        tp := math.min(tp, entry - syminfo.mintick) // Ensure TP is below entry for a valid short target
+        
+        slB = box.new(left=bar_index, top=sl, right=bar_index + 1, bottom=entry, border_color=na, bgcolor=color.new(#f23645, 80)) 
+        tpB = box.new(left=bar_index, top=entry, right=bar_index + 1, bottom=tp, border_color=na, bgcolor=color.new(#089981, 80)) 
+        label.new(bar_index, entry, text="Short", style=label.style_label_down, color=color.new(#f23645, 0), textcolor=color.white, size=size.tiny)
+        array.push(activeTrades, ActiveTrade.new(slB, tpB, sl, tp, -1, true))
+        
+    // Check MSS (Bullish)
+    if sweptLow and close > shiftLevelBull and bar_index > sweepExtremeLowIdx
+        bullMSS := true
+        sweptLow := false // Reset after triggering
+        
+        line.new(shiftLevelBullIdx, shiftLevelBull, bar_index, shiftLevelBull, color=color.green, style=line.style_dashed)
+        label.new(int(math.avg(shiftLevelBullIdx, bar_index)), shiftLevelBull, text="Shift", style=label.style_label_up, color=#00000000, textcolor=color.green, size=size.small)
+        
+        entry = close
+        sl = sweepExtremeLow
+        tp = entry + (entry - sl) * rrRatio
+        tp := math.max(tp, entry + syminfo.mintick) // Ensure TP is above entry for a valid long target
+        
+        slB = box.new(left=bar_index, top=entry, right=bar_index + 1, bottom=sl, border_color=na, bgcolor=color.new(#f23645, 80)) 
+        tpB = box.new(left=bar_index, top=tp, right=bar_index + 1, bottom=entry, border_color=na, bgcolor=color.new(#089981, 80)) 
+        label.new(bar_index, entry, text="Long", style=label.style_label_up, color=color.new(#089981, 0), textcolor=color.white, size=size.tiny)
+        array.push(activeTrades, ActiveTrade.new(slB, tpB, sl, tp, 1, true))
+
+// Update Trade Boxes
+if array.size(activeTrades) > 0
+    for i = array.size(activeTrades) - 1 to 0
+        trade = array.get(activeTrades, i)
+        
+        if trade.isActive
+            // Extend Boxes
+            box.set_right(trade.slBox, bar_index)
+            box.set_right(trade.tpBox, bar_index)
+            
+            // Check for hits
+            bool isHit = false
+            if trade.direction == 1 // Long
+                if low <= trade.slPrice or high >= trade.tpPrice
+                    isHit := true
+            else // Short
+                if high >= trade.slPrice or low <= trade.tpPrice
+                    isHit := true
+                    
+            if isHit
+                trade.isActive := false
+                array.remove(activeTrades, i)
+
+// New-Day Reset (at start of Asia Session) — stop extending open setup boxes
+if aNew
+    if array.size(activeTrades) > 0
+        for i = array.size(activeTrades) - 1 to 0
+            trade = array.get(activeTrades, i)
+            trade.isActive := false
+        array.clear(activeTrades)
+
+// Plot MSS Signals
+plotshape(bullMSS, title="Bullish MSS", style=shape.triangleup, location=location.belowbar, color=color.new(#089981, 0), size=size.small)
+plotshape(bearMSS, title="Bearish MSS", style=shape.triangledown, location=location.abovebar, color=color.new(#f23645, 0), size=size.small)
+
+// --- Alerts ---
+alertcondition(bullMSS, title="Bullish MSS", message="Bullish MSS (session sweep + shift) on {{ticker}} {{interval}}")
+alertcondition(bearMSS, title="Bearish MSS", message="Bearish MSS (session sweep + shift) on {{ticker}} {{interval}}")

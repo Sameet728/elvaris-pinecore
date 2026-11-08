@@ -1,0 +1,4862 @@
+{
+  "SWING": {
+    "info": {
+      "index": 1,
+      "name": "SWING",
+      "instrument": "NAS100",
+      "bestConfig": "15M | 50% Fib Discount Retrace | EMA200 | RR 1.25",
+      "timeframe": "15M",
+      "barsTested": 6314,
+      "performance": {
+        "totalTrades": 88,
+        "winRate": 53.4,
+        "nonLossRate": 85.2,
+        "wins": 47,
+        "losses": 13,
+        "bes": 28,
+        "netReturnR": 21.48,
+        "grossWinR": 33.9,
+        "grossLossR": 12.42,
+        "profitFactor": 2.73,
+        "expectancyR": 0.24,
+        "maxDrawdownR": 2.5,
+        "maxDrawdownPct": 1.25,
+        "calmarRatio": 8.59,
+        "maxConsecWins": 6,
+        "maxConsecLosses": 2,
+        "avgHoldBars": 3.1
+      },
+      "monteCarlo": {
+        "iterations": 5000,
+        "probabilityOfProfit": 99.9,
+        "p95WorstDrawdownR": 4.6,
+        "p95WorstDrawdownPct": 2.3,
+        "maxSimulatedConsecLosses": 6,
+        "probDrawdownUnder5R": 96.7
+      }
+    },
+    "sampleTrades": [
+      {
+        "entryBar": 3998,
+        "exitBar": 3999,
+        "dir": "LONG",
+        "entryPrice": 30524,
+        "exitPrice": 30527.901304894516,
+        "returnR": 0.05000000000001865,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4064,
+        "exitBar": 4065,
+        "dir": "LONG",
+        "entryPrice": 30541.175,
+        "exitPrice": 30573.35595839585,
+        "returnR": 0.5000000000000283,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4105,
+        "exitBar": 4107,
+        "dir": "LONG",
+        "entryPrice": 30659.65,
+        "exitPrice": 30700.772013517675,
+        "returnR": 0.5,
+        "result": "WIN",
+        "barsHeld": 2
+      },
+      {
+        "entryBar": 4166,
+        "exitBar": 4183,
+        "dir": "LONG",
+        "entryPrice": 30813.025,
+        "exitPrice": 30817.135364148035,
+        "returnR": 0.05000000000001549,
+        "result": "BE",
+        "barsHeld": 17
+      },
+      {
+        "entryBar": 4204,
+        "exitBar": 4205,
+        "dir": "LONG",
+        "entryPrice": 30834.625,
+        "exitPrice": 30902.303761972704,
+        "returnR": 0.5,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4247,
+        "exitBar": 4252,
+        "dir": "LONG",
+        "entryPrice": 31110.95,
+        "exitPrice": 31071.004480891777,
+        "returnR": -1,
+        "result": "LOSS",
+        "barsHeld": 5
+      },
+      {
+        "entryBar": 4265,
+        "exitBar": 4266,
+        "dir": "LONG",
+        "entryPrice": 31107.65,
+        "exitPrice": 31121.65644708775,
+        "returnR": 0.5,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4297,
+        "exitBar": 4298,
+        "dir": "LONG",
+        "entryPrice": 31257.425000000003,
+        "exitPrice": 31286.621145605503,
+        "returnR": 0.49999999999996886,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4429,
+        "exitBar": 4431,
+        "dir": "LONG",
+        "entryPrice": 31143.575,
+        "exitPrice": 31146.442908352477,
+        "returnR": 0.04999999999998097,
+        "result": "BE",
+        "barsHeld": 2
+      },
+      {
+        "entryBar": 4486,
+        "exitBar": 4492,
+        "dir": "LONG",
+        "entryPrice": 31001.675,
+        "exitPrice": 31008.43696172655,
+        "returnR": 0.04999999999998924,
+        "result": "BE",
+        "barsHeld": 6
+      },
+      {
+        "entryBar": 4603,
+        "exitBar": 4607,
+        "dir": "LONG",
+        "entryPrice": 30911.375,
+        "exitPrice": 30985.242356363677,
+        "returnR": 1.2500000000000153,
+        "result": "WIN",
+        "barsHeld": 4
+      },
+      {
+        "entryBar": 4633,
+        "exitBar": 4634,
+        "dir": "LONG",
+        "entryPrice": 30978.25,
+        "exitPrice": 30980.848301050275,
+        "returnR": 0.049999999999993,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4816,
+        "exitBar": 4820,
+        "dir": "LONG",
+        "entryPrice": 30594.1,
+        "exitPrice": 30522.57331196361,
+        "returnR": -1,
+        "result": "LOSS",
+        "barsHeld": 4
+      },
+      {
+        "entryBar": 5020,
+        "exitBar": 5023,
+        "dir": "LONG",
+        "entryPrice": 29884.65,
+        "exitPrice": 29891.341642624982,
+        "returnR": 0.04999999999999864,
+        "result": "BE",
+        "barsHeld": 3
+      },
+      {
+        "entryBar": 5140,
+        "exitBar": 5149,
+        "dir": "LONG",
+        "entryPrice": 29581.550000000003,
+        "exitPrice": 29588.220911350767,
+        "returnR": 0.049999999999998636,
+        "result": "BE",
+        "barsHeld": 9
+      },
+      {
+        "entryBar": 5225,
+        "exitBar": 5227,
+        "dir": "LONG",
+        "entryPrice": 29515.225,
+        "exitPrice": 29525.101832082124,
+        "returnR": 0.04999999999999816,
+        "result": "BE",
+        "barsHeld": 2
+      },
+      {
+        "entryBar": 5248,
+        "exitBar": 5250,
+        "dir": "LONG",
+        "entryPrice": 29590.375,
+        "exitPrice": 29758.058570201243,
+        "returnR": 1.25,
+        "result": "WIN",
+        "barsHeld": 2
+      },
+      {
+        "entryBar": 5283,
+        "exitBar": 5292,
+        "dir": "LONG",
+        "entryPrice": 29636.775,
+        "exitPrice": 29645.568177801313,
+        "returnR": 0.05000000000000414,
+        "result": "BE",
+        "barsHeld": 9
+      },
+      {
+        "entryBar": 5633,
+        "exitBar": 5634,
+        "dir": "LONG",
+        "entryPrice": 29316.675000000003,
+        "exitPrice": 29348.244463039453,
+        "returnR": 0.5,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5670,
+        "exitBar": 5671,
+        "dir": "LONG",
+        "entryPrice": 29251.35,
+        "exitPrice": 29418.385313214596,
+        "returnR": 1.2500000000000069,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5683,
+        "exitBar": 5685,
+        "dir": "LONG",
+        "entryPrice": 29379.175,
+        "exitPrice": 29387.146202564352,
+        "returnR": 0.05000000000000799,
+        "result": "BE",
+        "barsHeld": 2
+      },
+      {
+        "entryBar": 5728,
+        "exitBar": 5730,
+        "dir": "LONG",
+        "entryPrice": 29692.1,
+        "exitPrice": 29694.833791433568,
+        "returnR": 0.04999999999999335,
+        "result": "BE",
+        "barsHeld": 2
+      },
+      {
+        "entryBar": 5751,
+        "exitBar": 5752,
+        "dir": "LONG",
+        "entryPrice": 29775.75,
+        "exitPrice": 29805.46794375166,
+        "returnR": 0.4999999999999694,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5794,
+        "exitBar": 5795,
+        "dir": "LONG",
+        "entryPrice": 29732.4,
+        "exitPrice": 29738.985104429248,
+        "returnR": 0.05000000000000691,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 6237,
+        "exitBar": 6239,
+        "dir": "LONG",
+        "entryPrice": 28408.35,
+        "exitPrice": 28773.436388287835,
+        "returnR": 1.25,
+        "result": "WIN",
+        "barsHeld": 2
+      }
+    ],
+    "fullTradeCount": 88
+  },
+  "9:30 A.M": {
+    "info": {
+      "index": 2,
+      "name": "9:30 A.M",
+      "instrument": "NAS100",
+      "bestConfig": "15M | 9:30 Opening Candle 50% Fib Pullback | RR 1.4",
+      "timeframe": "15M",
+      "barsTested": 6314,
+      "performance": {
+        "totalTrades": 45,
+        "winRate": 73.3,
+        "nonLossRate": 97.8,
+        "wins": 33,
+        "losses": 1,
+        "bes": 11,
+        "netReturnR": 21.45,
+        "grossWinR": 22.45,
+        "grossLossR": 1,
+        "profitFactor": 22.45,
+        "expectancyR": 0.48,
+        "maxDrawdownR": 1,
+        "maxDrawdownPct": 0.5,
+        "calmarRatio": 21.45,
+        "maxConsecWins": 12,
+        "maxConsecLosses": 1,
+        "avgHoldBars": 1.5
+      },
+      "monteCarlo": {
+        "iterations": 5000,
+        "probabilityOfProfit": 100,
+        "p95WorstDrawdownR": 1,
+        "p95WorstDrawdownPct": 0.5,
+        "maxSimulatedConsecLosses": 2,
+        "probDrawdownUnder5R": 100
+      }
+    },
+    "sampleTrades": [
+      {
+        "entryBar": 2633,
+        "exitBar": 2634,
+        "dir": "LONG",
+        "entryPrice": 29103.6,
+        "exitPrice": 29144.827969105216,
+        "returnR": 0.5,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 2725,
+        "exitBar": 2726,
+        "dir": "LONG",
+        "entryPrice": 29373.550000000003,
+        "exitPrice": 29401.391513741182,
+        "returnR": 0.5,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 3557,
+        "exitBar": 3558,
+        "dir": "LONG",
+        "entryPrice": 30256.45,
+        "exitPrice": 30289.98261387428,
+        "returnR": 0.49999999999997286,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 3654,
+        "exitBar": 3655,
+        "dir": "LONG",
+        "entryPrice": 30545.55,
+        "exitPrice": 30582.03553776344,
+        "returnR": 0.4999999999999751,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 3835,
+        "exitBar": 3836,
+        "dir": "SHORT",
+        "entryPrice": 30357,
+        "exitPrice": 30351.989560259954,
+        "returnR": 0.05000000000001634,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 3927,
+        "exitBar": 3928,
+        "dir": "LONG",
+        "entryPrice": 30472.55,
+        "exitPrice": 30577.492380680484,
+        "returnR": 1.3999999999999904,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4020,
+        "exitBar": 4021,
+        "dir": "SHORT",
+        "entryPrice": 30527.9,
+        "exitPrice": 30427.455566426663,
+        "returnR": 1.4000000000000203,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4113,
+        "exitBar": 4114,
+        "dir": "LONG",
+        "entryPrice": 30861.7,
+        "exitPrice": 30962.26532786903,
+        "returnR": 1.3999999999999797,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4206,
+        "exitBar": 4216,
+        "dir": "LONG",
+        "entryPrice": 30877.199999999997,
+        "exitPrice": 31008.310975334094,
+        "returnR": 1.3999999999999844,
+        "result": "WIN",
+        "barsHeld": 10
+      },
+      {
+        "entryBar": 4297,
+        "exitBar": 4298,
+        "dir": "LONG",
+        "entryPrice": 31263.15,
+        "exitPrice": 31294.083645605504,
+        "returnR": 0.5000000000000294,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4482,
+        "exitBar": 4483,
+        "dir": "SHORT",
+        "entryPrice": 30993.95,
+        "exitPrice": 30970.353236690848,
+        "returnR": 0.5,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4583,
+        "exitBar": 4584,
+        "dir": "SHORT",
+        "entryPrice": 30871.25,
+        "exitPrice": 30866.944867353213,
+        "returnR": 0.049999999999989435,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4666,
+        "exitBar": 4667,
+        "dir": "SHORT",
+        "entryPrice": 30766.949999999997,
+        "exitPrice": 30734.90537696505,
+        "returnR": 0.5000000000000284,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4766,
+        "exitBar": 4768,
+        "dir": "LONG",
+        "entryPrice": 30470.15,
+        "exitPrice": 30525.38481137596,
+        "returnR": 0.4999999999999835,
+        "result": "WIN",
+        "barsHeld": 2
+      },
+      {
+        "entryBar": 4944,
+        "exitBar": 4945,
+        "dir": "LONG",
+        "entryPrice": 29553,
+        "exitPrice": 29603.455878474655,
+        "returnR": 0.5,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5035,
+        "exitBar": 5036,
+        "dir": "SHORT",
+        "entryPrice": 29747.300000000003,
+        "exitPrice": 29599.412398588633,
+        "returnR": 1.399999999999993,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5127,
+        "exitBar": 5128,
+        "dir": "SHORT",
+        "entryPrice": 29569.5,
+        "exitPrice": 29543.05511930248,
+        "returnR": 0.5,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5314,
+        "exitBar": 5315,
+        "dir": "SHORT",
+        "entryPrice": 29657,
+        "exitPrice": 29615.514873389388,
+        "returnR": 0.5000000000000219,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5406,
+        "exitBar": 5407,
+        "dir": "LONG",
+        "entryPrice": 29331.4,
+        "exitPrice": 29360.514398196385,
+        "returnR": 0.5,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5590,
+        "exitBar": 5591,
+        "dir": "SHORT",
+        "entryPrice": 29087.949999999997,
+        "exitPrice": 29039.174406438593,
+        "returnR": 0.49999999999998135,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5686,
+        "exitBar": 5687,
+        "dir": "LONG",
+        "entryPrice": 29453.05,
+        "exitPrice": 29496.184563716764,
+        "returnR": 0.4999999999999789,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5961,
+        "exitBar": 5962,
+        "dir": "SHORT",
+        "entryPrice": 28592.8,
+        "exitPrice": 28551.217844077924,
+        "returnR": 0.49999999999997813,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 6057,
+        "exitBar": 6058,
+        "dir": "SHORT",
+        "entryPrice": 28557,
+        "exitPrice": 28523.046643339785,
+        "returnR": 0.5,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 6146,
+        "exitBar": 6147,
+        "dir": "LONG",
+        "entryPrice": 28162.800000000003,
+        "exitPrice": 28208.529236978604,
+        "returnR": 0.5,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 6242,
+        "exitBar": 6243,
+        "dir": "LONG",
+        "entryPrice": 28479.1,
+        "exitPrice": 28490.35776052512,
+        "returnR": 0.05000000000000323,
+        "result": "BE",
+        "barsHeld": 1
+      }
+    ],
+    "fullTradeCount": 45
+  },
+  "MANIPULATION": {
+    "info": {
+      "index": 3,
+      "name": "MANIPULATION",
+      "instrument": "NAS100",
+      "bestConfig": "5M | HTF 12-Bar Sweep | RR 1.3 | Micro-BE 0.2R",
+      "timeframe": "5M",
+      "barsTested": 5115,
+      "performance": {
+        "totalTrades": 103,
+        "winRate": 40.8,
+        "nonLossRate": 87.4,
+        "wins": 42,
+        "losses": 13,
+        "bes": 48,
+        "netReturnR": 8.3,
+        "grossWinR": 21.3,
+        "grossLossR": 13,
+        "profitFactor": 1.64,
+        "expectancyR": 0.08,
+        "maxDrawdownR": 3.55,
+        "maxDrawdownPct": 1.77,
+        "calmarRatio": 2.34,
+        "maxConsecWins": 4,
+        "maxConsecLosses": 2,
+        "avgHoldBars": 1.5
+      },
+      "monteCarlo": {
+        "iterations": 5000,
+        "probabilityOfProfit": 95.9,
+        "p95WorstDrawdownR": 5.9,
+        "p95WorstDrawdownPct": 2.95,
+        "maxSimulatedConsecLosses": 5,
+        "probDrawdownUnder5R": 88.7
+      }
+    },
+    "sampleTrades": [
+      {
+        "entryBar": 3582,
+        "exitBar": 3583,
+        "dir": "SHORT",
+        "entryPrice": 29815.75,
+        "exitPrice": 29773.633116576962,
+        "returnR": 0.44999999999998447,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 3771,
+        "exitBar": 3772,
+        "dir": "LONG",
+        "entryPrice": 29492,
+        "exitPrice": 29494.166396191293,
+        "returnR": 0.050000000000037785,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 3785,
+        "exitBar": 3787,
+        "dir": "LONG",
+        "entryPrice": 29466.65,
+        "exitPrice": 29368.16163983218,
+        "returnR": -1,
+        "result": "LOSS",
+        "barsHeld": 2
+      },
+      {
+        "entryBar": 3806,
+        "exitBar": 3807,
+        "dir": "SHORT",
+        "entryPrice": 29439.95,
+        "exitPrice": 29437.21979821763,
+        "returnR": 0.050000000000013325,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 3843,
+        "exitBar": 3844,
+        "dir": "LONG",
+        "entryPrice": 29320.65,
+        "exitPrice": 29322.375873058492,
+        "returnR": 0.050000000000021076,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 3857,
+        "exitBar": 3858,
+        "dir": "SHORT",
+        "entryPrice": 29088.65,
+        "exitPrice": 29070.409043901334,
+        "returnR": 0.050000000000000995,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4047,
+        "exitBar": 4048,
+        "dir": "LONG",
+        "entryPrice": 28650.6,
+        "exitPrice": 28652.295615188457,
+        "returnR": 0.05,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4057,
+        "exitBar": 4061,
+        "dir": "LONG",
+        "entryPrice": 28657.95,
+        "exitPrice": 28665.19557355468,
+        "returnR": 0.05000000000000502,
+        "result": "BE",
+        "barsHeld": 4
+      },
+      {
+        "entryBar": 4070,
+        "exitBar": 4071,
+        "dir": "SHORT",
+        "entryPrice": 28651.45,
+        "exitPrice": 28648.618415814435,
+        "returnR": 0.05,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4082,
+        "exitBar": 4083,
+        "dir": "LONG",
+        "entryPrice": 28487.05,
+        "exitPrice": 28499.763588648562,
+        "returnR": 0.45000000000000645,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4123,
+        "exitBar": 4124,
+        "dir": "LONG",
+        "entryPrice": 28238.45,
+        "exitPrice": 28242.503900258893,
+        "returnR": 0.05000000000001795,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4131,
+        "exitBar": 4132,
+        "dir": "SHORT",
+        "entryPrice": 28332.75,
+        "exitPrice": 28350.544819337963,
+        "returnR": -1,
+        "result": "LOSS",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4321,
+        "exitBar": 4322,
+        "dir": "LONG",
+        "entryPrice": 28680.2,
+        "exitPrice": 28686.302679578475,
+        "returnR": 0.05000000000000149,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4329,
+        "exitBar": 4330,
+        "dir": "SHORT",
+        "entryPrice": 28635.3,
+        "exitPrice": 28630.148292140337,
+        "returnR": 0.44999999999998413,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4337,
+        "exitBar": 4338,
+        "dir": "LONG",
+        "entryPrice": 28557.25,
+        "exitPrice": 28573.22855439325,
+        "returnR": 0.4499999999999949,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4345,
+        "exitBar": 4347,
+        "dir": "SHORT",
+        "entryPrice": 28676.15,
+        "exitPrice": 28656.248261201144,
+        "returnR": 0.45000000000004114,
+        "result": "WIN",
+        "barsHeld": 2
+      },
+      {
+        "entryBar": 4410,
+        "exitBar": 4411,
+        "dir": "LONG",
+        "entryPrice": 28056.65,
+        "exitPrice": 28060.438577186873,
+        "returnR": 0.0499999999999832,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4623,
+        "exitBar": 4624,
+        "dir": "SHORT",
+        "entryPrice": 28214.65,
+        "exitPrice": 28211.851529916054,
+        "returnR": 0.05000000000001625,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4654,
+        "exitBar": 4655,
+        "dir": "SHORT",
+        "entryPrice": 28246.65,
+        "exitPrice": 28243.967043652392,
+        "returnR": 0.05000000000002034,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4665,
+        "exitBar": 4666,
+        "dir": "LONG",
+        "entryPrice": 28214.95,
+        "exitPrice": 28216.95702824364,
+        "returnR": 0.04999999999998187,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4678,
+        "exitBar": 4684,
+        "dir": "LONG",
+        "entryPrice": 28191.95,
+        "exitPrice": 28195.605072688788,
+        "returnR": 0.04999999999999751,
+        "result": "BE",
+        "barsHeld": 6
+      },
+      {
+        "entryBar": 4886,
+        "exitBar": 4887,
+        "dir": "SHORT",
+        "entryPrice": 28284.45,
+        "exitPrice": 28440.591029093506,
+        "returnR": -1,
+        "result": "LOSS",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4912,
+        "exitBar": 4914,
+        "dir": "LONG",
+        "entryPrice": 28552.75,
+        "exitPrice": 28612.073984851522,
+        "returnR": 0.4500000000000014,
+        "result": "WIN",
+        "barsHeld": 2
+      },
+      {
+        "entryBar": 4940,
+        "exitBar": 4941,
+        "dir": "LONG",
+        "entryPrice": 28533.65,
+        "exitPrice": 28565.23397086918,
+        "returnR": 0.449999999999987,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4955,
+        "exitBar": 4956,
+        "dir": "LONG",
+        "entryPrice": 28500.75,
+        "exitPrice": 28503.50176281345,
+        "returnR": 0.04999999999998678,
+        "result": "BE",
+        "barsHeld": 1
+      }
+    ],
+    "fullTradeCount": 103
+  },
+  "LIQUIDITY": {
+    "info": {
+      "index": 4,
+      "name": "LIQUIDITY",
+      "instrument": "SPX500",
+      "bestConfig": "5M | Leg 3 | RR 1.3 | Micro-BE 0.25R",
+      "timeframe": "5M",
+      "barsTested": 5121,
+      "performance": {
+        "totalTrades": 92,
+        "winRate": 41.3,
+        "nonLossRate": 81.5,
+        "wins": 38,
+        "losses": 17,
+        "bes": 37,
+        "netReturnR": 1.95,
+        "grossWinR": 18.95,
+        "grossLossR": 17,
+        "profitFactor": 1.11,
+        "expectancyR": 0.02,
+        "maxDrawdownR": 6.05,
+        "maxDrawdownPct": 3.02,
+        "calmarRatio": 0.32,
+        "maxConsecWins": 5,
+        "maxConsecLosses": 2,
+        "avgHoldBars": 1.4
+      },
+      "monteCarlo": {
+        "iterations": 5000,
+        "probabilityOfProfit": 65.3,
+        "p95WorstDrawdownR": 9.5,
+        "p95WorstDrawdownPct": 4.75,
+        "maxSimulatedConsecLosses": 6,
+        "probDrawdownUnder5R": 58.7
+      }
+    },
+    "sampleTrades": [
+      {
+        "entryBar": 3586,
+        "exitBar": 3587,
+        "dir": "SHORT",
+        "entryPrice": 7750.63,
+        "exitPrice": 7744.149338754366,
+        "returnR": 0.45000000000002843,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 3593,
+        "exitBar": 3594,
+        "dir": "LONG",
+        "entryPrice": 7724.88,
+        "exitPrice": 7719.019792215537,
+        "returnR": -1,
+        "result": "LOSS",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 3780,
+        "exitBar": 3781,
+        "dir": "SHORT",
+        "entryPrice": 7726.45,
+        "exitPrice": 7724.873788194222,
+        "returnR": 0.45000000000011686,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 3786,
+        "exitBar": 3787,
+        "dir": "LONG",
+        "entryPrice": 7712.68,
+        "exitPrice": 7718.345272644992,
+        "returnR": 0.4499999999999856,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 3798,
+        "exitBar": 3799,
+        "dir": "SHORT",
+        "entryPrice": 7721.63,
+        "exitPrice": 7718.502889874987,
+        "returnR": 0.4500000000000458,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 3809,
+        "exitBar": 3810,
+        "dir": "SHORT",
+        "entryPrice": 7725.68,
+        "exitPrice": 7725.326345685701,
+        "returnR": 0.050000000000051434,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 3816,
+        "exitBar": 3817,
+        "dir": "LONG",
+        "entryPrice": 7716.43,
+        "exitPrice": 7716.663083798671,
+        "returnR": 0.05000000000003902,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 3833,
+        "exitBar": 3834,
+        "dir": "LONG",
+        "entryPrice": 7706.68,
+        "exitPrice": 7703.704652788382,
+        "returnR": -1,
+        "result": "LOSS",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 3849,
+        "exitBar": 3850,
+        "dir": "SHORT",
+        "entryPrice": 7700.98,
+        "exitPrice": 7700.739198767532,
+        "returnR": 0.049999999999915015,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 3862,
+        "exitBar": 3863,
+        "dir": "SHORT",
+        "entryPrice": 7691.23,
+        "exitPrice": 7689.512315677378,
+        "returnR": 0.05000000000000794,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 3872,
+        "exitBar": 3875,
+        "dir": "LONG",
+        "entryPrice": 7677.98,
+        "exitPrice": 7679.7293868264305,
+        "returnR": 0.4500000000000819,
+        "result": "WIN",
+        "barsHeld": 3
+      },
+      {
+        "entryBar": 4062,
+        "exitBar": 4066,
+        "dir": "LONG",
+        "entryPrice": 7632.23,
+        "exitPrice": 7632.946767371707,
+        "returnR": 0.05000000000002538,
+        "result": "BE",
+        "barsHeld": 4
+      },
+      {
+        "entryBar": 4088,
+        "exitBar": 4089,
+        "dir": "LONG",
+        "entryPrice": 7600.48,
+        "exitPrice": 7600.795416274057,
+        "returnR": 0.050000000000021624,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4110,
+        "exitBar": 4111,
+        "dir": "LONG",
+        "entryPrice": 7575.73,
+        "exitPrice": 7578.728221603345,
+        "returnR": 0.4499999999999932,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4340,
+        "exitBar": 4341,
+        "dir": "SHORT",
+        "entryPrice": 7627.23,
+        "exitPrice": 7625.893502399969,
+        "returnR": 0.44999999999995405,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4409,
+        "exitBar": 4410,
+        "dir": "LONG",
+        "entryPrice": 7556.23,
+        "exitPrice": 7556.595257845947,
+        "returnR": 0.0500000000000249,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4613,
+        "exitBar": 4614,
+        "dir": "LONG",
+        "entryPrice": 7550.68,
+        "exitPrice": 7554.2905035654185,
+        "returnR": 0.45,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4623,
+        "exitBar": 4624,
+        "dir": "SHORT",
+        "entryPrice": 7568.38,
+        "exitPrice": 7565.630222335405,
+        "returnR": 0.4499999999999777,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4654,
+        "exitBar": 4655,
+        "dir": "SHORT",
+        "entryPrice": 7577.93,
+        "exitPrice": 7577.5939868488895,
+        "returnR": 0.0500000000000609,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4663,
+        "exitBar": 4664,
+        "dir": "SHORT",
+        "entryPrice": 7587.68,
+        "exitPrice": 7587.274025961196,
+        "returnR": 0.05000000000005041,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4674,
+        "exitBar": 4675,
+        "dir": "LONG",
+        "entryPrice": 7573.98,
+        "exitPrice": 7571.048488412454,
+        "returnR": -1,
+        "result": "LOSS",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4907,
+        "exitBar": 4908,
+        "dir": "LONG",
+        "entryPrice": 7681.03,
+        "exitPrice": 7687.560865546392,
+        "returnR": 0.4500000000000094,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4914,
+        "exitBar": 4915,
+        "dir": "LONG",
+        "entryPrice": 7666.03,
+        "exitPrice": 7670.84360955619,
+        "returnR": 0.4500000000000255,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4936,
+        "exitBar": 4937,
+        "dir": "SHORT",
+        "entryPrice": 7710.28,
+        "exitPrice": 7707.862672690854,
+        "returnR": 0.4500000000000508,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4957,
+        "exitBar": 4958,
+        "dir": "LONG",
+        "entryPrice": 7698.78,
+        "exitPrice": 7699.911518797609,
+        "returnR": 0.45000000000005425,
+        "result": "WIN",
+        "barsHeld": 1
+      }
+    ],
+    "fullTradeCount": 92
+  },
+  "WICK": {
+    "info": {
+      "index": 5,
+      "name": "WICK",
+      "instrument": "SPX500",
+      "bestConfig": "5M | No-Wick Untapped Level Retest | EMA50 | RR 1.5",
+      "timeframe": "5M",
+      "barsTested": 5121,
+      "performance": {
+        "totalTrades": 352,
+        "winRate": 47.4,
+        "nonLossRate": 76.7,
+        "wins": 167,
+        "losses": 82,
+        "bes": 103,
+        "netReturnR": 54.85,
+        "grossWinR": 136.85,
+        "grossLossR": 82,
+        "profitFactor": 1.67,
+        "expectancyR": 0.16,
+        "maxDrawdownR": 10,
+        "maxDrawdownPct": 5,
+        "calmarRatio": 5.48,
+        "maxConsecWins": 5,
+        "maxConsecLosses": 4,
+        "avgHoldBars": 1.5
+      },
+      "monteCarlo": {
+        "iterations": 5000,
+        "probabilityOfProfit": 100,
+        "p95WorstDrawdownR": 10.85,
+        "p95WorstDrawdownPct": 5.42,
+        "maxSimulatedConsecLosses": 9,
+        "probDrawdownUnder5R": 20.5
+      }
+    },
+    "sampleTrades": [
+      {
+        "entryBar": 4577,
+        "exitBar": 4579,
+        "dir": "SHORT",
+        "entryPrice": 7534.93,
+        "exitPrice": 7534.754603445237,
+        "returnR": 0.05000000000009074,
+        "result": "BE",
+        "barsHeld": 2
+      },
+      {
+        "entryBar": 4585,
+        "exitBar": 4586,
+        "dir": "SHORT",
+        "entryPrice": 7531.43,
+        "exitPrice": 7529.397280486269,
+        "returnR": 0.6000000000000537,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4669,
+        "exitBar": 4670,
+        "dir": "LONG",
+        "entryPrice": 7581.93,
+        "exitPrice": 7575.928461586295,
+        "returnR": -1,
+        "result": "LOSS",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4695,
+        "exitBar": 4696,
+        "dir": "LONG",
+        "entryPrice": 7565.73,
+        "exitPrice": 7574.681676551008,
+        "returnR": 1.5000000000000762,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4711,
+        "exitBar": 4712,
+        "dir": "LONG",
+        "entryPrice": 7588.43,
+        "exitPrice": 7591.5828434947225,
+        "returnR": 0.5999999999999308,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4715,
+        "exitBar": 4717,
+        "dir": "LONG",
+        "entryPrice": 7577.48,
+        "exitPrice": 7577.8155232130985,
+        "returnR": 0.050000000000033885,
+        "result": "BE",
+        "barsHeld": 2
+      },
+      {
+        "entryBar": 4756,
+        "exitBar": 4757,
+        "dir": "SHORT",
+        "entryPrice": 7478.93,
+        "exitPrice": 7478.439131447785,
+        "returnR": 0.049999999999972206,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4764,
+        "exitBar": 4765,
+        "dir": "SHORT",
+        "entryPrice": 7482.93,
+        "exitPrice": 7477.881459123723,
+        "returnR": 0.6,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4772,
+        "exitBar": 4773,
+        "dir": "SHORT",
+        "entryPrice": 7473.43,
+        "exitPrice": 7481.73891326005,
+        "returnR": -1,
+        "result": "LOSS",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4780,
+        "exitBar": 4781,
+        "dir": "LONG",
+        "entryPrice": 7515.93,
+        "exitPrice": 7521.308802070004,
+        "returnR": 0.5999999999999595,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4817,
+        "exitBar": 4819,
+        "dir": "LONG",
+        "entryPrice": 7580.55,
+        "exitPrice": 7580.866715308617,
+        "returnR": 0.05,
+        "result": "BE",
+        "barsHeld": 2
+      },
+      {
+        "entryBar": 4844,
+        "exitBar": 4848,
+        "dir": "LONG",
+        "entryPrice": 7644.93,
+        "exitPrice": 7645.286963906016,
+        "returnR": 0.04999999999995541,
+        "result": "BE",
+        "barsHeld": 4
+      },
+      {
+        "entryBar": 4861,
+        "exitBar": 4862,
+        "dir": "LONG",
+        "entryPrice": 7649.18,
+        "exitPrice": 7643.2970482767105,
+        "returnR": -1,
+        "result": "LOSS",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4885,
+        "exitBar": 4887,
+        "dir": "LONG",
+        "entryPrice": 7650.43,
+        "exitPrice": 7654.735894505885,
+        "returnR": 0.6000000000000507,
+        "result": "WIN",
+        "barsHeld": 2
+      },
+      {
+        "entryBar": 4914,
+        "exitBar": 4915,
+        "dir": "SHORT",
+        "entryPrice": 7659.18,
+        "exitPrice": 7671.967640499467,
+        "returnR": -1,
+        "result": "LOSS",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4942,
+        "exitBar": 4943,
+        "dir": "LONG",
+        "entryPrice": 7699.28,
+        "exitPrice": 7699.64775989472,
+        "returnR": 0.04999999999996909,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4951,
+        "exitBar": 4952,
+        "dir": "LONG",
+        "entryPrice": 7703.78,
+        "exitPrice": 7704.106402911497,
+        "returnR": 0.0499999999999373,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4958,
+        "exitBar": 4959,
+        "dir": "LONG",
+        "entryPrice": 7697.78,
+        "exitPrice": 7698.075547440282,
+        "returnR": 0.04999999999993076,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4964,
+        "exitBar": 4965,
+        "dir": "LONG",
+        "entryPrice": 7703.53,
+        "exitPrice": 7697.369901038564,
+        "returnR": -1,
+        "result": "LOSS",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4983,
+        "exitBar": 4985,
+        "dir": "SHORT",
+        "entryPrice": 7703.53,
+        "exitPrice": 7703.298245444253,
+        "returnR": 0.04999999999997057,
+        "result": "BE",
+        "barsHeld": 2
+      },
+      {
+        "entryBar": 4996,
+        "exitBar": 4997,
+        "dir": "SHORT",
+        "entryPrice": 7696.48,
+        "exitPrice": 7696.278999283828,
+        "returnR": 0.05000000000005656,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5012,
+        "exitBar": 5013,
+        "dir": "SHORT",
+        "entryPrice": 7685.73,
+        "exitPrice": 7682.394281735134,
+        "returnR": 0.6,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5020,
+        "exitBar": 5022,
+        "dir": "SHORT",
+        "entryPrice": 7684.98,
+        "exitPrice": 7690.24803955505,
+        "returnR": -1,
+        "result": "LOSS",
+        "barsHeld": 2
+      },
+      {
+        "entryBar": 5080,
+        "exitBar": 5081,
+        "dir": "LONG",
+        "entryPrice": 7686.48,
+        "exitPrice": 7682.606560275195,
+        "returnR": -1,
+        "result": "LOSS",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5090,
+        "exitBar": 5091,
+        "dir": "LONG",
+        "entryPrice": 7676.35,
+        "exitPrice": 7682.327046136469,
+        "returnR": 1.4999999999998859,
+        "result": "WIN",
+        "barsHeld": 1
+      }
+    ],
+    "fullTradeCount": 352
+  },
+  "FVG": {
+    "info": {
+      "index": 6,
+      "name": "FVG",
+      "instrument": "NAS100",
+      "bestConfig": "5M | FVG Retest | RR 1.6 | Micro-BE 0.25R",
+      "timeframe": "5M",
+      "barsTested": 5115,
+      "performance": {
+        "totalTrades": 281,
+        "winRate": 43.4,
+        "nonLossRate": 83.6,
+        "wins": 122,
+        "losses": 46,
+        "bes": 113,
+        "netReturnR": 14.22,
+        "grossWinR": 60.22,
+        "grossLossR": 46,
+        "profitFactor": 1.31,
+        "expectancyR": 0.05,
+        "maxDrawdownR": 7.35,
+        "maxDrawdownPct": 3.68,
+        "calmarRatio": 1.93,
+        "maxConsecWins": 5,
+        "maxConsecLosses": 2,
+        "avgHoldBars": 1.8
+      },
+      "monteCarlo": {
+        "iterations": 5000,
+        "probabilityOfProfit": 95.3,
+        "p95WorstDrawdownR": 11.1,
+        "p95WorstDrawdownPct": 5.55,
+        "maxSimulatedConsecLosses": 9,
+        "probDrawdownUnder5R": 34.4
+      }
+    },
+    "sampleTrades": [
+      {
+        "entryBar": 4665,
+        "exitBar": 4666,
+        "dir": "SHORT",
+        "entryPrice": 28214.95,
+        "exitPrice": 28213.44278305382,
+        "returnR": 0.049999999999939655,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4679,
+        "exitBar": 4683,
+        "dir": "LONG",
+        "entryPrice": 28187.25,
+        "exitPrice": 28188.678183355183,
+        "returnR": 0.05000000000005731,
+        "result": "BE",
+        "barsHeld": 4
+      },
+      {
+        "entryBar": 4701,
+        "exitBar": 4702,
+        "dir": "LONG",
+        "entryPrice": 28310.2,
+        "exitPrice": 28322.822568617783,
+        "returnR": 0.4499999999999481,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4715,
+        "exitBar": 4716,
+        "dir": "SHORT",
+        "entryPrice": 28107.5,
+        "exitPrice": 28056.122329209597,
+        "returnR": 0.4500000000000064,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4731,
+        "exitBar": 4732,
+        "dir": "SHORT",
+        "entryPrice": 27637.7,
+        "exitPrice": 27633.08293034804,
+        "returnR": 0.05000000000000394,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4749,
+        "exitBar": 4751,
+        "dir": "SHORT",
+        "entryPrice": 27523.05,
+        "exitPrice": 27604.32534758984,
+        "returnR": -1,
+        "result": "LOSS",
+        "barsHeld": 2
+      },
+      {
+        "entryBar": 4768,
+        "exitBar": 4769,
+        "dir": "LONG",
+        "entryPrice": 27694.35,
+        "exitPrice": 27701.476314977936,
+        "returnR": 0.05000000000001021,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4795,
+        "exitBar": 4796,
+        "dir": "LONG",
+        "entryPrice": 28090.95,
+        "exitPrice": 28092.48110981978,
+        "returnR": 0.049999999999988116,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4809,
+        "exitBar": 4810,
+        "dir": "LONG",
+        "entryPrice": 28210.45,
+        "exitPrice": 28241.131220114938,
+        "returnR": 0.45000000000001067,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4824,
+        "exitBar": 4825,
+        "dir": "SHORT",
+        "entryPrice": 28229.05,
+        "exitPrice": 28244.005181765024,
+        "returnR": -1,
+        "result": "LOSS",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4838,
+        "exitBar": 4840,
+        "dir": "LONG",
+        "entryPrice": 28508.25,
+        "exitPrice": 28431.532291211435,
+        "returnR": -1,
+        "result": "LOSS",
+        "barsHeld": 2
+      },
+      {
+        "entryBar": 4856,
+        "exitBar": 4857,
+        "dir": "SHORT",
+        "entryPrice": 28379.05,
+        "exitPrice": 28346.270539200086,
+        "returnR": 0.4500000000000175,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4870,
+        "exitBar": 4872,
+        "dir": "LONG",
+        "entryPrice": 28235.85,
+        "exitPrice": 28237.74963841732,
+        "returnR": 0.049999999999976064,
+        "result": "BE",
+        "barsHeld": 2
+      },
+      {
+        "entryBar": 4888,
+        "exitBar": 4892,
+        "dir": "LONG",
+        "entryPrice": 28676.95,
+        "exitPrice": 28689.970989885227,
+        "returnR": 0.05000000000000559,
+        "result": "BE",
+        "barsHeld": 4
+      },
+      {
+        "entryBar": 4907,
+        "exitBar": 4908,
+        "dir": "LONG",
+        "entryPrice": 28505.25,
+        "exitPrice": 28454.13867289882,
+        "returnR": -1,
+        "result": "LOSS",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4921,
+        "exitBar": 4932,
+        "dir": "LONG",
+        "entryPrice": 28629.25,
+        "exitPrice": 28557.4225721446,
+        "returnR": -1,
+        "result": "LOSS",
+        "barsHeld": 11
+      },
+      {
+        "entryBar": 4960,
+        "exitBar": 4962,
+        "dir": "SHORT",
+        "entryPrice": 28430.45,
+        "exitPrice": 28405.102017034686,
+        "returnR": 0.45000000000001616,
+        "result": "WIN",
+        "barsHeld": 2
+      },
+      {
+        "entryBar": 4977,
+        "exitBar": 4982,
+        "dir": "SHORT",
+        "entryPrice": 28444.6,
+        "exitPrice": 28441.58029981849,
+        "returnR": 0.05000000000001506,
+        "result": "BE",
+        "barsHeld": 5
+      },
+      {
+        "entryBar": 4999,
+        "exitBar": 5000,
+        "dir": "SHORT",
+        "entryPrice": 28328.2,
+        "exitPrice": 28324.65530693604,
+        "returnR": 0.0500000000000077,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5015,
+        "exitBar": 5016,
+        "dir": "LONG",
+        "entryPrice": 28300.85,
+        "exitPrice": 28323.078799056613,
+        "returnR": 0.4500000000000147,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5033,
+        "exitBar": 5034,
+        "dir": "SHORT",
+        "entryPrice": 28214.95,
+        "exitPrice": 28205.08408826632,
+        "returnR": 0.4499999999999834,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5047,
+        "exitBar": 5048,
+        "dir": "SHORT",
+        "entryPrice": 28131.85,
+        "exitPrice": 28129.678995751732,
+        "returnR": 0.05000000000001676,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5063,
+        "exitBar": 5064,
+        "dir": "LONG",
+        "entryPrice": 28097.65,
+        "exitPrice": 28105.997664915627,
+        "returnR": 0.4499999999999804,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5077,
+        "exitBar": 5078,
+        "dir": "SHORT",
+        "entryPrice": 28133.25,
+        "exitPrice": 28131.161703195085,
+        "returnR": 0.05000000000002178,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5103,
+        "exitBar": 5105,
+        "dir": "LONG",
+        "entryPrice": 28237.45,
+        "exitPrice": 28241.069228068656,
+        "returnR": 0.049999999999997484,
+        "result": "BE",
+        "barsHeld": 2
+      }
+    ],
+    "fullTradeCount": 281
+  },
+  "ROADMAP": {
+    "info": {
+      "index": 7,
+      "name": "ROADMAP",
+      "instrument": "NAS100",
+      "bestConfig": "5M | 8:00-8:15 ORB at 9:30 AM | RR 1.4 | Micro-BE 0.25R",
+      "timeframe": "5M",
+      "barsTested": 5115,
+      "performance": {
+        "totalTrades": 14,
+        "winRate": 50,
+        "nonLossRate": 85.7,
+        "wins": 7,
+        "losses": 2,
+        "bes": 5,
+        "netReturnR": 1.75,
+        "grossWinR": 3.75,
+        "grossLossR": 2,
+        "profitFactor": 1.88,
+        "expectancyR": 0.13,
+        "maxDrawdownR": 2,
+        "maxDrawdownPct": 1,
+        "calmarRatio": 0.88,
+        "maxConsecWins": 2,
+        "maxConsecLosses": 2,
+        "avgHoldBars": 2.4
+      },
+      "monteCarlo": {
+        "iterations": 5000,
+        "probabilityOfProfit": 82.4,
+        "p95WorstDrawdownR": 3,
+        "p95WorstDrawdownPct": 1.5,
+        "maxSimulatedConsecLosses": 4,
+        "probDrawdownUnder5R": 99.8
+      }
+    },
+    "sampleTrades": [
+      {
+        "entryBar": 186,
+        "exitBar": 193,
+        "dir": "SHORT",
+        "entryPrice": 30726.85,
+        "exitPrice": 30670.024999999998,
+        "returnR": 0.5,
+        "result": "WIN",
+        "barsHeld": 7
+      },
+      {
+        "entryBar": 462,
+        "exitBar": 463,
+        "dir": "SHORT",
+        "entryPrice": 30424.65,
+        "exitPrice": 30415.125,
+        "returnR": 0.5000000000000955,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 739,
+        "exitBar": 744,
+        "dir": "SHORT",
+        "entryPrice": 30339.25,
+        "exitPrice": 30327.8,
+        "returnR": 0.050000000000003174,
+        "result": "BE",
+        "barsHeld": 5
+      },
+      {
+        "entryBar": 1015,
+        "exitBar": 1016,
+        "dir": "SHORT",
+        "entryPrice": 29511.15,
+        "exitPrice": 29507.155000000002,
+        "returnR": 0.049999999999988616,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 1291,
+        "exitBar": 1292,
+        "dir": "SHORT",
+        "entryPrice": 29770.65,
+        "exitPrice": 29701.675000000003,
+        "returnR": 0.5,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 1567,
+        "exitBar": 1568,
+        "dir": "LONG",
+        "entryPrice": 29580.75,
+        "exitPrice": 29596.7,
+        "returnR": 0.5,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 2121,
+        "exitBar": 2122,
+        "dir": "LONG",
+        "entryPrice": 29694.15,
+        "exitPrice": 29695.1725,
+        "returnR": 0.04999999999994663,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 2674,
+        "exitBar": 2675,
+        "dir": "SHORT",
+        "entryPrice": 28874.55,
+        "exitPrice": 28846.1,
+        "returnR": 0.5,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 2950,
+        "exitBar": 2951,
+        "dir": "SHORT",
+        "entryPrice": 29084.35,
+        "exitPrice": 29081.71,
+        "returnR": 0.04999999999998622,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 3227,
+        "exitBar": 3228,
+        "dir": "LONG",
+        "entryPrice": 29465.55,
+        "exitPrice": 29503.699999999997,
+        "returnR": 0.4999999999999762,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 3779,
+        "exitBar": 3785,
+        "dir": "SHORT",
+        "entryPrice": 29283.15,
+        "exitPrice": 29459.699999999997,
+        "returnR": -1,
+        "result": "LOSS",
+        "barsHeld": 6
+      },
+      {
+        "entryBar": 4056,
+        "exitBar": 4061,
+        "dir": "SHORT",
+        "entryPrice": 28548.95,
+        "exitPrice": 28668.55,
+        "returnR": -1,
+        "result": "LOSS",
+        "barsHeld": 5
+      },
+      {
+        "entryBar": 4609,
+        "exitBar": 4611,
+        "dir": "LONG",
+        "entryPrice": 28186.25,
+        "exitPrice": 28191.39,
+        "returnR": 0.049999999999994695,
+        "result": "BE",
+        "barsHeld": 2
+      },
+      {
+        "entryBar": 4886,
+        "exitBar": 4887,
+        "dir": "LONG",
+        "entryPrice": 28284.45,
+        "exitPrice": 28324.175000000003,
+        "returnR": 0.5000000000000229,
+        "result": "WIN",
+        "barsHeld": 1
+      }
+    ],
+    "fullTradeCount": 14
+  },
+  "PUSH": {
+    "info": {
+      "index": 8,
+      "name": "PUSH",
+      "instrument": "NAS100",
+      "bestConfig": "5M | Asia Sweep during London/NY | RR 1.5 | Micro-BE 0.25R",
+      "timeframe": "5M",
+      "barsTested": 5115,
+      "performance": {
+        "totalTrades": 18,
+        "winRate": 66.7,
+        "nonLossRate": 88.9,
+        "wins": 12,
+        "losses": 2,
+        "bes": 4,
+        "netReturnR": 4.2,
+        "grossWinR": 6.2,
+        "grossLossR": 2,
+        "profitFactor": 3.1,
+        "expectancyR": 0.23,
+        "maxDrawdownR": 1,
+        "maxDrawdownPct": 0.5,
+        "calmarRatio": 4.2,
+        "maxConsecWins": 5,
+        "maxConsecLosses": 1,
+        "avgHoldBars": 2.7
+      },
+      "monteCarlo": {
+        "iterations": 5000,
+        "probabilityOfProfit": 97.5,
+        "p95WorstDrawdownR": 2.5,
+        "p95WorstDrawdownPct": 1.25,
+        "maxSimulatedConsecLosses": 5,
+        "probDrawdownUnder5R": 99.9
+      }
+    },
+    "sampleTrades": [
+      {
+        "entryBar": 124,
+        "exitBar": 125,
+        "dir": "LONG",
+        "entryPrice": 30930.3,
+        "exitPrice": 30931.400366394028,
+        "returnR": 0.050000000000066123,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 462,
+        "exitBar": 463,
+        "dir": "LONG",
+        "entryPrice": 30424.65,
+        "exitPrice": 30455.137733859417,
+        "returnR": 0.5,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 986,
+        "exitBar": 987,
+        "dir": "LONG",
+        "entryPrice": 29576.1,
+        "exitPrice": 29578.532380307006,
+        "returnR": 0.050000000000018696,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 1794,
+        "exitBar": 1795,
+        "dir": "LONG",
+        "entryPrice": 29397.4,
+        "exitPrice": 29408.729116816052,
+        "returnR": 0.49999999999991973,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 2063,
+        "exitBar": 2064,
+        "dir": "LONG",
+        "entryPrice": 29624.1,
+        "exitPrice": 29625.167198874304,
+        "returnR": 0.050000000000042615,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 2332,
+        "exitBar": 2340,
+        "dir": "LONG",
+        "entryPrice": 29299.8,
+        "exitPrice": 29315.91232782655,
+        "returnR": 0.5,
+        "result": "WIN",
+        "barsHeld": 8
+      },
+      {
+        "entryBar": 2610,
+        "exitBar": 2612,
+        "dir": "SHORT",
+        "entryPrice": 29075.1,
+        "exitPrice": 29103.673281354917,
+        "returnR": -1,
+        "result": "LOSS",
+        "barsHeld": 2
+      },
+      {
+        "entryBar": 2667,
+        "exitBar": 2668,
+        "dir": "LONG",
+        "entryPrice": 28884.6,
+        "exitPrice": 28901.985323018125,
+        "returnR": 0.5,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 2886,
+        "exitBar": 2887,
+        "dir": "LONG",
+        "entryPrice": 28896.1,
+        "exitPrice": 28916.82740508049,
+        "returnR": 0.5000000000000439,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 2949,
+        "exitBar": 2950,
+        "dir": "SHORT",
+        "entryPrice": 29068.4,
+        "exitPrice": 29054.744882845815,
+        "returnR": 0.5000000000000666,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 3194,
+        "exitBar": 3214,
+        "dir": "SHORT",
+        "entryPrice": 29352,
+        "exitPrice": 29460.57264994899,
+        "returnR": -1,
+        "result": "LOSS",
+        "barsHeld": 20
+      },
+      {
+        "entryBar": 3437,
+        "exitBar": 3438,
+        "dir": "SHORT",
+        "entryPrice": 29820.4,
+        "exitPrice": 29813.168135336142,
+        "returnR": 0.5,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 3507,
+        "exitBar": 3508,
+        "dir": "LONG",
+        "entryPrice": 29673.55,
+        "exitPrice": 29700.604210812857,
+        "returnR": 0.5,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 3781,
+        "exitBar": 3785,
+        "dir": "LONG",
+        "entryPrice": 29396.85,
+        "exitPrice": 29461.94318422336,
+        "returnR": 0.499999999999986,
+        "result": "WIN",
+        "barsHeld": 4
+      },
+      {
+        "entryBar": 4026,
+        "exitBar": 4027,
+        "dir": "LONG",
+        "entryPrice": 28690.2,
+        "exitPrice": 28701.34195239222,
+        "returnR": 0.5000000000000816,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4321,
+        "exitBar": 4322,
+        "dir": "SHORT",
+        "entryPrice": 28680.2,
+        "exitPrice": 28664.573204215256,
+        "returnR": 0.5,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4557,
+        "exitBar": 4558,
+        "dir": "SHORT",
+        "entryPrice": 28131.1,
+        "exitPrice": 28130.238873843085,
+        "returnR": 0.04999999999996831,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4811,
+        "exitBar": 4812,
+        "dir": "SHORT",
+        "entryPrice": 28266.75,
+        "exitPrice": 28245.48474632063,
+        "returnR": 0.5,
+        "result": "WIN",
+        "barsHeld": 1
+      }
+    ],
+    "fullTradeCount": 18
+  },
+  "SWEEP IFVG": {
+    "info": {
+      "index": 9,
+      "name": "SWEEP IFVG",
+      "instrument": "NAS100",
+      "bestConfig": "5M | Sweep + Inversion FVG Queue | RR 1.2 | Micro-BE 0.25R",
+      "timeframe": "5M",
+      "barsTested": 5115,
+      "performance": {
+        "totalTrades": 273,
+        "winRate": 45.4,
+        "nonLossRate": 79.9,
+        "wins": 124,
+        "losses": 55,
+        "bes": 94,
+        "netReturnR": 5.5,
+        "grossWinR": 60.5,
+        "grossLossR": 55,
+        "profitFactor": 1.1,
+        "expectancyR": 0.02,
+        "maxDrawdownR": 8.1,
+        "maxDrawdownPct": 4.05,
+        "calmarRatio": 0.68,
+        "maxConsecWins": 5,
+        "maxConsecLosses": 3,
+        "avgHoldBars": 1.6
+      },
+      "monteCarlo": {
+        "iterations": 5000,
+        "probabilityOfProfit": 72.9,
+        "p95WorstDrawdownR": 16,
+        "p95WorstDrawdownPct": 8,
+        "maxSimulatedConsecLosses": 8,
+        "probDrawdownUnder5R": 11.6
+      }
+    },
+    "sampleTrades": [
+      {
+        "entryBar": 4721,
+        "exitBar": 4722,
+        "dir": "LONG",
+        "entryPrice": 28018.6,
+        "exitPrice": 28051.48151726993,
+        "returnR": 0.4499999999999776,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4733,
+        "exitBar": 4734,
+        "dir": "LONG",
+        "entryPrice": 27729.5,
+        "exitPrice": 27735.314260384195,
+        "returnR": 0.049999999999987485,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4757,
+        "exitBar": 4758,
+        "dir": "SHORT",
+        "entryPrice": 27594.55,
+        "exitPrice": 27582.04483393233,
+        "returnR": 0.4500000000000458,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4768,
+        "exitBar": 4769,
+        "dir": "SHORT",
+        "entryPrice": 27694.35,
+        "exitPrice": 27686.260275330962,
+        "returnR": 0.4500000000001012,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4788,
+        "exitBar": 4790,
+        "dir": "SHORT",
+        "entryPrice": 28017.05,
+        "exitPrice": 28077.58115201067,
+        "returnR": -1,
+        "result": "LOSS",
+        "barsHeld": 2
+      },
+      {
+        "entryBar": 4797,
+        "exitBar": 4798,
+        "dir": "LONG",
+        "entryPrice": 28112.75,
+        "exitPrice": 28143.035674199684,
+        "returnR": 0.4499999999999919,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4819,
+        "exitBar": 4820,
+        "dir": "LONG",
+        "entryPrice": 28226.75,
+        "exitPrice": 28233.37442210584,
+        "returnR": 0.44999999999988877,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4840,
+        "exitBar": 4841,
+        "dir": "SHORT",
+        "entryPrice": 28429.85,
+        "exitPrice": 28427.462892098098,
+        "returnR": 0.05000000000003048,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4851,
+        "exitBar": 4852,
+        "dir": "LONG",
+        "entryPrice": 28440.45,
+        "exitPrice": 28448.794308432523,
+        "returnR": 0.45000000000002943,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4859,
+        "exitBar": 4862,
+        "dir": "LONG",
+        "entryPrice": 28293.55,
+        "exitPrice": 28298.70913331966,
+        "returnR": 0.049999999999985896,
+        "result": "BE",
+        "barsHeld": 3
+      },
+      {
+        "entryBar": 4876,
+        "exitBar": 4877,
+        "dir": "SHORT",
+        "entryPrice": 28308.55,
+        "exitPrice": 28293.788086664008,
+        "returnR": 0.44999999999997226,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4886,
+        "exitBar": 4887,
+        "dir": "SHORT",
+        "entryPrice": 28284.45,
+        "exitPrice": 28440.591029093506,
+        "returnR": -1,
+        "result": "LOSS",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4896,
+        "exitBar": 4897,
+        "dir": "SHORT",
+        "entryPrice": 28669.35,
+        "exitPrice": 28662.777415085828,
+        "returnR": 0.05000000000000553,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4909,
+        "exitBar": 4910,
+        "dir": "LONG",
+        "entryPrice": 28386.25,
+        "exitPrice": 28415.701655408546,
+        "returnR": 0.4499999999999889,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4935,
+        "exitBar": 4937,
+        "dir": "LONG",
+        "entryPrice": 28541.65,
+        "exitPrice": 28519.60049348571,
+        "returnR": -1,
+        "result": "LOSS",
+        "barsHeld": 2
+      },
+      {
+        "entryBar": 4967,
+        "exitBar": 4976,
+        "dir": "SHORT",
+        "entryPrice": 28488.85,
+        "exitPrice": 28472.35306040486,
+        "returnR": 0.4500000000000149,
+        "result": "WIN",
+        "barsHeld": 9
+      },
+      {
+        "entryBar": 4990,
+        "exitBar": 4991,
+        "dir": "SHORT",
+        "entryPrice": 28439.9,
+        "exitPrice": 28433.171228948453,
+        "returnR": 0.4499999999999757,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5013,
+        "exitBar": 5014,
+        "dir": "SHORT",
+        "entryPrice": 28250.65,
+        "exitPrice": 28270.97457517196,
+        "returnR": -1,
+        "result": "LOSS",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5029,
+        "exitBar": 5030,
+        "dir": "LONG",
+        "entryPrice": 28256.25,
+        "exitPrice": 28269.023178484123,
+        "returnR": 0.45000000000001283,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5041,
+        "exitBar": 5042,
+        "dir": "LONG",
+        "entryPrice": 28137.15,
+        "exitPrice": 28152.009642190013,
+        "returnR": 0.4499999999999725,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5055,
+        "exitBar": 5056,
+        "dir": "LONG",
+        "entryPrice": 28114.35,
+        "exitPrice": 28091.850897279703,
+        "returnR": -1,
+        "result": "LOSS",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5063,
+        "exitBar": 5066,
+        "dir": "SHORT",
+        "entryPrice": 28097.65,
+        "exitPrice": 28080.002225140623,
+        "returnR": 0.45000000000004176,
+        "result": "WIN",
+        "barsHeld": 3
+      },
+      {
+        "entryBar": 5075,
+        "exitBar": 5076,
+        "dir": "SHORT",
+        "entryPrice": 28180.95,
+        "exitPrice": 28167.26008812752,
+        "returnR": 0.45000000000001794,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5096,
+        "exitBar": 5097,
+        "dir": "SHORT",
+        "entryPrice": 28212.85,
+        "exitPrice": 28190.45004002517,
+        "returnR": 0.45000000000003654,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5108,
+        "exitBar": 5109,
+        "dir": "SHORT",
+        "entryPrice": 28259.45,
+        "exitPrice": 28256.836799527526,
+        "returnR": 0.0499999999999826,
+        "result": "BE",
+        "barsHeld": 1
+      }
+    ],
+    "fullTradeCount": 273
+  },
+  "IFVG": {
+    "info": {
+      "index": 10,
+      "name": "IFVG",
+      "instrument": "NAS100",
+      "bestConfig": "5M | Pure Inverted FVG Queue | RR 1.4 | Micro-BE 0.25R",
+      "timeframe": "5M",
+      "barsTested": 5115,
+      "performance": {
+        "totalTrades": 386,
+        "winRate": 44,
+        "nonLossRate": 82.4,
+        "wins": 170,
+        "losses": 68,
+        "bes": 148,
+        "netReturnR": 15.9,
+        "grossWinR": 83.9,
+        "grossLossR": 68,
+        "profitFactor": 1.23,
+        "expectancyR": 0.04,
+        "maxDrawdownR": 5.25,
+        "maxDrawdownPct": 2.63,
+        "calmarRatio": 3.03,
+        "maxConsecWins": 5,
+        "maxConsecLosses": 4,
+        "avgHoldBars": 1.6
+      },
+      "monteCarlo": {
+        "iterations": 5000,
+        "probabilityOfProfit": 94.5,
+        "p95WorstDrawdownR": 13.55,
+        "p95WorstDrawdownPct": 6.78,
+        "maxSimulatedConsecLosses": 8,
+        "probDrawdownUnder5R": 14.1
+      }
+    },
+    "sampleTrades": [
+      {
+        "entryBar": 4840,
+        "exitBar": 4841,
+        "dir": "SHORT",
+        "entryPrice": 28429.85,
+        "exitPrice": 28427.94531367848,
+        "returnR": 0.049999999999985674,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4856,
+        "exitBar": 4857,
+        "dir": "SHORT",
+        "entryPrice": 28379.05,
+        "exitPrice": 28364.684052266784,
+        "returnR": 0.4499999999999829,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4865,
+        "exitBar": 4866,
+        "dir": "SHORT",
+        "entryPrice": 28210.35,
+        "exitPrice": 28176.280135136123,
+        "returnR": 0.4500000000000096,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4873,
+        "exitBar": 4875,
+        "dir": "LONG",
+        "entryPrice": 28285.75,
+        "exitPrice": 28289.321504180203,
+        "returnR": 0.049999999999989816,
+        "result": "BE",
+        "barsHeld": 2
+      },
+      {
+        "entryBar": 4886,
+        "exitBar": 4887,
+        "dir": "SHORT",
+        "entryPrice": 28284.45,
+        "exitPrice": 28323.862823274805,
+        "returnR": -1,
+        "result": "LOSS",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4896,
+        "exitBar": 4897,
+        "dir": "SHORT",
+        "entryPrice": 28669.35,
+        "exitPrice": 28643.051388617972,
+        "returnR": 0.45000000000002177,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4908,
+        "exitBar": 4909,
+        "dir": "SHORT",
+        "entryPrice": 28406.85,
+        "exitPrice": 28370.27818918648,
+        "returnR": 0.45000000000000895,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4916,
+        "exitBar": 4918,
+        "dir": "SHORT",
+        "entryPrice": 28545.35,
+        "exitPrice": 28541.10896386611,
+        "returnR": 0.04999999999998284,
+        "result": "BE",
+        "barsHeld": 2
+      },
+      {
+        "entryBar": 4934,
+        "exitBar": 4935,
+        "dir": "SHORT",
+        "entryPrice": 28563.45,
+        "exitPrice": 28544.136883628307,
+        "returnR": 0.4499999999999788,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4942,
+        "exitBar": 4943,
+        "dir": "LONG",
+        "entryPrice": 28553.85,
+        "exitPrice": 28554.711828719675,
+        "returnR": 0.04999999999990502,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4951,
+        "exitBar": 4954,
+        "dir": "SHORT",
+        "entryPrice": 28462.45,
+        "exitPrice": 28458.581285137316,
+        "returnR": 0.049999999999992946,
+        "result": "BE",
+        "barsHeld": 3
+      },
+      {
+        "entryBar": 4966,
+        "exitBar": 4967,
+        "dir": "LONG",
+        "entryPrice": 28495.95,
+        "exitPrice": 28498.367424986885,
+        "returnR": 0.05,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4977,
+        "exitBar": 4982,
+        "dir": "SHORT",
+        "entryPrice": 28444.6,
+        "exitPrice": 28442.311233091325,
+        "returnR": 0.04999999999999603,
+        "result": "BE",
+        "barsHeld": 5
+      },
+      {
+        "entryBar": 4990,
+        "exitBar": 4992,
+        "dir": "LONG",
+        "entryPrice": 28439.9,
+        "exitPrice": 28397.537740352804,
+        "returnR": -1,
+        "result": "LOSS",
+        "barsHeld": 2
+      },
+      {
+        "entryBar": 5003,
+        "exitBar": 5004,
+        "dir": "SHORT",
+        "entryPrice": 28130.9,
+        "exitPrice": 28085.441643763104,
+        "returnR": 0.4500000000000036,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5015,
+        "exitBar": 5016,
+        "dir": "LONG",
+        "entryPrice": 28300.85,
+        "exitPrice": 28312.30089874215,
+        "returnR": 0.44999999999994283,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5024,
+        "exitBar": 5025,
+        "dir": "SHORT",
+        "entryPrice": 28246.15,
+        "exitPrice": 28244.592910712912,
+        "returnR": 0.05000000000004673,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5038,
+        "exitBar": 5039,
+        "dir": "SHORT",
+        "entryPrice": 28141.85,
+        "exitPrice": 28139.389394703103,
+        "returnR": 0.050000000000003694,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5048,
+        "exitBar": 5049,
+        "dir": "SHORT",
+        "entryPrice": 28126.85,
+        "exitPrice": 28121.715024090754,
+        "returnR": 0.44999999999993623,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5062,
+        "exitBar": 5063,
+        "dir": "LONG",
+        "entryPrice": 28106.75,
+        "exitPrice": 28108.792898106196,
+        "returnR": 0.04999999999998219,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5072,
+        "exitBar": 5073,
+        "dir": "LONG",
+        "entryPrice": 28188.45,
+        "exitPrice": 28207.61500070208,
+        "returnR": 0.4500000000000256,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5080,
+        "exitBar": 5081,
+        "dir": "LONG",
+        "entryPrice": 28178.65,
+        "exitPrice": 28179.998197075023,
+        "returnR": 0.04999999999994603,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5088,
+        "exitBar": 5089,
+        "dir": "LONG",
+        "entryPrice": 28244.85,
+        "exitPrice": 28246.0491753463,
+        "returnR": 0.05000000000000759,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5096,
+        "exitBar": 5097,
+        "dir": "SHORT",
+        "entryPrice": 28212.85,
+        "exitPrice": 28204.866032020138,
+        "returnR": 0.4499999999999487,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5108,
+        "exitBar": 5109,
+        "dir": "SHORT",
+        "entryPrice": 28259.45,
+        "exitPrice": 28257.69043962202,
+        "returnR": 0.05000000000000517,
+        "result": "BE",
+        "barsHeld": 1
+      }
+    ],
+    "fullTradeCount": 386
+  },
+  "PROFILE": {
+    "info": {
+      "index": 11,
+      "name": "PROFILE",
+      "instrument": "NAS100",
+      "bestConfig": "5M | Session POC Retest + EMA50 | RR 1.3 | Micro-BE 0.25R",
+      "timeframe": "5M",
+      "barsTested": 5115,
+      "performance": {
+        "totalTrades": 144,
+        "winRate": 51.4,
+        "nonLossRate": 86.1,
+        "wins": 74,
+        "losses": 20,
+        "bes": 50,
+        "netReturnR": 15.8,
+        "grossWinR": 35.8,
+        "grossLossR": 20,
+        "profitFactor": 1.79,
+        "expectancyR": 0.11,
+        "maxDrawdownR": 3.6,
+        "maxDrawdownPct": 1.8,
+        "calmarRatio": 4.39,
+        "maxConsecWins": 7,
+        "maxConsecLosses": 2,
+        "avgHoldBars": 1.4
+      },
+      "monteCarlo": {
+        "iterations": 5000,
+        "probabilityOfProfit": 99.4,
+        "p95WorstDrawdownR": 6.2,
+        "p95WorstDrawdownPct": 3.1,
+        "maxSimulatedConsecLosses": 10,
+        "probDrawdownUnder5R": 86.3
+      }
+    },
+    "sampleTrades": [
+      {
+        "entryBar": 4334,
+        "exitBar": 4335,
+        "dir": "SHORT",
+        "entryPrice": 28576.95,
+        "exitPrice": 28574.76711768548,
+        "returnR": 0.049999999999975,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4412,
+        "exitBar": 4416,
+        "dir": "SHORT",
+        "entryPrice": 28090.35,
+        "exitPrice": 28075.21900050391,
+        "returnR": 0.45000000000002705,
+        "result": "WIN",
+        "barsHeld": 4
+      },
+      {
+        "entryBar": 4439,
+        "exitBar": 4442,
+        "dir": "SHORT",
+        "entryPrice": 28085.7,
+        "exitPrice": 28084.316008835394,
+        "returnR": 0.05000000000002629,
+        "result": "BE",
+        "barsHeld": 3
+      },
+      {
+        "entryBar": 4465,
+        "exitBar": 4466,
+        "dir": "LONG",
+        "entryPrice": 28118.1,
+        "exitPrice": 28119.15513258463,
+        "returnR": 0.04999999999999138,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4474,
+        "exitBar": 4475,
+        "dir": "SHORT",
+        "entryPrice": 28110.2,
+        "exitPrice": 28109.77336843838,
+        "returnR": 0.05000000000021318,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4489,
+        "exitBar": 4490,
+        "dir": "SHORT",
+        "entryPrice": 28044.1,
+        "exitPrice": 28030.638922863465,
+        "returnR": 0.4499999999999939,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4499,
+        "exitBar": 4500,
+        "dir": "SHORT",
+        "entryPrice": 28005.2,
+        "exitPrice": 27997.04574136606,
+        "returnR": 0.4500000000000803,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4503,
+        "exitBar": 4505,
+        "dir": "SHORT",
+        "entryPrice": 27991.7,
+        "exitPrice": 27990.427545800958,
+        "returnR": 0.049999999999992856,
+        "result": "BE",
+        "barsHeld": 2
+      },
+      {
+        "entryBar": 4591,
+        "exitBar": 4592,
+        "dir": "LONG",
+        "entryPrice": 28074.9,
+        "exitPrice": 28081.716129038476,
+        "returnR": 0.45000000000007206,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4631,
+        "exitBar": 4632,
+        "dir": "LONG",
+        "entryPrice": 28214.75,
+        "exitPrice": 28216.876212313757,
+        "returnR": 0.049999999999970055,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4643,
+        "exitBar": 4644,
+        "dir": "LONG",
+        "entryPrice": 28252.75,
+        "exitPrice": 28254.500372688573,
+        "returnR": 0.04999999999996363,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4650,
+        "exitBar": 4651,
+        "dir": "LONG",
+        "entryPrice": 28243.15,
+        "exitPrice": 28245.07141328384,
+        "returnR": 0.049999999999995264,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4655,
+        "exitBar": 4656,
+        "dir": "LONG",
+        "entryPrice": 28243.65,
+        "exitPrice": 28256.6065816193,
+        "returnR": 0.449999999999981,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4659,
+        "exitBar": 4660,
+        "dir": "LONG",
+        "entryPrice": 28267.85,
+        "exitPrice": 28236.440963031677,
+        "returnR": -1,
+        "result": "LOSS",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4678,
+        "exitBar": 4679,
+        "dir": "SHORT",
+        "entryPrice": 28191.95,
+        "exitPrice": 28185.784345800916,
+        "returnR": 0.44999999999996015,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4690,
+        "exitBar": 4704,
+        "dir": "LONG",
+        "entryPrice": 28264.55,
+        "exitPrice": 28323.516942851886,
+        "returnR": 0.44999999999999585,
+        "result": "WIN",
+        "barsHeld": 14
+      },
+      {
+        "entryBar": 4757,
+        "exitBar": 4758,
+        "dir": "SHORT",
+        "entryPrice": 27594.55,
+        "exitPrice": 27582.04483393233,
+        "returnR": 0.4500000000000458,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4820,
+        "exitBar": 4821,
+        "dir": "LONG",
+        "entryPrice": 28201.45,
+        "exitPrice": 28214.310266955425,
+        "returnR": 0.44999999999995544,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4955,
+        "exitBar": 4956,
+        "dir": "SHORT",
+        "entryPrice": 28500.75,
+        "exitPrice": 28494.659134678957,
+        "returnR": 0.45000000000010754,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4964,
+        "exitBar": 4965,
+        "dir": "SHORT",
+        "entryPrice": 28450.45,
+        "exitPrice": 28447.80600371724,
+        "returnR": 0.04999999999997936,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4991,
+        "exitBar": 4993,
+        "dir": "SHORT",
+        "entryPrice": 28401.2,
+        "exitPrice": 28398.416029574048,
+        "returnR": 0.049999999999996735,
+        "result": "BE",
+        "barsHeld": 2
+      },
+      {
+        "entryBar": 5045,
+        "exitBar": 5046,
+        "dir": "SHORT",
+        "entryPrice": 28186.15,
+        "exitPrice": 28174.168365444377,
+        "returnR": 0.44999999999995216,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5083,
+        "exitBar": 5084,
+        "dir": "LONG",
+        "entryPrice": 28170.15,
+        "exitPrice": 28171.663162342305,
+        "returnR": 0.05,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5096,
+        "exitBar": 5097,
+        "dir": "LONG",
+        "entryPrice": 28212.85,
+        "exitPrice": 28174.572311167056,
+        "returnR": -1,
+        "result": "LOSS",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5100,
+        "exitBar": 5103,
+        "dir": "SHORT",
+        "entryPrice": 28152.85,
+        "exitPrice": 28221.70236413884,
+        "returnR": -1,
+        "result": "LOSS",
+        "barsHeld": 3
+      }
+    ],
+    "fullTradeCount": 144
+  },
+  "EASY": {
+    "info": {
+      "index": 12,
+      "name": "EASY",
+      "instrument": "NAS100",
+      "bestConfig": "15M | MSS Sweep 50% Fib Retrace | EMA50 | RR 1.25",
+      "timeframe": "15M",
+      "barsTested": 6314,
+      "performance": {
+        "totalTrades": 42,
+        "winRate": 71.4,
+        "nonLossRate": 92.9,
+        "wins": 30,
+        "losses": 3,
+        "bes": 9,
+        "netReturnR": 16.2,
+        "grossWinR": 19.2,
+        "grossLossR": 3,
+        "profitFactor": 6.4,
+        "expectancyR": 0.39,
+        "maxDrawdownR": 1,
+        "maxDrawdownPct": 0.5,
+        "calmarRatio": 16.2,
+        "maxConsecWins": 6,
+        "maxConsecLosses": 1,
+        "avgHoldBars": 1.3
+      },
+      "monteCarlo": {
+        "iterations": 5000,
+        "probabilityOfProfit": 100,
+        "p95WorstDrawdownR": 2.4,
+        "p95WorstDrawdownPct": 1.2,
+        "maxSimulatedConsecLosses": 4,
+        "probDrawdownUnder5R": 100
+      }
+    },
+    "sampleTrades": [
+      {
+        "entryBar": 2279,
+        "exitBar": 2280,
+        "dir": "LONG",
+        "entryPrice": 29555.625,
+        "exitPrice": 29585.016985015885,
+        "returnR": 0.4999999999999691,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 2322,
+        "exitBar": 2323,
+        "dir": "LONG",
+        "entryPrice": 29521.85,
+        "exitPrice": 29536.409845911745,
+        "returnR": 0.49999999999993755,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 2752,
+        "exitBar": 2753,
+        "dir": "LONG",
+        "entryPrice": 29364.925,
+        "exitPrice": 29365.75567452513,
+        "returnR": 0.05000000000006569,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 3066,
+        "exitBar": 3067,
+        "dir": "LONG",
+        "entryPrice": 29101.05,
+        "exitPrice": 29156.793400053786,
+        "returnR": 1.2499999999999591,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 3129,
+        "exitBar": 3130,
+        "dir": "LONG",
+        "entryPrice": 29396.15,
+        "exitPrice": 29397.345474228976,
+        "returnR": 0.049999999999939135,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 3140,
+        "exitBar": 3141,
+        "dir": "LONG",
+        "entryPrice": 29370.6,
+        "exitPrice": 29380.65710945346,
+        "returnR": 0.5,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 3180,
+        "exitBar": 3181,
+        "dir": "LONG",
+        "entryPrice": 29540.15,
+        "exitPrice": 29547.77797236727,
+        "returnR": 0.5,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 3443,
+        "exitBar": 3444,
+        "dir": "LONG",
+        "entryPrice": 30736.8,
+        "exitPrice": 30737.931765101628,
+        "returnR": 0.049999999999967855,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 3651,
+        "exitBar": 3652,
+        "dir": "LONG",
+        "entryPrice": 30563.8,
+        "exitPrice": 30473.890686733826,
+        "returnR": -1,
+        "result": "LOSS",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 3900,
+        "exitBar": 3901,
+        "dir": "LONG",
+        "entryPrice": 30314.35,
+        "exitPrice": 30383.40195953535,
+        "returnR": 1.2500000000000164,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4086,
+        "exitBar": 4087,
+        "dir": "LONG",
+        "entryPrice": 30632.1,
+        "exitPrice": 30658.918742811496,
+        "returnR": 0.5000000000000339,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4107,
+        "exitBar": 4108,
+        "dir": "LONG",
+        "entryPrice": 30702.5,
+        "exitPrice": 30760.90096026131,
+        "returnR": 1.2500000000000195,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4572,
+        "exitBar": 4573,
+        "dir": "LONG",
+        "entryPrice": 30945.85,
+        "exitPrice": 30899.971361541455,
+        "returnR": -1,
+        "result": "LOSS",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4762,
+        "exitBar": 4767,
+        "dir": "LONG",
+        "entryPrice": 30477.75,
+        "exitPrice": 30483.648262259092,
+        "returnR": 0.05000000000001233,
+        "result": "BE",
+        "barsHeld": 5
+      },
+      {
+        "entryBar": 5023,
+        "exitBar": 5024,
+        "dir": "LONG",
+        "entryPrice": 29912.95,
+        "exitPrice": 29929.07785840774,
+        "returnR": 0.5000000000000564,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5127,
+        "exitBar": 5128,
+        "dir": "LONG",
+        "entryPrice": 29506.300000000003,
+        "exitPrice": 29527.319880697523,
+        "returnR": 0.5,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5142,
+        "exitBar": 5148,
+        "dir": "LONG",
+        "entryPrice": 29566.550000000003,
+        "exitPrice": 29572.446255195304,
+        "returnR": 0.04999999999999229,
+        "result": "BE",
+        "barsHeld": 6
+      },
+      {
+        "entryBar": 5287,
+        "exitBar": 5288,
+        "dir": "LONG",
+        "entryPrice": 29678.1,
+        "exitPrice": 29710.337724628604,
+        "returnR": 0.5000000000000282,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5500,
+        "exitBar": 5501,
+        "dir": "LONG",
+        "entryPrice": 28917.6,
+        "exitPrice": 29050.280675397647,
+        "returnR": 1.249999999999983,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5535,
+        "exitBar": 5537,
+        "dir": "LONG",
+        "entryPrice": 29007.199999999997,
+        "exitPrice": 29011.524425075957,
+        "returnR": 0.05000000000000841,
+        "result": "BE",
+        "barsHeld": 2
+      },
+      {
+        "entryBar": 5633,
+        "exitBar": 5634,
+        "dir": "LONG",
+        "entryPrice": 29312.45,
+        "exitPrice": 29346.13196303945,
+        "returnR": 0.5,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5642,
+        "exitBar": 5643,
+        "dir": "LONG",
+        "entryPrice": 29258.1,
+        "exitPrice": 29282.540057041642,
+        "returnR": 0.5,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5759,
+        "exitBar": 5760,
+        "dir": "LONG",
+        "entryPrice": 29763.2,
+        "exitPrice": 29781.669644459085,
+        "returnR": 0.5000000000000493,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 6054,
+        "exitBar": 6055,
+        "dir": "LONG",
+        "entryPrice": 28640.45,
+        "exitPrice": 28703.39631801349,
+        "returnR": 0.5,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 6167,
+        "exitBar": 6168,
+        "dir": "LONG",
+        "entryPrice": 28160.15,
+        "exitPrice": 28186.945386189218,
+        "returnR": 0.5,
+        "result": "WIN",
+        "barsHeld": 1
+      }
+    ],
+    "fullTradeCount": 42
+  },
+  "GAP": {
+    "info": {
+      "index": 13,
+      "name": "GAP",
+      "instrument": "XAUUSD",
+      "bestConfig": "15M | GapFill | RR 1.2 | Micro-BE 0.25R",
+      "timeframe": "15M",
+      "barsTested": 6293,
+      "performance": {
+        "totalTrades": 163,
+        "winRate": 42.9,
+        "nonLossRate": 81.6,
+        "wins": 70,
+        "losses": 30,
+        "bes": 63,
+        "netReturnR": 5.09,
+        "grossWinR": 34.48,
+        "grossLossR": 29.39,
+        "profitFactor": 1.17,
+        "expectancyR": 0.03,
+        "maxDrawdownR": 4.55,
+        "maxDrawdownPct": 2.27,
+        "calmarRatio": 1.12,
+        "maxConsecWins": 6,
+        "maxConsecLosses": 3,
+        "avgHoldBars": 1.7
+      },
+      "monteCarlo": {
+        "iterations": 5000,
+        "probabilityOfProfit": 77.2,
+        "p95WorstDrawdownR": 11.19,
+        "p95WorstDrawdownPct": 5.59,
+        "maxSimulatedConsecLosses": 9,
+        "probDrawdownUnder5R": 41.7
+      }
+    },
+    "sampleTrades": [
+      {
+        "entryBar": 5190,
+        "exitBar": 5191,
+        "dir": "LONG",
+        "entryPrice": 4114.285,
+        "exitPrice": 4116.206658297778,
+        "returnR": 0.45000000000001067,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5208,
+        "exitBar": 5209,
+        "dir": "SHORT",
+        "entryPrice": 4149.615,
+        "exitPrice": 4145.8257668653205,
+        "returnR": 0.450000000000054,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5272,
+        "exitBar": 5275,
+        "dir": "SHORT",
+        "entryPrice": 4120.68,
+        "exitPrice": 4120.380774858237,
+        "returnR": 0.05000000000003799,
+        "result": "BE",
+        "barsHeld": 3
+      },
+      {
+        "entryBar": 5285,
+        "exitBar": 5286,
+        "dir": "SHORT",
+        "entryPrice": 4126.975,
+        "exitPrice": 4126.807303846837,
+        "returnR": 0.05,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5318,
+        "exitBar": 5319,
+        "dir": "LONG",
+        "entryPrice": 4117.29,
+        "exitPrice": 4123.636733441964,
+        "returnR": 0.4500000000000129,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5380,
+        "exitBar": 5381,
+        "dir": "LONG",
+        "entryPrice": 4066.485,
+        "exitPrice": 4066.99354343001,
+        "returnR": 0.04999999999998659,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5407,
+        "exitBar": 5408,
+        "dir": "LONG",
+        "entryPrice": 4036.865,
+        "exitPrice": 4038.1151747184003,
+        "returnR": 0.4500000000000164,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5447,
+        "exitBar": 5448,
+        "dir": "SHORT",
+        "entryPrice": 4011.135,
+        "exitPrice": 4019.339649167176,
+        "returnR": -1,
+        "result": "LOSS",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5484,
+        "exitBar": 5519,
+        "dir": "LONG",
+        "entryPrice": 4000.885,
+        "exitPrice": 3989.985,
+        "returnR": -0.39038589739346646,
+        "result": "LOSS",
+        "barsHeld": 35
+      },
+      {
+        "entryBar": 5551,
+        "exitBar": 5553,
+        "dir": "SHORT",
+        "entryPrice": 4014.575,
+        "exitPrice": 4018.992851466388,
+        "returnR": -1,
+        "result": "LOSS",
+        "barsHeld": 2
+      },
+      {
+        "entryBar": 5587,
+        "exitBar": 5588,
+        "dir": "SHORT",
+        "entryPrice": 4024.03,
+        "exitPrice": 4020.8557842868167,
+        "returnR": 0.45000000000000323,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5611,
+        "exitBar": 5612,
+        "dir": "SHORT",
+        "entryPrice": 4012.57,
+        "exitPrice": 4009.842255348626,
+        "returnR": 0.449999999999985,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5625,
+        "exitBar": 5626,
+        "dir": "SHORT",
+        "entryPrice": 4017.45,
+        "exitPrice": 4022.4943315923197,
+        "returnR": -1,
+        "result": "LOSS",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5660,
+        "exitBar": 5661,
+        "dir": "SHORT",
+        "entryPrice": 4021.17,
+        "exitPrice": 4020.711219604255,
+        "returnR": 0.049999999999982656,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5687,
+        "exitBar": 5688,
+        "dir": "SHORT",
+        "entryPrice": 4061.085,
+        "exitPrice": 4060.948385251849,
+        "returnR": 0.04999999999997504,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5722,
+        "exitBar": 5723,
+        "dir": "LONG",
+        "entryPrice": 4036.885,
+        "exitPrice": 4037.0133014978187,
+        "returnR": 0.049999999999929115,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5782,
+        "exitBar": 5783,
+        "dir": "SHORT",
+        "entryPrice": 4069.13,
+        "exitPrice": 4061.585853310397,
+        "returnR": 0.4500000000000095,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5818,
+        "exitBar": 5819,
+        "dir": "LONG",
+        "entryPrice": 4025.975,
+        "exitPrice": 4027.684191261187,
+        "returnR": 0.45000000000002394,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5883,
+        "exitBar": 5885,
+        "dir": "LONG",
+        "entryPrice": 4015.24,
+        "exitPrice": 4010.0457559653055,
+        "returnR": -1,
+        "result": "LOSS",
+        "barsHeld": 2
+      },
+      {
+        "entryBar": 5997,
+        "exitBar": 5999,
+        "dir": "SHORT",
+        "entryPrice": 3913.385,
+        "exitPrice": 3910.717653150807,
+        "returnR": 0.4499999999999655,
+        "result": "WIN",
+        "barsHeld": 2
+      },
+      {
+        "entryBar": 6029,
+        "exitBar": 6032,
+        "dir": "SHORT",
+        "entryPrice": 3937.615,
+        "exitPrice": 3952.9236664565456,
+        "returnR": -1,
+        "result": "LOSS",
+        "barsHeld": 3
+      },
+      {
+        "entryBar": 6105,
+        "exitBar": 6106,
+        "dir": "SHORT",
+        "entryPrice": 3909.555,
+        "exitPrice": 3908.364451410724,
+        "returnR": 0.4500000000000516,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 6121,
+        "exitBar": 6122,
+        "dir": "SHORT",
+        "entryPrice": 3960.97,
+        "exitPrice": 3955.297963808455,
+        "returnR": 0.4499999999999892,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 6222,
+        "exitBar": 6223,
+        "dir": "SHORT",
+        "entryPrice": 4046.08,
+        "exitPrice": 4042.6100323963374,
+        "returnR": 0.44999999999997936,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 6253,
+        "exitBar": 6254,
+        "dir": "SHORT",
+        "entryPrice": 4088.62,
+        "exitPrice": 4088.116328155458,
+        "returnR": 0.05,
+        "result": "BE",
+        "barsHeld": 1
+      }
+    ],
+    "fullTradeCount": 163
+  },
+  "8 A.M INDICATOR": {
+    "info": {
+      "index": 14,
+      "name": "8 A.M INDICATOR",
+      "instrument": "NAS100",
+      "bestConfig": "15M | 8:00 AM Session Range Breakout | RR 1.5 | Micro-BE 0.25R",
+      "timeframe": "15M",
+      "barsTested": 6314,
+      "performance": {
+        "totalTrades": 68,
+        "winRate": 39.7,
+        "nonLossRate": 85.3,
+        "wins": 27,
+        "losses": 10,
+        "bes": 31,
+        "netReturnR": 3.7,
+        "grossWinR": 13.7,
+        "grossLossR": 10,
+        "profitFactor": 1.37,
+        "expectancyR": 0.05,
+        "maxDrawdownR": 3.5,
+        "maxDrawdownPct": 1.75,
+        "calmarRatio": 1.06,
+        "maxConsecWins": 4,
+        "maxConsecLosses": 2,
+        "avgHoldBars": 2.3
+      },
+      "monteCarlo": {
+        "iterations": 5000,
+        "probabilityOfProfit": 81.8,
+        "p95WorstDrawdownR": 6.45,
+        "p95WorstDrawdownPct": 3.23,
+        "maxSimulatedConsecLosses": 6,
+        "probDrawdownUnder5R": 85.8
+      }
+    },
+    "sampleTrades": [
+      {
+        "entryBar": 4015,
+        "exitBar": 4016,
+        "dir": "SHORT",
+        "entryPrice": 30579,
+        "exitPrice": 30554.950412375965,
+        "returnR": 0.4500000000000136,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4107,
+        "exitBar": 4108,
+        "dir": "LONG",
+        "entryPrice": 30738.9,
+        "exitPrice": 30776.304345694072,
+        "returnR": 0.4499999999999803,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4199,
+        "exitBar": 4200,
+        "dir": "SHORT",
+        "entryPrice": 30748.4,
+        "exitPrice": 30746.167354604262,
+        "returnR": 0.049999999999971484,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4291,
+        "exitBar": 4292,
+        "dir": "SHORT",
+        "entryPrice": 31247.4,
+        "exitPrice": 31228.575026199076,
+        "returnR": 0.45,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4383,
+        "exitBar": 4388,
+        "dir": "SHORT",
+        "entryPrice": 30977.5,
+        "exitPrice": 30952.56507704614,
+        "returnR": 0.44999999999998685,
+        "result": "WIN",
+        "barsHeld": 5
+      },
+      {
+        "entryBar": 4476,
+        "exitBar": 4479,
+        "dir": "LONG",
+        "entryPrice": 30975.5,
+        "exitPrice": 30978.010521123164,
+        "returnR": 0.05000000000000725,
+        "result": "BE",
+        "barsHeld": 3
+      },
+      {
+        "entryBar": 4569,
+        "exitBar": 4573,
+        "dir": "SHORT",
+        "entryPrice": 30927.4,
+        "exitPrice": 30882.558189454434,
+        "returnR": 0.45000000000001095,
+        "result": "WIN",
+        "barsHeld": 4
+      },
+      {
+        "entryBar": 4660,
+        "exitBar": 4661,
+        "dir": "SHORT",
+        "entryPrice": 30810.3,
+        "exitPrice": 30807.30453154334,
+        "returnR": 0.05000000000003036,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4756,
+        "exitBar": 4757,
+        "dir": "SHORT",
+        "entryPrice": 30397.9,
+        "exitPrice": 30394.541502694377,
+        "returnR": 0.049999999999994583,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4845,
+        "exitBar": 4846,
+        "dir": "LONG",
+        "entryPrice": 30625,
+        "exitPrice": 30534.036278787942,
+        "returnR": -1,
+        "result": "LOSS",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4937,
+        "exitBar": 4938,
+        "dir": "LONG",
+        "entryPrice": 29625.8,
+        "exitPrice": 29565.119240821215,
+        "returnR": -1,
+        "result": "LOSS",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5030,
+        "exitBar": 5031,
+        "dir": "SHORT",
+        "entryPrice": 29879.5,
+        "exitPrice": 29853.754525266602,
+        "returnR": 0.45000000000000956,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5124,
+        "exitBar": 5126,
+        "dir": "LONG",
+        "entryPrice": 29584.9,
+        "exitPrice": 29588.665842177244,
+        "returnR": 0.050000000000021735,
+        "result": "BE",
+        "barsHeld": 2
+      },
+      {
+        "entryBar": 5214,
+        "exitBar": 5215,
+        "dir": "SHORT",
+        "entryPrice": 29299.5,
+        "exitPrice": 29360.868121678242,
+        "returnR": -1,
+        "result": "LOSS",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5307,
+        "exitBar": 5308,
+        "dir": "LONG",
+        "entryPrice": 29702.3,
+        "exitPrice": 29651.01534250959,
+        "returnR": -1,
+        "result": "LOSS",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5402,
+        "exitBar": 5403,
+        "dir": "SHORT",
+        "entryPrice": 29315.9,
+        "exitPrice": 29312.965951853534,
+        "returnR": 0.050000000000024795,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5493,
+        "exitBar": 5496,
+        "dir": "SHORT",
+        "entryPrice": 28879.7,
+        "exitPrice": 28874.70040470271,
+        "returnR": 0.049999999999992724,
+        "result": "BE",
+        "barsHeld": 3
+      },
+      {
+        "entryBar": 5588,
+        "exitBar": 5589,
+        "dir": "SHORT",
+        "entryPrice": 29068.4,
+        "exitPrice": 29062.30135719643,
+        "returnR": 0.050000000000007455,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5677,
+        "exitBar": 5682,
+        "dir": "LONG",
+        "entryPrice": 29450.1,
+        "exitPrice": 29489.34903265184,
+        "returnR": 0.44999999999998125,
+        "result": "WIN",
+        "barsHeld": 5
+      },
+      {
+        "entryBar": 5771,
+        "exitBar": 5774,
+        "dir": "SHORT",
+        "entryPrice": 29742.3,
+        "exitPrice": 29717.929077692428,
+        "returnR": 0.4499999999999899,
+        "result": "WIN",
+        "barsHeld": 3
+      },
+      {
+        "entryBar": 5861,
+        "exitBar": 5862,
+        "dir": "LONG",
+        "entryPrice": 29487.9,
+        "exitPrice": 29491.11009504384,
+        "returnR": 0.049999999999980164,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5955,
+        "exitBar": 5959,
+        "dir": "SHORT",
+        "entryPrice": 28623.6,
+        "exitPrice": 28586.88478624416,
+        "returnR": 0.4499999999999911,
+        "result": "WIN",
+        "barsHeld": 4
+      },
+      {
+        "entryBar": 6047,
+        "exitBar": 6051,
+        "dir": "LONG",
+        "entryPrice": 28681.9,
+        "exitPrice": 28547.13410100066,
+        "returnR": -1,
+        "result": "LOSS",
+        "barsHeld": 4
+      },
+      {
+        "entryBar": 6139,
+        "exitBar": 6140,
+        "dir": "LONG",
+        "entryPrice": 28224.4,
+        "exitPrice": 28232.800912705334,
+        "returnR": 0.050000000000001085,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 6232,
+        "exitBar": 6233,
+        "dir": "LONG",
+        "entryPrice": 28285.75,
+        "exitPrice": 28294.008533376014,
+        "returnR": 0.04999999999999669,
+        "result": "BE",
+        "barsHeld": 1
+      }
+    ],
+    "fullTradeCount": 68
+  },
+  "SWEEP & SHIFT": {
+    "info": {
+      "index": 15,
+      "name": "SWEEP & SHIFT",
+      "instrument": "NAS100",
+      "bestConfig": "15M | Major Swing Sweep & Reclaim | RR 1.4 | Micro-BE 0.25R",
+      "timeframe": "15M",
+      "barsTested": 6314,
+      "performance": {
+        "totalTrades": 321,
+        "winRate": 47,
+        "nonLossRate": 86.9,
+        "wins": 151,
+        "losses": 42,
+        "bes": 128,
+        "netReturnR": 32.73,
+        "grossWinR": 74.73,
+        "grossLossR": 42,
+        "profitFactor": 1.78,
+        "expectancyR": 0.1,
+        "maxDrawdownR": 4.75,
+        "maxDrawdownPct": 2.38,
+        "calmarRatio": 6.89,
+        "maxConsecWins": 6,
+        "maxConsecLosses": 2,
+        "avgHoldBars": 1.7
+      },
+      "monteCarlo": {
+        "iterations": 5000,
+        "probabilityOfProfit": 100,
+        "p95WorstDrawdownR": 7.2,
+        "p95WorstDrawdownPct": 3.6,
+        "maxSimulatedConsecLosses": 7,
+        "probDrawdownUnder5R": 72.9
+      }
+    },
+    "sampleTrades": [
+      {
+        "entryBar": 5768,
+        "exitBar": 5769,
+        "dir": "LONG",
+        "entryPrice": 29773.8,
+        "exitPrice": 29775.830944710713,
+        "returnR": 0.04999999999997313,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5788,
+        "exitBar": 5789,
+        "dir": "SHORT",
+        "entryPrice": 29695.75,
+        "exitPrice": 29672.782065075527,
+        "returnR": 0.4499999999999679,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5800,
+        "exitBar": 5801,
+        "dir": "SHORT",
+        "entryPrice": 29752.35,
+        "exitPrice": 29737.800446042336,
+        "returnR": 0.050000000000003125,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5814,
+        "exitBar": 5815,
+        "dir": "SHORT",
+        "entryPrice": 29581.5,
+        "exitPrice": 29566.996040692662,
+        "returnR": 0.45000000000002255,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5855,
+        "exitBar": 5856,
+        "dir": "SHORT",
+        "entryPrice": 29566,
+        "exitPrice": 29552.296178940836,
+        "returnR": 0.45000000000005974,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5883,
+        "exitBar": 5884,
+        "dir": "LONG",
+        "entryPrice": 29309.45,
+        "exitPrice": 29311.816310188256,
+        "returnR": 0.049999999999984626,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5931,
+        "exitBar": 5932,
+        "dir": "SHORT",
+        "entryPrice": 28872.4,
+        "exitPrice": 28847.140145586938,
+        "returnR": 0.4500000000000065,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5940,
+        "exitBar": 5941,
+        "dir": "LONG",
+        "entryPrice": 28842.1,
+        "exitPrice": 28845.601849312727,
+        "returnR": 0.05000000000002337,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5967,
+        "exitBar": 5968,
+        "dir": "LONG",
+        "entryPrice": 28487.05,
+        "exitPrice": 28502.699205818786,
+        "returnR": 0.45000000000000523,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 6017,
+        "exitBar": 6018,
+        "dir": "SHORT",
+        "entryPrice": 28662.8,
+        "exitPrice": 28643.26713655548,
+        "returnR": 0.45000000000002516,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 6030,
+        "exitBar": 6031,
+        "dir": "SHORT",
+        "entryPrice": 28656.5,
+        "exitPrice": 28647.638649383982,
+        "returnR": 0.45,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 6040,
+        "exitBar": 6041,
+        "dir": "LONG",
+        "entryPrice": 28617.8,
+        "exitPrice": 28625.482681573187,
+        "returnR": 0.45000000000005325,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 6048,
+        "exitBar": 6050,
+        "dir": "SHORT",
+        "entryPrice": 28618.7,
+        "exitPrice": 28613.92171121879,
+        "returnR": 0.04999999999998287,
+        "result": "BE",
+        "barsHeld": 2
+      },
+      {
+        "entryBar": 6060,
+        "exitBar": 6061,
+        "dir": "LONG",
+        "entryPrice": 28518.85,
+        "exitPrice": 28536.051639314977,
+        "returnR": 0.44999999999998097,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 6083,
+        "exitBar": 6085,
+        "dir": "SHORT",
+        "entryPrice": 28098.1,
+        "exitPrice": 28094.33490849791,
+        "returnR": 0.050000000000012076,
+        "result": "BE",
+        "barsHeld": 2
+      },
+      {
+        "entryBar": 6103,
+        "exitBar": 6104,
+        "dir": "LONG",
+        "entryPrice": 28054.7,
+        "exitPrice": 27996.026692186075,
+        "returnR": -1,
+        "result": "LOSS",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 6150,
+        "exitBar": 6151,
+        "dir": "SHORT",
+        "entryPrice": 28263.45,
+        "exitPrice": 28233.527146204993,
+        "returnR": 0.45000000000000545,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 6167,
+        "exitBar": 6168,
+        "dir": "LONG",
+        "entryPrice": 28182.25,
+        "exitPrice": 28185.780673273654,
+        "returnR": 0.05000000000002061,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 6189,
+        "exitBar": 6190,
+        "dir": "LONG",
+        "entryPrice": 27612.25,
+        "exitPrice": 27614.784897289795,
+        "returnR": 0.0499999999999713,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 6231,
+        "exitBar": 6232,
+        "dir": "LONG",
+        "entryPrice": 28235.85,
+        "exitPrice": 28241.83658339079,
+        "returnR": 0.050000000000004555,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 6242,
+        "exitBar": 6243,
+        "dir": "SHORT",
+        "entryPrice": 28496.85,
+        "exitPrice": 28452.330819092393,
+        "returnR": 0.4500000000000184,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 6260,
+        "exitBar": 6261,
+        "dir": "LONG",
+        "entryPrice": 28480.75,
+        "exitPrice": 28502.212484857628,
+        "returnR": 0.4499999999999733,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 6271,
+        "exitBar": 6274,
+        "dir": "LONG",
+        "entryPrice": 28439.9,
+        "exitPrice": 28349.085100285058,
+        "returnR": -1,
+        "result": "LOSS",
+        "barsHeld": 3
+      },
+      {
+        "entryBar": 6295,
+        "exitBar": 6296,
+        "dir": "LONG",
+        "entryPrice": 28106.75,
+        "exitPrice": 28110.565915531824,
+        "returnR": 0.05000000000000954,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 6305,
+        "exitBar": 6306,
+        "dir": "SHORT",
+        "entryPrice": 28223.35,
+        "exitPrice": 28220.588588483217,
+        "returnR": 0.05000000000001647,
+        "result": "BE",
+        "barsHeld": 1
+      }
+    ],
+    "fullTradeCount": 321
+  },
+  "8:12 TO 9:12 ORB": {
+    "info": {
+      "index": 16,
+      "name": "8:12 TO 9:12 ORB",
+      "instrument": "NAS100",
+      "bestConfig": "1M | Failed Breakout Fade | SL 1.5x ATR | TP 3.0x | BE 0.55R",
+      "timeframe": "1M",
+      "barsTested": 10000,
+      "performance": {
+        "totalTrades": 7,
+        "winRate": 57.1,
+        "nonLossRate": 71.4,
+        "wins": 4,
+        "losses": 2,
+        "bes": 1,
+        "netReturnR": 0.05,
+        "grossWinR": 2.05,
+        "grossLossR": 2,
+        "profitFactor": 1.03,
+        "expectancyR": 0.01,
+        "maxDrawdownR": 1,
+        "maxDrawdownPct": 0.5,
+        "calmarRatio": 0.05,
+        "maxConsecWins": 2,
+        "maxConsecLosses": 1,
+        "avgHoldBars": 2.7
+      },
+      "monteCarlo": {
+        "iterations": 5000,
+        "probabilityOfProfit": 59.1,
+        "p95WorstDrawdownR": 3.5,
+        "p95WorstDrawdownPct": 1.75,
+        "maxSimulatedConsecLosses": 7,
+        "probDrawdownUnder5R": 99.7
+      }
+    },
+    "sampleTrades": [
+      {
+        "entryBar": 573,
+        "exitBar": 574,
+        "dir": "LONG",
+        "entryPrice": 29389,
+        "exitPrice": 29389.81298907254,
+        "returnR": 0.049999999999977625,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 1956,
+        "exitBar": 1957,
+        "dir": "LONG",
+        "entryPrice": 29786.75,
+        "exitPrice": 29768.035770499442,
+        "returnR": -1,
+        "result": "LOSS",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 3365,
+        "exitBar": 3367,
+        "dir": "LONG",
+        "entryPrice": 29424.35,
+        "exitPrice": 29453.708836919744,
+        "returnR": 0.500000000000031,
+        "result": "WIN",
+        "barsHeld": 2
+      },
+      {
+        "entryBar": 4716,
+        "exitBar": 4717,
+        "dir": "SHORT",
+        "entryPrice": 28623.25,
+        "exitPrice": 28611.513638396784,
+        "returnR": 0.5,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 6099,
+        "exitBar": 6103,
+        "dir": "LONG",
+        "entryPrice": 28571.05,
+        "exitPrice": 28541.163880484146,
+        "returnR": -1,
+        "result": "LOSS",
+        "barsHeld": 4
+      },
+      {
+        "entryBar": 7568,
+        "exitBar": 7577,
+        "dir": "SHORT",
+        "entryPrice": 28292.65,
+        "exitPrice": 28275.67927531831,
+        "returnR": 0.5,
+        "result": "WIN",
+        "barsHeld": 9
+      },
+      {
+        "entryBar": 8852,
+        "exitBar": 8853,
+        "dir": "SHORT",
+        "entryPrice": 28324.95,
+        "exitPrice": 28312.49266070936,
+        "returnR": 0.5,
+        "result": "WIN",
+        "barsHeld": 1
+      }
+    ],
+    "fullTradeCount": 7
+  },
+  "ASIA SWEEP INDCATOR": {
+    "info": {
+      "index": 17,
+      "name": "ASIA SWEEP INDCATOR",
+      "instrument": "EURUSD",
+      "bestConfig": "15M | London Asia Breakout Expansion | RR 1.2 | Fixed Risk",
+      "timeframe": "15M",
+      "barsTested": 6577,
+      "performance": {
+        "totalTrades": 58,
+        "winRate": 58.6,
+        "nonLossRate": 58.6,
+        "wins": 34,
+        "losses": 24,
+        "bes": 0,
+        "netReturnR": 16.8,
+        "grossWinR": 40.8,
+        "grossLossR": 24,
+        "profitFactor": 1.7,
+        "expectancyR": 0.29,
+        "maxDrawdownR": 5.8,
+        "maxDrawdownPct": 2.9,
+        "calmarRatio": 2.9,
+        "maxConsecWins": 6,
+        "maxConsecLosses": 5,
+        "avgHoldBars": 6.1
+      },
+      "monteCarlo": {
+        "iterations": 5000,
+        "probabilityOfProfit": 97.6,
+        "p95WorstDrawdownR": 8.8,
+        "p95WorstDrawdownPct": 4.4,
+        "maxSimulatedConsecLosses": 12,
+        "probDrawdownUnder5R": 62.8
+      }
+    },
+    "sampleTrades": [
+      {
+        "entryBar": 3689,
+        "exitBar": 3694,
+        "dir": "LONG",
+        "entryPrice": 1.13919,
+        "exitPrice": 1.13852,
+        "returnR": -1,
+        "result": "LOSS",
+        "barsHeld": 5
+      },
+      {
+        "entryBar": 3787,
+        "exitBar": 3796,
+        "dir": "LONG",
+        "entryPrice": 1.13902,
+        "exitPrice": 1.1396979999999999,
+        "returnR": 1.2000000000000786,
+        "result": "WIN",
+        "barsHeld": 9
+      },
+      {
+        "entryBar": 3880,
+        "exitBar": 3883,
+        "dir": "SHORT",
+        "entryPrice": 1.13729,
+        "exitPrice": 1.137915,
+        "returnR": -1,
+        "result": "LOSS",
+        "barsHeld": 3
+      },
+      {
+        "entryBar": 3978,
+        "exitBar": 3984,
+        "dir": "SHORT",
+        "entryPrice": 1.13487,
+        "exitPrice": 1.1336460000000004,
+        "returnR": 1.199999999999913,
+        "result": "WIN",
+        "barsHeld": 6
+      },
+      {
+        "entryBar": 4079,
+        "exitBar": 4091,
+        "dir": "LONG",
+        "entryPrice": 1.13582,
+        "exitPrice": 1.1350075,
+        "returnR": -1,
+        "result": "LOSS",
+        "barsHeld": 12
+      },
+      {
+        "entryBar": 4169,
+        "exitBar": 4172,
+        "dir": "SHORT",
+        "entryPrice": 1.13059,
+        "exitPrice": 1.12963,
+        "returnR": 1.199999999999889,
+        "result": "WIN",
+        "barsHeld": 3
+      },
+      {
+        "entryBar": 4264,
+        "exitBar": 4269,
+        "dir": "LONG",
+        "entryPrice": 1.12657,
+        "exitPrice": 1.125425,
+        "returnR": -1,
+        "result": "LOSS",
+        "barsHeld": 5
+      },
+      {
+        "entryBar": 4459,
+        "exitBar": 4473,
+        "dir": "LONG",
+        "entryPrice": 1.12407,
+        "exitPrice": 1.1260799999999997,
+        "returnR": 1.2,
+        "result": "WIN",
+        "barsHeld": 14
+      },
+      {
+        "entryBar": 4553,
+        "exitBar": 4555,
+        "dir": "SHORT",
+        "entryPrice": 1.12155,
+        "exitPrice": 1.1198160000000001,
+        "returnR": 1.2,
+        "result": "WIN",
+        "barsHeld": 2
+      },
+      {
+        "entryBar": 4648,
+        "exitBar": 4649,
+        "dir": "SHORT",
+        "entryPrice": 1.11899,
+        "exitPrice": 1.11957,
+        "returnR": -1,
+        "result": "LOSS",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 4757,
+        "exitBar": 4764,
+        "dir": "SHORT",
+        "entryPrice": 1.12114,
+        "exitPrice": 1.1201919999999999,
+        "returnR": 1.2000000000001125,
+        "result": "WIN",
+        "barsHeld": 7
+      },
+      {
+        "entryBar": 4843,
+        "exitBar": 4851,
+        "dir": "SHORT",
+        "entryPrice": 1.11926,
+        "exitPrice": 1.1180599999999998,
+        "returnR": 1.1999999999999555,
+        "result": "WIN",
+        "barsHeld": 8
+      },
+      {
+        "entryBar": 4935,
+        "exitBar": 4937,
+        "dir": "LONG",
+        "entryPrice": 1.11831,
+        "exitPrice": 1.1192129999999998,
+        "returnR": 1.199999999999941,
+        "result": "WIN",
+        "barsHeld": 2
+      },
+      {
+        "entryBar": 5037,
+        "exitBar": 5040,
+        "dir": "SHORT",
+        "entryPrice": 1.11972,
+        "exitPrice": 1.1192160000000002,
+        "returnR": 1.2,
+        "result": "WIN",
+        "barsHeld": 3
+      },
+      {
+        "entryBar": 5224,
+        "exitBar": 5235,
+        "dir": "LONG",
+        "entryPrice": 1.1244399999999999,
+        "exitPrice": 1.1258229999999998,
+        "returnR": 1.2000000000000386,
+        "result": "WIN",
+        "barsHeld": 11
+      },
+      {
+        "entryBar": 5320,
+        "exitBar": 5322,
+        "dir": "SHORT",
+        "entryPrice": 1.12109,
+        "exitPrice": 1.119788,
+        "returnR": 1.1999999999999182,
+        "result": "WIN",
+        "barsHeld": 2
+      },
+      {
+        "entryBar": 5423,
+        "exitBar": 5425,
+        "dir": "SHORT",
+        "entryPrice": 1.12045,
+        "exitPrice": 1.12191,
+        "returnR": -1,
+        "result": "LOSS",
+        "barsHeld": 2
+      },
+      {
+        "entryBar": 5526,
+        "exitBar": 5533,
+        "dir": "LONG",
+        "entryPrice": 1.12336,
+        "exitPrice": 1.1227749999999999,
+        "returnR": -1,
+        "result": "LOSS",
+        "barsHeld": 7
+      },
+      {
+        "entryBar": 5618,
+        "exitBar": 5623,
+        "dir": "SHORT",
+        "entryPrice": 1.12208,
+        "exitPrice": 1.120442,
+        "returnR": 1.1999999999999675,
+        "result": "WIN",
+        "barsHeld": 5
+      },
+      {
+        "entryBar": 5703,
+        "exitBar": 5704,
+        "dir": "SHORT",
+        "entryPrice": 1.12037,
+        "exitPrice": 1.1193380000000002,
+        "returnR": 1.2000000000001032,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5799,
+        "exitBar": 5801,
+        "dir": "SHORT",
+        "entryPrice": 1.12115,
+        "exitPrice": 1.1205260000000004,
+        "returnR": 1.1999999999998292,
+        "result": "WIN",
+        "barsHeld": 2
+      },
+      {
+        "entryBar": 5895,
+        "exitBar": 5898,
+        "dir": "SHORT",
+        "entryPrice": 1.11582,
+        "exitPrice": 1.11645,
+        "returnR": -1,
+        "result": "LOSS",
+        "barsHeld": 3
+      },
+      {
+        "entryBar": 6096,
+        "exitBar": 6099,
+        "dir": "SHORT",
+        "entryPrice": 1.1129,
+        "exitPrice": 1.1137725,
+        "returnR": -1,
+        "result": "LOSS",
+        "barsHeld": 3
+      },
+      {
+        "entryBar": 6275,
+        "exitBar": 6280,
+        "dir": "LONG",
+        "entryPrice": 1.11926,
+        "exitPrice": 1.12076,
+        "returnR": 1.200000000000071,
+        "result": "WIN",
+        "barsHeld": 5
+      },
+      {
+        "entryBar": 6371,
+        "exitBar": 6377,
+        "dir": "LONG",
+        "entryPrice": 1.11998,
+        "exitPrice": 1.1192375,
+        "returnR": -1,
+        "result": "LOSS",
+        "barsHeld": 6
+      }
+    ],
+    "fullTradeCount": 58
+  },
+  "AMD/FVG": {
+    "info": {
+      "index": 18,
+      "name": "AMD/FVG",
+      "instrument": "NAS100",
+      "bestConfig": "15M | AccLen 20 | TP 1.2x | Micro-BE 0.2R",
+      "timeframe": "15M",
+      "barsTested": 6314,
+      "performance": {
+        "totalTrades": 117,
+        "winRate": 41.9,
+        "nonLossRate": 82.1,
+        "wins": 49,
+        "losses": 21,
+        "bes": 47,
+        "netReturnR": 0.95,
+        "grossWinR": 21.95,
+        "grossLossR": 21,
+        "profitFactor": 1.05,
+        "expectancyR": 0.01,
+        "maxDrawdownR": 4.25,
+        "maxDrawdownPct": 2.13,
+        "calmarRatio": 0.22,
+        "maxConsecWins": 4,
+        "maxConsecLosses": 2,
+        "avgHoldBars": 1.5
+      },
+      "monteCarlo": {
+        "iterations": 5000,
+        "probabilityOfProfit": 57.5,
+        "p95WorstDrawdownR": 11.25,
+        "p95WorstDrawdownPct": 5.63,
+        "maxSimulatedConsecLosses": 7,
+        "probDrawdownUnder5R": 44.7
+      }
+    },
+    "sampleTrades": [
+      {
+        "entryBar": 5137,
+        "exitBar": 5138,
+        "dir": "SHORT",
+        "entryPrice": 29661.45,
+        "exitPrice": 29658.17761965419,
+        "returnR": 0.05000000000000278,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5172,
+        "exitBar": 5174,
+        "dir": "LONG",
+        "entryPrice": 29544.5,
+        "exitPrice": 29548.025479003885,
+        "returnR": 0.0499999999999871,
+        "result": "BE",
+        "barsHeld": 2
+      },
+      {
+        "entryBar": 5221,
+        "exitBar": 5222,
+        "dir": "LONG",
+        "entryPrice": 29546.65,
+        "exitPrice": 29608.41876479127,
+        "returnR": 0.4000000000000094,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5255,
+        "exitBar": 5257,
+        "dir": "SHORT",
+        "entryPrice": 29683.6,
+        "exitPrice": 29735.001915447614,
+        "returnR": -1,
+        "result": "LOSS",
+        "barsHeld": 2
+      },
+      {
+        "entryBar": 5287,
+        "exitBar": 5292,
+        "dir": "LONG",
+        "entryPrice": 29732.4,
+        "exitPrice": 29658.036826114192,
+        "returnR": -1,
+        "result": "LOSS",
+        "barsHeld": 5
+      },
+      {
+        "entryBar": 5329,
+        "exitBar": 5330,
+        "dir": "SHORT",
+        "entryPrice": 29866.55,
+        "exitPrice": 29864.646592546404,
+        "returnR": 0.05000000000000956,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5403,
+        "exitBar": 5404,
+        "dir": "SHORT",
+        "entryPrice": 29290.3,
+        "exitPrice": 29287.770897224564,
+        "returnR": 0.0500000000000036,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5479,
+        "exitBar": 5480,
+        "dir": "SHORT",
+        "entryPrice": 29023.6,
+        "exitPrice": 29001.517701209756,
+        "returnR": 0.39999999999997365,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5498,
+        "exitBar": 5499,
+        "dir": "LONG",
+        "entryPrice": 29006.55,
+        "exitPrice": 29011.655823921163,
+        "returnR": 0.05000000000001247,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5532,
+        "exitBar": 5534,
+        "dir": "SHORT",
+        "entryPrice": 28978.6,
+        "exitPrice": 28973.068942142625,
+        "returnR": 0.050000000000004936,
+        "result": "BE",
+        "barsHeld": 2
+      },
+      {
+        "entryBar": 5569,
+        "exitBar": 5570,
+        "dir": "LONG",
+        "entryPrice": 29017.9,
+        "exitPrice": 29023.127487007157,
+        "returnR": 0.05000000000000348,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5577,
+        "exitBar": 5578,
+        "dir": "SHORT",
+        "entryPrice": 28964.9,
+        "exitPrice": 28944.645152308818,
+        "returnR": 0.4000000000000287,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5633,
+        "exitBar": 5634,
+        "dir": "SHORT",
+        "entryPrice": 29339.8,
+        "exitPrice": 29320.631644352663,
+        "returnR": 0.39999999999996966,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5661,
+        "exitBar": 5662,
+        "dir": "LONG",
+        "entryPrice": 29219.6,
+        "exitPrice": 29220.96466124595,
+        "returnR": 0.050000000000019994,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5729,
+        "exitBar": 5730,
+        "dir": "SHORT",
+        "entryPrice": 29691.3,
+        "exitPrice": 29714.94561850659,
+        "returnR": -1,
+        "result": "LOSS",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5738,
+        "exitBar": 5739,
+        "dir": "SHORT",
+        "entryPrice": 29741.4,
+        "exitPrice": 29739.817009963124,
+        "returnR": 0.049999999999959785,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5754,
+        "exitBar": 5755,
+        "dir": "SHORT",
+        "entryPrice": 29771.9,
+        "exitPrice": 29760.80859150624,
+        "returnR": 0.4,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 5802,
+        "exitBar": 5803,
+        "dir": "SHORT",
+        "entryPrice": 29573.5,
+        "exitPrice": 29531.672365607603,
+        "returnR": 0.39999999999999303,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 6018,
+        "exitBar": 6019,
+        "dir": "SHORT",
+        "entryPrice": 28642.5,
+        "exitPrice": 28640.607431192584,
+        "returnR": 0.049999999999990385,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 6054,
+        "exitBar": 6056,
+        "dir": "LONG",
+        "entryPrice": 28749.35,
+        "exitPrice": 28595.711045959535,
+        "returnR": -1,
+        "result": "LOSS",
+        "barsHeld": 2
+      },
+      {
+        "entryBar": 6078,
+        "exitBar": 6079,
+        "dir": "LONG",
+        "entryPrice": 28093.75,
+        "exitPrice": 28106.663231839502,
+        "returnR": 0.40000000000002256,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 6152,
+        "exitBar": 6153,
+        "dir": "SHORT",
+        "entryPrice": 28185.35,
+        "exitPrice": 28182.34062684261,
+        "returnR": 0.0500000000000272,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 6178,
+        "exitBar": 6179,
+        "dir": "SHORT",
+        "entryPrice": 28199,
+        "exitPrice": 28195.83937998505,
+        "returnR": 0.049999999999991364,
+        "result": "BE",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 6242,
+        "exitBar": 6243,
+        "dir": "SHORT",
+        "entryPrice": 28496.85,
+        "exitPrice": 28454.786873698555,
+        "returnR": 0.4,
+        "result": "WIN",
+        "barsHeld": 1
+      },
+      {
+        "entryBar": 6296,
+        "exitBar": 6297,
+        "dir": "LONG",
+        "entryPrice": 28117.45,
+        "exitPrice": 28076.281025290784,
+        "returnR": -1,
+        "result": "LOSS",
+        "barsHeld": 1
+      }
+    ],
+    "fullTradeCount": 117
+  }
+}

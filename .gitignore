@@ -1,9 +1,19 @@
 # Dependencies
 node_modules/
+pine-backtester-nextjs/node_modules/
 
 # Build output
 dist/
 build/
+.next/
+pine-backtester-nextjs/.next/
+*.tsbuildinfo
+next-env.d.ts
+
+# Archives & Temporary
+*.zip
+*.tar.gz
+scratch/
 
 # Python
 __pycache__/

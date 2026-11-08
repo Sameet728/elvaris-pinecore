@@ -1,0 +1,144 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg-app: #F5F6F8;
+  --color-bg-surface: #FFFFFF;
+  --color-bg-subtle: #F0F2F5;
+  --color-bg-hover: #E9ECF1;
+  --color-border: #E2E5EA;
+  --color-border-strong: #CBD1DA;
+  --color-text-1: #0E1520;
+  --color-text-2: #475266;
+  --color-text-3: #6B7587;
+  --color-brand: #2B59FF;
+  --color-brand-soft: #E8EEFF;
+  --color-profit: #0E9F6E;
+  --color-profit-text: #0A7A55;
+  --color-loss: #E0314A;
+  --color-loss-text: #C0223A;
+  --color-warn: #F5A524;
+  --color-warn-text: #9A6200;
+  --color-candle-up: #089981;
+  --color-candle-down: #F23645;
+  --color-chart-ema50: #1E88E5;
+  --color-chart-ema200: #F59E0B;
+}
+
+:root {
+  --bg-app: #F5F6F8;
+  --bg-surface: #FFFFFF;
+  --bg-subtle: #F0F2F5;
+  --bg-hover: #E9ECF1;
+  --border: #E2E5EA;
+  --border-strong: #CBD1DA;
+  --text-1: #0E1520;
+  --text-2: #475266;
+  --text-3: #6B7587;
+  --brand: #2B59FF;
+  --brand-soft: #E8EEFF;
+  --profit: #0E9F6E;
+  --profit-text: #0A7A55;
+  --loss: #E0314A;
+  --loss-text: #C0223A;
+  --warn: #F5A524;
+  --warn-text: #9A6200;
+  --candle-up: #089981;
+  --candle-down: #F23645;
+  --chart-ema50: #1E88E5;
+  --chart-ema200: #F59E0B;
+
+  --font-mono: var(--font-geist-mono), ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  --font-sans: var(--font-geist-sans), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+body {
+  background-color: var(--bg-app);
+  color: var(--text-1);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Tabular figures for all numeric outputs */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Custom sleek scrollbar for light theme */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F0F2F5;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #CBD1DA;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #9FAAB9;
+}
+
+/* Focus styles for keyboard accessibility */
+:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 2px;
+}
+
+/* Institutional branding: hide third-party canvas watermarks */
+a[href*="velacharts"],
+.vela-attribution,
+[class*="vela-attribution"],
+.vela-attr-symbol,
+.vela-attr-wordmark,
+[class*="vela-attr"] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+  width: 0 !important;
+  height: 0 !important;
+  overflow: hidden !important;
+  position: absolute !important;
+  left: -9999px !important;
+}
+
+/* Print Styles */
+@media print {
+  @page {
+    size: A4 portrait;
+    margin: 14mm 12mm 16mm 12mm;
+  }
+
+  body {
+    background: #ffffff !important;
+    color: #0E1520 !important;
+    font-size: 10pt;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  .page-break-before {
+    break-before: page;
+    page-break-before: always;
+  }
+
+  .page-break-after {
+    break-after: page;
+    page-break-after: always;
+  }
+
+  .avoid-break {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+}

@@ -1,0 +1,51 @@
+# Elvaris Capital — Quantitative Pine Script Platform
+> A product by Elvaris Capital. Parent Organization: https://elvariscapital.in
+
+## Organization Overview
+Elvaris Capital is a quantitative trading and financial technology engineering organization specializing in algorithmic model research, high-frequency execution infrastructure, and full-fidelity Pine Script v5 strategy simulation.
+
+- **Product Name**: Elvaris Capital Quantitative Pine Script Platform
+- **Parent Organization**: Elvaris Capital (https://elvariscapital.in)
+- **Primary Domain**: https://elvariscapital.in
+- **Platform Focus**: TradingView Pine Script v5 Strategy Backtesting, Multi-Variable Monte Carlo Optimization, MetaTrader 5 (MT5) Institutional Audit Parity, and Prop Firm Compliance (Tradeify, FTMO, Topstep).
+
+## Core Capabilities
+1. **100% TradingView Pine Script v5 Execution Parity**:
+   - Bar-by-bar chronological execution modeling with OHLC intrabar price paths.
+   - SL-first intrabar touch ambiguity resolution.
+   - Realistic exchange commission and broker slippage modeling.
+   - Dual-tier visual chart rendering powered by WebGL2.
+
+2. **Monte Carlo Multi-Variable Optimizer**:
+   - Simultaneous parameter grid search across Take-Profit ($), Stop-Loss ($), and RSI filter thresholds.
+   - 1,000 to 2,000 path bootstrap resamplings using Mulberry32 seeded deterministic PRNG.
+   - 95% worst-case adverse drawdown estimation, median expected equity, and probability of profit.
+
+3. **MetaTrader 5 (MT5) Institutional Audit Standards**:
+   - Complete Trade History Ledger showing trade entry prices, exit prices, and explicit TP HIT / SL HIT outcome badges.
+   - MT5 standard metrics: Gross Profit, Gross Loss, Expected Payoff, Recovery Factor, Balance Drawdown Absolute/Maximal/Relative, AHPR/GHPR, and Z-Score streak randomness testing.
+
+4. **Prop Firm Challenge Calibrations**:
+   - Pre-calibrated rules for Tradeify Select $100K (40% single-day profit consistency ceiling rule, $2,000 max trailing drawdown, zero daily loss limit rule).
+   - Profiles for FTMO, Topstep, and Custom Prop Firms.
+
+## Documentation & Knowledge Base Links
+- [Documentation Index](https://elvariscapital.in/docs): Master guide to platform architecture and quantitative workflows.
+- [Pine Script v5 Parity Guide](https://elvariscapital.in/docs/pine-script-v5): Syntax support, execution engine details, and TradingView parity verification.
+- [Monte Carlo Simulation Methodology](https://elvariscapital.in/docs/monte-carlo): Resampling mathematics, bootstrap mechanics, and 95% confidence intervals.
+- [MetaTrader 5 Audit Standards](https://elvariscapital.in/docs/mt5-audit): MT5 institutional metric formulas, Z-score calculations, and drawdown analysis.
+- [Prop Firm Calibrations](https://elvariscapital.in/docs/prop-firm-calibration): Tradeify, FTMO, and Topstep rule enforcement details.
+- [REST API Reference](https://elvariscapital.in/docs/api-reference): Endpoints for `/api/backtest`, `/api/optimize`, and `/api/report/pdf`.
+
+## Flagship Strategies Included
+- **Champion 15M Grandmaster (Dual 10R)**: Gold (XAUUSD 15M), 75.5% Win Rate, 4.08 Profit Factor, 13.83 Calmar Ratio.
+- **Champion 15M Apex Trend**: Trend-following breakout model with 88% win rate calibration.
+- **Champion 15M 1:2 R:R Parity**: Asymmetric risk-reward institutional model with fixed 1:2 ratio.
+- **Champion 15M Elite 80WR Scalp**: High-probability volatility compression scalp.
+
+## API Endpoints
+- `POST /api/backtest`: Execute Pine Script simulation on historical candle datasets.
+- `POST /api/optimize`: Run multi-variable parameter sweep with Monte Carlo bootstrap resampling.
+- `POST /api/report/pdf`: Generate publication-grade, high-DPI vector A4 institutional audit report PDF.
+- `GET /api/data?dataset={symbol}`: Retrieve OHLCV candle datasets (XAUUSD, EURUSD, NAS100, BTCUSDT).
+

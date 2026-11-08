@@ -1,0 +1,167 @@
+{
+  "systems": [
+    {
+      "name": "9:30 A.M",
+      "index": 2,
+      "totalTrades": 45,
+      "monthly": [
+        {
+          "month": "2026-08",
+          "trades": 14,
+          "wins": 7,
+          "losses": 0,
+          "bes": 7,
+          "winRate": 50,
+          "nonLossRate": 100,
+          "returnR": 3.85
+        },
+        {
+          "month": "2026-09",
+          "trades": 12,
+          "wins": 9,
+          "losses": 1,
+          "bes": 2,
+          "winRate": 75,
+          "nonLossRate": 91.7,
+          "returnR": 5.4
+        },
+        {
+          "month": "2026-10",
+          "trades": 16,
+          "wins": 15,
+          "losses": 0,
+          "bes": 1,
+          "winRate": 93.8,
+          "nonLossRate": 100,
+          "returnR": 11.15
+        },
+        {
+          "month": "2026-11",
+          "trades": 3,
+          "wins": 2,
+          "losses": 0,
+          "bes": 1,
+          "winRate": 66.7,
+          "nonLossRate": 100,
+          "returnR": 1.05
+        }
+      ]
+    },
+    {
+      "name": "PUSH",
+      "index": 8,
+      "totalTrades": 18,
+      "monthly": [
+        {
+          "month": "2026-10",
+          "trades": 15,
+          "wins": 10,
+          "losses": 2,
+          "bes": 3,
+          "winRate": 66.7,
+          "nonLossRate": 86.7,
+          "returnR": 3.15
+        },
+        {
+          "month": "2026-11",
+          "trades": 3,
+          "wins": 2,
+          "losses": 0,
+          "bes": 1,
+          "winRate": 66.7,
+          "nonLossRate": 100,
+          "returnR": 1.05
+        }
+      ]
+    },
+    {
+      "name": "EASY",
+      "index": 12,
+      "totalTrades": 42,
+      "monthly": [
+        {
+          "month": "2026-08",
+          "trades": 15,
+          "wins": 12,
+          "losses": 0,
+          "bes": 3,
+          "winRate": 80,
+          "nonLossRate": 100,
+          "returnR": 6.9
+        },
+        {
+          "month": "2026-09",
+          "trades": 12,
+          "wins": 7,
+          "losses": 2,
+          "bes": 3,
+          "winRate": 58.3,
+          "nonLossRate": 83.3,
+          "returnR": 3.15
+        },
+        {
+          "month": "2026-10",
+          "trades": 13,
+          "wins": 9,
+          "losses": 1,
+          "bes": 3,
+          "winRate": 69.2,
+          "nonLossRate": 92.3,
+          "returnR": 5.15
+        },
+        {
+          "month": "2026-11",
+          "trades": 2,
+          "wins": 2,
+          "losses": 0,
+          "bes": 0,
+          "winRate": 100,
+          "nonLossRate": 100,
+          "returnR": 1
+        }
+      ]
+    }
+  ],
+  "combinedPortfolio": [
+    {
+      "month": "2026-08",
+      "trades": 29,
+      "wins": 19,
+      "losses": 0,
+      "bes": 10,
+      "winRate": 65.5,
+      "nonLossRate": 100,
+      "returnR": 10.75
+    },
+    {
+      "month": "2026-09",
+      "trades": 24,
+      "wins": 16,
+      "losses": 3,
+      "bes": 5,
+      "winRate": 66.7,
+      "nonLossRate": 87.5,
+      "returnR": 8.55
+    },
+    {
+      "month": "2026-10",
+      "trades": 44,
+      "wins": 34,
+      "losses": 3,
+      "bes": 7,
+      "winRate": 77.3,
+      "nonLossRate": 93.2,
+      "returnR": 19.45
+    },
+    {
+      "month": "2026-11",
+      "trades": 8,
+      "wins": 6,
+      "losses": 0,
+      "bes": 2,
+      "winRate": 75,
+      "nonLossRate": 100,
+      "returnR": 3.1
+    }
+  ]
+}

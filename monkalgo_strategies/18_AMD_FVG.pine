@@ -1,0 +1,296 @@
+//@version=6
+strategy("Ultimate AMD FVG Strategy", overlay = true, initial_capital = 1000000, default_qty_type = strategy.fixed, default_qty_value = 1, pyramiding = 0, commission_type = strategy.commission.percent, commission_value = 0, slippage = 0, max_boxes_count = 500, max_labels_count = 500)
+
+// --- Constants ---
+const int SEARCHING = 0
+const int ACCUMULATION = 1
+const int MANIPULATION = 2
+const int FVG_WINDOW = 3
+const int MANIPULATION_PROJECTION_BARS = 5
+
+// --- AMD Inputs ---
+groupAmd = "AMD Settings"
+accLenInput = input.int(50, "Accumulation Length", minval = 5, group = groupAmd, tooltip = "Number of bars used to define the initial accumulation range.")
+accMaxRangeInput = input.float(0.5, "Accumulation Max Range (%)", minval = 0.1, step = 0.1, group = groupAmd, tooltip = "Maximum high-to-low range, as a percentage of the range low, for accumulation.")
+brkTypeInput = input.string("Both", "Breakout Type", options = ["Wicks", "Bodies", "Both"], group = groupAmd, tooltip = "Price reference used to detect manipulation breakouts and re-entry.")
+maxManBarsInput = input.int(20, "Max Manipulation Length (Bars)", minval = 1, group = groupAmd, tooltip = "Maximum number of bars allowed for manipulation to return into the accumulation range.")
+maxBarsAfterInput = input.int(5, "Max Bars After Manipulation", minval = 1, group = groupAmd, tooltip = "Maximum number of bars after manipulation confirmation in which the selected FVG or IFVG can trigger an entry.")
+maxAmdInput = input.int(5, "Max AMD Cycles Shown", minval = 1, group = groupAmd, tooltip = "Maximum number of accumulation and manipulation drawings retained on the chart.")
+allowLongInput = input.bool(true, "Enable Longs", group = groupAmd, tooltip = "Allow bullish FVG or IFVG setups to enter long positions.")
+allowShortInput = input.bool(true, "Enable Shorts", group = groupAmd, tooltip = "Allow bearish FVG or IFVG setups to enter short positions.")
+
+// --- FVG Inputs ---
+groupFvg = "FVG / IFVG Settings"
+triggerTypeInput = input.string("FVG", "Entry Trigger", options = ["FVG", "IFVG"], group = groupFvg, tooltip = "Select whether a fresh FVG or an invalidated/reversed FVG (IFVG) triggers the trade. Only the selected type is used for entries.")
+fvgAtrLengthInput = input.int(14, "FVG ATR Length", minval = 1, group = groupFvg, tooltip = "ATR length used by the minimum FVG size filter.")
+fvgMinAtrInput = input.float(0.5, "FVG Min ATR Multiplier", minval = 0.0, step = 0.1, group = groupFvg, tooltip = "Minimum gap size as a multiple of ATR. Set to zero to disable the size filter.")
+projectionBarsInput = input.int(5, "FVG Projection Bars", minval = 1, maxval = 5, group = groupFvg, tooltip = "Maximum number of bars each FVG or IFVG is projected forward. Capped at five bars.")
+maxFvgsInput = input.int(15, "Max Active FVGs / IFVGs", minval = 1, maxval = 100, group = groupFvg, tooltip = "Maximum number of FVG and IFVG records retained for drawing and invalidation tracking.")
+filterOverlapInput = input.bool(true, "Filter Overlapping Gaps", group = groupFvg, tooltip = "Ignore a new gap or IFVG event when it overlaps an existing gap of the same direction.")
+showFvgInput = input.bool(true, "Show FVGs", group = groupFvg, tooltip = "Display fresh fair value gap boxes.")
+showIfvgInput = input.bool(true, "Show IFVGs", group = groupFvg, tooltip = "Display FVGs after they have been invalidated and converted into IFVGs.")
+
+// --- Exit Inputs ---
+groupExits = "Exit Settings"
+tpModeInput = input.string("ATR", "Take Profit Method", options = ["None", "ATR", "Points"], group = groupExits, tooltip = "Choose no take profit, an ATR multiple, or a fixed price-point target.")
+tpAtrInput = input.float(2.0, "Take Profit ATR Multiplier", minval = 0.0, step = 0.1, group = groupExits, tooltip = "ATR multiple used for take profit when the ATR method is selected.")
+tpPointsInput = input.float(100.0, "Take Profit Points", minval = 0.0, step = 0.01, group = groupExits, tooltip = "Fixed price distance used for take profit when the Points method is selected.")
+slModeInput = input.string("ATR", "Stop Loss Method", options = ["None", "ATR", "Points"], group = groupExits, tooltip = "Choose no stop loss, an ATR multiple, or a fixed price-point stop.")
+slAtrInput = input.float(1.0, "Stop Loss ATR Multiplier", minval = 0.0, step = 0.1, group = groupExits, tooltip = "ATR multiple used for stop loss when the ATR method is selected.")
+slPointsInput = input.float(50.0, "Stop Loss Points", minval = 0.0, step = 0.01, group = groupExits, tooltip = "Fixed price distance used for stop loss when the Points method is selected.")
+
+// --- Alert Inputs ---
+groupAlerts = "Alert Settings"
+alertAccumulationInput = input.bool(true, "Alert on Accumulation", group = groupAlerts, tooltip = "Alert when a new accumulation range is detected.")
+alertManipulationInput = input.bool(true, "Alert on Manipulation", group = groupAlerts, tooltip = "Alert when manipulation begins.")
+
+// --- Style Inputs ---
+groupStyle = "Style"
+accColorInput = input.color(color.new(color.gray, 80), "Accumulation", group = groupStyle, tooltip = "Accumulation box color.")
+manColorInput = input.color(color.new(color.yellow, 80), "Manipulation", group = groupStyle, tooltip = "Manipulation box color.")
+bullFvgColorInput = input.color(color.new(#089981, 80), "Bullish FVG", group = groupStyle, tooltip = "Bullish FVG color.")
+bearFvgColorInput = input.color(color.new(#f23645, 80), "Bearish FVG", group = groupStyle, tooltip = "Bearish FVG color.")
+bullIfvgColorInput = input.color(color.new(#089981, 55), "Bullish IFVG", group = groupStyle, tooltip = "Bullish IFVG color.")
+bearIfvgColorInput = input.color(color.new(#f23645, 55), "Bearish IFVG", group = groupStyle, tooltip = "Bearish IFVG color.")
+boxTextColorInput = input.color(color.new(color.white, 50), "Box Text Color", group = groupStyle, tooltip = "Text color used inside FVG and IFVG boxes.")
+labelTextColorInput = input.color(color.white, "Label Text Color", group = groupStyle, tooltip = "Text color used by manipulation labels.")
+
+// --- Helper Functions ---
+getHigh(string referenceType) =>
+    switch referenceType
+        "Bodies" => math.max(open, close)
+        => high
+
+getLow(string referenceType) =>
+    switch referenceType
+        "Bodies" => math.min(open, close)
+        => low
+
+// --- State Variables ---
+var int amdState = SEARCHING
+var float accumulationTop = na
+var float accumulationBottom = na
+var int accumulationStartBar = na
+var float manipulationTop = na
+var float manipulationBottom = na
+var int manipulationStartBar = na
+var int manipulationDirection = 0
+var int setupDirection = 0
+var int setupStartBar = na
+
+var box accumulationBox = na
+var box manipulationBox = na
+var label manipulationLabel = na
+var accumulationBoxes = array.new<box>()
+var manipulationBoxes = array.new<box>()
+var manipulationLabels = array.new<label>()
+
+// --- Gap Type ---
+type Gap
+    box id
+    bool originalBull
+    bool active
+    bool isIfvg
+    float top
+    float bottom
+    int startBar
+
+var gapsArray = array.new<Gap>()
+
+// --- Market Data ---
+atrValue = ta.atr(fvgAtrLengthInput)
+highReference = getHigh(brkTypeInput)
+lowReference = getLow(brkTypeInput)
+highestRange = ta.highest(high, accLenInput)
+lowestRange = ta.lowest(low, accLenInput)
+rangePercent = lowestRange > 0 ? (highestRange - lowestRange) / lowestRange * 100.0 : na
+isAccumulation = not na(rangePercent) and rangePercent <= accMaxRangeInput
+
+// --- AMD State Machine ---
+if amdState == SEARCHING
+    if isAccumulation
+        bool skipAccumulation = false
+        if array.size(accumulationBoxes) > 0
+            box previousAccumulationBox = array.get(accumulationBoxes, array.size(accumulationBoxes) - 1)
+            int proposedStartBar = bar_index - accLenInput + 1
+            skipAccumulation := proposedStartBar <= box.get_right(previousAccumulationBox)
+        if not skipAccumulation
+            amdState := ACCUMULATION
+            accumulationTop := highestRange
+            accumulationBottom := lowestRange
+            accumulationStartBar := bar_index - accLenInput + 1
+            accumulationBox := box.new(accumulationStartBar, accumulationTop, bar_index, accumulationBottom, border_color = color.new(accColorInput, 50), bgcolor = accColorInput)
+            array.push(accumulationBoxes, accumulationBox)
+            if alertAccumulationInput
+                alert("AMD: Accumulation phase started", alert.freq_once_per_bar_close)
+else if amdState == ACCUMULATION
+    bool downsideBreak = lowReference < accumulationBottom
+    bool upsideBreak = highReference > accumulationTop
+    if downsideBreak
+        amdState := MANIPULATION
+        manipulationDirection := -1
+        setupDirection := 1
+        setupStartBar := bar_index
+        manipulationStartBar := bar_index
+        manipulationTop := accumulationBottom
+        manipulationBottom := low
+        manipulationBox := box.new(bar_index, manipulationTop, bar_index + MANIPULATION_PROJECTION_BARS, manipulationBottom, border_color = color.new(manColorInput, 50), bgcolor = manColorInput)
+        manipulationLabel := label.new(bar_index + MANIPULATION_PROJECTION_BARS, (manipulationTop + manipulationBottom) / 2.0, "Manipulation", color = #00000000, textcolor = labelTextColorInput, style = label.style_label_left, size = size.small)
+        array.push(manipulationBoxes, manipulationBox)
+        array.push(manipulationLabels, manipulationLabel)
+        if alertManipulationInput
+            alert("AMD: Downward manipulation started", alert.freq_once_per_bar_close)
+    else if upsideBreak
+        amdState := MANIPULATION
+        manipulationDirection := 1
+        setupDirection := -1
+        setupStartBar := bar_index
+        manipulationStartBar := bar_index
+        manipulationTop := high
+        manipulationBottom := accumulationTop
+        manipulationBox := box.new(bar_index, manipulationTop, bar_index + MANIPULATION_PROJECTION_BARS, manipulationBottom, border_color = color.new(manColorInput, 50), bgcolor = manColorInput)
+        manipulationLabel := label.new(bar_index + MANIPULATION_PROJECTION_BARS, (manipulationTop + manipulationBottom) / 2.0, "Manipulation", color = #00000000, textcolor = labelTextColorInput, style = label.style_label_left, size = size.small)
+        array.push(manipulationBoxes, manipulationBox)
+        array.push(manipulationLabels, manipulationLabel)
+        if alertManipulationInput
+            alert("AMD: Upward manipulation started", alert.freq_once_per_bar_close)
+    else
+        accumulationTop := math.max(accumulationTop, highestRange)
+        accumulationBottom := math.min(accumulationBottom, lowestRange)
+        box.set_right(accumulationBox, bar_index)
+        box.set_top(accumulationBox, accumulationTop)
+        box.set_bottom(accumulationBox, accumulationBottom)
+else if amdState == MANIPULATION
+    box.set_top(manipulationBox, manipulationDirection == 1 ? math.max(manipulationTop, high) : manipulationTop)
+    box.set_bottom(manipulationBox, manipulationDirection == -1 ? math.min(manipulationBottom, low) : manipulationBottom)
+    label.set_y(manipulationLabel, (box.get_top(manipulationBox) + box.get_bottom(manipulationBox)) / 2.0)
+
+    bool returnedInside = manipulationDirection == -1 ? highReference > accumulationBottom : lowReference < accumulationTop
+    if returnedInside
+        amdState := FVG_WINDOW
+        setupDirection := manipulationDirection == -1 ? 1 : -1
+    else if bar_index - manipulationStartBar >= maxManBarsInput
+        amdState := SEARCHING
+        box.delete(manipulationBox)
+        label.delete(manipulationLabel)
+        if array.size(manipulationBoxes) > 0
+            array.pop(manipulationBoxes)
+        if array.size(manipulationLabels) > 0
+            array.pop(manipulationLabels)
+else if amdState == FVG_WINDOW
+    if bar_index - setupStartBar > maxBarsAfterInput
+        amdState := SEARCHING
+
+// --- FVG and IFVG Detection ---
+bullishFvg = bar_index >= 2 and low > high[2] and low - high[2] >= atrValue * fvgMinAtrInput
+bearishFvg = bar_index >= 2 and high < low[2] and low[2] - high >= atrValue * fvgMinAtrInput
+bool bullishFvgEvent = false
+bool bearishFvgEvent = false
+bool bullishIfvgEvent = false
+bool bearishIfvgEvent = false
+
+bool skipBullishFvg = false
+bool skipBearishFvg = false
+if filterOverlapInput and array.size(gapsArray) > 0
+    int existingGapCount = array.size(gapsArray)
+    for offset = 0 to existingGapCount - 1
+        int gapIndex = existingGapCount - 1 - offset
+        Gap existingGap = array.get(gapsArray, gapIndex)
+        if existingGap.active and not existingGap.isIfvg
+            if bullishFvg and existingGap.originalBull and low <= existingGap.top and high[2] >= existingGap.bottom
+                skipBullishFvg := true
+            if bearishFvg and not existingGap.originalBull and high >= existingGap.bottom and low[2] <= existingGap.top
+                skipBearishFvg := true
+
+if bullishFvg and not skipBullishFvg
+    box bullishGapBox = box.new(bar_index - 2, low, bar_index + projectionBarsInput, high[2], border_color = showFvgInput ? color.new(bullFvgColorInput, 50) : na, bgcolor = showFvgInput ? bullFvgColorInput : na, text = showFvgInput ? "FVG" : "", text_color = boxTextColorInput, text_halign = text.align_center, text_valign = text.align_center, text_size = size.small)
+    array.push(gapsArray, Gap.new(bullishGapBox, true, true, false, low, high[2], bar_index))
+    bullishFvgEvent := true
+
+if bearishFvg and not skipBearishFvg
+    box bearishGapBox = box.new(bar_index - 2, low[2], bar_index + projectionBarsInput, high, border_color = showFvgInput ? color.new(bearFvgColorInput, 50) : na, bgcolor = showFvgInput ? bearFvgColorInput : na, text = showFvgInput ? "FVG" : "", text_color = boxTextColorInput, text_halign = text.align_center, text_valign = text.align_center, text_size = size.small)
+    array.push(gapsArray, Gap.new(bearishGapBox, false, true, false, low[2], high, bar_index))
+    bearishFvgEvent := true
+
+if array.size(gapsArray) > 0
+    int gapCount = array.size(gapsArray)
+    for offset = 0 to gapCount - 1
+        int gapIndex = gapCount - 1 - offset
+        Gap gap = array.get(gapsArray, gapIndex)
+        if gap.active
+            bool invalidated = gap.originalBull ? close < gap.bottom : close > gap.top
+            if invalidated
+                bool convertedBull = not gap.originalBull
+                bool skipIfvg = false
+                if filterOverlapInput and array.size(gapsArray) > 1
+                    int comparisonCount = array.size(gapsArray)
+                    for comparisonOffset = 0 to comparisonCount - 1
+                        int comparisonIndex = comparisonCount - 1 - comparisonOffset
+                        Gap otherGap = array.get(gapsArray, comparisonIndex)
+                        if comparisonIndex != gapIndex and otherGap.isIfvg and ((not otherGap.originalBull) == convertedBull)
+                            if gap.bottom <= otherGap.top and gap.top >= otherGap.bottom
+                                skipIfvg := true
+                gap.active := false
+                gap.isIfvg := true
+                if not skipIfvg
+                    if convertedBull
+                        bullishIfvgEvent := true
+                    else
+                        bearishIfvgEvent := true
+                if showIfvgInput and not skipIfvg
+                    box.set_bgcolor(gap.id, convertedBull ? bullIfvgColorInput : bearIfvgColorInput)
+                    box.set_border_color(gap.id, color.new(convertedBull ? bullIfvgColorInput : bearIfvgColorInput, 50))
+                    box.set_text(gap.id, "IFVG")
+                    box.set_right(gap.id, bar_index + projectionBarsInput)
+                else
+                    box.delete(gap.id)
+        else if gap.isIfvg
+            bool bullishIfvg = not gap.originalBull
+            bool mitigated = bullishIfvg ? close < gap.bottom : close > gap.top
+            if mitigated
+                box.delete(gap.id)
+                array.remove(gapsArray, gapIndex)
+
+while array.size(gapsArray) > maxFvgsInput
+    Gap removedGap = array.shift(gapsArray)
+    box.delete(removedGap.id)
+
+// --- Entry Conditions ---
+barsSinceSetup = amdState == MANIPULATION or amdState == FVG_WINDOW ? bar_index - setupStartBar : na
+insideEntryWindow = (amdState == MANIPULATION or amdState == FVG_WINDOW) and barsSinceSetup >= 1 and barsSinceSetup <= maxBarsAfterInput
+selectedBullishEvent = triggerTypeInput == "FVG" ? bullishFvgEvent : bullishIfvgEvent
+selectedBearishEvent = triggerTypeInput == "FVG" ? bearishFvgEvent : bearishIfvgEvent
+longEntrySignal = allowLongInput and insideEntryWindow and setupDirection == 1 and selectedBullishEvent
+shortEntrySignal = allowShortInput and insideEntryWindow and setupDirection == -1 and selectedBearishEvent
+
+// Allow an opposite signal to reverse an existing position. Same-direction signals are ignored because pyramiding is disabled.
+if longEntrySignal and strategy.position_size <= 0
+    strategy.entry("Long", strategy.long)
+    amdState := SEARCHING
+else if shortEntrySignal and strategy.position_size >= 0
+    strategy.entry("Short", strategy.short)
+    amdState := SEARCHING
+
+// --- ATR Snapshot for Exits ---
+var float entryAtr = na
+if strategy.position_size != 0 and strategy.position_size[1] == 0
+    entryAtr := nz(atrValue[1], atrValue)
+if strategy.position_size == 0 and strategy.position_size[1] != 0
+    entryAtr := na
+
+// --- Exits ---
+if strategy.position_size > 0
+    float longTakeProfit = tpModeInput == "ATR" ? strategy.position_avg_price + entryAtr * tpAtrInput : tpModeInput == "Points" ? strategy.position_avg_price + tpPointsInput : na
+    float longStopLoss = slModeInput == "ATR" ? strategy.position_avg_price - entryAtr * slAtrInput : slModeInput == "Points" ? strategy.position_avg_price - slPointsInput : na
+    if tpModeInput != "None" or slModeInput != "None"
+        strategy.exit("Long Exit", "Long", limit = longTakeProfit, stop = longStopLoss)
+
+if strategy.position_size < 0
+    float shortTakeProfit = tpModeInput == "ATR" ? strategy.position_avg_price - entryAtr * tpAtrInput : tpModeInput == "Points" ? strategy.position_avg_price - tpPointsInput : na
+    float shortStopLoss = slModeInput == "ATR" ? strategy.position_avg_price + entryAtr * slAtrInput : slModeInput == "Points" ? strategy.position_avg_price + slPointsInput : na
+    if tpModeInput != "None" or slModeInput != "None"
+        strategy.exit("Short Exit", "Short", limit = shortTakeProfit, stop = shortStopLoss)
+
+// --- Alerts ---
+alertcondition(longEntrySignal, "Long Entry", "AMD sequence completed: bullish selected FVG/IFVG detected.")
+alertcondition(shortEntrySignal, "Short Entry", "AMD sequence completed: bearish selected FVG/IFVG detected.")

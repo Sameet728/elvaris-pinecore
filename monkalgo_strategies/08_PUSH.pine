@@ -1,0 +1,177 @@
+//@version=6
+indicator("Session Ranges & Asia Sweep", "Session Ranges", overlay = true, max_boxes_count = 500, max_labels_count = 100, calc_bars_count = 5000)
+
+// --- Constants ---
+string GROUP_SESSIONS = "Sessions"
+string GROUP_TIGHT = "Asia Tightness"
+string GROUP_SIGNALS = "London Sweep Signals"
+string GROUP_STYLE = "Style"
+
+// --- Inputs ---
+string timezoneInput = input.string("Etc/UTC", "Session timezone", options = ["Etc/UTC", "America/New_York", "Europe/London", "Asia/Tokyo"], group = GROUP_SESSIONS, tooltip = "Timezone used to interpret all three session inputs.")
+string asiaSessionInput = input.session("0000-0800", "Asia session", group = GROUP_SESSIONS, tooltip = "Session hours for the Asia range.")
+string londonSessionInput = input.session("0800-1300", "London session", group = GROUP_SESSIONS, tooltip = "Session hours for the London range and Asia sweep signals.")
+string newYorkSessionInput = input.session("1300-2100", "New York session", group = GROUP_SESSIONS, tooltip = "Session hours for the New York range.")
+int sessionsToKeepInput = input.int(50, "Historical sessions to keep", minval = 5, maxval = 150, group = GROUP_SESSIONS, tooltip = "Number of completed and active boxes retained for each session.")
+
+int atrLengthInput = input.int(14, "ATR length", minval = 1, group = GROUP_TIGHT, tooltip = "ATR length used as the volatility benchmark for the Asia range.")
+float tightAtrMultiplierInput = input.float(0.75, "Tight if range <= ATR ×", minval = 0.05, step = 0.05, group = GROUP_TIGHT, tooltip = "An Asia range is tight when its high-low range is less than or equal to this multiple of ATR.")
+
+string sweepModeInput = input.string("Wick sweep", "Sweep confirmation", options = ["Wick sweep", "Close back inside Asia range"], group = GROUP_SIGNALS, tooltip = "Wick sweep signals on a level break. Close-back-inside requires the candle to break the level and close back within the Asia range.")
+
+color asiaColorInput = input.color(#5b9cf6, "Asia color", group = GROUP_STYLE, tooltip = "Color used for the Asia range box.")
+color londonColorInput = input.color(#f59e0b, "London color", group = GROUP_STYLE, tooltip = "Color used for the London range box.")
+color newYorkColorInput = input.color(#a855f7, "New York color", group = GROUP_STYLE, tooltip = "Color used for the New York range box.")
+color tightColorInput = input.color(#089981, "Tight Asia color", group = GROUP_STYLE, tooltip = "Color used when the completed Asia range is classified as tight.")
+color sweepHighColorInput = input.color(#f23645, "High sweep color", group = GROUP_STYLE, tooltip = "Color for London sweeps of the Asia high.")
+color sweepLowColorInput = input.color(#089981, "Low sweep color", group = GROUP_STYLE, tooltip = "Color for London sweeps of the Asia low.")
+int boxTransparencyInput = input.int(88, "Box transparency", minval = 0, maxval = 100, group = GROUP_STYLE, tooltip = "Transparency applied to session range boxes.")
+
+// --- Functions ---
+f_storeBox(array<box> boxes, box boxId, int keepCount) =>
+    array.push(boxes, boxId)
+    if array.size(boxes) > keepCount
+        box.delete(array.shift(boxes))
+
+f_sessionStatus(bool active, float rangeHigh, float rangeLow) =>
+    active ? str.tostring(rangeHigh - rangeLow, format.mintick) : "—"
+
+// --- Session state ---
+bool inAsia = not na(time(timeframe.period, asiaSessionInput, timezoneInput))
+bool inLondon = not na(time(timeframe.period, londonSessionInput, timezoneInput))
+bool inNewYork = not na(time(timeframe.period, newYorkSessionInput, timezoneInput))
+
+bool asiaStart = inAsia and not inAsia[1]
+bool asiaEnd = not inAsia and inAsia[1]
+bool londonStart = inLondon and not inLondon[1]
+bool newYorkStart = inNewYork and not inNewYork[1]
+
+float atrValue = ta.atr(atrLengthInput)
+
+var float asiaHigh = na
+var float asiaLow = na
+var float asiaRange = na
+var float asiaAtrAtEnd = na
+var bool asiaComplete = false
+var bool asiaTight = false
+
+var float londonHigh = na
+var float londonLow = na
+var float newYorkHigh = na
+var float newYorkLow = na
+
+var bool londonSweptHigh = false
+var bool londonSweptLow = false
+
+var box asiaBox = na
+var box londonBox = na
+var box newYorkBox = na
+
+var array<box> asiaBoxes = array.new<box>()
+var array<box> londonBoxes = array.new<box>()
+var array<box> newYorkBoxes = array.new<box>()
+
+// --- Asia range ---
+if asiaStart
+    asiaHigh := high
+    asiaLow := low
+    asiaRange := na
+    asiaAtrAtEnd := na
+    asiaComplete := false
+    asiaTight := false
+    asiaBox := box.new(left = bar_index, top = high, right = bar_index, bottom = low, xloc = xloc.bar_index, border_color = asiaColorInput, bgcolor = color.new(asiaColorInput, boxTransparencyInput), border_width = 1)
+    f_storeBox(asiaBoxes, asiaBox, sessionsToKeepInput)
+else if inAsia
+    asiaHigh := math.max(nz(asiaHigh, high), high)
+    asiaLow := math.min(nz(asiaLow, low), low)
+    if not na(asiaBox)
+        box.set_top(asiaBox, asiaHigh)
+        box.set_bottom(asiaBox, asiaLow)
+        box.set_right(asiaBox, bar_index)
+
+if asiaEnd and not na(asiaHigh) and not na(asiaLow)
+    asiaRange := asiaHigh - asiaLow
+    asiaAtrAtEnd := atrValue
+    asiaTight := not na(asiaAtrAtEnd) and asiaRange <= asiaAtrAtEnd * tightAtrMultiplierInput
+    asiaComplete := true
+    if not na(asiaBox)
+        box.set_right(asiaBox, bar_index - 1)
+        box.set_border_color(asiaBox, asiaTight ? tightColorInput : asiaColorInput)
+        box.set_bgcolor(asiaBox, color.new(asiaTight ? tightColorInput : asiaColorInput, boxTransparencyInput))
+
+// --- London range ---
+if londonStart
+    londonHigh := high
+    londonLow := low
+    londonSweptHigh := false
+    londonSweptLow := false
+    londonBox := box.new(left = bar_index, top = high, right = bar_index, bottom = low, xloc = xloc.bar_index, border_color = londonColorInput, bgcolor = color.new(londonColorInput, boxTransparencyInput), border_width = 1)
+    f_storeBox(londonBoxes, londonBox, sessionsToKeepInput)
+else if inLondon
+    londonHigh := math.max(nz(londonHigh, high), high)
+    londonLow := math.min(nz(londonLow, low), low)
+    if not na(londonBox)
+        box.set_top(londonBox, londonHigh)
+        box.set_bottom(londonBox, londonLow)
+        box.set_right(londonBox, bar_index)
+
+// --- New York range ---
+if newYorkStart
+    newYorkHigh := high
+    newYorkLow := low
+    newYorkBox := box.new(left = bar_index, top = high, right = bar_index, bottom = low, xloc = xloc.bar_index, border_color = newYorkColorInput, bgcolor = color.new(newYorkColorInput, boxTransparencyInput), border_width = 1)
+    f_storeBox(newYorkBoxes, newYorkBox, sessionsToKeepInput)
+else if inNewYork
+    newYorkHigh := math.max(nz(newYorkHigh, high), high)
+    newYorkLow := math.min(nz(newYorkLow, low), low)
+    if not na(newYorkBox)
+        box.set_top(newYorkBox, newYorkHigh)
+        box.set_bottom(newYorkBox, newYorkLow)
+        box.set_right(newYorkBox, bar_index)
+
+// --- London sweep signals ---
+bool londonSweepHighSignal = false
+bool londonSweepLowSignal = false
+bool closeBackInside = sweepModeInput == "Close back inside Asia range"
+
+if inLondon and asiaComplete and barstate.isconfirmed
+    bool highSweep = high > asiaHigh and (not closeBackInside or close < asiaHigh)
+    bool lowSweep = low < asiaLow and (not closeBackInside or close > asiaLow)
+    if highSweep and not londonSweptHigh
+        londonSweptHigh := true
+        londonSweepHighSignal := true
+    if lowSweep and not londonSweptLow
+        londonSweptLow := true
+        londonSweepLowSignal := true
+
+// --- Visual signals ---
+plotshape(londonSweepHighSignal, title = "London sweeps Asia high", style = shape.triangledown, location = location.abovebar, color = sweepHighColorInput, text = "L-SH", textcolor = chart.fg_color, size = size.tiny)
+plotshape(londonSweepLowSignal, title = "London sweeps Asia low", style = shape.triangleup, location = location.belowbar, color = sweepLowColorInput, text = "L-SL", textcolor = chart.fg_color, size = size.tiny)
+
+// --- Status table ---
+var table statusTable = table.new(position.top_right, 2, 7, border_width = 1)
+if barstate.islast
+    string asiaStatus = not asiaComplete ? "Building" : asiaTight ? "TIGHT" : "WIDE"
+    string londonSweepStatus = londonSweptHigh and londonSweptLow ? "High + Low" : londonSweptHigh ? "High" : londonSweptLow ? "Low" : "None"
+    table.cell(statusTable, 0, 0, "SESSION", text_color = chart.fg_color, bgcolor = color.new(chart.fg_color, 85), text_size = size.small)
+    table.cell(statusTable, 1, 0, "STATUS", text_color = chart.fg_color, bgcolor = color.new(chart.fg_color, 85), text_size = size.small)
+    table.cell(statusTable, 0, 1, "Asia", text_color = chart.fg_color, bgcolor = color.new(asiaColorInput, 85), text_size = size.small)
+    table.cell(statusTable, 1, 1, asiaStatus + "  " + f_sessionStatus(asiaComplete or inAsia, asiaHigh, asiaLow), text_color = asiaTight ? tightColorInput : chart.fg_color, text_size = size.small)
+    table.cell(statusTable, 0, 2, "London", text_color = chart.fg_color, bgcolor = color.new(londonColorInput, 85), text_size = size.small)
+    table.cell(statusTable, 1, 2, (inLondon ? "Active  " : "") + f_sessionStatus(inLondon, londonHigh, londonLow), text_color = chart.fg_color, text_size = size.small)
+    table.cell(statusTable, 0, 3, "NY", text_color = chart.fg_color, bgcolor = color.new(newYorkColorInput, 85), text_size = size.small)
+    table.cell(statusTable, 1, 3, (inNewYork ? "Active  " : "") + f_sessionStatus(inNewYork, newYorkHigh, newYorkLow), text_color = chart.fg_color, text_size = size.small)
+    table.cell(statusTable, 0, 4, "London sweep", text_color = chart.fg_color, bgcolor = color.new(chart.fg_color, 90), text_size = size.small)
+    table.cell(statusTable, 1, 4, londonSweepStatus, text_color = londonSweptHigh ? sweepHighColorInput : londonSweptLow ? sweepLowColorInput : chart.fg_color, text_size = size.small)
+    table.cell(statusTable, 0, 5, "Asia ATR", text_color = chart.fg_color, bgcolor = color.new(chart.fg_color, 90), text_size = size.small)
+    table.cell(statusTable, 1, 5, na(asiaAtrAtEnd) ? "—" : str.tostring(asiaAtrAtEnd, format.mintick), text_color = chart.fg_color, text_size = size.small)
+    table.cell(statusTable, 0, 6, "Timezone", text_color = chart.fg_color, bgcolor = color.new(chart.fg_color, 90), text_size = size.small)
+    table.cell(statusTable, 1, 6, timezoneInput, text_color = chart.fg_color, text_size = size.small)
+
+// --- Alerts ---
+alertcondition(asiaEnd and asiaTight, "Tight Asia range", "Asia range completed as TIGHT.")
+alertcondition(londonSweepHighSignal, "London sweeps Asia high", "London swept the Asia range high.")
+alertcondition(londonSweepLowSignal, "London sweeps Asia low", "London swept the Asia range low.")
+
+if not timeframe.isintraday
+    runtime.error("Use this indicator on an intraday chart.")

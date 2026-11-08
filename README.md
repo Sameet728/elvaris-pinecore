@@ -1,9 +1,21 @@
-# Pine Platform — LuxAlgo/Vela Charting with Real Dukascopy XAUUSD Data & PineTS Runtime
+# Elvaris Capital — Quantitative Pine Script Platform
 
-> 🏆 **Master Strategy Documentation & Prop Firm Passing Guide:**  
-> Please see [PROJECT_DOCUMENTATION.md](file:///c:/Users/samee/Desktop/Pine/PROJECT_DOCUMENTATION.md) for full quantitative architecture, dual-month backtest results (September +23.6R, October +17.8R, Score 384.1), multi-timeframe Monte Carlo benchmarks across all timeframes (1M, 5M, 15M, 30M, 1H, 4H), authentic market data up to today, leaderboard, and Pine Script v6 strategy & indicator files.
+> 🏛️ **Product by Elvaris Capital · Parent Organization: [elvariscapital.in](https://elvariscapital.in)**  
+> High-precision Pine Script v5 Strategy Execution Engine, Multi-Variable Monte Carlo Optimizer, and MetaTrader 5 (MT5) Institutional Audit Suite.
 
-A full-stack quantitative trading application that connects **authentic Swiss historical market data from Dukascopy** to **LuxAlgo's Vela charting engine** and executes user-provided **TradingView Pine Script® (v5/v6)** code via **PineTS**.
+---
+
+## About Elvaris Capital
+**Elvaris Capital** ([elvariscapital.in](https://elvariscapital.in)) is a quantitative asset management and algorithmic strategy research organization. This platform serves as the flagship quantitative backtesting and execution engine for Pine Script v5 strategies, calibrated against institutional prop firm challenge metrics (Tradeify, FTMO, Topstep) and audited to 100% TradingView parity.
+
+---
+
+## Core Capabilities & Documentation
+- **Interactive Workspace**: Bar-by-bar execution with real-time WebGL2 candlestick charts, SL/TP execution badges, and Monaco code editing.
+- **Monte Carlo Multi-Variable Optimizer**: Simultaneous parameter sweep across Take-Profit, Stop-Loss, and RSI filter thresholds with 1,000+ path bootstrap resamplings.
+- **MetaTrader 5 (MT5) Parity Audit**: Comprehensive Z-Score randomness testing, streak statistics, AHPR/GHPR, and recovery factors.
+- **Documentation Hub**: Complete technical guides at `/docs` (Pine Script v5 parity, Monte Carlo mathematics, Tradeify 40% consistency rule compliance, REST API).
+- **AI & Bot Discovery**: Machine-readable specification standard implemented via `/llms.txt`, `/sitemap.xml`, and `/robots.txt`.
 
 ---
 

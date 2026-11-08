@@ -1,0 +1,48 @@
+# Robots.txt for Elvaris Capital Quantitative Platform
+# Product by Elvaris Capital · Parent Organization: https://elvariscapital.in
+
+User-agent: *
+Allow: /
+Disallow: /api/
+Allow: /api/datasets
+Allow: /docs
+Allow: /strategies
+Allow: /optimize
+Allow: /data
+Allow: /runs
+
+# Explicit permission and discovery for major AI Search bots & LLM Web Crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+# Canonical Sitemaps & LLM Knowledge Feeds
+Sitemap: https://elvariscapital.in/sitemap.xml
+LLMs-Txt: https://elvariscapital.in/llms.txt
+
