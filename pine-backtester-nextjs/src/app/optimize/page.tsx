@@ -261,20 +261,6 @@ export default function OptimizePage() {
     URL.revokeObjectURL(url);
   };
 
-  if (!mounted) {
-    return (
-      <div className="min-h-screen bg-[var(--bg-app)] flex flex-col">
-        <TopBar />
-        <main className="flex-1 max-w-7xl w-full mx-auto p-8 flex items-center justify-center">
-          <div className="flex flex-col items-center gap-2">
-            <div className="w-8 h-8 border-2 border-[var(--brand)] border-t-transparent rounded-full animate-spin" />
-            <span className="text-xs font-mono text-[var(--text-3)]">Loading Optimizer Engine...</span>
-          </div>
-        </main>
-      </div>
-    );
-  }
-
   return (
     <div className="min-h-screen bg-[var(--bg-app)] flex flex-col selection:bg-[var(--brand-soft)]">
       <TopBar />

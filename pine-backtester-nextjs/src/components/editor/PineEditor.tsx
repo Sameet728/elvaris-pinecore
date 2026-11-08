@@ -62,6 +62,7 @@ export function PineEditor({
   };
 
   const handleEditorDidMount = (editor: any, monaco: any) => {
+    if (!editor || !monaco) return;
     editorRef.current = editor;
     try {
       editor.onDidDispose(() => {
@@ -139,12 +140,14 @@ export function PineEditor({
       });
     }
 
-    monaco.editor.setTheme('elvaris-light');
+    try {
+      monaco.editor.setTheme('elvaris-light');
 
-    // Add Ctrl+Enter shortcut to run backtest
-    editor.addCommand(monaco.KeyMod.CtrlCmd | monaco.KeyCode.Enter, () => {
-      onRunBacktest();
-    });
+      // Add Ctrl+Enter shortcut to run backtest
+      editor.addCommand(monaco.KeyMod.CtrlCmd | monaco.KeyCode.Enter, () => {
+        onRunBacktest();
+      });
+    } catch {}
   };
 
   return (
@@ -211,6 +214,7 @@ export function PineEditor({
           height="100%"
           language="pinescript"
           value={code}
+          keepCurrentModel={false}
           onChange={(val) => onChange(val || '')}
           onMount={handleEditorDidMount}
           options={{

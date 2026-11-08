@@ -50,18 +50,31 @@ export async function POST(req: NextRequest) {
     }, result);
 
     // Navigate to the printable report page with networkidle wait
-    await page.goto(printUrl, {
+    const navResponse = await page.goto(printUrl, {
       waitUntil: 'networkidle',
       timeout: 30000,
     });
 
-    // Wait for the report header and report ready flag
-    await page.waitForSelector('header', { timeout: 15000 });
+    if (navResponse && navResponse.status() >= 400) {
+      throw new Error(`Print page returned HTTP status ${navResponse.status()}`);
+    }
+
+    // Verify that the printable report loaded properly and not an error page
+    const hasHeader = await page.waitForSelector('header', { timeout: 15000 }).catch(() => null);
+    if (!hasHeader) {
+      const bodySnippet = await page.innerText('body').catch(() => '');
+      throw new Error(`Report print view failed to render header. Content: ${bodySnippet.slice(0, 120)}`);
+    }
+
+    // Wait for the report ready flag or fallback delay
     await page.waitForFunction(() => (window as any).__REPORT_READY__ === true, {
       timeout: 15000,
     }).catch(() => {
-      return new Promise((resolve) => setTimeout(resolve, 1500));
+      return new Promise((resolve) => setTimeout(resolve, 2000));
     });
+
+    // Emulate print media so print stylesheets apply
+    await page.emulateMedia({ media: 'print' });
 
     // Generate PDF buffer with A4 format
     const pdfBuffer = await page.pdf({

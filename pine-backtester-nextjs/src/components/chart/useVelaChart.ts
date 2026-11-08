@@ -85,16 +85,22 @@ export function useVelaChart({
 
         const pineEngine = new PineEngine();
 
-        const chart = new Vela(container, {
-          data: initialBars,
-          symbol,
-          timeframe,
-          theme: lightTheme,
-          live: false,
-          volume: false, // Explicitly disable synthetic volume pane
-          attribution: false, // Hide third-party attribution watermark
-          engines: [pineEngine],
-        } as any);
+        // Instantiate Vela with container, options, and dependencies (engines)
+        const chart = new Vela(
+          container,
+          {
+            data: initialBars,
+            symbol,
+            timeframe,
+            theme: lightTheme,
+            live: false,
+            volume: false, // Explicitly disable synthetic volume pane
+            attribution: false, // Hide third-party attribution watermark
+          } as any,
+          {
+            engines: [pineEngine],
+          }
+        );
 
         try {
           chart.registerEngine('pine', pineEngine);

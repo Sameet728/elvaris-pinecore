@@ -38,7 +38,11 @@ export const metadata: Metadata = {
   publisher: 'Elvaris Capital (elvariscapital.in)',
   applicationName: 'Elvaris Capital Quant Platform',
   icons: {
-    icon: '/images/logo.png',
+    icon: [
+      { url: '/images/logo.png', sizes: '32x32', type: 'image/png' },
+      { url: '/images/logo.png', sizes: '16x16', type: 'image/png' },
+    ],
+    shortcut: '/images/logo.png',
     apple: '/images/logo.png',
   },
   alternates: {
@@ -156,9 +160,44 @@ export default function RootLayout({
   return (
     <html
       lang="en"
+      suppressHydrationWarning
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <head>
+        <link rel="icon" type="image/png" sizes="32x32" href="/images/logo.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/images/logo.png" />
+        <link rel="shortcut icon" href="/images/logo.png" />
+        <link rel="apple-touch-icon" href="/images/logo.png" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function() {
+                function shouldSuppress(msg) {
+                  if (!msg) return false;
+                  var str = String(msg);
+                  return (
+                    str.indexOf('InstantiationService has been disposed') !== -1 ||
+                    str.indexOf("Cannot read properties of undefined (reading 'domNode')") !== -1 ||
+                    str.indexOf('no scripting engine registered for language') !== -1
+                  );
+                }
+                window.addEventListener('error', function(e) {
+                  if (shouldSuppress(e.message || (e.error && e.error.message))) {
+                    e.stopImmediatePropagation();
+                    e.preventDefault();
+                  }
+                }, true);
+                window.addEventListener('unhandledrejection', function(e) {
+                  var reason = e.reason && (e.reason.message || String(e.reason));
+                  if (shouldSuppress(reason)) {
+                    e.stopImmediatePropagation();
+                    e.preventDefault();
+                  }
+                }, true);
+              })();
+            `,
+          }}
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdOrg) }}
@@ -172,7 +211,10 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdFaq) }}
         />
       </head>
-      <body className="min-h-full flex flex-col bg-[var(--bg-app)] text-[var(--text-1)] selection:bg-[var(--brand-soft)] selection:text-[var(--brand)]">
+      <body
+        suppressHydrationWarning
+        className="min-h-full flex flex-col bg-[var(--bg-app)] text-[var(--text-1)] selection:bg-[var(--brand-soft)] selection:text-[var(--brand)]"
+      >
         {children}
       </body>
     </html>
