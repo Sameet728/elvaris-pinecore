@@ -15,8 +15,10 @@ export interface StrategyPreset {
 }
 
 export const STRATEGY_PRESETS: StrategyPreset[] = [
-  { id: 'grandmaster_strat', name: 'Grandmaster 15M (Dual 10R)', filename: 'Champion_15M_Grandmaster_Dual10R_Oct8R_STRATEGY.pine', type: 'strategy' },
-  { id: 'grandmaster_ind', name: 'Grandmaster 15M Indicator', filename: 'Champion_15M_Grandmaster_Dual10R_Oct8R_INDICATOR.pine', type: 'indicator' },
+  { id: 'grandmaster_strat', name: 'PS-01: Grandmaster 15M (Dual 10R)', filename: 'Champion_15M_Grandmaster_Dual10R_Oct8R_STRATEGY.pine', type: 'strategy' },
+  { id: 'grandmaster_ind', name: 'PS-01: Grandmaster 15M Indicator', filename: 'Champion_15M_Grandmaster_Dual10R_Oct8R_INDICATOR.pine', type: 'indicator' },
+  { id: 'us_momentum_strat', name: 'PS-02: US Afternoon Reversal (87.5% WR)', filename: 'Champion_15M_US_Momentum_STRATEGY.pine', type: 'strategy' },
+  { id: 'london_core_strat', name: 'PS-03: London Core Expansion (82.9% WR)', filename: 'Champion_15M_London_Core_STRATEGY.pine', type: 'strategy' },
   { id: 'apex_strat', name: 'Apex 15M Trend Alpha', filename: 'Champion_15M_Apex_88WR_STRATEGY.pine', type: 'strategy' },
   { id: 'apex_ind', name: 'Apex 15M Trend Indicator', filename: 'Champion_15M_Apex_88WR_INDICATOR.pine', type: 'indicator' },
   { id: 'rr1to2_strat', name: '1:2 Risk/Reward Parity', filename: 'Champion_15M_1to2RR_75WR_STRATEGY.pine', type: 'strategy' },

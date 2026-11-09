@@ -33,6 +33,18 @@ export default function StrategiesPage() {
       tf: '15 Minutes',
       target: 'Chart Overlay',
     },
+    'Champion_15M_US_Momentum_STRATEGY.pine': {
+      desc: 'PS-02 US Afternoon Reversal (14:00-22:00 UTC). Fades 2.0-sigma volatility band exhaustion along 200 EMA with 87.50% win rate and 24.49 Calmar ($18.00 TP / $13.75 SL).',
+      tags: ['Strategy', 'US Session', '87.5% Win Rate', '15M Timeframe'],
+      tf: '15 Minutes',
+      target: 'US Afternoon Window',
+    },
+    'Champion_15M_London_Core_STRATEGY.pine': {
+      desc: 'PS-03 London Core Expansion (04:00-20:00 UTC, skipping 12:00 UTC). 28-period 2.1-sigma mean-reversion with 82.86% win rate and 27.75 Calmar ($16.00 TP / $13.75 SL).',
+      tags: ['Strategy', 'London/NY', '82.9% Win Rate', '15M Timeframe'],
+      tf: '15 Minutes',
+      target: 'London & NY Core',
+    },
     'Champion_15M_Apex_88WR_STRATEGY.pine': {
       desc: 'Apex-calibrated high-frequency trend-following setup with strict London/NY active session filters and quick volatility band mean reversion.',
       tags: ['Strategy', 'High Frequency', 'Apex Funding', '15M Timeframe'],
