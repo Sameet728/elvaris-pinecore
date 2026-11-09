@@ -15,13 +15,7 @@
 // ─────────────────────────────────────────────────────────────────────────────
 
 //@version=5
-indicator(
-    title="Champion_15M_Grandmaster_Dual10R_Oct8R_INDICATOR",
-    overlay=true,
-    max_boxes_count=500,
-    max_lines_count=500,
-    max_labels_count=500
-    )
+indicator("Champion_15M_Grandmaster_Dual10R_Oct8R_INDICATOR", overlay=true, max_boxes_count=500, max_lines_count=500, max_labels_count=500)
 
 // ─── Timeframe Guard ───
 is15M = timeframe.isminutes and (timeframe.multiplier == 15)
