@@ -1,0 +1,52 @@
+{
+  "apiEndpoint": "https://strat-market-chi.vercel.app/api/internal/signals",
+  "healthEndpoint": "https://strat-market-chi.vercel.app/api/internal/health",
+  "sharedSecret": "stratmarket-dev-vps-hmac-shared-secret-key-2026",
+  "pollingIntervalMs": 15000,
+  "heartbeatIntervalMs": 60000,
+  "pineStrategies": [
+    {
+      "id": "PS-01",
+      "slug": "ps-01",
+      "name": "Grandmaster Dual 10R / 8R",
+      "instrument": "XAUUSD",
+      "timeframe": "15",
+      "enabled": true
+    },
+    {
+      "id": "PS-02",
+      "slug": "ps-02",
+      "name": "US Afternoon Reversal",
+      "instrument": "XAUUSD",
+      "timeframe": "15",
+      "enabled": true
+    },
+    {
+      "id": "PS-03",
+      "slug": "ps-03",
+      "name": "London Core Expansion",
+      "instrument": "XAUUSD",
+      "timeframe": "15",
+      "enabled": true
+    }
+  ],
+  "pythonStrategies": [
+    {
+      "id": "PY-01",
+      "slug": "py-01",
+      "name": "Peak Champion (6-Engine)",
+      "instrument": "XAUUSD",
+      "timeframe": "5",
+      "enabled": true
+    },
+    {
+      "id": "PY-02",
+      "slug": "py-02",
+      "name": "High-Alpha Shield (7-Engine)",
+      "instrument": "XAUUSD",
+      "timeframe": "5",
+      "enabled": true
+    }
+  ]
+}
+
