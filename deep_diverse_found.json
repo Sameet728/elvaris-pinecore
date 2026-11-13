@@ -1,0 +1,4622 @@
+[
+  {
+    "family": "Keltner Channel Expansion",
+    "name": "Keltner EMA18 Mult1.85 [NY Core (13-20)] TP18",
+    "params": {
+      "p": 18,
+      "mult": 1.85,
+      "crashAtr": 1.6,
+      "off": 3.5,
+      "sess": "NY_CORE",
+      "tp": 18,
+      "sl": 13.75
+    },
+    "tradesCount": 20,
+    "wins": 16,
+    "losses": 4,
+    "wr": 80,
+    "netProfit": 233,
+    "profitFactor": 5.236363636363636,
+    "maxDd": 27.5,
+    "calmar": 8.472727272727273,
+    "totalR": 16.94545454545454,
+    "mReturns": {
+      "7": 6.545454545454545,
+      "8": 8.47272727272727,
+      "9": 3.9272727272727272,
+      "10": -2
+    },
+    "overlapWithS1": 8,
+    "trades": [
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 18,
+        "r": 1.309090909090909,
+        "entryIdx": 337,
+        "exitIdx": 338,
+        "time": 1786022100000,
+        "month": 7
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 18,
+        "r": 1.309090909090909,
+        "entryIdx": 524,
+        "exitIdx": 525,
+        "time": 1786370400000,
+        "month": 7
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 18,
+        "r": 1.309090909090909,
+        "entryIdx": 634,
+        "exitIdx": 656,
+        "time": 1786473000000,
+        "month": 7
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 18,
+        "r": 1.309090909090909,
+        "entryIdx": 1728,
+        "exitIdx": 1759,
+        "time": 1787846400000,
+        "month": 7
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 18,
+        "r": 1.309090909090909,
+        "entryIdx": 1928,
+        "exitIdx": 1950,
+        "time": 1788206400000,
+        "month": 7
+      },
+      {
+        "type": "SHORT",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 2091,
+        "exitIdx": 2111,
+        "time": 1788360300000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 18,
+        "r": 1.309090909090909,
+        "entryIdx": 2826,
+        "exitIdx": 2836,
+        "time": 1789405200000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 18,
+        "r": 1.309090909090909,
+        "entryIdx": 2906,
+        "exitIdx": 2908,
+        "time": 1789480800000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 18,
+        "r": 1.309090909090909,
+        "entryIdx": 2924,
+        "exitIdx": 2938,
+        "time": 1789497000000,
+        "month": 8
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 18,
+        "r": 1.309090909090909,
+        "entryIdx": 2998,
+        "exitIdx": 3002,
+        "time": 1789567200000,
+        "month": 8
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 18,
+        "r": 1.309090909090909,
+        "entryIdx": 3184,
+        "exitIdx": 3191,
+        "time": 1789741800000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 18,
+        "r": 1.309090909090909,
+        "entryIdx": 3546,
+        "exitIdx": 3552,
+        "time": 1790254800000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 18,
+        "r": 1.309090909090909,
+        "entryIdx": 3560,
+        "exitIdx": 3566,
+        "time": 1790267400000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 18,
+        "r": 1.309090909090909,
+        "entryIdx": 3828,
+        "exitIdx": 3831,
+        "time": 1790692200000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 3843,
+        "exitIdx": 3852,
+        "time": 1790705700000,
+        "month": 8
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 18,
+        "r": 1.309090909090909,
+        "entryIdx": 5020,
+        "exitIdx": 5023,
+        "time": 1792157400000,
+        "month": 9
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 18,
+        "r": 1.309090909090909,
+        "entryIdx": 5030,
+        "exitIdx": 5058,
+        "time": 1792166400000,
+        "month": 9
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 18,
+        "r": 1.309090909090909,
+        "entryIdx": 5209,
+        "exitIdx": 5215,
+        "time": 1792507500000,
+        "month": 9
+      },
+      {
+        "type": "SHORT",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 6029,
+        "exitIdx": 6032,
+        "time": 1793627100000,
+        "month": 10
+      },
+      {
+        "type": "LONG",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 6309,
+        "exitIdx": 6311,
+        "time": 1793889900000,
+        "month": 10
+      }
+    ]
+  },
+  {
+    "family": "Keltner Channel Expansion",
+    "name": "Keltner EMA18 Mult1.85 [NY Core (13-20)] TP18",
+    "params": {
+      "p": 18,
+      "mult": 1.85,
+      "crashAtr": 1.6,
+      "off": 4.5,
+      "sess": "NY_CORE",
+      "tp": 18,
+      "sl": 13.75
+    },
+    "tradesCount": 20,
+    "wins": 16,
+    "losses": 4,
+    "wr": 80,
+    "netProfit": 233,
+    "profitFactor": 5.236363636363636,
+    "maxDd": 27.5,
+    "calmar": 8.472727272727273,
+    "totalR": 16.94545454545454,
+    "mReturns": {
+      "7": 6.545454545454545,
+      "8": 8.47272727272727,
+      "9": 3.9272727272727272,
+      "10": -2
+    },
+    "overlapWithS1": 8,
+    "trades": [
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 18,
+        "r": 1.309090909090909,
+        "entryIdx": 337,
+        "exitIdx": 338,
+        "time": 1786022100000,
+        "month": 7
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 18,
+        "r": 1.309090909090909,
+        "entryIdx": 524,
+        "exitIdx": 525,
+        "time": 1786370400000,
+        "month": 7
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 18,
+        "r": 1.309090909090909,
+        "entryIdx": 634,
+        "exitIdx": 656,
+        "time": 1786473000000,
+        "month": 7
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 18,
+        "r": 1.309090909090909,
+        "entryIdx": 1728,
+        "exitIdx": 1759,
+        "time": 1787846400000,
+        "month": 7
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 18,
+        "r": 1.309090909090909,
+        "entryIdx": 1928,
+        "exitIdx": 1950,
+        "time": 1788206400000,
+        "month": 7
+      },
+      {
+        "type": "SHORT",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 2091,
+        "exitIdx": 2111,
+        "time": 1788360300000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 18,
+        "r": 1.309090909090909,
+        "entryIdx": 2826,
+        "exitIdx": 2836,
+        "time": 1789405200000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 18,
+        "r": 1.309090909090909,
+        "entryIdx": 2906,
+        "exitIdx": 2908,
+        "time": 1789480800000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 18,
+        "r": 1.309090909090909,
+        "entryIdx": 2924,
+        "exitIdx": 2938,
+        "time": 1789497000000,
+        "month": 8
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 18,
+        "r": 1.309090909090909,
+        "entryIdx": 2998,
+        "exitIdx": 3002,
+        "time": 1789567200000,
+        "month": 8
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 18,
+        "r": 1.309090909090909,
+        "entryIdx": 3184,
+        "exitIdx": 3191,
+        "time": 1789741800000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 18,
+        "r": 1.309090909090909,
+        "entryIdx": 3546,
+        "exitIdx": 3552,
+        "time": 1790254800000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 18,
+        "r": 1.309090909090909,
+        "entryIdx": 3560,
+        "exitIdx": 3566,
+        "time": 1790267400000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 18,
+        "r": 1.309090909090909,
+        "entryIdx": 3828,
+        "exitIdx": 3831,
+        "time": 1790692200000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 3843,
+        "exitIdx": 3852,
+        "time": 1790705700000,
+        "month": 8
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 18,
+        "r": 1.309090909090909,
+        "entryIdx": 5020,
+        "exitIdx": 5023,
+        "time": 1792157400000,
+        "month": 9
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 18,
+        "r": 1.309090909090909,
+        "entryIdx": 5030,
+        "exitIdx": 5058,
+        "time": 1792166400000,
+        "month": 9
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 18,
+        "r": 1.309090909090909,
+        "entryIdx": 5209,
+        "exitIdx": 5215,
+        "time": 1792507500000,
+        "month": 9
+      },
+      {
+        "type": "SHORT",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 6029,
+        "exitIdx": 6032,
+        "time": 1793627100000,
+        "month": 10
+      },
+      {
+        "type": "LONG",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 6309,
+        "exitIdx": 6311,
+        "time": 1793889900000,
+        "month": 10
+      }
+    ]
+  },
+  {
+    "family": "Keltner Channel Expansion",
+    "name": "Keltner EMA24 Mult1.85 [NY Core (13-20)] TP18",
+    "params": {
+      "p": 24,
+      "mult": 1.85,
+      "crashAtr": 1.6,
+      "off": 3.5,
+      "sess": "NY_CORE",
+      "tp": 18,
+      "sl": 13.75
+    },
+    "tradesCount": 20,
+    "wins": 16,
+    "losses": 4,
+    "wr": 80,
+    "netProfit": 233,
+    "profitFactor": 5.236363636363636,
+    "maxDd": 27.5,
+    "calmar": 8.472727272727273,
+    "totalR": 16.94545454545454,
+    "mReturns": {
+      "7": 7.854545454545454,
+      "8": 5.854545454545454,
+      "9": 5.236363636363636,
+      "10": -2
+    },
+    "overlapWithS1": 8,
+    "trades": [
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 18,
+        "r": 1.309090909090909,
+        "entryIdx": 337,
+        "exitIdx": 338,
+        "time": 1786022100000,
+        "month": 7
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 18,
+        "r": 1.309090909090909,
+        "entryIdx": 351,
+        "exitIdx": 384,
+        "time": 1786034700000,
+        "month": 7
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 18,
+        "r": 1.309090909090909,
+        "entryIdx": 524,
+        "exitIdx": 525,
+        "time": 1786370400000,
+        "month": 7
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 18,
+        "r": 1.309090909090909,
+        "entryIdx": 634,
+        "exitIdx": 656,
+        "time": 1786473000000,
+        "month": 7
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 18,
+        "r": 1.309090909090909,
+        "entryIdx": 1728,
+        "exitIdx": 1759,
+        "time": 1787846400000,
+        "month": 7
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 18,
+        "r": 1.309090909090909,
+        "entryIdx": 1928,
+        "exitIdx": 1950,
+        "time": 1788206400000,
+        "month": 7
+      },
+      {
+        "type": "SHORT",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 2091,
+        "exitIdx": 2111,
+        "time": 1788360300000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 18,
+        "r": 1.309090909090909,
+        "entryIdx": 2826,
+        "exitIdx": 2836,
+        "time": 1789405200000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 18,
+        "r": 1.309090909090909,
+        "entryIdx": 2906,
+        "exitIdx": 2908,
+        "time": 1789480800000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 18,
+        "r": 1.309090909090909,
+        "entryIdx": 2924,
+        "exitIdx": 2938,
+        "time": 1789497000000,
+        "month": 8
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 18,
+        "r": 1.309090909090909,
+        "entryIdx": 3184,
+        "exitIdx": 3191,
+        "time": 1789741800000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 18,
+        "r": 1.309090909090909,
+        "entryIdx": 3560,
+        "exitIdx": 3566,
+        "time": 1790267400000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 18,
+        "r": 1.309090909090909,
+        "entryIdx": 3828,
+        "exitIdx": 3831,
+        "time": 1790692200000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 3843,
+        "exitIdx": 3852,
+        "time": 1790705700000,
+        "month": 8
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 18,
+        "r": 1.309090909090909,
+        "entryIdx": 5020,
+        "exitIdx": 5023,
+        "time": 1792157400000,
+        "month": 9
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 18,
+        "r": 1.309090909090909,
+        "entryIdx": 5030,
+        "exitIdx": 5058,
+        "time": 1792166400000,
+        "month": 9
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 18,
+        "r": 1.309090909090909,
+        "entryIdx": 5209,
+        "exitIdx": 5215,
+        "time": 1792507500000,
+        "month": 9
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 18,
+        "r": 1.309090909090909,
+        "entryIdx": 5587,
+        "exitIdx": 5609,
+        "time": 1793034900000,
+        "month": 9
+      },
+      {
+        "type": "SHORT",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 6029,
+        "exitIdx": 6032,
+        "time": 1793627100000,
+        "month": 10
+      },
+      {
+        "type": "LONG",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 6309,
+        "exitIdx": 6311,
+        "time": 1793889900000,
+        "month": 10
+      }
+    ]
+  },
+  {
+    "family": "Keltner Channel Expansion",
+    "name": "Keltner EMA24 Mult1.85 [NY Core (13-20)] TP18",
+    "params": {
+      "p": 24,
+      "mult": 1.85,
+      "crashAtr": 1.6,
+      "off": 4.5,
+      "sess": "NY_CORE",
+      "tp": 18,
+      "sl": 13.75
+    },
+    "tradesCount": 20,
+    "wins": 16,
+    "losses": 4,
+    "wr": 80,
+    "netProfit": 233,
+    "profitFactor": 5.236363636363636,
+    "maxDd": 27.5,
+    "calmar": 8.472727272727273,
+    "totalR": 16.94545454545454,
+    "mReturns": {
+      "7": 7.854545454545454,
+      "8": 5.854545454545454,
+      "9": 5.236363636363636,
+      "10": -2
+    },
+    "overlapWithS1": 8,
+    "trades": [
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 18,
+        "r": 1.309090909090909,
+        "entryIdx": 337,
+        "exitIdx": 338,
+        "time": 1786022100000,
+        "month": 7
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 18,
+        "r": 1.309090909090909,
+        "entryIdx": 351,
+        "exitIdx": 384,
+        "time": 1786034700000,
+        "month": 7
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 18,
+        "r": 1.309090909090909,
+        "entryIdx": 524,
+        "exitIdx": 525,
+        "time": 1786370400000,
+        "month": 7
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 18,
+        "r": 1.309090909090909,
+        "entryIdx": 634,
+        "exitIdx": 656,
+        "time": 1786473000000,
+        "month": 7
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 18,
+        "r": 1.309090909090909,
+        "entryIdx": 1728,
+        "exitIdx": 1759,
+        "time": 1787846400000,
+        "month": 7
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 18,
+        "r": 1.309090909090909,
+        "entryIdx": 1928,
+        "exitIdx": 1950,
+        "time": 1788206400000,
+        "month": 7
+      },
+      {
+        "type": "SHORT",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 2091,
+        "exitIdx": 2111,
+        "time": 1788360300000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 18,
+        "r": 1.309090909090909,
+        "entryIdx": 2826,
+        "exitIdx": 2836,
+        "time": 1789405200000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 18,
+        "r": 1.309090909090909,
+        "entryIdx": 2906,
+        "exitIdx": 2908,
+        "time": 1789480800000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 18,
+        "r": 1.309090909090909,
+        "entryIdx": 2924,
+        "exitIdx": 2938,
+        "time": 1789497000000,
+        "month": 8
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 18,
+        "r": 1.309090909090909,
+        "entryIdx": 3184,
+        "exitIdx": 3191,
+        "time": 1789741800000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 18,
+        "r": 1.309090909090909,
+        "entryIdx": 3560,
+        "exitIdx": 3566,
+        "time": 1790267400000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 18,
+        "r": 1.309090909090909,
+        "entryIdx": 3828,
+        "exitIdx": 3831,
+        "time": 1790692200000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 3843,
+        "exitIdx": 3852,
+        "time": 1790705700000,
+        "month": 8
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 18,
+        "r": 1.309090909090909,
+        "entryIdx": 5020,
+        "exitIdx": 5023,
+        "time": 1792157400000,
+        "month": 9
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 18,
+        "r": 1.309090909090909,
+        "entryIdx": 5030,
+        "exitIdx": 5058,
+        "time": 1792166400000,
+        "month": 9
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 18,
+        "r": 1.309090909090909,
+        "entryIdx": 5209,
+        "exitIdx": 5215,
+        "time": 1792507500000,
+        "month": 9
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 18,
+        "r": 1.309090909090909,
+        "entryIdx": 5587,
+        "exitIdx": 5609,
+        "time": 1793034900000,
+        "month": 9
+      },
+      {
+        "type": "SHORT",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 6029,
+        "exitIdx": 6032,
+        "time": 1793627100000,
+        "month": 10
+      },
+      {
+        "type": "LONG",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 6309,
+        "exitIdx": 6311,
+        "time": 1793889900000,
+        "month": 10
+      }
+    ]
+  },
+  {
+    "family": "Keltner Channel Expansion",
+    "name": "Keltner EMA18 Mult1.85 [NY Core (13-20)] TP17",
+    "params": {
+      "p": 18,
+      "mult": 1.85,
+      "crashAtr": 1.6,
+      "off": 3.5,
+      "sess": "NY_CORE",
+      "tp": 17,
+      "sl": 13.75
+    },
+    "tradesCount": 20,
+    "wins": 16,
+    "losses": 4,
+    "wr": 80,
+    "netProfit": 217,
+    "profitFactor": 4.945454545454545,
+    "maxDd": 27.5,
+    "calmar": 7.890909090909091,
+    "totalR": 15.781818181818181,
+    "mReturns": {
+      "7": 6.181818181818182,
+      "8": 7.890909090909091,
+      "9": 3.709090909090909,
+      "10": -2
+    },
+    "overlapWithS1": 8,
+    "trades": [
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 17,
+        "r": 1.2363636363636363,
+        "entryIdx": 337,
+        "exitIdx": 338,
+        "time": 1786022100000,
+        "month": 7
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 17,
+        "r": 1.2363636363636363,
+        "entryIdx": 524,
+        "exitIdx": 525,
+        "time": 1786370400000,
+        "month": 7
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 17,
+        "r": 1.2363636363636363,
+        "entryIdx": 634,
+        "exitIdx": 656,
+        "time": 1786473000000,
+        "month": 7
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 17,
+        "r": 1.2363636363636363,
+        "entryIdx": 1728,
+        "exitIdx": 1759,
+        "time": 1787846400000,
+        "month": 7
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 17,
+        "r": 1.2363636363636363,
+        "entryIdx": 1928,
+        "exitIdx": 1950,
+        "time": 1788206400000,
+        "month": 7
+      },
+      {
+        "type": "SHORT",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 2091,
+        "exitIdx": 2111,
+        "time": 1788360300000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 17,
+        "r": 1.2363636363636363,
+        "entryIdx": 2826,
+        "exitIdx": 2836,
+        "time": 1789405200000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 17,
+        "r": 1.2363636363636363,
+        "entryIdx": 2906,
+        "exitIdx": 2908,
+        "time": 1789480800000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 17,
+        "r": 1.2363636363636363,
+        "entryIdx": 2924,
+        "exitIdx": 2938,
+        "time": 1789497000000,
+        "month": 8
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 17,
+        "r": 1.2363636363636363,
+        "entryIdx": 2998,
+        "exitIdx": 3002,
+        "time": 1789567200000,
+        "month": 8
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 17,
+        "r": 1.2363636363636363,
+        "entryIdx": 3184,
+        "exitIdx": 3191,
+        "time": 1789741800000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 17,
+        "r": 1.2363636363636363,
+        "entryIdx": 3546,
+        "exitIdx": 3551,
+        "time": 1790254800000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 17,
+        "r": 1.2363636363636363,
+        "entryIdx": 3560,
+        "exitIdx": 3566,
+        "time": 1790267400000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 17,
+        "r": 1.2363636363636363,
+        "entryIdx": 3828,
+        "exitIdx": 3831,
+        "time": 1790692200000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 3843,
+        "exitIdx": 3852,
+        "time": 1790705700000,
+        "month": 8
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 17,
+        "r": 1.2363636363636363,
+        "entryIdx": 5020,
+        "exitIdx": 5023,
+        "time": 1792157400000,
+        "month": 9
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 17,
+        "r": 1.2363636363636363,
+        "entryIdx": 5030,
+        "exitIdx": 5057,
+        "time": 1792166400000,
+        "month": 9
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 17,
+        "r": 1.2363636363636363,
+        "entryIdx": 5209,
+        "exitIdx": 5215,
+        "time": 1792507500000,
+        "month": 9
+      },
+      {
+        "type": "SHORT",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 6029,
+        "exitIdx": 6032,
+        "time": 1793627100000,
+        "month": 10
+      },
+      {
+        "type": "LONG",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 6309,
+        "exitIdx": 6311,
+        "time": 1793889900000,
+        "month": 10
+      }
+    ]
+  },
+  {
+    "family": "Keltner Channel Expansion",
+    "name": "Keltner EMA18 Mult1.85 [NY Core (13-20)] TP17",
+    "params": {
+      "p": 18,
+      "mult": 1.85,
+      "crashAtr": 1.6,
+      "off": 4.5,
+      "sess": "NY_CORE",
+      "tp": 17,
+      "sl": 13.75
+    },
+    "tradesCount": 20,
+    "wins": 16,
+    "losses": 4,
+    "wr": 80,
+    "netProfit": 217,
+    "profitFactor": 4.945454545454545,
+    "maxDd": 27.5,
+    "calmar": 7.890909090909091,
+    "totalR": 15.781818181818181,
+    "mReturns": {
+      "7": 6.181818181818182,
+      "8": 7.890909090909091,
+      "9": 3.709090909090909,
+      "10": -2
+    },
+    "overlapWithS1": 8,
+    "trades": [
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 17,
+        "r": 1.2363636363636363,
+        "entryIdx": 337,
+        "exitIdx": 338,
+        "time": 1786022100000,
+        "month": 7
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 17,
+        "r": 1.2363636363636363,
+        "entryIdx": 524,
+        "exitIdx": 525,
+        "time": 1786370400000,
+        "month": 7
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 17,
+        "r": 1.2363636363636363,
+        "entryIdx": 634,
+        "exitIdx": 656,
+        "time": 1786473000000,
+        "month": 7
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 17,
+        "r": 1.2363636363636363,
+        "entryIdx": 1728,
+        "exitIdx": 1759,
+        "time": 1787846400000,
+        "month": 7
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 17,
+        "r": 1.2363636363636363,
+        "entryIdx": 1928,
+        "exitIdx": 1950,
+        "time": 1788206400000,
+        "month": 7
+      },
+      {
+        "type": "SHORT",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 2091,
+        "exitIdx": 2111,
+        "time": 1788360300000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 17,
+        "r": 1.2363636363636363,
+        "entryIdx": 2826,
+        "exitIdx": 2836,
+        "time": 1789405200000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 17,
+        "r": 1.2363636363636363,
+        "entryIdx": 2906,
+        "exitIdx": 2908,
+        "time": 1789480800000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 17,
+        "r": 1.2363636363636363,
+        "entryIdx": 2924,
+        "exitIdx": 2938,
+        "time": 1789497000000,
+        "month": 8
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 17,
+        "r": 1.2363636363636363,
+        "entryIdx": 2998,
+        "exitIdx": 3002,
+        "time": 1789567200000,
+        "month": 8
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 17,
+        "r": 1.2363636363636363,
+        "entryIdx": 3184,
+        "exitIdx": 3191,
+        "time": 1789741800000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 17,
+        "r": 1.2363636363636363,
+        "entryIdx": 3546,
+        "exitIdx": 3551,
+        "time": 1790254800000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 17,
+        "r": 1.2363636363636363,
+        "entryIdx": 3560,
+        "exitIdx": 3566,
+        "time": 1790267400000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 17,
+        "r": 1.2363636363636363,
+        "entryIdx": 3828,
+        "exitIdx": 3831,
+        "time": 1790692200000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 3843,
+        "exitIdx": 3852,
+        "time": 1790705700000,
+        "month": 8
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 17,
+        "r": 1.2363636363636363,
+        "entryIdx": 5020,
+        "exitIdx": 5023,
+        "time": 1792157400000,
+        "month": 9
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 17,
+        "r": 1.2363636363636363,
+        "entryIdx": 5030,
+        "exitIdx": 5057,
+        "time": 1792166400000,
+        "month": 9
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 17,
+        "r": 1.2363636363636363,
+        "entryIdx": 5209,
+        "exitIdx": 5215,
+        "time": 1792507500000,
+        "month": 9
+      },
+      {
+        "type": "SHORT",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 6029,
+        "exitIdx": 6032,
+        "time": 1793627100000,
+        "month": 10
+      },
+      {
+        "type": "LONG",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 6309,
+        "exitIdx": 6311,
+        "time": 1793889900000,
+        "month": 10
+      }
+    ]
+  },
+  {
+    "family": "Keltner Channel Expansion",
+    "name": "Keltner EMA24 Mult1.85 [NY Core (13-20)] TP17",
+    "params": {
+      "p": 24,
+      "mult": 1.85,
+      "crashAtr": 1.6,
+      "off": 3.5,
+      "sess": "NY_CORE",
+      "tp": 17,
+      "sl": 13.75
+    },
+    "tradesCount": 20,
+    "wins": 16,
+    "losses": 4,
+    "wr": 80,
+    "netProfit": 217,
+    "profitFactor": 4.945454545454545,
+    "maxDd": 27.5,
+    "calmar": 7.890909090909091,
+    "totalR": 15.781818181818181,
+    "mReturns": {
+      "7": 7.418181818181818,
+      "8": 5.418181818181818,
+      "9": 4.945454545454545,
+      "10": -2
+    },
+    "overlapWithS1": 8,
+    "trades": [
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 17,
+        "r": 1.2363636363636363,
+        "entryIdx": 337,
+        "exitIdx": 338,
+        "time": 1786022100000,
+        "month": 7
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 17,
+        "r": 1.2363636363636363,
+        "entryIdx": 351,
+        "exitIdx": 382,
+        "time": 1786034700000,
+        "month": 7
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 17,
+        "r": 1.2363636363636363,
+        "entryIdx": 524,
+        "exitIdx": 525,
+        "time": 1786370400000,
+        "month": 7
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 17,
+        "r": 1.2363636363636363,
+        "entryIdx": 634,
+        "exitIdx": 656,
+        "time": 1786473000000,
+        "month": 7
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 17,
+        "r": 1.2363636363636363,
+        "entryIdx": 1728,
+        "exitIdx": 1759,
+        "time": 1787846400000,
+        "month": 7
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 17,
+        "r": 1.2363636363636363,
+        "entryIdx": 1928,
+        "exitIdx": 1950,
+        "time": 1788206400000,
+        "month": 7
+      },
+      {
+        "type": "SHORT",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 2091,
+        "exitIdx": 2111,
+        "time": 1788360300000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 17,
+        "r": 1.2363636363636363,
+        "entryIdx": 2826,
+        "exitIdx": 2836,
+        "time": 1789405200000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 17,
+        "r": 1.2363636363636363,
+        "entryIdx": 2906,
+        "exitIdx": 2908,
+        "time": 1789480800000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 17,
+        "r": 1.2363636363636363,
+        "entryIdx": 2924,
+        "exitIdx": 2938,
+        "time": 1789497000000,
+        "month": 8
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 17,
+        "r": 1.2363636363636363,
+        "entryIdx": 3184,
+        "exitIdx": 3191,
+        "time": 1789741800000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 17,
+        "r": 1.2363636363636363,
+        "entryIdx": 3560,
+        "exitIdx": 3566,
+        "time": 1790267400000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 17,
+        "r": 1.2363636363636363,
+        "entryIdx": 3828,
+        "exitIdx": 3831,
+        "time": 1790692200000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 3843,
+        "exitIdx": 3852,
+        "time": 1790705700000,
+        "month": 8
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 17,
+        "r": 1.2363636363636363,
+        "entryIdx": 5020,
+        "exitIdx": 5023,
+        "time": 1792157400000,
+        "month": 9
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 17,
+        "r": 1.2363636363636363,
+        "entryIdx": 5030,
+        "exitIdx": 5057,
+        "time": 1792166400000,
+        "month": 9
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 17,
+        "r": 1.2363636363636363,
+        "entryIdx": 5209,
+        "exitIdx": 5215,
+        "time": 1792507500000,
+        "month": 9
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 17,
+        "r": 1.2363636363636363,
+        "entryIdx": 5587,
+        "exitIdx": 5609,
+        "time": 1793034900000,
+        "month": 9
+      },
+      {
+        "type": "SHORT",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 6029,
+        "exitIdx": 6032,
+        "time": 1793627100000,
+        "month": 10
+      },
+      {
+        "type": "LONG",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 6309,
+        "exitIdx": 6311,
+        "time": 1793889900000,
+        "month": 10
+      }
+    ]
+  },
+  {
+    "family": "Keltner Channel Expansion",
+    "name": "Keltner EMA24 Mult1.85 [NY Core (13-20)] TP17",
+    "params": {
+      "p": 24,
+      "mult": 1.85,
+      "crashAtr": 1.6,
+      "off": 4.5,
+      "sess": "NY_CORE",
+      "tp": 17,
+      "sl": 13.75
+    },
+    "tradesCount": 20,
+    "wins": 16,
+    "losses": 4,
+    "wr": 80,
+    "netProfit": 217,
+    "profitFactor": 4.945454545454545,
+    "maxDd": 27.5,
+    "calmar": 7.890909090909091,
+    "totalR": 15.781818181818181,
+    "mReturns": {
+      "7": 7.418181818181818,
+      "8": 5.418181818181818,
+      "9": 4.945454545454545,
+      "10": -2
+    },
+    "overlapWithS1": 8,
+    "trades": [
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 17,
+        "r": 1.2363636363636363,
+        "entryIdx": 337,
+        "exitIdx": 338,
+        "time": 1786022100000,
+        "month": 7
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 17,
+        "r": 1.2363636363636363,
+        "entryIdx": 351,
+        "exitIdx": 382,
+        "time": 1786034700000,
+        "month": 7
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 17,
+        "r": 1.2363636363636363,
+        "entryIdx": 524,
+        "exitIdx": 525,
+        "time": 1786370400000,
+        "month": 7
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 17,
+        "r": 1.2363636363636363,
+        "entryIdx": 634,
+        "exitIdx": 656,
+        "time": 1786473000000,
+        "month": 7
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 17,
+        "r": 1.2363636363636363,
+        "entryIdx": 1728,
+        "exitIdx": 1759,
+        "time": 1787846400000,
+        "month": 7
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 17,
+        "r": 1.2363636363636363,
+        "entryIdx": 1928,
+        "exitIdx": 1950,
+        "time": 1788206400000,
+        "month": 7
+      },
+      {
+        "type": "SHORT",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 2091,
+        "exitIdx": 2111,
+        "time": 1788360300000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 17,
+        "r": 1.2363636363636363,
+        "entryIdx": 2826,
+        "exitIdx": 2836,
+        "time": 1789405200000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 17,
+        "r": 1.2363636363636363,
+        "entryIdx": 2906,
+        "exitIdx": 2908,
+        "time": 1789480800000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 17,
+        "r": 1.2363636363636363,
+        "entryIdx": 2924,
+        "exitIdx": 2938,
+        "time": 1789497000000,
+        "month": 8
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 17,
+        "r": 1.2363636363636363,
+        "entryIdx": 3184,
+        "exitIdx": 3191,
+        "time": 1789741800000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 17,
+        "r": 1.2363636363636363,
+        "entryIdx": 3560,
+        "exitIdx": 3566,
+        "time": 1790267400000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 17,
+        "r": 1.2363636363636363,
+        "entryIdx": 3828,
+        "exitIdx": 3831,
+        "time": 1790692200000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 3843,
+        "exitIdx": 3852,
+        "time": 1790705700000,
+        "month": 8
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 17,
+        "r": 1.2363636363636363,
+        "entryIdx": 5020,
+        "exitIdx": 5023,
+        "time": 1792157400000,
+        "month": 9
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 17,
+        "r": 1.2363636363636363,
+        "entryIdx": 5030,
+        "exitIdx": 5057,
+        "time": 1792166400000,
+        "month": 9
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 17,
+        "r": 1.2363636363636363,
+        "entryIdx": 5209,
+        "exitIdx": 5215,
+        "time": 1792507500000,
+        "month": 9
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 17,
+        "r": 1.2363636363636363,
+        "entryIdx": 5587,
+        "exitIdx": 5609,
+        "time": 1793034900000,
+        "month": 9
+      },
+      {
+        "type": "SHORT",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 6029,
+        "exitIdx": 6032,
+        "time": 1793627100000,
+        "month": 10
+      },
+      {
+        "type": "LONG",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 6309,
+        "exitIdx": 6311,
+        "time": 1793889900000,
+        "month": 10
+      }
+    ]
+  },
+  {
+    "family": "Keltner Channel Expansion",
+    "name": "Keltner EMA18 Mult1.85 [NY Core (13-20)] TP16",
+    "params": {
+      "p": 18,
+      "mult": 1.85,
+      "crashAtr": 1.6,
+      "off": 3.5,
+      "sess": "NY_CORE",
+      "tp": 16,
+      "sl": 13.75
+    },
+    "tradesCount": 20,
+    "wins": 16,
+    "losses": 4,
+    "wr": 80,
+    "netProfit": 201,
+    "profitFactor": 4.654545454545454,
+    "maxDd": 27.5,
+    "calmar": 7.3090909090909095,
+    "totalR": 14.61818181818182,
+    "mReturns": {
+      "7": 5.818181818181818,
+      "8": 7.30909090909091,
+      "9": 3.4909090909090907,
+      "10": -2
+    },
+    "overlapWithS1": 8,
+    "trades": [
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 16,
+        "r": 1.1636363636363636,
+        "entryIdx": 337,
+        "exitIdx": 338,
+        "time": 1786022100000,
+        "month": 7
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 16,
+        "r": 1.1636363636363636,
+        "entryIdx": 524,
+        "exitIdx": 525,
+        "time": 1786370400000,
+        "month": 7
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 16,
+        "r": 1.1636363636363636,
+        "entryIdx": 634,
+        "exitIdx": 656,
+        "time": 1786473000000,
+        "month": 7
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 16,
+        "r": 1.1636363636363636,
+        "entryIdx": 1728,
+        "exitIdx": 1758,
+        "time": 1787846400000,
+        "month": 7
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 16,
+        "r": 1.1636363636363636,
+        "entryIdx": 1928,
+        "exitIdx": 1950,
+        "time": 1788206400000,
+        "month": 7
+      },
+      {
+        "type": "SHORT",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 2091,
+        "exitIdx": 2111,
+        "time": 1788360300000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 16,
+        "r": 1.1636363636363636,
+        "entryIdx": 2826,
+        "exitIdx": 2836,
+        "time": 1789405200000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 16,
+        "r": 1.1636363636363636,
+        "entryIdx": 2906,
+        "exitIdx": 2908,
+        "time": 1789480800000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 16,
+        "r": 1.1636363636363636,
+        "entryIdx": 2924,
+        "exitIdx": 2938,
+        "time": 1789497000000,
+        "month": 8
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 16,
+        "r": 1.1636363636363636,
+        "entryIdx": 2998,
+        "exitIdx": 3002,
+        "time": 1789567200000,
+        "month": 8
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 16,
+        "r": 1.1636363636363636,
+        "entryIdx": 3184,
+        "exitIdx": 3191,
+        "time": 1789741800000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 16,
+        "r": 1.1636363636363636,
+        "entryIdx": 3546,
+        "exitIdx": 3551,
+        "time": 1790254800000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 16,
+        "r": 1.1636363636363636,
+        "entryIdx": 3560,
+        "exitIdx": 3564,
+        "time": 1790267400000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 16,
+        "r": 1.1636363636363636,
+        "entryIdx": 3828,
+        "exitIdx": 3831,
+        "time": 1790692200000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 3843,
+        "exitIdx": 3852,
+        "time": 1790705700000,
+        "month": 8
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 16,
+        "r": 1.1636363636363636,
+        "entryIdx": 5020,
+        "exitIdx": 5023,
+        "time": 1792157400000,
+        "month": 9
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 16,
+        "r": 1.1636363636363636,
+        "entryIdx": 5030,
+        "exitIdx": 5055,
+        "time": 1792166400000,
+        "month": 9
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 16,
+        "r": 1.1636363636363636,
+        "entryIdx": 5209,
+        "exitIdx": 5214,
+        "time": 1792507500000,
+        "month": 9
+      },
+      {
+        "type": "SHORT",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 6029,
+        "exitIdx": 6032,
+        "time": 1793627100000,
+        "month": 10
+      },
+      {
+        "type": "LONG",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 6309,
+        "exitIdx": 6311,
+        "time": 1793889900000,
+        "month": 10
+      }
+    ]
+  },
+  {
+    "family": "Keltner Channel Expansion",
+    "name": "Keltner EMA18 Mult1.85 [NY Core (13-20)] TP16",
+    "params": {
+      "p": 18,
+      "mult": 1.85,
+      "crashAtr": 1.6,
+      "off": 4.5,
+      "sess": "NY_CORE",
+      "tp": 16,
+      "sl": 13.75
+    },
+    "tradesCount": 20,
+    "wins": 16,
+    "losses": 4,
+    "wr": 80,
+    "netProfit": 201,
+    "profitFactor": 4.654545454545454,
+    "maxDd": 27.5,
+    "calmar": 7.3090909090909095,
+    "totalR": 14.61818181818182,
+    "mReturns": {
+      "7": 5.818181818181818,
+      "8": 7.30909090909091,
+      "9": 3.4909090909090907,
+      "10": -2
+    },
+    "overlapWithS1": 8,
+    "trades": [
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 16,
+        "r": 1.1636363636363636,
+        "entryIdx": 337,
+        "exitIdx": 338,
+        "time": 1786022100000,
+        "month": 7
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 16,
+        "r": 1.1636363636363636,
+        "entryIdx": 524,
+        "exitIdx": 525,
+        "time": 1786370400000,
+        "month": 7
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 16,
+        "r": 1.1636363636363636,
+        "entryIdx": 634,
+        "exitIdx": 656,
+        "time": 1786473000000,
+        "month": 7
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 16,
+        "r": 1.1636363636363636,
+        "entryIdx": 1728,
+        "exitIdx": 1758,
+        "time": 1787846400000,
+        "month": 7
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 16,
+        "r": 1.1636363636363636,
+        "entryIdx": 1928,
+        "exitIdx": 1950,
+        "time": 1788206400000,
+        "month": 7
+      },
+      {
+        "type": "SHORT",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 2091,
+        "exitIdx": 2111,
+        "time": 1788360300000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 16,
+        "r": 1.1636363636363636,
+        "entryIdx": 2826,
+        "exitIdx": 2836,
+        "time": 1789405200000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 16,
+        "r": 1.1636363636363636,
+        "entryIdx": 2906,
+        "exitIdx": 2908,
+        "time": 1789480800000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 16,
+        "r": 1.1636363636363636,
+        "entryIdx": 2924,
+        "exitIdx": 2938,
+        "time": 1789497000000,
+        "month": 8
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 16,
+        "r": 1.1636363636363636,
+        "entryIdx": 2998,
+        "exitIdx": 3002,
+        "time": 1789567200000,
+        "month": 8
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 16,
+        "r": 1.1636363636363636,
+        "entryIdx": 3184,
+        "exitIdx": 3191,
+        "time": 1789741800000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 16,
+        "r": 1.1636363636363636,
+        "entryIdx": 3546,
+        "exitIdx": 3551,
+        "time": 1790254800000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 16,
+        "r": 1.1636363636363636,
+        "entryIdx": 3560,
+        "exitIdx": 3564,
+        "time": 1790267400000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 16,
+        "r": 1.1636363636363636,
+        "entryIdx": 3828,
+        "exitIdx": 3831,
+        "time": 1790692200000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 3843,
+        "exitIdx": 3852,
+        "time": 1790705700000,
+        "month": 8
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 16,
+        "r": 1.1636363636363636,
+        "entryIdx": 5020,
+        "exitIdx": 5023,
+        "time": 1792157400000,
+        "month": 9
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 16,
+        "r": 1.1636363636363636,
+        "entryIdx": 5030,
+        "exitIdx": 5055,
+        "time": 1792166400000,
+        "month": 9
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 16,
+        "r": 1.1636363636363636,
+        "entryIdx": 5209,
+        "exitIdx": 5214,
+        "time": 1792507500000,
+        "month": 9
+      },
+      {
+        "type": "SHORT",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 6029,
+        "exitIdx": 6032,
+        "time": 1793627100000,
+        "month": 10
+      },
+      {
+        "type": "LONG",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 6309,
+        "exitIdx": 6311,
+        "time": 1793889900000,
+        "month": 10
+      }
+    ]
+  },
+  {
+    "family": "Keltner Channel Expansion",
+    "name": "Keltner EMA24 Mult1.85 [NY Core (13-20)] TP16",
+    "params": {
+      "p": 24,
+      "mult": 1.85,
+      "crashAtr": 1.6,
+      "off": 3.5,
+      "sess": "NY_CORE",
+      "tp": 16,
+      "sl": 13.75
+    },
+    "tradesCount": 20,
+    "wins": 16,
+    "losses": 4,
+    "wr": 80,
+    "netProfit": 201,
+    "profitFactor": 4.654545454545454,
+    "maxDd": 27.5,
+    "calmar": 7.3090909090909095,
+    "totalR": 14.61818181818182,
+    "mReturns": {
+      "7": 6.981818181818182,
+      "8": 4.981818181818182,
+      "9": 4.654545454545454,
+      "10": -2
+    },
+    "overlapWithS1": 8,
+    "trades": [
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 16,
+        "r": 1.1636363636363636,
+        "entryIdx": 337,
+        "exitIdx": 338,
+        "time": 1786022100000,
+        "month": 7
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 16,
+        "r": 1.1636363636363636,
+        "entryIdx": 351,
+        "exitIdx": 382,
+        "time": 1786034700000,
+        "month": 7
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 16,
+        "r": 1.1636363636363636,
+        "entryIdx": 524,
+        "exitIdx": 525,
+        "time": 1786370400000,
+        "month": 7
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 16,
+        "r": 1.1636363636363636,
+        "entryIdx": 634,
+        "exitIdx": 656,
+        "time": 1786473000000,
+        "month": 7
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 16,
+        "r": 1.1636363636363636,
+        "entryIdx": 1728,
+        "exitIdx": 1758,
+        "time": 1787846400000,
+        "month": 7
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 16,
+        "r": 1.1636363636363636,
+        "entryIdx": 1928,
+        "exitIdx": 1950,
+        "time": 1788206400000,
+        "month": 7
+      },
+      {
+        "type": "SHORT",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 2091,
+        "exitIdx": 2111,
+        "time": 1788360300000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 16,
+        "r": 1.1636363636363636,
+        "entryIdx": 2826,
+        "exitIdx": 2836,
+        "time": 1789405200000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 16,
+        "r": 1.1636363636363636,
+        "entryIdx": 2906,
+        "exitIdx": 2908,
+        "time": 1789480800000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 16,
+        "r": 1.1636363636363636,
+        "entryIdx": 2924,
+        "exitIdx": 2938,
+        "time": 1789497000000,
+        "month": 8
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 16,
+        "r": 1.1636363636363636,
+        "entryIdx": 3184,
+        "exitIdx": 3191,
+        "time": 1789741800000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 16,
+        "r": 1.1636363636363636,
+        "entryIdx": 3560,
+        "exitIdx": 3564,
+        "time": 1790267400000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 16,
+        "r": 1.1636363636363636,
+        "entryIdx": 3828,
+        "exitIdx": 3831,
+        "time": 1790692200000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 3843,
+        "exitIdx": 3852,
+        "time": 1790705700000,
+        "month": 8
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 16,
+        "r": 1.1636363636363636,
+        "entryIdx": 5020,
+        "exitIdx": 5023,
+        "time": 1792157400000,
+        "month": 9
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 16,
+        "r": 1.1636363636363636,
+        "entryIdx": 5030,
+        "exitIdx": 5055,
+        "time": 1792166400000,
+        "month": 9
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 16,
+        "r": 1.1636363636363636,
+        "entryIdx": 5209,
+        "exitIdx": 5214,
+        "time": 1792507500000,
+        "month": 9
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 16,
+        "r": 1.1636363636363636,
+        "entryIdx": 5587,
+        "exitIdx": 5609,
+        "time": 1793034900000,
+        "month": 9
+      },
+      {
+        "type": "SHORT",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 6029,
+        "exitIdx": 6032,
+        "time": 1793627100000,
+        "month": 10
+      },
+      {
+        "type": "LONG",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 6309,
+        "exitIdx": 6311,
+        "time": 1793889900000,
+        "month": 10
+      }
+    ]
+  },
+  {
+    "family": "Keltner Channel Expansion",
+    "name": "Keltner EMA24 Mult1.85 [NY Core (13-20)] TP16",
+    "params": {
+      "p": 24,
+      "mult": 1.85,
+      "crashAtr": 1.6,
+      "off": 4.5,
+      "sess": "NY_CORE",
+      "tp": 16,
+      "sl": 13.75
+    },
+    "tradesCount": 20,
+    "wins": 16,
+    "losses": 4,
+    "wr": 80,
+    "netProfit": 201,
+    "profitFactor": 4.654545454545454,
+    "maxDd": 27.5,
+    "calmar": 7.3090909090909095,
+    "totalR": 14.61818181818182,
+    "mReturns": {
+      "7": 6.981818181818182,
+      "8": 4.981818181818182,
+      "9": 4.654545454545454,
+      "10": -2
+    },
+    "overlapWithS1": 8,
+    "trades": [
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 16,
+        "r": 1.1636363636363636,
+        "entryIdx": 337,
+        "exitIdx": 338,
+        "time": 1786022100000,
+        "month": 7
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 16,
+        "r": 1.1636363636363636,
+        "entryIdx": 351,
+        "exitIdx": 382,
+        "time": 1786034700000,
+        "month": 7
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 16,
+        "r": 1.1636363636363636,
+        "entryIdx": 524,
+        "exitIdx": 525,
+        "time": 1786370400000,
+        "month": 7
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 16,
+        "r": 1.1636363636363636,
+        "entryIdx": 634,
+        "exitIdx": 656,
+        "time": 1786473000000,
+        "month": 7
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 16,
+        "r": 1.1636363636363636,
+        "entryIdx": 1728,
+        "exitIdx": 1758,
+        "time": 1787846400000,
+        "month": 7
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 16,
+        "r": 1.1636363636363636,
+        "entryIdx": 1928,
+        "exitIdx": 1950,
+        "time": 1788206400000,
+        "month": 7
+      },
+      {
+        "type": "SHORT",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 2091,
+        "exitIdx": 2111,
+        "time": 1788360300000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 16,
+        "r": 1.1636363636363636,
+        "entryIdx": 2826,
+        "exitIdx": 2836,
+        "time": 1789405200000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 16,
+        "r": 1.1636363636363636,
+        "entryIdx": 2906,
+        "exitIdx": 2908,
+        "time": 1789480800000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 16,
+        "r": 1.1636363636363636,
+        "entryIdx": 2924,
+        "exitIdx": 2938,
+        "time": 1789497000000,
+        "month": 8
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 16,
+        "r": 1.1636363636363636,
+        "entryIdx": 3184,
+        "exitIdx": 3191,
+        "time": 1789741800000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 16,
+        "r": 1.1636363636363636,
+        "entryIdx": 3560,
+        "exitIdx": 3564,
+        "time": 1790267400000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 16,
+        "r": 1.1636363636363636,
+        "entryIdx": 3828,
+        "exitIdx": 3831,
+        "time": 1790692200000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 3843,
+        "exitIdx": 3852,
+        "time": 1790705700000,
+        "month": 8
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 16,
+        "r": 1.1636363636363636,
+        "entryIdx": 5020,
+        "exitIdx": 5023,
+        "time": 1792157400000,
+        "month": 9
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 16,
+        "r": 1.1636363636363636,
+        "entryIdx": 5030,
+        "exitIdx": 5055,
+        "time": 1792166400000,
+        "month": 9
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 16,
+        "r": 1.1636363636363636,
+        "entryIdx": 5209,
+        "exitIdx": 5214,
+        "time": 1792507500000,
+        "month": 9
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 16,
+        "r": 1.1636363636363636,
+        "entryIdx": 5587,
+        "exitIdx": 5609,
+        "time": 1793034900000,
+        "month": 9
+      },
+      {
+        "type": "SHORT",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 6029,
+        "exitIdx": 6032,
+        "time": 1793627100000,
+        "month": 10
+      },
+      {
+        "type": "LONG",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 6309,
+        "exitIdx": 6311,
+        "time": 1793889900000,
+        "month": 10
+      }
+    ]
+  },
+  {
+    "family": "Keltner Channel Expansion",
+    "name": "Keltner EMA18 Mult1.85 [NY Core (13-20)] TP15",
+    "params": {
+      "p": 18,
+      "mult": 1.85,
+      "crashAtr": 1.6,
+      "off": 3.5,
+      "sess": "NY_CORE",
+      "tp": 15,
+      "sl": 13.75
+    },
+    "tradesCount": 20,
+    "wins": 16,
+    "losses": 4,
+    "wr": 80,
+    "netProfit": 185,
+    "profitFactor": 4.363636363636363,
+    "maxDd": 27.5,
+    "calmar": 6.7272727272727275,
+    "totalR": 13.454545454545446,
+    "mReturns": {
+      "7": 5.454545454545454,
+      "8": 6.727272727272727,
+      "9": 3.2727272727272725,
+      "10": -2
+    },
+    "overlapWithS1": 8,
+    "trades": [
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 15,
+        "r": 1.0909090909090908,
+        "entryIdx": 337,
+        "exitIdx": 338,
+        "time": 1786022100000,
+        "month": 7
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 15,
+        "r": 1.0909090909090908,
+        "entryIdx": 524,
+        "exitIdx": 525,
+        "time": 1786370400000,
+        "month": 7
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 15,
+        "r": 1.0909090909090908,
+        "entryIdx": 634,
+        "exitIdx": 656,
+        "time": 1786473000000,
+        "month": 7
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 15,
+        "r": 1.0909090909090908,
+        "entryIdx": 1728,
+        "exitIdx": 1758,
+        "time": 1787846400000,
+        "month": 7
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 15,
+        "r": 1.0909090909090908,
+        "entryIdx": 1928,
+        "exitIdx": 1950,
+        "time": 1788206400000,
+        "month": 7
+      },
+      {
+        "type": "SHORT",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 2091,
+        "exitIdx": 2111,
+        "time": 1788360300000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 15,
+        "r": 1.0909090909090908,
+        "entryIdx": 2826,
+        "exitIdx": 2835,
+        "time": 1789405200000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 15,
+        "r": 1.0909090909090908,
+        "entryIdx": 2906,
+        "exitIdx": 2908,
+        "time": 1789480800000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 15,
+        "r": 1.0909090909090908,
+        "entryIdx": 2924,
+        "exitIdx": 2937,
+        "time": 1789497000000,
+        "month": 8
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 15,
+        "r": 1.0909090909090908,
+        "entryIdx": 2998,
+        "exitIdx": 3001,
+        "time": 1789567200000,
+        "month": 8
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 15,
+        "r": 1.0909090909090908,
+        "entryIdx": 3184,
+        "exitIdx": 3191,
+        "time": 1789741800000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 15,
+        "r": 1.0909090909090908,
+        "entryIdx": 3546,
+        "exitIdx": 3551,
+        "time": 1790254800000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 15,
+        "r": 1.0909090909090908,
+        "entryIdx": 3560,
+        "exitIdx": 3563,
+        "time": 1790267400000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 15,
+        "r": 1.0909090909090908,
+        "entryIdx": 3828,
+        "exitIdx": 3831,
+        "time": 1790692200000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 3843,
+        "exitIdx": 3852,
+        "time": 1790705700000,
+        "month": 8
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 15,
+        "r": 1.0909090909090908,
+        "entryIdx": 5020,
+        "exitIdx": 5022,
+        "time": 1792157400000,
+        "month": 9
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 15,
+        "r": 1.0909090909090908,
+        "entryIdx": 5030,
+        "exitIdx": 5055,
+        "time": 1792166400000,
+        "month": 9
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 15,
+        "r": 1.0909090909090908,
+        "entryIdx": 5209,
+        "exitIdx": 5214,
+        "time": 1792507500000,
+        "month": 9
+      },
+      {
+        "type": "SHORT",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 6029,
+        "exitIdx": 6032,
+        "time": 1793627100000,
+        "month": 10
+      },
+      {
+        "type": "LONG",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 6309,
+        "exitIdx": 6311,
+        "time": 1793889900000,
+        "month": 10
+      }
+    ]
+  },
+  {
+    "family": "Keltner Channel Expansion",
+    "name": "Keltner EMA18 Mult1.85 [NY Core (13-20)] TP15",
+    "params": {
+      "p": 18,
+      "mult": 1.85,
+      "crashAtr": 1.6,
+      "off": 4.5,
+      "sess": "NY_CORE",
+      "tp": 15,
+      "sl": 13.75
+    },
+    "tradesCount": 20,
+    "wins": 16,
+    "losses": 4,
+    "wr": 80,
+    "netProfit": 185,
+    "profitFactor": 4.363636363636363,
+    "maxDd": 27.5,
+    "calmar": 6.7272727272727275,
+    "totalR": 13.454545454545446,
+    "mReturns": {
+      "7": 5.454545454545454,
+      "8": 6.727272727272727,
+      "9": 3.2727272727272725,
+      "10": -2
+    },
+    "overlapWithS1": 8,
+    "trades": [
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 15,
+        "r": 1.0909090909090908,
+        "entryIdx": 337,
+        "exitIdx": 338,
+        "time": 1786022100000,
+        "month": 7
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 15,
+        "r": 1.0909090909090908,
+        "entryIdx": 524,
+        "exitIdx": 525,
+        "time": 1786370400000,
+        "month": 7
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 15,
+        "r": 1.0909090909090908,
+        "entryIdx": 634,
+        "exitIdx": 656,
+        "time": 1786473000000,
+        "month": 7
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 15,
+        "r": 1.0909090909090908,
+        "entryIdx": 1728,
+        "exitIdx": 1758,
+        "time": 1787846400000,
+        "month": 7
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 15,
+        "r": 1.0909090909090908,
+        "entryIdx": 1928,
+        "exitIdx": 1950,
+        "time": 1788206400000,
+        "month": 7
+      },
+      {
+        "type": "SHORT",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 2091,
+        "exitIdx": 2111,
+        "time": 1788360300000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 15,
+        "r": 1.0909090909090908,
+        "entryIdx": 2826,
+        "exitIdx": 2835,
+        "time": 1789405200000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 15,
+        "r": 1.0909090909090908,
+        "entryIdx": 2906,
+        "exitIdx": 2908,
+        "time": 1789480800000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 15,
+        "r": 1.0909090909090908,
+        "entryIdx": 2924,
+        "exitIdx": 2937,
+        "time": 1789497000000,
+        "month": 8
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 15,
+        "r": 1.0909090909090908,
+        "entryIdx": 2998,
+        "exitIdx": 3001,
+        "time": 1789567200000,
+        "month": 8
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 15,
+        "r": 1.0909090909090908,
+        "entryIdx": 3184,
+        "exitIdx": 3191,
+        "time": 1789741800000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 15,
+        "r": 1.0909090909090908,
+        "entryIdx": 3546,
+        "exitIdx": 3551,
+        "time": 1790254800000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 15,
+        "r": 1.0909090909090908,
+        "entryIdx": 3560,
+        "exitIdx": 3563,
+        "time": 1790267400000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 15,
+        "r": 1.0909090909090908,
+        "entryIdx": 3828,
+        "exitIdx": 3831,
+        "time": 1790692200000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 3843,
+        "exitIdx": 3852,
+        "time": 1790705700000,
+        "month": 8
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 15,
+        "r": 1.0909090909090908,
+        "entryIdx": 5020,
+        "exitIdx": 5022,
+        "time": 1792157400000,
+        "month": 9
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 15,
+        "r": 1.0909090909090908,
+        "entryIdx": 5030,
+        "exitIdx": 5055,
+        "time": 1792166400000,
+        "month": 9
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 15,
+        "r": 1.0909090909090908,
+        "entryIdx": 5209,
+        "exitIdx": 5214,
+        "time": 1792507500000,
+        "month": 9
+      },
+      {
+        "type": "SHORT",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 6029,
+        "exitIdx": 6032,
+        "time": 1793627100000,
+        "month": 10
+      },
+      {
+        "type": "LONG",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 6309,
+        "exitIdx": 6311,
+        "time": 1793889900000,
+        "month": 10
+      }
+    ]
+  },
+  {
+    "family": "Keltner Channel Expansion",
+    "name": "Keltner EMA24 Mult1.85 [NY Core (13-20)] TP15",
+    "params": {
+      "p": 24,
+      "mult": 1.85,
+      "crashAtr": 1.6,
+      "off": 3.5,
+      "sess": "NY_CORE",
+      "tp": 15,
+      "sl": 13.75
+    },
+    "tradesCount": 20,
+    "wins": 16,
+    "losses": 4,
+    "wr": 80,
+    "netProfit": 185,
+    "profitFactor": 4.363636363636363,
+    "maxDd": 27.5,
+    "calmar": 6.7272727272727275,
+    "totalR": 13.454545454545446,
+    "mReturns": {
+      "7": 6.545454545454545,
+      "8": 4.545454545454545,
+      "9": 4.363636363636363,
+      "10": -2
+    },
+    "overlapWithS1": 8,
+    "trades": [
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 15,
+        "r": 1.0909090909090908,
+        "entryIdx": 337,
+        "exitIdx": 338,
+        "time": 1786022100000,
+        "month": 7
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 15,
+        "r": 1.0909090909090908,
+        "entryIdx": 351,
+        "exitIdx": 382,
+        "time": 1786034700000,
+        "month": 7
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 15,
+        "r": 1.0909090909090908,
+        "entryIdx": 524,
+        "exitIdx": 525,
+        "time": 1786370400000,
+        "month": 7
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 15,
+        "r": 1.0909090909090908,
+        "entryIdx": 634,
+        "exitIdx": 656,
+        "time": 1786473000000,
+        "month": 7
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 15,
+        "r": 1.0909090909090908,
+        "entryIdx": 1728,
+        "exitIdx": 1758,
+        "time": 1787846400000,
+        "month": 7
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 15,
+        "r": 1.0909090909090908,
+        "entryIdx": 1928,
+        "exitIdx": 1950,
+        "time": 1788206400000,
+        "month": 7
+      },
+      {
+        "type": "SHORT",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 2091,
+        "exitIdx": 2111,
+        "time": 1788360300000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 15,
+        "r": 1.0909090909090908,
+        "entryIdx": 2826,
+        "exitIdx": 2835,
+        "time": 1789405200000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 15,
+        "r": 1.0909090909090908,
+        "entryIdx": 2906,
+        "exitIdx": 2908,
+        "time": 1789480800000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 15,
+        "r": 1.0909090909090908,
+        "entryIdx": 2924,
+        "exitIdx": 2937,
+        "time": 1789497000000,
+        "month": 8
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 15,
+        "r": 1.0909090909090908,
+        "entryIdx": 3184,
+        "exitIdx": 3191,
+        "time": 1789741800000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 15,
+        "r": 1.0909090909090908,
+        "entryIdx": 3560,
+        "exitIdx": 3563,
+        "time": 1790267400000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 15,
+        "r": 1.0909090909090908,
+        "entryIdx": 3828,
+        "exitIdx": 3831,
+        "time": 1790692200000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 3843,
+        "exitIdx": 3852,
+        "time": 1790705700000,
+        "month": 8
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 15,
+        "r": 1.0909090909090908,
+        "entryIdx": 5020,
+        "exitIdx": 5022,
+        "time": 1792157400000,
+        "month": 9
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 15,
+        "r": 1.0909090909090908,
+        "entryIdx": 5030,
+        "exitIdx": 5055,
+        "time": 1792166400000,
+        "month": 9
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 15,
+        "r": 1.0909090909090908,
+        "entryIdx": 5209,
+        "exitIdx": 5214,
+        "time": 1792507500000,
+        "month": 9
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 15,
+        "r": 1.0909090909090908,
+        "entryIdx": 5587,
+        "exitIdx": 5594,
+        "time": 1793034900000,
+        "month": 9
+      },
+      {
+        "type": "SHORT",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 6029,
+        "exitIdx": 6032,
+        "time": 1793627100000,
+        "month": 10
+      },
+      {
+        "type": "LONG",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 6309,
+        "exitIdx": 6311,
+        "time": 1793889900000,
+        "month": 10
+      }
+    ]
+  },
+  {
+    "family": "Keltner Channel Expansion",
+    "name": "Keltner EMA24 Mult1.85 [NY Core (13-20)] TP15",
+    "params": {
+      "p": 24,
+      "mult": 1.85,
+      "crashAtr": 1.6,
+      "off": 4.5,
+      "sess": "NY_CORE",
+      "tp": 15,
+      "sl": 13.75
+    },
+    "tradesCount": 20,
+    "wins": 16,
+    "losses": 4,
+    "wr": 80,
+    "netProfit": 185,
+    "profitFactor": 4.363636363636363,
+    "maxDd": 27.5,
+    "calmar": 6.7272727272727275,
+    "totalR": 13.454545454545446,
+    "mReturns": {
+      "7": 6.545454545454545,
+      "8": 4.545454545454545,
+      "9": 4.363636363636363,
+      "10": -2
+    },
+    "overlapWithS1": 8,
+    "trades": [
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 15,
+        "r": 1.0909090909090908,
+        "entryIdx": 337,
+        "exitIdx": 338,
+        "time": 1786022100000,
+        "month": 7
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 15,
+        "r": 1.0909090909090908,
+        "entryIdx": 351,
+        "exitIdx": 382,
+        "time": 1786034700000,
+        "month": 7
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 15,
+        "r": 1.0909090909090908,
+        "entryIdx": 524,
+        "exitIdx": 525,
+        "time": 1786370400000,
+        "month": 7
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 15,
+        "r": 1.0909090909090908,
+        "entryIdx": 634,
+        "exitIdx": 656,
+        "time": 1786473000000,
+        "month": 7
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 15,
+        "r": 1.0909090909090908,
+        "entryIdx": 1728,
+        "exitIdx": 1758,
+        "time": 1787846400000,
+        "month": 7
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 15,
+        "r": 1.0909090909090908,
+        "entryIdx": 1928,
+        "exitIdx": 1950,
+        "time": 1788206400000,
+        "month": 7
+      },
+      {
+        "type": "SHORT",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 2091,
+        "exitIdx": 2111,
+        "time": 1788360300000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 15,
+        "r": 1.0909090909090908,
+        "entryIdx": 2826,
+        "exitIdx": 2835,
+        "time": 1789405200000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 15,
+        "r": 1.0909090909090908,
+        "entryIdx": 2906,
+        "exitIdx": 2908,
+        "time": 1789480800000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 15,
+        "r": 1.0909090909090908,
+        "entryIdx": 2924,
+        "exitIdx": 2937,
+        "time": 1789497000000,
+        "month": 8
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 15,
+        "r": 1.0909090909090908,
+        "entryIdx": 3184,
+        "exitIdx": 3191,
+        "time": 1789741800000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 15,
+        "r": 1.0909090909090908,
+        "entryIdx": 3560,
+        "exitIdx": 3563,
+        "time": 1790267400000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 15,
+        "r": 1.0909090909090908,
+        "entryIdx": 3828,
+        "exitIdx": 3831,
+        "time": 1790692200000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 3843,
+        "exitIdx": 3852,
+        "time": 1790705700000,
+        "month": 8
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 15,
+        "r": 1.0909090909090908,
+        "entryIdx": 5020,
+        "exitIdx": 5022,
+        "time": 1792157400000,
+        "month": 9
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 15,
+        "r": 1.0909090909090908,
+        "entryIdx": 5030,
+        "exitIdx": 5055,
+        "time": 1792166400000,
+        "month": 9
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 15,
+        "r": 1.0909090909090908,
+        "entryIdx": 5209,
+        "exitIdx": 5214,
+        "time": 1792507500000,
+        "month": 9
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 15,
+        "r": 1.0909090909090908,
+        "entryIdx": 5587,
+        "exitIdx": 5594,
+        "time": 1793034900000,
+        "month": 9
+      },
+      {
+        "type": "SHORT",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 6029,
+        "exitIdx": 6032,
+        "time": 1793627100000,
+        "month": 10
+      },
+      {
+        "type": "LONG",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 6309,
+        "exitIdx": 6311,
+        "time": 1793889900000,
+        "month": 10
+      }
+    ]
+  },
+  {
+    "family": "Keltner Channel Expansion",
+    "name": "Keltner EMA18 Mult1.85 [NY Core (13-20)] TP14",
+    "params": {
+      "p": 18,
+      "mult": 1.85,
+      "crashAtr": 1.6,
+      "off": 3.5,
+      "sess": "NY_CORE",
+      "tp": 14,
+      "sl": 13.75
+    },
+    "tradesCount": 20,
+    "wins": 16,
+    "losses": 4,
+    "wr": 80,
+    "netProfit": 169,
+    "profitFactor": 4.072727272727272,
+    "maxDd": 27.5,
+    "calmar": 6.1454545454545455,
+    "totalR": 12.290909090909084,
+    "mReturns": {
+      "7": 5.09090909090909,
+      "8": 6.145454545454543,
+      "9": 3.0545454545454542,
+      "10": -2
+    },
+    "overlapWithS1": 8,
+    "trades": [
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 14,
+        "r": 1.018181818181818,
+        "entryIdx": 337,
+        "exitIdx": 338,
+        "time": 1786022100000,
+        "month": 7
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 14,
+        "r": 1.018181818181818,
+        "entryIdx": 524,
+        "exitIdx": 525,
+        "time": 1786370400000,
+        "month": 7
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 14,
+        "r": 1.018181818181818,
+        "entryIdx": 634,
+        "exitIdx": 656,
+        "time": 1786473000000,
+        "month": 7
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 14,
+        "r": 1.018181818181818,
+        "entryIdx": 1728,
+        "exitIdx": 1758,
+        "time": 1787846400000,
+        "month": 7
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 14,
+        "r": 1.018181818181818,
+        "entryIdx": 1928,
+        "exitIdx": 1950,
+        "time": 1788206400000,
+        "month": 7
+      },
+      {
+        "type": "SHORT",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 2091,
+        "exitIdx": 2111,
+        "time": 1788360300000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 14,
+        "r": 1.018181818181818,
+        "entryIdx": 2826,
+        "exitIdx": 2835,
+        "time": 1789405200000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 14,
+        "r": 1.018181818181818,
+        "entryIdx": 2906,
+        "exitIdx": 2908,
+        "time": 1789480800000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 14,
+        "r": 1.018181818181818,
+        "entryIdx": 2924,
+        "exitIdx": 2937,
+        "time": 1789497000000,
+        "month": 8
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 14,
+        "r": 1.018181818181818,
+        "entryIdx": 2998,
+        "exitIdx": 3001,
+        "time": 1789567200000,
+        "month": 8
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 14,
+        "r": 1.018181818181818,
+        "entryIdx": 3184,
+        "exitIdx": 3191,
+        "time": 1789741800000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 14,
+        "r": 1.018181818181818,
+        "entryIdx": 3546,
+        "exitIdx": 3551,
+        "time": 1790254800000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 14,
+        "r": 1.018181818181818,
+        "entryIdx": 3560,
+        "exitIdx": 3563,
+        "time": 1790267400000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 14,
+        "r": 1.018181818181818,
+        "entryIdx": 3828,
+        "exitIdx": 3831,
+        "time": 1790692200000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 3843,
+        "exitIdx": 3852,
+        "time": 1790705700000,
+        "month": 8
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 14,
+        "r": 1.018181818181818,
+        "entryIdx": 5020,
+        "exitIdx": 5022,
+        "time": 1792157400000,
+        "month": 9
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 14,
+        "r": 1.018181818181818,
+        "entryIdx": 5030,
+        "exitIdx": 5055,
+        "time": 1792166400000,
+        "month": 9
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 14,
+        "r": 1.018181818181818,
+        "entryIdx": 5209,
+        "exitIdx": 5214,
+        "time": 1792507500000,
+        "month": 9
+      },
+      {
+        "type": "SHORT",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 6029,
+        "exitIdx": 6032,
+        "time": 1793627100000,
+        "month": 10
+      },
+      {
+        "type": "LONG",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 6309,
+        "exitIdx": 6311,
+        "time": 1793889900000,
+        "month": 10
+      }
+    ]
+  },
+  {
+    "family": "Keltner Channel Expansion",
+    "name": "Keltner EMA18 Mult1.85 [NY Core (13-20)] TP14",
+    "params": {
+      "p": 18,
+      "mult": 1.85,
+      "crashAtr": 1.6,
+      "off": 4.5,
+      "sess": "NY_CORE",
+      "tp": 14,
+      "sl": 13.75
+    },
+    "tradesCount": 20,
+    "wins": 16,
+    "losses": 4,
+    "wr": 80,
+    "netProfit": 169,
+    "profitFactor": 4.072727272727272,
+    "maxDd": 27.5,
+    "calmar": 6.1454545454545455,
+    "totalR": 12.290909090909084,
+    "mReturns": {
+      "7": 5.09090909090909,
+      "8": 6.145454545454543,
+      "9": 3.0545454545454542,
+      "10": -2
+    },
+    "overlapWithS1": 8,
+    "trades": [
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 14,
+        "r": 1.018181818181818,
+        "entryIdx": 337,
+        "exitIdx": 338,
+        "time": 1786022100000,
+        "month": 7
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 14,
+        "r": 1.018181818181818,
+        "entryIdx": 524,
+        "exitIdx": 525,
+        "time": 1786370400000,
+        "month": 7
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 14,
+        "r": 1.018181818181818,
+        "entryIdx": 634,
+        "exitIdx": 656,
+        "time": 1786473000000,
+        "month": 7
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 14,
+        "r": 1.018181818181818,
+        "entryIdx": 1728,
+        "exitIdx": 1758,
+        "time": 1787846400000,
+        "month": 7
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 14,
+        "r": 1.018181818181818,
+        "entryIdx": 1928,
+        "exitIdx": 1950,
+        "time": 1788206400000,
+        "month": 7
+      },
+      {
+        "type": "SHORT",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 2091,
+        "exitIdx": 2111,
+        "time": 1788360300000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 14,
+        "r": 1.018181818181818,
+        "entryIdx": 2826,
+        "exitIdx": 2835,
+        "time": 1789405200000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 14,
+        "r": 1.018181818181818,
+        "entryIdx": 2906,
+        "exitIdx": 2908,
+        "time": 1789480800000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 14,
+        "r": 1.018181818181818,
+        "entryIdx": 2924,
+        "exitIdx": 2937,
+        "time": 1789497000000,
+        "month": 8
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 14,
+        "r": 1.018181818181818,
+        "entryIdx": 2998,
+        "exitIdx": 3001,
+        "time": 1789567200000,
+        "month": 8
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 14,
+        "r": 1.018181818181818,
+        "entryIdx": 3184,
+        "exitIdx": 3191,
+        "time": 1789741800000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 14,
+        "r": 1.018181818181818,
+        "entryIdx": 3546,
+        "exitIdx": 3551,
+        "time": 1790254800000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 14,
+        "r": 1.018181818181818,
+        "entryIdx": 3560,
+        "exitIdx": 3563,
+        "time": 1790267400000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 14,
+        "r": 1.018181818181818,
+        "entryIdx": 3828,
+        "exitIdx": 3831,
+        "time": 1790692200000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 3843,
+        "exitIdx": 3852,
+        "time": 1790705700000,
+        "month": 8
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 14,
+        "r": 1.018181818181818,
+        "entryIdx": 5020,
+        "exitIdx": 5022,
+        "time": 1792157400000,
+        "month": 9
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 14,
+        "r": 1.018181818181818,
+        "entryIdx": 5030,
+        "exitIdx": 5055,
+        "time": 1792166400000,
+        "month": 9
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 14,
+        "r": 1.018181818181818,
+        "entryIdx": 5209,
+        "exitIdx": 5214,
+        "time": 1792507500000,
+        "month": 9
+      },
+      {
+        "type": "SHORT",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 6029,
+        "exitIdx": 6032,
+        "time": 1793627100000,
+        "month": 10
+      },
+      {
+        "type": "LONG",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 6309,
+        "exitIdx": 6311,
+        "time": 1793889900000,
+        "month": 10
+      }
+    ]
+  },
+  {
+    "family": "Keltner Channel Expansion",
+    "name": "Keltner EMA24 Mult1.85 [NY Core (13-20)] TP14",
+    "params": {
+      "p": 24,
+      "mult": 1.85,
+      "crashAtr": 1.6,
+      "off": 3.5,
+      "sess": "NY_CORE",
+      "tp": 14,
+      "sl": 13.75
+    },
+    "tradesCount": 20,
+    "wins": 16,
+    "losses": 4,
+    "wr": 80,
+    "netProfit": 169,
+    "profitFactor": 4.072727272727272,
+    "maxDd": 27.5,
+    "calmar": 6.1454545454545455,
+    "totalR": 12.290909090909084,
+    "mReturns": {
+      "7": 6.109090909090908,
+      "8": 4.109090909090908,
+      "9": 4.072727272727272,
+      "10": -2
+    },
+    "overlapWithS1": 8,
+    "trades": [
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 14,
+        "r": 1.018181818181818,
+        "entryIdx": 337,
+        "exitIdx": 338,
+        "time": 1786022100000,
+        "month": 7
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 14,
+        "r": 1.018181818181818,
+        "entryIdx": 351,
+        "exitIdx": 382,
+        "time": 1786034700000,
+        "month": 7
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 14,
+        "r": 1.018181818181818,
+        "entryIdx": 524,
+        "exitIdx": 525,
+        "time": 1786370400000,
+        "month": 7
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 14,
+        "r": 1.018181818181818,
+        "entryIdx": 634,
+        "exitIdx": 656,
+        "time": 1786473000000,
+        "month": 7
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 14,
+        "r": 1.018181818181818,
+        "entryIdx": 1728,
+        "exitIdx": 1758,
+        "time": 1787846400000,
+        "month": 7
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 14,
+        "r": 1.018181818181818,
+        "entryIdx": 1928,
+        "exitIdx": 1950,
+        "time": 1788206400000,
+        "month": 7
+      },
+      {
+        "type": "SHORT",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 2091,
+        "exitIdx": 2111,
+        "time": 1788360300000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 14,
+        "r": 1.018181818181818,
+        "entryIdx": 2826,
+        "exitIdx": 2835,
+        "time": 1789405200000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 14,
+        "r": 1.018181818181818,
+        "entryIdx": 2906,
+        "exitIdx": 2908,
+        "time": 1789480800000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 14,
+        "r": 1.018181818181818,
+        "entryIdx": 2924,
+        "exitIdx": 2937,
+        "time": 1789497000000,
+        "month": 8
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 14,
+        "r": 1.018181818181818,
+        "entryIdx": 3184,
+        "exitIdx": 3191,
+        "time": 1789741800000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 14,
+        "r": 1.018181818181818,
+        "entryIdx": 3560,
+        "exitIdx": 3563,
+        "time": 1790267400000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 14,
+        "r": 1.018181818181818,
+        "entryIdx": 3828,
+        "exitIdx": 3831,
+        "time": 1790692200000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 3843,
+        "exitIdx": 3852,
+        "time": 1790705700000,
+        "month": 8
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 14,
+        "r": 1.018181818181818,
+        "entryIdx": 5020,
+        "exitIdx": 5022,
+        "time": 1792157400000,
+        "month": 9
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 14,
+        "r": 1.018181818181818,
+        "entryIdx": 5030,
+        "exitIdx": 5055,
+        "time": 1792166400000,
+        "month": 9
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 14,
+        "r": 1.018181818181818,
+        "entryIdx": 5209,
+        "exitIdx": 5214,
+        "time": 1792507500000,
+        "month": 9
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 14,
+        "r": 1.018181818181818,
+        "entryIdx": 5587,
+        "exitIdx": 5594,
+        "time": 1793034900000,
+        "month": 9
+      },
+      {
+        "type": "SHORT",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 6029,
+        "exitIdx": 6032,
+        "time": 1793627100000,
+        "month": 10
+      },
+      {
+        "type": "LONG",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 6309,
+        "exitIdx": 6311,
+        "time": 1793889900000,
+        "month": 10
+      }
+    ]
+  },
+  {
+    "family": "Keltner Channel Expansion",
+    "name": "Keltner EMA24 Mult1.85 [NY Core (13-20)] TP14",
+    "params": {
+      "p": 24,
+      "mult": 1.85,
+      "crashAtr": 1.6,
+      "off": 4.5,
+      "sess": "NY_CORE",
+      "tp": 14,
+      "sl": 13.75
+    },
+    "tradesCount": 20,
+    "wins": 16,
+    "losses": 4,
+    "wr": 80,
+    "netProfit": 169,
+    "profitFactor": 4.072727272727272,
+    "maxDd": 27.5,
+    "calmar": 6.1454545454545455,
+    "totalR": 12.290909090909084,
+    "mReturns": {
+      "7": 6.109090909090908,
+      "8": 4.109090909090908,
+      "9": 4.072727272727272,
+      "10": -2
+    },
+    "overlapWithS1": 8,
+    "trades": [
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 14,
+        "r": 1.018181818181818,
+        "entryIdx": 337,
+        "exitIdx": 338,
+        "time": 1786022100000,
+        "month": 7
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 14,
+        "r": 1.018181818181818,
+        "entryIdx": 351,
+        "exitIdx": 382,
+        "time": 1786034700000,
+        "month": 7
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 14,
+        "r": 1.018181818181818,
+        "entryIdx": 524,
+        "exitIdx": 525,
+        "time": 1786370400000,
+        "month": 7
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 14,
+        "r": 1.018181818181818,
+        "entryIdx": 634,
+        "exitIdx": 656,
+        "time": 1786473000000,
+        "month": 7
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 14,
+        "r": 1.018181818181818,
+        "entryIdx": 1728,
+        "exitIdx": 1758,
+        "time": 1787846400000,
+        "month": 7
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 14,
+        "r": 1.018181818181818,
+        "entryIdx": 1928,
+        "exitIdx": 1950,
+        "time": 1788206400000,
+        "month": 7
+      },
+      {
+        "type": "SHORT",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 2091,
+        "exitIdx": 2111,
+        "time": 1788360300000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 14,
+        "r": 1.018181818181818,
+        "entryIdx": 2826,
+        "exitIdx": 2835,
+        "time": 1789405200000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 14,
+        "r": 1.018181818181818,
+        "entryIdx": 2906,
+        "exitIdx": 2908,
+        "time": 1789480800000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 14,
+        "r": 1.018181818181818,
+        "entryIdx": 2924,
+        "exitIdx": 2937,
+        "time": 1789497000000,
+        "month": 8
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 14,
+        "r": 1.018181818181818,
+        "entryIdx": 3184,
+        "exitIdx": 3191,
+        "time": 1789741800000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 14,
+        "r": 1.018181818181818,
+        "entryIdx": 3560,
+        "exitIdx": 3563,
+        "time": 1790267400000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 14,
+        "r": 1.018181818181818,
+        "entryIdx": 3828,
+        "exitIdx": 3831,
+        "time": 1790692200000,
+        "month": 8
+      },
+      {
+        "type": "SHORT",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 3843,
+        "exitIdx": 3852,
+        "time": 1790705700000,
+        "month": 8
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 14,
+        "r": 1.018181818181818,
+        "entryIdx": 5020,
+        "exitIdx": 5022,
+        "time": 1792157400000,
+        "month": 9
+      },
+      {
+        "type": "LONG",
+        "win": true,
+        "pnl": 14,
+        "r": 1.018181818181818,
+        "entryIdx": 5030,
+        "exitIdx": 5055,
+        "time": 1792166400000,
+        "month": 9
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 14,
+        "r": 1.018181818181818,
+        "entryIdx": 5209,
+        "exitIdx": 5214,
+        "time": 1792507500000,
+        "month": 9
+      },
+      {
+        "type": "SHORT",
+        "win": true,
+        "pnl": 14,
+        "r": 1.018181818181818,
+        "entryIdx": 5587,
+        "exitIdx": 5594,
+        "time": 1793034900000,
+        "month": 9
+      },
+      {
+        "type": "SHORT",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 6029,
+        "exitIdx": 6032,
+        "time": 1793627100000,
+        "month": 10
+      },
+      {
+        "type": "LONG",
+        "win": false,
+        "pnl": -13.75,
+        "r": -1,
+        "entryIdx": 6309,
+        "exitIdx": 6311,
+        "time": 1793889900000,
+        "month": 10
+      }
+    ]
+  }
+]

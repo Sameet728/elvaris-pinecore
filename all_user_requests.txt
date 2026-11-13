@@ -1,0 +1,334 @@
+1. hi i updated anitgrvaity so old chats gone now but al must be in laptop anitgvraty fodler stored get it and undertstand everthingrelated to this project and let me know when done
+
+---
+
+2. no monkalgo i did after update therei sery long detailed otehr previosu chat find taht one
+
+---
+
+3. grandmaste 15 min winrate >80 stagetry found ?
+
+---
+
+4. yes backtest it with lastest tv data and show me reuslst nwo
+
+---
+
+5. make chnages te cwhat ver is needed and take its winate back to 80+ /goal and rets all rules same
+
+---
+
+6. but i wnated each month grtaer than 10r and rest all rules same and current run rate of month equal to 10r make like thta 10-8 r each month /goal
+
+---
+
+7. get for tradify select accoutn 10r each month target and rr should be reqrd should be aleast equal or greater to risk and winrate 80> ans calmor 4+ and etc same get best reuslst /goal
+
+---
+
+8. chekc for all o verfiting and testing and validation etc and still each motnh grater than 10 r and also show consectuisive wins and loess too in table when done /goal
+
+---
+
+9. 
+
+---
+
+10. make 1 folder and make 1 nextjs project where make a copy of my whole pinescript backestting engien copy there working all pints , github whatver you are neede to using here take tehre and using vela luxalgo , light chat stec make liek when i paste any pinescitp code there itwill show backesting reoirt in detail and chart and showing trades placed on it in box etc make that fully working nextjs /goal
+
+---
+
+11. remove light wieght charts and show all in vela charst nly tehry are more smooth show tehre all tardes etc all and how much data we are using now ?
+
+---
+
+12. it snot vela chart that smoohtness other features of vel atec goen take them back and make nvabr proper and i think for gold we have previously downlaod some months data too form trdaing view ? if yes let me knwo dont use it without asking and strctly only data from trading view  and alos some more add alll in backesting reprot all what a flaship report would have etc allllll liek trdaign view officila report or evenr more adnaec and make ui more clean and good lookin g etc make this all /goal
+
+---
+
+13. still nothing more detailed backesting reulsts and make all this downlaod in pdf format beausteiful light theme pdf all including and also give drawdown curve and chart experiince is stillw orst make vela smoonth and etc stil hart is worst solve and webiste ui nvabr bar is still worst /goal
+
+---
+
+14. make zip fodler of this proeject
+
+---
+
+15. make zip fodler of this proeject  this means which i tld you nextjs pien script to backest thsi ndtxj projec zip fodl r
+
+---
+
+16. location
+
+---
+
+17. # ANTIGRAVITY MASTER PROMPT — VelaPine Pro: Full Redesign, Flagship Backtest Report, Real PDF Export, Real Vela Chart
+
+> Paste this whole file into Antigravity as the task. Work in **Planning mode**: produce an implementation plan artifact first, then execute phase by phase, verifying in the browser after each phase. Do not stop to ask questions; where something is ambiguous, pick the option marked **DECISION** and note it in the final summary.
+
+---
+
+## 0. ROLE AND OPERATING RULES
+
+You are a senior product designer + staff front-end engineer + quant-analytics engineer. You own this project end to end: `pine-backtester-nextjs` (VelaPine Pro).
+
+Hard rules:
+
+1. **Read before writing.** `AGENTS.md` says this Next.js version (16.4.5) has breaking changes. Before touching routing, caching, or config, read the relevant guides in `node_modules/next/dist/docs/`. `next.config.ts` enables `cacheComponents: true` and `partialPrefetching: true`. Anything using `Date.now()`, `new Date()`, `Math.random()`, `fs`, or request data must live in a client component, a route handler, or be wrapped correctly (Suspense / `use cache` rules per the docs). The build must pass with those flags on.
+2. Stack to keep: Next 16, React 19.3, Tailwind v4 (via `@tailwindcss/turbopack` as configured — do not swap the CSS pipeline), TypeScript strict, `@monaco-editor/react`, `lucide-react`, `pinets`, `@luxalgo/vela`, `@luxalgo/vela-pinets`.
+3. **Single pass, complete deliverable.** No TODOs, no placeholder components, no "left as an exercise". Every button must do something. Every number on screen must come from the `BacktestResult` — **no hardcoded performance claims anywhere in the UI** (remove strings like "80.4% WR", "Authentic Dataset Verified", "Smooth 60FPS Vela Engine", "Grandmaster 15M (XAUUSD)" in the report header).
+4. Delete dead code: `src/components/VelaTradeChart.tsx` and `src/components/VelaWorkspaceView.tsx` are not imported anywhere. Delete them and the hand-rolled canvas `VelaChart.tsx` once the new chart is in
+<truncated 43486 bytes>
+nce limits.
+- Do not use canvas for report charts, text below 12px in the app UI (outside chart ticks/table footnotes), or any colour pair below WCAG AA contrast.
+- Do not swap the Tailwind pipeline, downgrade React/Next, or add a heavy UI framework (use the in-house `ui/` kit; small headless helpers like Radix primitives are acceptable if you need accessible popovers/dialogs — state which in the summary).
+- Note for the README: `@luxalgo/vela-pinets` and `pinets` are AGPL-3.0; mention this if the app is ever distributed or hosted publicly.
+
+---
+
+## 14. FINAL DELIVERABLE (what to hand back)
+
+1. The updated project, building and running with `npm run dev`.
+2. A short `CHANGELOG`-style summary: what was replaced, every **DECISION** made, any API in Vela that differed from the docs (and what you did), and the measured p95 frame time.
+3. Screenshots (desktop + mobile) of: workspace, each tester tab, full report, and the first page + three representative inner pages of the generated PDF.
+4. The generated sample PDF for the default strategy on XAUUSD 15m saved as `docs/sample-report.pdf`.
+5. List of anything intentionally deferred (should be P2 items only).
+
+---
+
+18. 
+
+---
+
+19. start
+
+---
+
+20. 
+
+---
+
+21. Uncaught Error: pinescript: language definition does not contain attribute 'symbols', used at: ^(?:[<>](?!@symbols))still same
+
+---
+
+22. start
+
+---
+
+23. chart not working still etc liek this amke all working and test evrrthign an dthen let me know and give some name not vela etc and thissi  rpoefcut by elvaris capital
+
+---
+
+24. here tarde price and wehater it was sl or tp show that too
+
+---
+
+25. and dont make this sperate section make all in 1 single page just otehr of tares histiry rest all in 1 and deatiile dinclsuifng all reprot liek trading and mt5 and etc all in 1 make it /goal
+
+---
+
+26. pdf is egtting down;apded liek thsi solve this all issue
+
+---
+
+27. in optoimixse it should do like monte carlo optimsie simulation all varuable trying all values and getting best resulst show top 5 best reuslst amking all this actaully work uiux
+
+---
+
+28. installHook.js:1 [vela] indicator "ind-2" failed: [vela] no scripting engine registered for language "pine". Vela ships none — install one (Pine Script: @luxalgo/vela-pinets) and register it before addIndicator, e.g. chart.registerEngine('pine', new PineEngine()).
+installHook.js:1 [vela] indicator "ind-3" failed: [vela] no scripting engine registered for language "pine". Vela ships none — install one (Pine Script: @luxalgo/vela-pinets) and register it before addIndicator, e.g. chart.registerEngine('pine', new PineEngine()).
+installHook.js:1 [vela] indicator "ind-4" failed: [vela] no scripting engine registered for language "pine". Vela ships none — install one (Pine Script: @luxalgo/vela-pinets) and register it before addIndicator, e.g. chart.registerEngine('pine', new PineEngine()).
+installHook.js:1 [vela] indicator "ind-5" failed: [vela] no scripting engine registered for language "pine". Vela ships none — install one (Pine Script: @luxalgo/vela-pinets) and register it before addIndicator, e.g. chart.registerEngine('pine', new PineEngine()).
+installHook.js:1 [vela] indicator "ind-6" failed: [vela] no scripting engine registered for language "pine". Vela ships none — install one (Pine Script: @luxalgo/vela-pinets) and register it before addIndicator, e.g. chart.registerEngine('pine', new PineEngine()).
+installHook.js:1 [vela] indicator "ind-7" failed: [vela] no scripting engine registered for language "pine". Vela ships none — install one (Pine Script: @luxalgo/vela-pinets) and register it before addIndicator, e.g. chart.registerEngine('pine', new PineEngine()).
+installHook.js:1 [vela] indicator "ind-8" failed: [vela] no scripting engine registered for language "pine". Vela ships none — install one (Pine Script: @luxalgo/vela-pinets) and register it before addIndicator, e.g. chart.registerEngine('pine', new PineEngine()).
+editor.api-CalNCsUg.js:893 Uncaught Error: InstantiationService has been disposed
+editor.api-CalNCsUg.js:1 Uncaught Error: Cannot read properties of undefined (reading 'domNode')
+
+TypeError: Cannot read properties of undefined (reading 'domNode')
+    at Object.renderText (https://cdn.jsdelivr.net/npm/monaco-editor@0.55.1/min/vs/editor.api-CalNCsUg.js:222:12977)
+    at Object.renderText (https://cdn.jsdelivr.net/npm/monaco-editor@0.55.1/min/vs/editor.api-CalNCsUg.js:222:12160)
+    at https://cdn.jsdelivr.net/npm/monaco-editor@0.55.1/min/vs/editor.api-CalNCsUg.js:222:17407
+    at Rh (https://cdn.jsdelivr.net/npm/monaco-editor@0.55.1/min/vs/editor.api-CalNCsUg.js:222:16521)
+    at TN._onRenderScheduled (https://cdn.jsdelivr.net/npm/monaco-editor@0.55.1/min/vs/editor.api-CalNCsUg.js:222:17398)
+    at vM.t [as _runner] (https://cdn.jsdelivr.net/npm/monaco-editor@0.55.1/min/vs/editor.api-CalNCsUg.js:222:17123)
+    at vM.execute (https://cdn.jsdelivr.net/npm/monaco-editor@0.55.1/min/vs/editor.api-CalNCsUg.js:8:34260)
+    at n (https://cdn.jsdelivr.net/npm/monaco-editor@0.55.1/min/vs/editor.api-CalNCsUg.js:8:34507)
+    at https://cdn.jsdelivr.net/npm/monaco-editor@0.55.1/min/vs/editor.api-CalNCsUg.js:8:34677
+
+sometime getting thsi solve
+
+---
+
+29. data:image/png;base64,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
+<truncated 603 bytes>
+MiP7nU369S4VhwyObJ8SXTsnum6QqUBIqceuUNVdEAB4zTHpMqO6G+FfVOdBBhTcc7b9rKtuacH6agjrHlqFyMc7KlVQqNV1DIGrZJ/Z4u7kJKM15zUTu+/MAkioc6hUYJTvJaw1pedt7zCGoYURyjlltP9oeHctGW1tkXPILOkFBixe5hig0O0Cj5LsbDvHY+SgHq1PvvdZbHHIE9M01RDXOop4O88lwPPkQ1rNL9Xms54qXtV0OZ0ywZVYbizEw0X8HfVxlCeeUtWXmiye8bLXxYrV7mC68mNSU8FR+ogj5W1EpDKCMdbrM0HTLhe8pDYCyIb3L+Mmit9SsZT7oWk6x6IvGA0cIFFPR0LA7RrqsFlUYy11A+6eS5lRpOLjqIaew2ROJfeYyvM9BY5P3iaTFzOt+xkF+G19TkVIKafEXOY+e9aew0TbOpfaOZJlDE6szRVVbDvKxkEXI5iTeoYWCJngT8IFavJBxzLjt/qpLz31LdgkqT0U/i7inGxEEgCaBvgB27/PoFYI60oJzLQfcZoZw7vcEPK1lVNig8s9/ORcMij00TmVI39Ojno8X4B6jxi3kD2VLPgxlqJ6JIcJ0y3LjcSk/Ly80VbH/mYCVJXbS0E5z7wh2/VPTPDwrPJKjDr+pUw/Ool5N6qa6HgapFEK9xmm27q7fYjypNqRveD6psvs4AbijeUVuiPFra4fgoAA/jcToeCdRbPI2XjKtMSi31KIx4M1WjKeNMV9Fi/CTGIBVBcV+ef4os/RpbntAg1wC+zcL9d8At3KyMnAd47v1y8kMSXBTu28dMG0qxeUxnbjtxSI56ON7/h5uBbAOSDoxXWukUU50T2hvtn/XjRQrvOYDWQplzWHqXvGGTbezvQKlhkeQr6yOukNFoG7sfJ7kGpcsRKmF0oqZsaJv6uYu9OAUd0hCLhHm5HiHT+67doa5+rCBvGvW+ZF8uZVMWRN/6Nmcr+3EHUIzdkTrij4BwPisMZYf/X/oNtg1ADlg6iqiKEJgMedop2+iIcz+GVAsGB11d1AmT0JpSwUZHnPtxi0NNoH5wRiLRtKmp3GOffuXDNbrToBf3P57hwWFjw63g22ZyEpAOJ5OJvE7wyOcn6jV82uYebYPBYDAYDAaDwWAwGAwGg8FgMBgMBoPBYDAYDAaDwWAwGAwGg8FgMBgMBoPB0B7+Be9iVocX1DzJAAAAAElFTkSuQmCC 
+
+use thi simage for logo https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsYFqMMZwxlrNzMS7YkjO9DCmtOC7qsIBP2YdFgRvjJg&s
+
+---
+
+30. and mention this is prodcut by elvaris capital parent org is elvariscapital.in and increase some docs in this to rank on intenrt seo etc to rank on google and ai bot s , ai chats etc all /goal
+
+---
+
+31. suggest a name for thsi project and then we will github rpeor and uplaod ths there ok ?
+
+---
+
+32. elvaris-pinecore
+new repo
+
+---
+
+33. you only crare and uplao it tehre
+
+---
+
+34. 18:28:50.355 Running build in Washington, D.C., USA (East) – iad1
+18:28:50.356 Build machine configuration: 2 cores, 8 GB
+18:28:50.498 Cloning github.com/Sameet728/elvaris-pinecore (Branch: main, Commit: 379f6e7)
+18:28:50.499 Previous build caches not available.
+18:28:51.977 Cloning completed: 1.479s
+18:28:52.615 Running "vercel build"
+18:28:52.626 Vercel CLI 65.11.0
+18:28:52.919 Installing dependencies...
+18:28:53.801 npm warn Unknown env config "cache-dir". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+18:28:54.471 npm error code ERESOLVE
+18:28:54.472 npm error ERESOLVE could not resolve
+18:28:54.472 npm error
+18:28:54.473 npm error While resolving: @luxalgo/vela-pinets@0.3.2
+18:28:54.473 npm error Found: @luxalgo/vela@0.10.0
+18:28:54.473 npm error node_modules/@luxalgo/vela
+18:28:54.474 npm error   @luxalgo/vela@"^0.10.0" from the root project
+18:28:54.474 npm error
+18:28:54.474 npm error Could not resolve dependency:
+18:28:54.475 npm error peer @luxalgo/vela@"^0.7.7 || ^0.8.0 || ^0.9.0" from @luxalgo/vela-pinets@0.3.2
+18:28:54.475 npm error node_modules/@luxalgo/vela-pinets
+18:28:54.475 npm error   @luxalgo/vela-pinets@"^0.3.2" from the root project
+18:28:54.475 npm error
+18:28:54.475 npm error Conflicting peer dependency: @luxalgo/vela@0.9.4
+18:28:54.476 npm error node_modules/@luxalgo/vela
+18:28:54.476 npm error   peer @luxalgo/vela@"^0.7.7 || ^0.8.0 || ^0.9.0" from @luxalgo/vela-pinets@0.3.2
+18:28:54.477 npm error   node_modules/@luxalgo/vela-pinets
+18:28:54.477 npm error     @luxalgo/vela-pinets@"^0.3.2" from the root project
+18:28:54.477 npm error
+18:28:54.477 npm error Fix the upstream dependency conflict, or retry this command with --force or --legacy-peer-deps to accept an incorrect (and potentially broken) dependency resolution.
+18:28:54.477 npm error
+18:28:54.477 npm error
+18:28:54.478 npm error For a full report see:
+18:28:54.479 npm error /vercel/.npm/_logs/2026-11-08T12_58_53_207Z-eresolve-report.txt
+18:28:54.479 npm error A complete log of this run can be found in: /vercel/.npm/_logs/2026-11-08T12_58_53_207Z-debug-0.log
+18:28:54.517 Error: [BUILD_UTILS_SPAWN_1] Command "npm install" exited with 1
+
+---
+
+35. chnage logo here to o
+
+---
+
+36. @[c:\Users\samee\Desktop\Pine\MyPine] baclktesting this using pine and using trdaing data only and show reulsts and tell me rcent 5 trades resulsts
+
+---
+
+37. .
+
+---
+
+38. from this 4 some are simalr only they generate nealry same tardes which are they fidn and get me there names similarf stgerty liek a nad c anre sismilr and b and d etc get that reuslsts
+
+---
+
+39. make that matrix showing each with otehr ismialr trades
+
+---
+
+40. and we made our lsets pien with 80+ winrate add that too in this comaprsion and give reuslsts
+
+---
+
+41. so i have these 5 best working stagetry now make 3 stagery such that having iwnaret 80+ calmor 4> and 3 stagetry shoudl not geenrated idemntical tardes at same time then it is of no use to make liek that 3 stageyry continsuelky update and backest and looop in fiding thsi 
+1st tsgtwyr is that trdaify edition 5Th is sleect you have to fuind otehr 2 stagties and and all othyer rules are same for tardify 80+ winrate clmor grater than 4 and other all rules same be in contnus loop getting this reuslst after backesting /goal
+
+---
+
+42. Strategy 1: Tradeify Grandmaster	Strategy 2: NY Afternoon Reversal	Strategy 3: London Keltner Volatility
+
+these 3 backesting detailed report give me
+
+---
+
+43. Strategy 1: Tradeify Grandmaster	Strategy 2: NY Afternoon Reversal	Strategy 3: London Keltner Volatility
+
+these 3 backesting detailed report give me and pine code location
+
+---
+
+44. 📊 Verified Performance Metrics (FOREXCOM:XAUUSD 15M) backstig tim eeprido how mnay days months
+
+---
+
+45. give monthwsie r returns
+
+---
+
+46. stagetry 1 is ok but as i mentioend each month should have 8 r minium and crrent moneth run ate it thapace and winarte 80+ calmor 4 garter these were miunm rule and remaing rest only stagety 1 satidfy this now get 3 stagetry satisfy the and then give me backestetsing results /goal
+
+---
+
+47. is there any excat matching tardes? if yes how many ?
+
+---
+
+48. find stagetry such that they dont get same tarde excat matching at same time and each moneth 10r winrate 80+ calmor greater than 4 and etc all other rules same grandmaster i sok 1st find 2 and 3 better one /goal
+
+---
+
+49. chekc on vps what pine stagetries are cuurenlty runnign beoaue we are goign to update then with these 3 so removing these 3 staeries and update thne with these current 3 stagetries on vps so they will run 24x7 sned signals etc like earlier ones make it full working /goal
+
+---
+
+50. code has some issue solve that too
+
+---
+
+51. so every thign update on vps and working all now right ?
+
+---
+
+52. uplaod on ui next js report etc too and on ui chart is showing those correct tardes and alerts too na ? and on ui chart it will show egenrated tarde also na evenr if stilll tp or ls is not hit yet . /goal
+
+---
+
+53. so alerts etc all working
+
+---
+
+54. but in ui for each 3 of them now report gone balnk fll each repor with actaul values from backesting fill up real valeus an dmake report for each 3 of them /goal
+
+---
+
+55. report done ? and pished to git ?
+
+---
+
+56. bring all docs from stratmakret site to main elvaris site too so add those docs in that site too dont rmev anythign just add all docs from starsmakret to this amin site too in perect ui maintinihn it /goal
+
+---
+
+57. push all code to git
+
+---
+
+58. PS-01: Grandmaster Dual 10R / 8R	46	37 / 9	80.43%	+28.67R	4.19	1 : 1.02 (+$14.00 / -$13.75)	2.00R (2.0%)	14.33
+PS-02: US Afternoon Reversal	24	21 / 3	87.50%	+24.49R	9.16	1 : 1.31 (+$18.00 / -$13.75)	1.00R (1.0%)	24.49
+PS-03: London Core Expansion give these 3 stageies code path location
+
+---
+
+59. /compact
+
+---
+
+60. still these 3 stageties are somehwat simialr try fidnign more stateies with all same ruels and please i have repaoeta rules each time chekc all rules above and write rules somehweere and make fidn as per that only /goal

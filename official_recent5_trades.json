@@ -1,0 +1,185 @@
+{
+  "s1": {
+    "name": "Strategy 1: Tradeify Grandmaster Dual10R",
+    "total": 46,
+    "recent5": [
+      {
+        "tradeNum": 42,
+        "direction": "SHORT",
+        "entryTime": "2026-11-02 01:30:00 UTC",
+        "exitTime": "2026-11-02 02:45:00 UTC",
+        "entryPrice": "3907.15",
+        "exitPrice": "3893.15",
+        "pnlCash": "+14.00",
+        "rMultiple": "+1.02R",
+        "outcome": "WIN (TP Target Hit)"
+      },
+      {
+        "tradeNum": 43,
+        "direction": "SHORT",
+        "entryTime": "2026-11-02 06:00:00 UTC",
+        "exitTime": "2026-11-02 07:45:00 UTC",
+        "entryPrice": "3913.39",
+        "exitPrice": "3899.39",
+        "pnlCash": "+14.00",
+        "rMultiple": "+1.02R",
+        "outcome": "WIN (TP Target Hit)"
+      },
+      {
+        "tradeNum": 44,
+        "direction": "LONG",
+        "entryTime": "2026-11-04 15:30:00 UTC",
+        "exitTime": "2026-11-04 15:45:00 UTC",
+        "entryPrice": "4035.47",
+        "exitPrice": "4049.47",
+        "pnlCash": "+14.00",
+        "rMultiple": "+1.02R",
+        "outcome": "WIN (TP Target Hit)"
+      },
+      {
+        "tradeNum": 45,
+        "direction": "LONG",
+        "entryTime": "2026-11-05 13:15:00 UTC",
+        "exitTime": "2026-11-05 14:30:00 UTC",
+        "entryPrice": "4120.85",
+        "exitPrice": "4134.85",
+        "pnlCash": "+14.00",
+        "rMultiple": "+1.02R",
+        "outcome": "WIN (TP Target Hit)"
+      },
+      {
+        "tradeNum": 46,
+        "direction": "LONG",
+        "entryTime": "2026-11-05 15:00:00 UTC",
+        "exitTime": "2026-11-05 15:15:00 UTC",
+        "entryPrice": "4112.45",
+        "exitPrice": "4098.70",
+        "pnlCash": "-13.75",
+        "rMultiple": "-1.00R",
+        "outcome": "LOSS (Stop Hit)"
+      }
+    ]
+  },
+  "s2": {
+    "name": "Strategy 2: US Session Reversal",
+    "total": 30,
+    "recent5": [
+      {
+        "tradeNum": 26,
+        "direction": "SHORT",
+        "entryTime": "2026-10-26 12:45:00 UTC",
+        "exitTime": "2026-10-26 13:30:00 UTC",
+        "entryPrice": "4019.61",
+        "exitPrice": "4004.61",
+        "pnlCash": "+15.00",
+        "rMultiple": "+1.09R",
+        "outcome": "WIN (TP Target Hit)"
+      },
+      {
+        "tradeNum": 27,
+        "direction": "SHORT",
+        "entryTime": "2026-11-02 14:00:00 UTC",
+        "exitTime": "2026-11-02 14:30:00 UTC",
+        "entryPrice": "3937.61",
+        "exitPrice": "3951.36",
+        "pnlCash": "-13.75",
+        "rMultiple": "-1.00R",
+        "outcome": "LOSS (Stop Hit)"
+      },
+      {
+        "tradeNum": 28,
+        "direction": "LONG",
+        "entryTime": "2026-11-04 15:30:00 UTC",
+        "exitTime": "2026-11-04 16:00:00 UTC",
+        "entryPrice": "4035.47",
+        "exitPrice": "4050.47",
+        "pnlCash": "+15.00",
+        "rMultiple": "+1.09R",
+        "outcome": "WIN (TP Target Hit)"
+      },
+      {
+        "tradeNum": 29,
+        "direction": "LONG",
+        "entryTime": "2026-11-05 13:15:00 UTC",
+        "exitTime": "2026-11-05 14:30:00 UTC",
+        "entryPrice": "4120.85",
+        "exitPrice": "4135.85",
+        "pnlCash": "+15.00",
+        "rMultiple": "+1.09R",
+        "outcome": "WIN (TP Target Hit)"
+      },
+      {
+        "tradeNum": 30,
+        "direction": "LONG",
+        "entryTime": "2026-11-05 15:00:00 UTC",
+        "exitTime": "2026-11-05 15:15:00 UTC",
+        "entryPrice": "4112.45",
+        "exitPrice": "4098.70",
+        "pnlCash": "-13.75",
+        "rMultiple": "-1.00R",
+        "outcome": "LOSS (Stop Hit)"
+      }
+    ]
+  },
+  "s3": {
+    "name": "Strategy 3: London Institutional Core",
+    "total": 34,
+    "recent5": [
+      {
+        "tradeNum": 30,
+        "direction": "SHORT",
+        "entryTime": "2026-10-26 05:15:00 UTC",
+        "exitTime": "2026-10-26 13:45:00 UTC",
+        "entryPrice": "4013.70",
+        "exitPrice": "3997.70",
+        "pnlCash": "+16.00",
+        "rMultiple": "+1.16R",
+        "outcome": "WIN (TP Target Hit)"
+      },
+      {
+        "tradeNum": 31,
+        "direction": "SHORT",
+        "entryTime": "2026-11-02 06:00:00 UTC",
+        "exitTime": "2026-11-02 07:45:00 UTC",
+        "entryPrice": "3913.39",
+        "exitPrice": "3897.39",
+        "pnlCash": "+16.00",
+        "rMultiple": "+1.16R",
+        "outcome": "WIN (TP Target Hit)"
+      },
+      {
+        "tradeNum": 32,
+        "direction": "SHORT",
+        "entryTime": "2026-11-02 14:00:00 UTC",
+        "exitTime": "2026-11-02 14:30:00 UTC",
+        "entryPrice": "3937.61",
+        "exitPrice": "3951.36",
+        "pnlCash": "-13.75",
+        "rMultiple": "-1.00R",
+        "outcome": "LOSS (Stop Hit)"
+      },
+      {
+        "tradeNum": 33,
+        "direction": "LONG",
+        "entryTime": "2026-11-04 15:30:00 UTC",
+        "exitTime": "2026-11-04 16:30:00 UTC",
+        "entryPrice": "4035.47",
+        "exitPrice": "4051.47",
+        "pnlCash": "+16.00",
+        "rMultiple": "+1.16R",
+        "outcome": "WIN (TP Target Hit)"
+      },
+      {
+        "tradeNum": 34,
+        "direction": "LONG",
+        "entryTime": "2026-11-05 13:15:00 UTC",
+        "exitTime": "2026-11-05 14:30:00 UTC",
+        "entryPrice": "4120.85",
+        "exitPrice": "4107.10",
+        "pnlCash": "-13.75",
+        "rMultiple": "-1.00R",
+        "outcome": "LOSS (Stop Hit)"
+      }
+    ]
+  }
+}

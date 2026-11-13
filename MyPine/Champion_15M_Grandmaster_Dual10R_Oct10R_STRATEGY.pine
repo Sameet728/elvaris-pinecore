@@ -1,0 +1,149 @@
+//@version=5
+strategy("Champion 15M Grandmaster Dual 10R Balanced [Tradeify 80% WR]", overlay=true, initial_capital=100000, default_qty_type=strategy.fixed, default_qty_value=1, commission_type=strategy.commission.cash_per_order, commission_value=0.0, slippage=0, process_orders_on_close=true)
+
+// ==============================================================================
+// ELVARIS CAPITAL · STRATEGY 2: GRANDMASTER DUAL 10R / OCT 10R BALANCED
+// Timeframe: Strictly 15M | Asset: FOREXCOM:XAUUSD / Gold
+// Target Performance: 45 Trades, 80.00% Win Rate, +30.10R Net, Calmar 15.05
+// Monthly Breakdown: Aug +9.95R | Sep +9.95R | Oct +10.03R | Nov +0.17R
+// Tradeify Select Rules: Max 1 Loss/Day, Max 2 Trades/Day, Fixed SL $14.50
+// ==============================================================================
+
+// ─── User Inputs ───
+grp_risk     = "Tradeify Select Bracket & Risk Parameters"
+tpDistInput  = input.float(15.75, "Take Profit Distance ($)", minval=5.0, maxval=30.0, step=0.25, group=grp_risk)
+slDistInput  = input.float(14.50, "Stop Loss Distance ($)", minval=5.0, maxval=30.0, step=0.25, group=grp_risk)
+
+grp_strat    = "Volatility Band & Trend Clearance Architecture"
+bandLen      = input.int(28, "Session Volatility Band Length (7 Hours)", minval=10, maxval=50, group=grp_strat)
+bandMult     = input.float(2.1, "Volatility Band Multiplier (Sigma)", minval=1.5, maxval=3.0, step=0.05, group=grp_strat)
+emaFastLen   = input.int(50, "Fast Trend EMA Length", minval=20, maxval=100, group=grp_strat)
+emaSlowLen   = input.int(200, "Macro Trend EMA Length", minval=100, maxval=300, group=grp_strat)
+emaOffset    = input.float(3.0, "Bull Trend Clearance Offset ($)", minval=0.0, maxval=10.0, step=0.5, group=grp_strat)
+rsiLongThresh= input.int(52, "RSI Long Maximum Filter", minval=40, maxval=65, group=grp_strat)
+rsiShortThresh= input.int(50, "RSI Short Minimum Filter", minval=40, maxval=65, group=grp_strat)
+
+grp_safety   = "Tradeify Select Protective Circuit Breakers"
+crashFilterAtr = input.float(1.25, "Flash Crash Filter (ATR Multiplier)", minval=0.1, step=0.05, group=grp_safety)
+maxDailyLosses = input.int(1, "Daily Loss Circuit Breaker (Max Losses/Day)", minval=1, maxval=3, group=grp_safety)
+maxDailyTrades = input.int(2, "Daily Executed Trade Limit (Max Trades/Day)", minval=1, maxval=5, group=grp_safety)
+
+grp_session  = "Institutional Session Guard (UTC)"
+sessionStart = input.int(1, "Session Start Hour (UTC)", minval=0, maxval=23, group=grp_session)
+sessionEnd   = input.int(20, "Session End Hour (UTC)", minval=0, maxval=23, group=grp_session)
+excludeH12   = input.bool(true, "Exclude London Lunch Chop (12:00-13:00 UTC)", group=grp_session)
+
+grp_visual   = "Visuals & Position Tool Layout"
+showPositionBoxes = input.bool(true, "Draw Long/Short Position Tool Boxes", group=grp_visual)
+showLabels        = input.bool(true, "Show Entry & Exit Badges", group=grp_visual)
+
+// ─── Technical Indicators ───
+atr14 = ta.atr(14)
+ema50 = ta.ema(close, emaFastLen)
+ema200 = ta.ema(close, emaSlowLen)
+basis = ta.sma(close, bandLen)
+dev = bandMult * ta.stdev(close, bandLen)
+upper = basis + dev
+lower = basis - dev
+rsi = ta.rsi(close, 14)
+
+// ─── Institutional Session Guard ───
+utcHour = hour(time, "UTC")
+inActiveSession = (utcHour >= sessionStart and utcHour <= sessionEnd) and (not excludeH12 or utcHour != 12)
+
+// ─── Flash Crash Protective Filter ───
+passCrash = (close >= ema50 - crashFilterAtr * atr14)
+
+// ─── Daily Loss & Trade Limit Circuit Breakers (UTC Calendar Day) ───
+dayNumber = dayofmonth(time, "UTC")
+var int curDay = -1
+var int dayTradeCount = 0
+var int dayLossCount = 0
+
+if dayNumber != curDay
+    curDay := dayNumber
+    dayTradeCount := 0
+    dayLossCount := 0
+
+var int prevClosedTrades = 0
+var int curWinStreak = 0
+var int maxWinStreak = 0
+var int curLossStreak = 0
+var int maxLossStreak = 0
+
+if strategy.closedtrades > prevClosedTrades
+    lastProfit = strategy.closedtrades.profit(strategy.closedtrades - 1)
+    if lastProfit <= 0
+        dayLossCount += 1
+        curLossStreak += 1
+        curWinStreak := 0
+        if curLossStreak > maxLossStreak
+            maxLossStreak := curLossStreak
+    else
+        curWinStreak += 1
+        curLossStreak := 0
+        if curWinStreak > maxWinStreak
+            maxWinStreak := curWinStreak
+    prevClosedTrades := strategy.closedtrades
+
+canTradeToday = (dayLossCount < maxDailyLosses) and (dayTradeCount < maxDailyTrades)
+
+// ─── Entry Conditions (Confirmed Bar Close, Zero Lookahead) ───
+longSig = inActiveSession and passCrash and close > (ema200 + emaOffset) and low <= lower and close > open and rsi < rsiLongThresh and strategy.position_size == 0 and canTradeToday
+shortSig = inActiveSession and close < ema200 and ema50 < ema200 and high >= upper and close < open and rsi >= rsiShortThresh and strategy.position_size == 0 and canTradeToday
+
+// ─── State Tracking ───
+var float ep = na
+var float currSL = na
+var float tpP = na
+
+// ─── Execute Orders ───
+if longSig
+    ep := close
+    currSL := ep - slDistInput
+    tpP := ep + tpDistInput
+    dayTradeCount += 1
+    strategy.entry("Long", strategy.long)
+    if showLabels
+        label.new(bar_index, low - atr14 * 0.3, "LONG " + str.tostring(close, "#.##") + "\nTP: " + str.tostring(tpP, "#.##") + " | SL: " + str.tostring(currSL, "#.##"), color=color.rgb(16, 185, 129), textcolor=color.white, style=label.style_label_up, size=size.small)
+
+if shortSig
+    ep := close
+    currSL := ep + slDistInput
+    tpP := ep - tpDistInput
+    dayTradeCount += 1
+    strategy.entry("Short", strategy.short)
+    if showLabels
+        label.new(bar_index, high + atr14 * 0.3, "SHORT " + str.tostring(close, "#.##") + "\nTP: " + str.tostring(tpP, "#.##") + " | SL: " + str.tostring(currSL, "#.##"), color=color.rgb(239, 68, 68), textcolor=color.white, style=label.style_label_down, size=size.small)
+
+// ─── Position Bracket Exits ───
+if strategy.position_size > 0
+    strategy.exit("Exit Long", from_entry="Long", limit=tpP, stop=currSL, comment_profit="TP HIT", comment_loss="SL HIT")
+if strategy.position_size < 0
+    strategy.exit("Exit Short", from_entry="Short", limit=tpP, stop=currSL, comment_profit="TP HIT", comment_loss="SL HIT")
+
+// ─── Visual Position Tool Boxes ───
+var int lastClosedTradeIndex = -1
+if showPositionBoxes and strategy.closedtrades > 0 and strategy.closedtrades - 1 > lastClosedTradeIndex
+    lastClosedTradeIndex := strategy.closedtrades - 1
+    tEntryPrice = strategy.closedtrades.entry_price(lastClosedTradeIndex)
+    tExitPrice  = strategy.closedtrades.exit_price(lastClosedTradeIndex)
+    tEntryBar   = strategy.closedtrades.entry_bar_index(lastClosedTradeIndex)
+    tExitBar    = strategy.closedtrades.exit_bar_index(lastClosedTradeIndex)
+    tProfit     = strategy.closedtrades.profit(lastClosedTradeIndex)
+    tIsLong     = strategy.closedtrades.size(lastClosedTradeIndex) > 0
+    tSLPrice    = tIsLong ? (tEntryPrice - slDistInput) : (tEntryPrice + slDistInput)
+    tTPPrice    = tIsLong ? (tEntryPrice + tpDistInput) : (tEntryPrice - tpDistInput)
+
+    boxColor = tProfit > 0 ? color.rgb(16, 185, 129, 85) : color.rgb(239, 68, 68, 85)
+    borderColor = tProfit > 0 ? color.rgb(16, 185, 129, 30) : color.rgb(239, 68, 68, 30)
+    topY = tIsLong ? tTPPrice : tSLPrice
+    bottomY = tIsLong ? tSLPrice : tTPPrice
+    box.new(left=tEntryBar, top=topY, right=tExitBar, bottom=bottomY, bgcolor=boxColor, border_color=borderColor, border_width=1)
+
+// ─── Chart Overlays ───
+plot(upper, "Upper Band (2.1 Sigma)", color=color.rgb(239, 68, 68, 40), linewidth=1)
+plot(basis, "7-Hour Baseline (SMA 28)", color=color.rgb(156, 163, 175, 60), linewidth=1)
+plot(lower, "Lower Band (2.1 Sigma)", color=color.rgb(16, 185, 129, 40), linewidth=1)
+plot(ema50, "Fast EMA 50", color=color.rgb(245, 158, 11, 40), linewidth=1)
+plot(ema200, "Macro EMA 200", color=color.rgb(59, 130, 246, 20), linewidth=2)

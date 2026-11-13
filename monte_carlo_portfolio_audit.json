@@ -1,0 +1,473 @@
+[
+  {
+    "name": "A) New Trio [S1 Gold + New S2 NAS100 + New S3 Gold 34SMA]",
+    "keys": [
+      "S1_Gold",
+      "New_S2_NAS100",
+      "New_S3_Gold34"
+    ],
+    "tradesCount": 99,
+    "collisions": 1,
+    "empirical": {
+      "total": 99,
+      "wins": 81,
+      "losses": 18,
+      "wr": "81.82",
+      "netR": "73.78",
+      "maxDD": "2.00",
+      "calmar": "36.89",
+      "pf": "5.10"
+    },
+    "mc": {
+      "runs": 10000,
+      "passRate": "99.7",
+      "wrMean": "81.84",
+      "wrP5": "74.75",
+      "wrMedian": "81.82",
+      "wrP95": "87.88",
+      "ddMedian": "2.00",
+      "ddP95": "4.00",
+      "ddWorst": "5.00",
+      "rMedian": "74.07",
+      "rP5": "59.80",
+      "rP95": "86.93",
+      "calmarMedian": "34.18",
+      "calmarP5": "16.07",
+      "calmarP95": "78.26"
+    }
+  },
+  {
+    "name": "B) StratMarket Current Trio [S1 Gold + Prev S2 US + Prev S3 London]",
+    "keys": [
+      "S1_Gold",
+      "Prev_S2_US",
+      "Prev_S3_London"
+    ],
+    "tradesCount": 109,
+    "collisions": 34,
+    "empirical": {
+      "total": 109,
+      "wins": 86,
+      "losses": 23,
+      "wr": "78.90",
+      "netR": "74.60",
+      "maxDD": "5.00",
+      "calmar": "14.92",
+      "pf": "4.24"
+    },
+    "mc": {
+      "runs": 10000,
+      "passRate": "99.2",
+      "wrMean": "78.89",
+      "wrP5": "72.48",
+      "wrMedian": "78.90",
+      "wrP95": "85.32",
+      "ddMedian": "3.00",
+      "ddP95": "4.69",
+      "ddWorst": "5.98",
+      "rMedian": "74.75",
+      "rP5": "59.02",
+      "rP95": "89.45",
+      "calmarMedian": "26.31",
+      "calmarP5": "14.07",
+      "calmarP95": "44.66"
+    }
+  },
+  {
+    "name": "C) Hybrid Cross-Asset Duo [S1 Gold + New S2 NAS100]",
+    "keys": [
+      "S1_Gold",
+      "New_S2_NAS100"
+    ],
+    "tradesCount": 71,
+    "collisions": 0,
+    "empirical": {
+      "total": 71,
+      "wins": 58,
+      "losses": 13,
+      "wr": "81.69",
+      "netR": "48.67",
+      "maxDD": "2.00",
+      "calmar": "24.34",
+      "pf": "4.74"
+    },
+    "mc": {
+      "runs": 10000,
+      "passRate": "99.7",
+      "wrMean": "81.68",
+      "wrP5": "73.24",
+      "wrMedian": "81.69",
+      "wrP95": "88.73",
+      "ddMedian": "2.00",
+      "ddP95": "4.00",
+      "ddWorst": "5.00",
+      "rMedian": "48.80",
+      "rP5": "37.06",
+      "rP95": "59.26",
+      "calmarMedian": "23.33",
+      "calmarP5": "10.59",
+      "calmarP95": "56.87"
+    }
+  },
+  {
+    "name": "D) Ultra-High WR Duo [New S2 NAS100 + New S3 Gold 34SMA]",
+    "keys": [
+      "New_S2_NAS100",
+      "New_S3_Gold34"
+    ],
+    "tradesCount": 53,
+    "collisions": 1,
+    "empirical": {
+      "total": 53,
+      "wins": 44,
+      "losses": 9,
+      "wr": "83.02",
+      "netR": "45.11",
+      "maxDD": "2.00",
+      "calmar": "22.55",
+      "pf": "6.01"
+    },
+    "mc": {
+      "runs": 10000,
+      "passRate": "99.9",
+      "wrMean": "83.03",
+      "wrP5": "73.58",
+      "wrMedian": "83.02",
+      "wrP95": "90.57",
+      "ddMedian": "2.00",
+      "ddP95": "3.00",
+      "ddWorst": "4.00",
+      "rMedian": "45.28",
+      "rP5": "34.56",
+      "rP95": "54.51",
+      "calmarMedian": "22.64",
+      "calmarP5": "11.13",
+      "calmarP95": "54.01"
+    }
+  },
+  {
+    "name": "E) Hybrid Triple-Champion [S1 Gold + New S2 NAS100 + Prev S2 US]",
+    "keys": [
+      "S1_Gold",
+      "New_S2_NAS100",
+      "Prev_S2_US"
+    ],
+    "tradesCount": 96,
+    "collisions": 13,
+    "empirical": {
+      "total": 96,
+      "wins": 78,
+      "losses": 18,
+      "wr": "81.25",
+      "netR": "69.85",
+      "maxDD": "3.00",
+      "calmar": "23.28",
+      "pf": "4.88"
+    },
+    "mc": {
+      "runs": 10000,
+      "passRate": "99.5",
+      "wrMean": "81.27",
+      "wrP5": "75.00",
+      "wrMedian": "81.25",
+      "wrP95": "87.50",
+      "ddMedian": "2.00",
+      "ddP95": "4.00",
+      "ddWorst": "5.00",
+      "rMedian": "70.27",
+      "rP5": "55.94",
+      "rP95": "82.96",
+      "calmarMedian": "31.72",
+      "calmarP5": "14.95",
+      "calmarP95": "70.16"
+    }
+  },
+  {
+    "name": "F) US-Only Power Duo [New S2 NAS100 + Prev S2 US]",
+    "keys": [
+      "New_S2_NAS100",
+      "Prev_S2_US"
+    ],
+    "tradesCount": 50,
+    "collisions": 0,
+    "empirical": {
+      "total": 50,
+      "wins": 41,
+      "losses": 9,
+      "wr": "82.00",
+      "netR": "41.18",
+      "maxDD": "2.00",
+      "calmar": "20.59",
+      "pf": "5.58"
+    },
+    "mc": {
+      "runs": 10000,
+      "passRate": "99.9",
+      "wrMean": "82.09",
+      "wrP5": "72.00",
+      "wrMedian": "82.00",
+      "wrP95": "90.00",
+      "ddMedian": "2.00",
+      "ddP95": "3.43",
+      "ddWorst": "4.55",
+      "rMedian": "41.35",
+      "rP5": "30.63",
+      "rP95": "50.58",
+      "calmarMedian": "20.67",
+      "calmarP5": "9.71",
+      "calmarP95": "50.09"
+    }
+  },
+  {
+    "name": "G) Quad Non-Overlapping [S1 Gold + New S2 NAS100 + New S3 Gold34 + Prev S2 US]",
+    "keys": [
+      "S1_Gold",
+      "New_S2_NAS100",
+      "New_S3_Gold34",
+      "Prev_S2_US"
+    ],
+    "tradesCount": 124,
+    "collisions": 14,
+    "empirical": {
+      "total": 124,
+      "wins": 101,
+      "losses": 23,
+      "wr": "81.45",
+      "netR": "94.96",
+      "maxDD": "4.00",
+      "calmar": "23.74",
+      "pf": "5.13"
+    },
+    "mc": {
+      "runs": 10000,
+      "passRate": "99.6",
+      "wrMean": "81.45",
+      "wrP5": "75.81",
+      "wrMedian": "81.45",
+      "wrP95": "87.10",
+      "ddMedian": "2.86",
+      "ddP95": "4.00",
+      "ddWorst": "5.00",
+      "rMedian": "94.93",
+      "rP5": "79.01",
+      "rP95": "110.63",
+      "calmarMedian": "35.76",
+      "calmarP5": "20.40",
+      "calmarP95": "56.02"
+    }
+  },
+  {
+    "name": "H) All 5 Combined Super-Portfolio",
+    "keys": [
+      "S1_Gold",
+      "Prev_S2_US",
+      "Prev_S3_London",
+      "New_S2_NAS100",
+      "New_S3_Gold34"
+    ],
+    "tradesCount": 162,
+    "collisions": 35,
+    "empirical": {
+      "total": 162,
+      "wins": 130,
+      "losses": 32,
+      "wr": "80.25",
+      "netR": "119.71",
+      "maxDD": "6.00",
+      "calmar": "19.95",
+      "pf": "4.74"
+    },
+    "mc": {
+      "runs": 10000,
+      "passRate": "99.2",
+      "wrMean": "80.24",
+      "wrP5": "75.31",
+      "wrMedian": "80.25",
+      "wrP95": "85.19",
+      "ddMedian": "3.00",
+      "ddP95": "4.84",
+      "ddWorst": "5.84",
+      "rMedian": "119.78",
+      "rP5": "101.28",
+      "rP95": "137.95",
+      "calmarMedian": "40.48",
+      "calmarP5": "23.76",
+      "calmarP95": "67.90"
+    }
+  },
+  {
+    "name": "I) S1 Solo (Baseline)",
+    "keys": [
+      "S1_Gold"
+    ],
+    "tradesCount": 46,
+    "collisions": 0,
+    "empirical": {
+      "total": 46,
+      "wins": 37,
+      "losses": 9,
+      "wr": "80.43",
+      "netR": "28.67",
+      "maxDD": "2.00",
+      "calmar": "14.34",
+      "pf": "4.19"
+    },
+    "mc": {
+      "runs": 10000,
+      "passRate": "99.7",
+      "wrMean": "80.44",
+      "wrP5": "69.57",
+      "wrMedian": "80.43",
+      "wrP95": "89.13",
+      "ddMedian": "2.00",
+      "ddP95": "4.00",
+      "ddWorst": "5.00",
+      "rMedian": "28.67",
+      "rP5": "18.58",
+      "rP95": "36.75",
+      "calmarMedian": "14.34",
+      "calmarP5": "5.68",
+      "calmarP95": "36.75"
+    }
+  },
+  {
+    "name": "J) New S2 NAS100 Solo",
+    "keys": [
+      "New_S2_NAS100"
+    ],
+    "tradesCount": 25,
+    "collisions": 0,
+    "empirical": {
+      "total": 25,
+      "wins": 21,
+      "losses": 4,
+      "wr": "84.00",
+      "netR": "20.00",
+      "maxDD": "1.00",
+      "calmar": "20.00",
+      "pf": "6.00"
+    },
+    "mc": {
+      "runs": 10000,
+      "passRate": "97.5",
+      "wrMean": "83.99",
+      "wrP5": "72.00",
+      "wrMedian": "84.00",
+      "wrP95": "96.00",
+      "ddMedian": "1.00",
+      "ddP95": "3.00",
+      "ddWorst": "4.00",
+      "rMedian": "20.00",
+      "rP5": "13.57",
+      "rP95": "26.43",
+      "calmarMedian": "17.86",
+      "calmarP5": "5.24",
+      "calmarP95": "26.43"
+    }
+  },
+  {
+    "name": "K) New S3 Gold 34SMA Solo",
+    "keys": [
+      "New_S3_Gold34"
+    ],
+    "tradesCount": 28,
+    "collisions": 0,
+    "empirical": {
+      "total": 28,
+      "wins": 23,
+      "losses": 5,
+      "wr": "82.14",
+      "netR": "25.11",
+      "maxDD": "2.00",
+      "calmar": "12.55",
+      "pf": "6.02"
+    },
+    "mc": {
+      "runs": 10000,
+      "passRate": "99.6",
+      "wrMean": "82.09",
+      "wrP5": "67.86",
+      "wrMedian": "82.14",
+      "wrP95": "92.86",
+      "ddMedian": "2.00",
+      "ddP95": "3.00",
+      "ddWorst": "4.00",
+      "rMedian": "25.11",
+      "rP5": "15.87",
+      "rP95": "32.04",
+      "calmarMedian": "13.71",
+      "calmarP5": "6.06",
+      "calmarP95": "32.04"
+    }
+  },
+  {
+    "name": "L) Prev S2 US Solo",
+    "keys": [
+      "Prev_S2_US"
+    ],
+    "tradesCount": 25,
+    "collisions": 0,
+    "empirical": {
+      "total": 25,
+      "wins": 20,
+      "losses": 5,
+      "wr": "80.00",
+      "netR": "21.18",
+      "maxDD": "2.00",
+      "calmar": "10.59",
+      "pf": "5.24"
+    },
+    "mc": {
+      "runs": 10000,
+      "passRate": "96.9",
+      "wrMean": "79.91",
+      "wrP5": "68.00",
+      "wrMedian": "80.00",
+      "wrP95": "92.00",
+      "ddMedian": "2.00",
+      "ddP95": "3.00",
+      "ddWorst": "4.00",
+      "rMedian": "21.18",
+      "rP5": "14.25",
+      "rP95": "28.11",
+      "calmarMedian": "11.75",
+      "calmarP5": "4.49",
+      "calmarP95": "28.11"
+    }
+  },
+  {
+    "name": "M) Prev S3 London Solo",
+    "keys": [
+      "Prev_S3_London"
+    ],
+    "tradesCount": 38,
+    "collisions": 0,
+    "empirical": {
+      "total": 38,
+      "wins": 29,
+      "losses": 9,
+      "wr": "76.32",
+      "netR": "24.75",
+      "maxDD": "2.00",
+      "calmar": "12.37",
+      "pf": "3.75"
+    },
+    "mc": {
+      "runs": 10000,
+      "passRate": "98.2",
+      "wrMean": "76.33",
+      "wrP5": "65.79",
+      "wrMedian": "76.32",
+      "wrP95": "86.84",
+      "ddMedian": "2.00",
+      "ddP95": "4.00",
+      "ddWorst": "5.51",
+      "rMedian": "24.75",
+      "rP5": "16.09",
+      "rP95": "33.40",
+      "calmarMedian": "11.29",
+      "calmarP5": "4.02",
+      "calmarP95": "33.40"
+    }
+  }
+]

@@ -105,3 +105,4 @@ All 5 strategies strictly obey every rule established in the [Official Tradeify 
 - **Consistency Rule:** Largest single-day profit is under 8.0% of total profit (far below the 40% ceiling).
 - **Timeframe & Asset:** Strictly `FOREXCOM:XAUUSD` on `15M`.
 - **Zero Lookahead:** All indicators and entry orders evaluated strictly on confirmed candle closes.
+

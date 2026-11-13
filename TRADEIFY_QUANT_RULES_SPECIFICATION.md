@@ -68,3 +68,4 @@ Every strategy must satisfy all of the following statistical thresholds over the
 
 ---
 *Certified by Elvaris Capital Quantitative Trading Research Group.*
+

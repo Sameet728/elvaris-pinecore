@@ -12,7 +12,8 @@
     "dev:backend": "npm run dev --workspace=backend",
     "dev:frontend": "npm run dev --workspace=frontend",
     "build": "npm run build --workspace=frontend",
-    "test": "npm run test --workspace=backend"
+    "test": "npm run test --workspace=backend",
+    "export-chat": "node export_chat_history.js"
   },
   "devDependencies": {
     "concurrently": "^9.1.0"
